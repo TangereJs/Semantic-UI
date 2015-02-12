@@ -331,7 +331,7 @@ html /deep/ .ui.list > .item > .content > .list {
 html /deep/ .ui.list .list > a.item,
 html /deep/ .ui.list > a.item {
   cursor: pointer;
-  color: rgba(0, 0, 0, 0.8);
+  color: #212121;
 }
 html /deep/ .ui.list .list > a.item:hover,
 html /deep/ .ui.list > a.item:hover {
@@ -343,7 +343,7 @@ html /deep/ .ui.list > a.item i.icon {
 }
 html /deep/ .ui.list .item a {
   cursor: pointer;
-  color: rgba(0, 0, 0, 0.8) !important;
+  color: #212121 !important;
 }
 html /deep/ .ui.list .item a:hover {
   color: #00b2f3 !important;
@@ -352,14 +352,14 @@ html /deep/ .ui.list .list > .item .header,
 html /deep/ .ui.list > .item .header {
   display: block;
   margin: 0em;
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Segoe UI', 'Segoe WP', 'Roboto', 'Frutiger', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: bold;
-  color: rgba(0, 0, 0, 0.8);
+  color: #212121;
 }
 html /deep/ .ui.list .list > .item .description,
 html /deep/ .ui.list > .item .description {
   display: block;
-  color: rgba(0, 0, 0, 0.8);
+  color: #212121;
 }
 html /deep/ .ui.list .list > .item [class*="left floated"],
 html /deep/ .ui.list > .item [class*="left floated"] {
@@ -436,7 +436,7 @@ html /deep/ .ui.inverted.list > .disabled.item {
 }
 html /deep/ .ui.list .list > a.item:hover .icon,
 html /deep/ .ui.list > a.item:hover .icon {
-  color: rgba(0, 0, 0, 0.8);
+  color: #212121;
 }
 html /deep/ .ui.inverted.list .list > a.item > .icon,
 html /deep/ .ui.inverted.list > a.item > .icon {
@@ -593,7 +593,7 @@ html /deep/ .ui.bulleted.list > .item:before {
   margin-left: -1rem;
   content: '•';
   opacity: 1;
-  color: rgba(0, 0, 0, 0.8);
+  color: #212121;
   vertical-align: top;
 }
 html /deep/ ul.ui.list ul,
@@ -640,7 +640,7 @@ html /deep/ .ui.ordered.list > .item:before {
   counter-increment: ordered;
   content: counters(ordered, ".") " ";
   text-align: right;
-  color: rgba(0, 0, 0, 0.8);
+  color: #212121;
   vertical-align: middle;
   opacity: 0.8;
 }

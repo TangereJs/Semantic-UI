@@ -210,7 +210,7 @@ html /deep/ .ui.label {
   color: rgba(0, 0, 0, 0.6);
   text-transform: none;
   font-weight: bold;
-  border-radius: 0.2857rem;
+  border-radius: 2px;
   box-sizing: border-box;
   -webkit-transition: background 0.2s ease;
           transition: background 0.2s ease;
@@ -293,7 +293,7 @@ html /deep/ .ui.image.label {
   text-transform: none;
   background: #e8e8e8;
   padding: 0.6em 0.8em 0.6em 0.5em;
-  border-radius: 0.2857rem;
+  border-radius: 2px;
   box-shadow: none;
 }
 html /deep/ .ui.image.label img {
@@ -301,13 +301,13 @@ html /deep/ .ui.image.label img {
   vertical-align: top;
   height: 2.2em;
   margin: -0.6em 0.5em -0.6em -0.5em;
-  border-radius: 0.2857rem;
+  border-radius: 2px;
 }
 html /deep/ .ui.image.label .detail {
   background: rgba(0, 0, 0, 0.1);
   margin: -0.6em -0.8em -0.6em 0.5em;
   padding: 0.6em 0.8em;
-  border-radius: 0em 0.2857rem 0.2857rem 0em;
+  border-radius: 0em 2px 2px 0em;
 }
 html /deep/ .ui.tag.labels .label,
 html /deep/ .ui.tag.label {
@@ -315,7 +315,7 @@ html /deep/ .ui.tag.label {
   position: relative;
   padding-left: 1.5em;
   padding-right: 1.5em;
-  border-radius: 0em 0.2857rem 0.2857rem 0em;
+  border-radius: 0em 2px 2px 0em;
 }
 html /deep/ .ui.tag.labels .label:before,
 html /deep/ .ui.tag.label:before {
@@ -424,7 +424,7 @@ html /deep/ .ui.ribbon.label {
   left: calc( -1rem  -  1.2em );
   padding-left: -webkit-calc( 1rem  +  1.2em );
   padding-left: calc( 1rem  +  1.2em );
-  border-radius: 0em 0.2857rem 0.2857rem 0em;
+  border-radius: 0em 2px 2px 0em;
   border-color: rgba(0, 0, 0, 0.15);
 }
 html /deep/ .ui.ribbon.label:after {
@@ -447,7 +447,7 @@ html /deep/ .ui[class*="right ribbon"].label {
           transform: translateX(-100%);
   left: -webkit-calc(100% +  1rem  +  1.2em );
   left: calc(100% +  1rem  +  1.2em );
-  border-radius: 0.2857rem 0em 0em 0.2857rem;
+  border-radius: 2px 0em 0em 2px;
   padding-left: 0.8em;
   padding-right: -webkit-calc( 1rem  +  1.2em );
   padding-right: calc( 1rem  +  1.2em );
@@ -468,29 +468,29 @@ html /deep/ .ui.attached.label {
   top: 0em;
   left: 0em;
   padding: 0.75em 1em;
-  border-radius: 0.2857rem 0.2857rem 0em 0em;
+  border-radius: 2px 2px 0em 0em;
 }
 html /deep/ .ui.bottom.attached.label {
   top: auto;
   bottom: 0em;
-  border-radius: 0em 0em 0.2857rem 0.2857rem;
+  border-radius: 0em 0em 2px 2px;
 }
 html /deep/ .ui.top.left.attached.label {
   width: auto;
   margin-top: 0em !important;
-  border-radius: 0.2857rem 0em 0.2857rem 0em;
+  border-radius: 2px 0em 2px 0em;
 }
 html /deep/ .ui.top.right.attached.label {
   width: auto;
   left: auto;
   right: 0em;
-  border-radius: 0em 0.2857rem 0em 0.2857rem;
+  border-radius: 0em 2px 0em 2px;
 }
 html /deep/ .ui.bottom.left.attached.label {
   width: auto;
   top: auto;
   bottom: 0em;
-  border-radius: 0em 0.2857rem 0em 0.2857rem;
+  border-radius: 0em 2px 0em 2px;
 }
 html /deep/ .ui.bottom.right.attached.label {
   top: auto;
@@ -498,7 +498,7 @@ html /deep/ .ui.bottom.right.attached.label {
   left: auto;
   right: 0em;
   width: auto;
-  border-radius: 0.2857rem 0em 0.2857rem 0em;
+  border-radius: 2px 0em 2px 0em;
 }
 html /deep/ .ui.label.disabled {
   opacity: 0.5;
@@ -554,162 +554,162 @@ html /deep/ .ui.black.ribbon.label {
 }
 html /deep/ .ui.blue.labels .label,
 html /deep/ .ui.blue.label {
-  background-color: #3b83c0 !important;
-  border-color: #3b83c0 !important;
+  background-color: #2196f3 !important;
+  border-color: #2196f3 !important;
   color: #ffffff !important;
 }
 html /deep/ .ui.labels .blue.label:before,
 html /deep/ .ui.blue.labels .label:before,
 html /deep/ .ui.blue.label:before {
-  background-color: #3b83c0 !important;
+  background-color: #2196f3 !important;
 }
 html /deep/ a.ui.blue.labels .label:hover,
 html /deep/ .ui.blue.labels a.label:hover,
 html /deep/ a.ui.blue.label:hover {
-  background-color: #458ac6 !important;
-  border-color: #458ac6 !important;
+  background-color: #309df4 !important;
+  border-color: #309df4 !important;
   color: #ffffff !important;
 }
 html /deep/ .ui.labels a.blue.label:hover:before,
 html /deep/ .ui.blue.labels a.label:hover:before,
 html /deep/ a.ui.blue.label:hover:before {
-  background-color: #458ac6 !important;
+  background-color: #309df4 !important;
 }
 html /deep/ .ui.blue.corner.label,
 html /deep/ .ui.blue.corner.label:hover {
   background-color: transparent !important;
 }
 html /deep/ .ui.blue.ribbon.label {
-  border-color: #2f6899 !important;
+  border-color: #0c7cd5 !important;
 }
 html /deep/ .ui.green.labels .label,
 html /deep/ .ui.green.label {
-  background-color: #5bbd72 !important;
-  border-color: #5bbd72 !important;
+  background-color: #4caf50 !important;
+  border-color: #4caf50 !important;
   color: #ffffff !important;
 }
 html /deep/ .ui.labels .green.label:before,
 html /deep/ .ui.green.labels .label:before,
 html /deep/ .ui.green.label:before {
-  background-color: #5bbd72 !important;
+  background-color: #4caf50 !important;
 }
 html /deep/ a.ui.green.labels .label:hover,
 html /deep/ a.ui.green.label:hover {
-  background-color: #66c17b !important;
-  border-color: #66c17b !important;
+  background-color: #55b559 !important;
+  border-color: #55b559 !important;
 }
 html /deep/ .ui.labels a.green.label:hover:before,
 html /deep/ .ui.green.labels a.label:hover:before,
 html /deep/ a.ui.green.label:hover:before {
-  background-color: #66c17b !important;
+  background-color: #55b559 !important;
 }
 html /deep/ .ui.green.corner.label,
 html /deep/ .ui.green.corner.label:hover {
   background-color: transparent !important;
 }
 html /deep/ .ui.green.ribbon.label {
-  border-color: #42a359 !important;
+  border-color: #3d8b40 !important;
 }
 html /deep/ .ui.orange.labels .label,
 html /deep/ .ui.orange.label {
-  background-color: #e07b53 !important;
-  border-color: #e07b53 !important;
+  background-color: #ff9800 !important;
+  border-color: #ff9800 !important;
   color: #ffffff !important;
 }
 html /deep/ .ui.labels .orange.label:before,
 html /deep/ .ui.orange.labels .label:before,
 html /deep/ .ui.orange.label:before {
-  background-color: #e07b53 !important;
+  background-color: #ff9800 !important;
 }
 html /deep/ a.ui.orange.labels .label:hover,
 html /deep/ .ui.orange.labels a.label:hover,
 html /deep/ a.ui.orange.label:hover {
-  background-color: #e28560 !important;
-  border-color: #e28560 !important;
+  background-color: #ff9e0f !important;
+  border-color: #ff9e0f !important;
   color: #ffffff !important;
 }
 html /deep/ .ui.labels a.orange.label:hover:before,
 html /deep/ .ui.orange.labels a.label:hover:before,
 html /deep/ a.ui.orange.label:hover:before {
-  background-color: #e28560 !important;
+  background-color: #ff9e0f !important;
 }
 html /deep/ .ui.orange.corner.label,
 html /deep/ .ui.orange.corner.label:hover {
   background-color: transparent !important;
 }
 html /deep/ .ui.orange.ribbon.label {
-  border-color: #d85a28 !important;
+  border-color: #cc7a00 !important;
 }
 html /deep/ .ui.pink.labels .label,
 html /deep/ .ui.pink.label {
-  background-color: #d9499a !important;
-  border-color: #d9499a !important;
+  background-color: #e91e63 !important;
+  border-color: #e91e63 !important;
   color: #ffffff !important;
 }
 html /deep/ .ui.labels .pink.label:before,
 html /deep/ .ui.pink.labels .label:before,
 html /deep/ .ui.pink.label:before {
-  background-color: #d9499a !important;
+  background-color: #e91e63 !important;
 }
 html /deep/ a.ui.pink.labels .label:hover,
 html /deep/ .ui.pink.labels a.label:hover,
 html /deep/ a.ui.pink.label:hover {
-  background-color: #dc56a1 !important;
-  border-color: #dc56a1 !important;
+  background-color: #ea2c6d !important;
+  border-color: #ea2c6d !important;
   color: #ffffff !important;
 }
 html /deep/ .ui.labels a.pink.label:hover:before,
 html /deep/ .ui.pink.labels a.label:hover:before,
 html /deep/ a.ui.pink.label:hover:before {
-  background-color: #dc56a1 !important;
+  background-color: #ea2c6d !important;
 }
 html /deep/ .ui.pink.corner.label,
 html /deep/ .ui.pink.corner.label:hover {
   background-color: transparent !important;
 }
 html /deep/ .ui.pink.ribbon.label {
-  border-color: #c62981 !important;
+  border-color: #c1134e !important;
 }
 html /deep/ .ui.purple.labels .label,
 html /deep/ .ui.purple.label {
-  background-color: #564f8a !important;
-  border-color: #564f8a !important;
+  background-color: #9c27b0 !important;
+  border-color: #9c27b0 !important;
   color: #ffffff !important;
 }
 html /deep/ .ui.labels .purple.label:before,
 html /deep/ .ui.purple.labels .label:before,
 html /deep/ .ui.purple.label:before {
-  background-color: #564f8a !important;
+  background-color: #9c27b0 !important;
 }
 html /deep/ a.ui.purple.labels .label:hover,
 html /deep/ .ui.purple.labels a.label:hover,
 html /deep/ a.ui.purple.label:hover {
-  background-color: #5c5594 !important;
-  border-color: #5c5594 !important;
+  background-color: #a72abd !important;
+  border-color: #a72abd !important;
   color: #ffffff !important;
 }
 html /deep/ .ui.labels a.purple.label:hover:before,
 html /deep/ .ui.purple.labels a.label:hover:before,
 html /deep/ a.ui.purple.label:hover:before {
-  background-color: #5c5594 !important;
+  background-color: #a72abd !important;
 }
 html /deep/ .ui.purple.corner.label,
 html /deep/ .ui.purple.corner.label:hover {
   background-color: transparent !important;
 }
 html /deep/ .ui.purple.ribbon.label {
-  border-color: #423c6a !important;
+  border-color: #771e86 !important;
 }
 html /deep/ .ui.red.labels .label,
 html /deep/ .ui.red.label {
-  background-color: #d95c5c !important;
-  border-color: #d95c5c !important;
+  background-color: #f44336 !important;
+  border-color: #f44336 !important;
   color: #ffffff !important;
 }
 html /deep/ .ui.labels .red.label:before,
 html /deep/ .ui.red.labels .label:before,
 html /deep/ .ui.red.label:before {
-  background-color: #d95c5c !important;
+  background-color: #f44336 !important;
 }
 html /deep/ .ui.red.corner.label,
 html /deep/ .ui.red.corner.label:hover {
@@ -717,77 +717,77 @@ html /deep/ .ui.red.corner.label:hover {
 }
 html /deep/ a.ui.red.labels .label:hover,
 html /deep/ a.ui.red.label:hover {
-  background-color: #dc6868 !important;
-  border-color: #dc6868 !important;
+  background-color: #f55145 !important;
+  border-color: #f55145 !important;
   color: #ffffff !important;
 }
 html /deep/ .ui.labels a.red.label:hover:before,
 html /deep/ .ui.red.labels a.label:hover:before,
 html /deep/ a.ui.red.label:hover:before {
-  background-color: #dc6868 !important;
+  background-color: #f55145 !important;
 }
 html /deep/ .ui.red.ribbon.label {
-  border-color: #cf3333 !important;
+  border-color: #ea1c0d !important;
 }
 html /deep/ .ui.teal.labels .label,
 html /deep/ .ui.teal.label {
-  background-color: #00b5ad !important;
-  border-color: #00b5ad !important;
+  background-color: #1de9b6 !important;
+  border-color: #1de9b6 !important;
   color: #ffffff !important;
 }
 html /deep/ .ui.labels .teal.label:before,
 html /deep/ .ui.teal.labels .label:before,
 html /deep/ .ui.teal.label:before {
-  background-color: #00b5ad !important;
+  background-color: #1de9b6 !important;
 }
 html /deep/ a.ui.teal.labels .label:hover,
 html /deep/ .ui.teal.labels a.label:hover,
 html /deep/ a.ui.teal.label:hover {
-  background-color: #00c4bc !important;
-  border-color: #00c4bc !important;
+  background-color: #2beabb !important;
+  border-color: #2beabb !important;
   color: #ffffff !important;
 }
 html /deep/ .ui.labels a.teal.label:hover:before,
 html /deep/ .ui.teal.labels a.label:hover:before,
 html /deep/ a.ui.teal.label:hover:before {
-  background-color: #00c4bc !important;
+  background-color: #2beabb !important;
 }
 html /deep/ .ui.teal.corner.label,
 html /deep/ .ui.teal.corner.label:hover {
   background-color: transparent !important;
 }
 html /deep/ .ui.teal.ribbon.label {
-  border-color: #00827c !important;
+  border-color: #13c095 !important;
 }
 html /deep/ .ui.yellow.labels .label,
 html /deep/ .ui.yellow.label {
-  background-color: #f2c61f !important;
-  border-color: #f2c61f !important;
+  background-color: #ffeb3b !important;
+  border-color: #ffeb3b !important;
   color: #ffffff !important;
 }
 html /deep/ .ui.labels .yellow.label:before,
 html /deep/ .ui.yellow.labels .label:before,
 html /deep/ .ui.yellow.label:before {
-  background-color: #f2c61f !important;
+  background-color: #ffeb3b !important;
 }
 html /deep/ a.ui.yellow.labels .label:hover,
 html /deep/ .ui.yellow.labels a.label:hover,
 html /deep/ a.ui.yellow.label:hover {
-  background-color: #f3ca2d !important;
-  border-color: #f3ca2d !important;
+  background-color: #ffed4a !important;
+  border-color: #ffed4a !important;
   color: #ffffff !important;
 }
 html /deep/ .ui.labels a.yellow.label:hover:before,
 html /deep/ .ui.yellow.labels a.label:hover:before,
 html /deep/ a.ui.yellow.label:hover:before {
-  background-color: #f3ca2d !important;
+  background-color: #ffed4a !important;
 }
 html /deep/ .ui.yellow.corner.label,
 html /deep/ .ui.yellow.corner.label:hover {
   background-color: transparent !important;
 }
 html /deep/ .ui.yellow.ribbon.label {
-  border-color: #d2a90c !important;
+  border-color: #ffe608 !important;
 }
 html /deep/ .ui.label.fluid,
 html /deep/ .ui.fluid.labels > .label {

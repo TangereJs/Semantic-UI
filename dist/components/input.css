@@ -143,7 +143,7 @@ html /deep/ {
 html /deep/ .ui.input {
   position: relative;
   display: inline-block;
-  color: rgba(0, 0, 0, 0.8);
+  color: #212121;
 }
 html /deep/ .ui.input input {
   margin: 0em;
@@ -152,12 +152,12 @@ html /deep/ .ui.input input {
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
   text-align: left;
   line-height: 1.2142em;
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Segoe UI', 'Segoe WP', 'Roboto', 'Frutiger', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   padding: 0.67861em 1em;
   background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.15);
-  color: rgba(0, 0, 0, 0.8);
-  border-radius: 0.2857rem;
+  color: #212121;
+  border-radius: 2px;
   -webkit-transition: background-color 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
           transition: background-color 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
   box-shadow: none;
@@ -172,7 +172,7 @@ html /deep/ .ui.input input:active,
 html /deep/ .ui.input.down input {
   border-color: rgba(0, 0, 0, 0.3);
   background: #fafafa;
-  color: rgba(0, 0, 0, 0.8);
+  color: #212121;
   box-shadow: none;
 }
 html /deep/ .ui.loading.loading.input > i.icon:before {
@@ -213,16 +213,16 @@ html /deep/ .ui.input input:focus {
 }
 html /deep/ .ui.input.focus input input::-webkit-input-placeholder,
 html /deep/ .ui.input input:focus input::-webkit-input-placeholder {
-  color: rgba(0, 0, 0, 0.8);
+  color: #212121;
 }
 html /deep/ .ui.input.focus input input::-moz-placeholder,
 html /deep/ .ui.input input:focus input::-moz-placeholder {
-  color: rgba(0, 0, 0, 0.8);
+  color: #212121;
 }
 html /deep/ .ui.input.error input {
   background-color: #fff0f0;
   border-color: #dbb1b1;
-  color: #d95c5c;
+  color: #f44336;
   box-shadow: none;
 }
 html /deep/ .ui.input.error input ::-webkit-input-placeholder {
@@ -272,7 +272,7 @@ html /deep/ .ui.icon.input > i.icon {
   height: 100%;
   width: 2.82142em;
   opacity: 0.5;
-  border-radius: 0em 0.2857rem 0.2857rem 0em;
+  border-radius: 0em 2px 2px 0em;
   -webkit-transition: opacity 0.3s ease;
           transition: opacity 0.3s ease;
 }
@@ -298,7 +298,7 @@ html /deep/ .ui.icon.input > i.circular.icon {
 html /deep/ .ui[class*="left icon"].input > i.icon {
   right: auto;
   left: 1px;
-  border-radius: 0.2857rem 0em 0em 0.2857rem;
+  border-radius: 2px 0em 0em 2px;
 }
 html /deep/ .ui[class*="left icon"].input > i.circular.icon {
   right: auto;
@@ -357,7 +357,7 @@ html /deep/ .ui.labeled.input .corner.label {
   top: 1px;
   right: 1px;
   font-size: 0.75em;
-  border-radius: 0em 0.2857rem 0em 0em;
+  border-radius: 0em 2px 0em 0em;
 }
 html /deep/ .ui.labeled.input input {
   padding-right: 2.5em !important;

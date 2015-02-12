@@ -160,7 +160,7 @@ html /deep/ .ui.segment {
   box-shadow: 0px 0px 0px 1px rgba(39, 41, 43, 0.15), 0px 1px 2px 0 rgba(0, 0, 0, 0.05);
   margin: 1rem 0em;
   padding: 1em 1em;
-  border-radius: 0.2857rem;
+  border-radius: 2px;
   border: none;
 }
 html /deep/ .ui.segment:first-child {
@@ -223,7 +223,7 @@ html /deep/ .ui.grid .ui.segment.column {
 }
 html /deep/ .ui.grid.segment {
   margin: 1rem 0rem;
-  border-radius: 0.2857rem;
+  border-radius: 2px;
 }
 html /deep/ .ui.basic.table.segment {
   background: #ffffff;
@@ -345,7 +345,7 @@ html /deep/ .ui.loading.segment:before {
   background: rgba(255, 255, 255, 0.8);
   width: 100%;
   height: 100%;
-  border-radius: 0.2857rem;
+  border-radius: 2px;
   z-index: 100;
 }
 html /deep/ .ui.loading.segment:after {
@@ -401,64 +401,64 @@ html /deep/ .ui.black.segment:not(.inverted) {
   border-top: 2px solid #1b1c1d;
 }
 html /deep/ .ui.blue.segment:not(.inverted) {
-  border-top: 2px solid #3b83c0;
+  border-top: 2px solid #2196f3;
 }
 html /deep/ .ui.green.segment:not(.inverted) {
-  border-top: 2px solid #5bbd72;
+  border-top: 2px solid #4caf50;
 }
 html /deep/ .ui.orange.segment:not(.inverted) {
-  border-top: 2px solid #e07b53;
+  border-top: 2px solid #ff9800;
 }
 html /deep/ .ui.pink.segment:not(.inverted) {
-  border-top: 2px solid #d9499a;
+  border-top: 2px solid #e91e63;
 }
 html /deep/ .ui.purple.segment:not(.inverted) {
-  border-top: 2px solid #564f8a;
+  border-top: 2px solid #9c27b0;
 }
 html /deep/ .ui.red.segment:not(.inverted) {
-  border-top: 2px solid #d95c5c;
+  border-top: 2px solid #f44336;
 }
 html /deep/ .ui.teal.segment:not(.inverted) {
-  border-top: 2px solid #00b5ad;
+  border-top: 2px solid #1de9b6;
 }
 html /deep/ .ui.yellow.segment:not(.inverted) {
-  border-top: 2px solid #f2c61f;
+  border-top: 2px solid #ffeb3b;
 }
 html /deep/ .ui.black.segment:not(.inverted):not(.attached) {
-  border-top-left-radius: 0.2857rem !important;
-  border-top-right-radius: 0.2857rem !important;
+  border-top-left-radius: 2px !important;
+  border-top-right-radius: 2px !important;
 }
 html /deep/ .ui.blue.segment:not(.inverted):not(.attached) {
-  border-top-left-radius: 0.2857rem !important;
-  border-top-right-radius: 0.2857rem !important;
+  border-top-left-radius: 2px !important;
+  border-top-right-radius: 2px !important;
 }
 html /deep/ .ui.green.segment:not(.inverted):not(.attached) {
-  border-top-left-radius: 0.2857rem !important;
-  border-top-right-radius: 0.2857rem !important;
+  border-top-left-radius: 2px !important;
+  border-top-right-radius: 2px !important;
 }
 html /deep/ .ui.orange.segment:not(.inverted):not(.attached) {
-  border-top-left-radius: 0.2857rem !important;
-  border-top-right-radius: 0.2857rem !important;
+  border-top-left-radius: 2px !important;
+  border-top-right-radius: 2px !important;
 }
 html /deep/ .ui.pink.segment:not(.inverted):not(.attached) {
-  border-top-left-radius: 0.2857rem !important;
-  border-top-right-radius: 0.2857rem !important;
+  border-top-left-radius: 2px !important;
+  border-top-right-radius: 2px !important;
 }
 html /deep/ .ui.purple.segment:not(.inverted):not(.attached) {
-  border-top-left-radius: 0.2857rem !important;
-  border-top-right-radius: 0.2857rem !important;
+  border-top-left-radius: 2px !important;
+  border-top-right-radius: 2px !important;
 }
 html /deep/ .ui.red.segment:not(.inverted):not(.attached) {
-  border-top-left-radius: 0.2857rem !important;
-  border-top-right-radius: 0.2857rem !important;
+  border-top-left-radius: 2px !important;
+  border-top-right-radius: 2px !important;
 }
 html /deep/ .ui.teal.segment:not(.inverted):not(.attached) {
-  border-top-left-radius: 0.2857rem !important;
-  border-top-right-radius: 0.2857rem !important;
+  border-top-left-radius: 2px !important;
+  border-top-right-radius: 2px !important;
 }
 html /deep/ .ui.yellow.segment:not(.inverted):not(.attached) {
-  border-top-left-radius: 0.2857rem !important;
-  border-top-right-radius: 0.2857rem !important;
+  border-top-left-radius: 2px !important;
+  border-top-right-radius: 2px !important;
 }
 html /deep/ .ui.inverted.segment,
 html /deep/ .ui.inverted.black.segment {
@@ -466,35 +466,35 @@ html /deep/ .ui.inverted.black.segment {
   color: #ffffff !important;
 }
 html /deep/ .ui.inverted.blue.segment {
-  background-color: #3b83c0 !important;
+  background-color: #2196f3 !important;
   color: #ffffff !important;
 }
 html /deep/ .ui.inverted.green.segment {
-  background-color: #5bbd72 !important;
+  background-color: #4caf50 !important;
   color: #ffffff !important;
 }
 html /deep/ .ui.inverted.orange.segment {
-  background-color: #e07b53 !important;
+  background-color: #ff9800 !important;
   color: #ffffff !important;
 }
 html /deep/ .ui.inverted.pink.segment {
-  background-color: #d9499a !important;
+  background-color: #e91e63 !important;
   color: #ffffff !important;
 }
 html /deep/ .ui.inverted.purple.segment {
-  background-color: #564f8a !important;
+  background-color: #9c27b0 !important;
   color: #ffffff !important;
 }
 html /deep/ .ui.inverted.red.segment {
-  background-color: #d95c5c !important;
+  background-color: #f44336 !important;
   color: #ffffff !important;
 }
 html /deep/ .ui.inverted.teal.segment {
-  background-color: #00b5ad !important;
+  background-color: #1de9b6 !important;
   color: #ffffff !important;
 }
 html /deep/ .ui.inverted.yellow.segment {
-  background-color: #f2c61f !important;
+  background-color: #ffeb3b !important;
   color: #ffffff !important;
 }
 html /deep/ .ui[class*="left aligned"].segment {
@@ -520,7 +520,7 @@ html /deep/ .ui.inverted.segment {
   box-shadow: none;
 }
 html /deep/ .ui.inverted.segment .segment {
-  color: rgba(0, 0, 0, 0.8);
+  color: #212121;
 }
 html /deep/ .ui.inverted.segment .inverted.segment {
   color: #ffffff;
@@ -536,11 +536,11 @@ html /deep/ .ui.inverted.attached.segment {
 }
 html /deep/ .ui.secondary.segment {
   background: #faf9fa;
-  color: rgba(0, 0, 0, 0.8);
+  color: #212121;
 }
 html /deep/ .ui.tertiary.segment {
   background: #ebebeb;
-  color: rgba(0, 0, 0, 0.8);
+  color: #212121;
 }
 html /deep/ .ui.secondary.inverted.segment {
   background: -webkit-linear-gradient(rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.3) 100%);
@@ -572,7 +572,7 @@ html /deep/ .ui[class*="top attached"].segment {
   bottom: 0px;
   margin-top: 1rem;
   margin-bottom: 0em;
-  border-radius: 0.2857rem 0.2857rem 0em 0em;
+  border-radius: 2px 2px 0em 0em;
 }
 html /deep/ .ui.segment[class*="top attached"]:first-child {
   margin-top: 0em;
@@ -583,7 +583,7 @@ html /deep/ .ui.segment[class*="bottom attached"] {
   margin-top: 0em;
   margin-bottom: 1rem;
   box-shadow: none, 0px 1px 2px 0 rgba(0, 0, 0, 0.05);
-  border-radius: 0em 0em 0.2857rem 0.2857rem;
+  border-radius: 0em 0em 2px 2px;
 }
 html /deep/ .ui.segment[class*="bottom attached"]:last-child {
   margin-bottom: 0em;

@@ -30,13 +30,13 @@
   padding: 0.833em 1em;
   font-weight: normal;
   font-style: normal;
-  color: rgba(0, 0, 0, 0.8);
-  border-radius: 0.2857rem;
+  color: #212121;
+  border-radius: 2px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 .ui.popup > .header {
   padding: 0em;
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Segoe UI', 'Segoe WP', 'Roboto', 'Frutiger', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 1.125em;
   line-height: 1.2;
   font-weight: bold;

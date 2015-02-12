@@ -188,7 +188,7 @@ html /deep/ .ui.dimmer .ui.loader:after {
   border-color: #ffffff transparent transparent;
 }
 html /deep/ .ui.inverted.dimmer .ui.loader {
-  color: rgba(0, 0, 0, 0.8);
+  color: #212121;
 }
 html /deep/ .ui.inverted.dimmer .ui.loader:before {
   border-color: rgba(0, 0, 0, 0.1);

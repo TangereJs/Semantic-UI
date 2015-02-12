@@ -314,28 +314,28 @@ html /deep/ i.black.icon {
   color: #1b1c1d !important;
 }
 html /deep/ i.blue.icon {
-  color: #3b83c0 !important;
+  color: #2196f3 !important;
 }
 html /deep/ i.green.icon {
-  color: #5bbd72 !important;
+  color: #4caf50 !important;
 }
 html /deep/ i.orange.icon {
-  color: #e07b53 !important;
+  color: #ff9800 !important;
 }
 html /deep/ i.pink.icon {
-  color: #d9499a !important;
+  color: #e91e63 !important;
 }
 html /deep/ i.purple.icon {
-  color: #564f8a !important;
+  color: #9c27b0 !important;
 }
 html /deep/ i.red.icon {
-  color: #d95c5c !important;
+  color: #f44336 !important;
 }
 html /deep/ i.teal.icon {
-  color: #00b5ad !important;
+  color: #1de9b6 !important;
 }
 html /deep/ i.yellow.icon {
-  color: #f2c61f !important;
+  color: #ffeb3b !important;
 }
 html /deep/ i.inverted.icon {
   color: #ffffff;
@@ -344,28 +344,28 @@ html /deep/ i.inverted.black.icon {
   color: #333333 !important;
 }
 html /deep/ i.inverted.blue.icon {
-  color: #54c8ff !important;
+  color: #2979ff !important;
 }
 html /deep/ i.inverted.green.icon {
-  color: #2ecc40 !important;
+  color: #00e676 !important;
 }
 html /deep/ i.inverted.orange.icon {
-  color: #ff851b !important;
+  color: #ff9100 !important;
 }
 html /deep/ i.inverted.pink.icon {
-  color: #ff8edf !important;
+  color: #f50057 !important;
 }
 html /deep/ i.inverted.purple.icon {
-  color: #cdc6ff !important;
+  color: #d500f9 !important;
 }
 html /deep/ i.inverted.red.icon {
-  color: #ff695e !important;
+  color: #ff1744 !important;
 }
 html /deep/ i.inverted.teal.icon {
-  color: #6dffff !important;
+  color: #1de9b6 !important;
 }
 html /deep/ i.inverted.yellow.icon {
-  color: #ffe21f !important;
+  color: #ffea00 !important;
 }
 html /deep/ i.inverted.bordered.icon,
 html /deep/ i.inverted.circular.icon {
@@ -379,42 +379,42 @@ html /deep/ i.inverted.circular.black.icon {
 }
 html /deep/ i.inverted.bordered.blue.icon,
 html /deep/ i.inverted.circular.blue.icon {
-  background-color: #3b83c0 !important;
+  background-color: #2196f3 !important;
   color: #FFFFFF !important;
 }
 html /deep/ i.inverted.bordered.green.icon,
 html /deep/ i.inverted.circular.green.icon {
-  background-color: #5bbd72 !important;
+  background-color: #4caf50 !important;
   color: #FFFFFF !important;
 }
 html /deep/ i.inverted.bordered.orange.icon,
 html /deep/ i.inverted.circular.orange.icon {
-  background-color: #e07b53 !important;
+  background-color: #ff9800 !important;
   color: #FFFFFF !important;
 }
 html /deep/ i.inverted.bordered.pink.icon,
 html /deep/ i.inverted.circular.pink.icon {
-  background-color: #d9499a !important;
+  background-color: #e91e63 !important;
   color: #FFFFFF !important;
 }
 html /deep/ i.inverted.bordered.purple.icon,
 html /deep/ i.inverted.circular.purple.icon {
-  background-color: #564f8a !important;
+  background-color: #9c27b0 !important;
   color: #FFFFFF !important;
 }
 html /deep/ i.inverted.bordered.red.icon,
 html /deep/ i.inverted.circular.red.icon {
-  background-color: #d95c5c !important;
+  background-color: #f44336 !important;
   color: #FFFFFF !important;
 }
 html /deep/ i.inverted.bordered.teal.icon,
 html /deep/ i.inverted.circular.teal.icon {
-  background-color: #00b5ad !important;
+  background-color: #1de9b6 !important;
   color: #FFFFFF !important;
 }
 html /deep/ i.inverted.bordered.yellow.icon,
 html /deep/ i.inverted.circular.yellow.icon {
-  background-color: #f2c61f !important;
+  background-color: #ffeb3b !important;
   color: #FFFFFF !important;
 }
 html /deep/ i.small.icon {
