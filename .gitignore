@@ -3,7 +3,6 @@ test/coverage/
 coverage/
 src/**/site/
 
-semantic.json
 tasks/admin/oauth.js
 
 # Numerous always-ignore extensions
