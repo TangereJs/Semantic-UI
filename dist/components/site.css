@@ -40,11 +40,46 @@ body {
              Headers
 *******************************/
 
-h1,
-h2,
-h3,
-h4,
-h5 {
+html /deep/ {
+  
+
+/*******************************
+             Text
+*******************************/
+
+  
+/*-------------------
+        Links
+--------------------*/
+
+  
+
+/*******************************
+          Highlighting
+*******************************/
+
+  
+/* Site */
+  
+/* Form */
+  
+
+/*******************************
+        Global Overrides
+*******************************/
+
+  
+
+/*******************************
+         Site Overrides
+*******************************/
+
+}
+html /deep/ h1,
+html /deep/ h2,
+html /deep/ h3,
+html /deep/ h4,
+html /deep/ h5 {
   font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   line-height: 1.33em;
   margin: -webkit-calc(2rem -  0.165em ) 0em 1rem;
@@ -52,96 +87,63 @@ h5 {
   font-weight: bold;
   padding: 0em;
 }
-h1 {
+html /deep/ h1 {
   min-height: 1rem;
   font-size: 2rem;
 }
-h2 {
+html /deep/ h2 {
   font-size: 1.714rem;
 }
-h3 {
+html /deep/ h3 {
   font-size: 1.28rem;
 }
-h4 {
+html /deep/ h4 {
   font-size: 1.071rem;
 }
-h5 {
+html /deep/ h5 {
   font-size: 1rem;
 }
-
-
-/*******************************
-             Text
-*******************************/
-
-p {
+html /deep/ p {
   margin: 0em 0em 1em;
   line-height: 1.33;
 }
-p:first-child {
+html /deep/ p:first-child {
   margin-top: 0em;
 }
-p:last-child {
+html /deep/ p:last-child {
   margin-bottom: 0em;
 }
-
-/*-------------------
-        Links
---------------------*/
-
-a {
+html /deep/ a {
   color: #009fda;
   text-decoration: none;
 }
-a:hover {
+html /deep/ a:hover {
   color: #00b2f3;
 }
-
-
-/*******************************
-          Highlighting
-*******************************/
-
-
-/* Site */
-::-webkit-selection {
+html /deep/ ::-webkit-selection {
   background-color: #cce2ff;
   color: rgba(0, 0, 0, 0.8);
 }
-::-moz-selection {
+html /deep/ ::-moz-selection {
   background-color: #cce2ff;
   color: rgba(0, 0, 0, 0.8);
 }
-::selection {
+html /deep/ ::selection {
   background-color: #cce2ff;
   color: rgba(0, 0, 0, 0.8);
 }
-
-/* Form */
-textarea::-webkit-selection,
-input::-webkit-selection {
+html /deep/ textarea::-webkit-selection,
+html /deep/ input::-webkit-selection {
   background-color: rgba(100, 100, 100, 0.4);
   color: rgba(0, 0, 0, 0.8);
 }
-textarea::-moz-selection,
-input::-moz-selection {
+html /deep/ textarea::-moz-selection,
+html /deep/ input::-moz-selection {
   background-color: rgba(100, 100, 100, 0.4);
   color: rgba(0, 0, 0, 0.8);
 }
-textarea::selection,
-input::selection {
+html /deep/ textarea::selection,
+html /deep/ input::selection {
   background-color: rgba(100, 100, 100, 0.4);
   color: rgba(0, 0, 0, 0.8);
 }
-
-
-/*******************************
-        Global Overrides
-*******************************/
-
-
-
-/*******************************
-         Site Overrides
-*******************************/
-

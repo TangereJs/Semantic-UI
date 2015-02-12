@@ -15,7 +15,84 @@
             Divider
 *******************************/
 
-.ui.divider {
+html /deep/ {
+  
+/*--------------
+      Basic
+---------------*/
+
+  
+/*--------------
+    Coupling
+---------------*/
+
+  
+/*--------------
+   Horizontal
+---------------*/
+
+  
+/*--------------
+    Vertical
+---------------*/
+
+  
+/* Inside grid */
+  
+/*--------------
+      Icon
+---------------*/
+
+  
+
+/*******************************
+          Variations
+*******************************/
+
+  
+/*--------------
+    Hidden
+---------------*/
+
+  
+/*--------------
+    Inverted
+---------------*/
+
+  
+/*--------------
+    Fitted
+---------------*/
+
+  
+/*--------------
+    Clearing
+---------------*/
+
+  
+/*--------------
+    Section
+---------------*/
+
+  
+/*--------------
+     Sizes
+---------------*/
+
+  
+
+/*******************************
+         Theme Overrides
+*******************************/
+
+  
+
+/*******************************
+         Site Overrides
+*******************************/
+
+}
+html /deep/ .ui.divider {
   margin: 1rem 0rem;
   line-height: 1;
   height: 0em;
@@ -29,29 +106,14 @@
           user-select: none;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
-
-/*--------------
-      Basic
----------------*/
-
-.ui.divider:not(.vertical):not(.horizontal) {
+html /deep/ .ui.divider:not(.vertical):not(.horizontal) {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
-
-/*--------------
-    Coupling
----------------*/
-
-.ui.grid > .ui.divider {
+html /deep/ .ui.grid > .ui.divider {
   font-size: 1rem;
 }
-
-/*--------------
-   Horizontal
----------------*/
-
-.ui.horizontal.divider {
+html /deep/ .ui.horizontal.divider {
   position: relative;
   height: auto;
   margin: '';
@@ -59,8 +121,8 @@
   line-height: 1;
   text-align: center;
 }
-.ui.horizontal.divider:before,
-.ui.horizontal.divider:after {
+html /deep/ .ui.horizontal.divider:before,
+html /deep/ .ui.horizontal.divider:after {
   position: absolute;
   content: '';
   z-index: 3;
@@ -70,19 +132,14 @@
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
-.ui.horizontal.divider:before {
+html /deep/ .ui.horizontal.divider:before {
   margin-left: -webkit-calc(-50% -  1em );
   margin-left: calc(-50% -  1em );
 }
-.ui.horizontal.divider:after {
+html /deep/ .ui.horizontal.divider:after {
   margin-left: 1em;
 }
-
-/*--------------
-    Vertical
----------------*/
-
-.ui.vertical.divider {
+html /deep/ .ui.vertical.divider {
   position: absolute;
   z-index: 2;
   top: 50%;
@@ -97,8 +154,8 @@
       -ms-transform: translateX(-50%);
           transform: translateX(-50%);
 }
-.ui.vertical.divider:before,
-.ui.vertical.divider:after {
+html /deep/ .ui.vertical.divider:before,
+html /deep/ .ui.vertical.divider:after {
   position: absolute;
   left: 50%;
   content: '';
@@ -109,18 +166,16 @@
   height: -webkit-calc(100% -  1rem );
   height: calc(100% -  1rem );
 }
-.ui.vertical.divider:before {
+html /deep/ .ui.vertical.divider:before {
   top: -100%;
 }
-.ui.vertical.divider:after {
+html /deep/ .ui.vertical.divider:after {
   top: auto;
   bottom: 0px;
 }
-
-/* Inside grid */
 @media only screen and (max-width: 767px) {
-  .ui.stackable.grid .ui.vertical.divider,
-  .ui.grid .stackable.row .ui.vertical.divider {
+  html /deep/ .ui.stackable.grid .ui.vertical.divider,
+  html /deep/ .ui.grid .stackable.row .ui.vertical.divider {
     position: relative;
     margin: 1rem 0rem;
     left: 50%;
@@ -129,10 +184,10 @@
     line-height: 1;
     text-align: center;
   }
-  .ui.stackable.grid .ui.vertical.divider:before,
-  .ui.grid .stackable.row .ui.vertical.divider:before,
-  .ui.stackable.grid .ui.vertical.divider:after,
-  .ui.grid .stackable.row .ui.vertical.divider:after {
+  html /deep/ .ui.stackable.grid .ui.vertical.divider:before,
+  html /deep/ .ui.grid .stackable.row .ui.vertical.divider:before,
+  html /deep/ .ui.stackable.grid .ui.vertical.divider:after,
+  html /deep/ .ui.grid .stackable.row .ui.vertical.divider:after {
     position: absolute;
     left: auto;
     content: '';
@@ -143,100 +198,47 @@
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   }
-  .ui.stackable.grid .ui.vertical.divider:before,
-  .ui.grid .stackable.row .ui.vertical.divider:before {
+  html /deep/ .ui.stackable.grid .ui.vertical.divider:before,
+  html /deep/ .ui.grid .stackable.row .ui.vertical.divider:before {
     margin-left: -51%;
   }
-  .ui.stackable.grid .ui.vertical.divider:after,
-  .ui.grid .stackable.row .ui.vertical.divider:after {
+  html /deep/ .ui.stackable.grid .ui.vertical.divider:after,
+  html /deep/ .ui.grid .stackable.row .ui.vertical.divider:after {
     margin-left: 1em;
   }
 }
-
-/*--------------
-      Icon
----------------*/
-
-.ui.divider > .icon {
+html /deep/ .ui.divider > .icon {
   margin: 0rem;
   font-size: 1rem;
   height: 1em;
   vertical-align: middle;
 }
-
-
-/*******************************
-          Variations
-*******************************/
-
-
-/*--------------
-    Hidden
----------------*/
-
-.ui.hidden.divider {
+html /deep/ .ui.hidden.divider {
   border-color: transparent !important;
 }
-
-/*--------------
-    Inverted
----------------*/
-
-.ui.divider.inverted,
-.ui.vertical.inverted.divider,
-.ui.horizontal.inverted.divider {
+html /deep/ .ui.divider.inverted,
+html /deep/ .ui.vertical.inverted.divider,
+html /deep/ .ui.horizontal.inverted.divider {
   color: #ffffff;
 }
-.ui.divider.inverted,
-.ui.divider.inverted:after,
-.ui.divider.inverted:before {
+html /deep/ .ui.divider.inverted,
+html /deep/ .ui.divider.inverted:after,
+html /deep/ .ui.divider.inverted:before {
   border-top-color: rgba(0, 0, 0, 0.15) !important;
   border-bottom-color: rgba(255, 255, 255, 0.15) !important;
   border-left-color: rgba(0, 0, 0, 0.15) !important;
   border-right-color: rgba(255, 255, 255, 0.15) !important;
 }
-
-/*--------------
-    Fitted
----------------*/
-
-.ui.fitted.divider {
+html /deep/ .ui.fitted.divider {
   margin: 0em;
 }
-
-/*--------------
-    Clearing
----------------*/
-
-.ui.clearing.divider {
+html /deep/ .ui.clearing.divider {
   clear: both;
 }
-
-/*--------------
-    Section
----------------*/
-
-.ui.section.divider {
+html /deep/ .ui.section.divider {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
-
-/*--------------
-     Sizes
----------------*/
-
-.ui.divider {
+html /deep/ .ui.divider {
   font-size: 1rem;
 }
-
-
-/*******************************
-         Theme Overrides
-*******************************/
-
-
-
-/*******************************
-         Site Overrides
-*******************************/
-

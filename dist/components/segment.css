@@ -15,7 +15,146 @@
             Segment
 *******************************/
 
-.ui.segment {
+html /deep/ {
+  
+/* Vertical */
+  
+/* Horizontal */
+  
+/*-------------------
+    Loose Coupling
+--------------------*/
+
+  
+/* Header */
+  
+/* Label */
+  
+/* Grid */
+  
+/* Table */
+  
+
+/*******************************
+             Types
+*******************************/
+
+  
+/*-------------------
+        Piled
+--------------------*/
+
+  
+/* Piled Attached */
+  
+/*-------------------
+       Stacked
+--------------------*/
+
+  
+/* Add additional page */
+  
+/* Inverted */
+  
+/*-------------------
+       Compact
+--------------------*/
+
+  
+/*-------------------
+       Circular
+--------------------*/
+
+  
+/*-------------------
+       Raised
+--------------------*/
+
+  
+
+/*******************************
+            States
+*******************************/
+
+  
+/*--------------
+    Disabled
+---------------*/
+
+  
+/*--------------
+    Loading
+---------------*/
+
+  
+
+/*******************************
+           Variations
+*******************************/
+
+  
+/*-------------------
+       Basic
+--------------------*/
+
+  
+/*-------------------
+       Fittted
+--------------------*/
+
+  
+/*-------------------
+       Colors
+--------------------*/
+
+  
+/*-------------------
+   Inverted Colors
+--------------------*/
+
+  
+/*-------------------
+       Aligned
+--------------------*/
+
+  
+/*-------------------
+       Floated
+--------------------*/
+
+  
+/*-------------------
+      Inverted
+--------------------*/
+
+  
+/*-------------------
+     Ordinality
+--------------------*/
+
+  
+/*-------------------
+      Attached
+--------------------*/
+
+  
+/* Top */
+  
+/* Bottom */
+  
+
+/*******************************
+         Theme Overrides
+*******************************/
+
+  
+
+/*******************************
+         Site Overrides
+*******************************/
+
+}
+html /deep/ .ui.segment {
   position: relative;
   background-color: #ffffff;
   box-shadow: 0px 0px 0px 1px rgba(39, 41, 43, 0.15), 0px 1px 2px 0 rgba(0, 0, 0, 0.05);
@@ -24,22 +163,20 @@
   border-radius: 0.2857rem;
   border: none;
 }
-.ui.segment:first-child {
+html /deep/ .ui.segment:first-child {
   margin-top: 0em;
 }
-.ui.segment:last-child {
+html /deep/ .ui.segment:last-child {
   margin-bottom: 0em;
 }
-.ui.segment:after {
+html /deep/ .ui.segment:after {
   content: '';
   display: block;
   height: 0px;
   clear: both;
   visibility: hidden;
 }
-
-/* Vertical */
-.ui[class*="vertical segment"] {
+html /deep/ .ui[class*="vertical segment"] {
   margin: 0em;
   padding-left: 0em;
   padding-right: 0em;
@@ -48,12 +185,10 @@
   border: none;
   box-shadow: 0px -1px 0px rgba(39, 41, 43, 0.15) inset;
 }
-.ui[class*="vertical segment"]:last-child {
+html /deep/ .ui[class*="vertical segment"]:last-child {
   box-shadow: none;
 }
-
-/* Horizontal */
-.ui[class*="horizontal segment"] {
+html /deep/ .ui[class*="horizontal segment"] {
   margin: 0em;
   padding-top: 0em;
   padding-bottom: 0em;
@@ -62,79 +197,55 @@
   border: none;
   box-shadow: 1px 0px 0px rgba(39, 41, 43, 0.15);
 }
-
-/*-------------------
-    Loose Coupling
---------------------*/
-
-
-/* Header */
-.ui.inverted.segment > .ui.header {
+html /deep/ .ui.inverted.segment > .ui.header {
   color: #ffffff;
 }
-
-/* Label */
-.ui[class*="bottom attached"].segment > [class*="top attached"].label {
+html /deep/ .ui[class*="bottom attached"].segment > [class*="top attached"].label {
   border-top-left-radius: 0em;
   border-top-right-radius: 0em;
 }
-.ui[class*="top attached"].segment > [class*="bottom attached"].label {
+html /deep/ .ui[class*="top attached"].segment > [class*="bottom attached"].label {
   border-bottom-left-radius: 0em;
   border-bottom-right-radius: 0em;
 }
-.ui.attached.segment:not(.top):not(.bottom) > [class*="top attached"].label {
+html /deep/ .ui.attached.segment:not(.top):not(.bottom) > [class*="top attached"].label {
   border-top-left-radius: 0em;
   border-top-right-radius: 0em;
 }
-.ui.attached.segment:not(.top):not(.bottom) > [class*="bottom attached"].label {
+html /deep/ .ui.attached.segment:not(.top):not(.bottom) > [class*="bottom attached"].label {
   border-bottom-left-radius: 0em;
   border-bottom-right-radius: 0em;
 }
-
-/* Grid */
-.ui.page.grid.segment,
-.ui.grid .ui.segment.column {
+html /deep/ .ui.page.grid.segment,
+html /deep/ .ui.grid .ui.segment.column {
   padding-top: 2em;
   padding-bottom: 2em;
 }
-.ui.grid.segment {
+html /deep/ .ui.grid.segment {
   margin: 1rem 0rem;
   border-radius: 0.2857rem;
 }
-
-/* Table */
-.ui.basic.table.segment {
+html /deep/ .ui.basic.table.segment {
   background: #ffffff;
   border: none;
   box-shadow: 0px 0px 0px 1px rgba(39, 41, 43, 0.15), 0px 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
-.ui[class*="very basic"].table.segment {
+html /deep/ .ui[class*="very basic"].table.segment {
   padding: 1em 1em;
 }
-
-
-/*******************************
-             Types
-*******************************/
-
-
-/*-------------------
-        Piled
---------------------*/
-
-.ui.piled.segment {
+html /deep/ .ui.piled.segment {
   margin: 3em 0em;
   box-shadow: 0px 0px 1px 1px rgba(39, 41, 43, 0.15);
   z-index: auto;
 }
-.ui.piled.segment:first-child {
+html /deep/ .ui.piled.segment:first-child {
   margin-top: 0em;
 }
-.ui.piled.segment:last-child {
+html /deep/ .ui.piled.segment:last-child {
   margin-bottom: 0em;
 }
-.ui.piled.segment:after,
-.ui.piled.segment:before {
+html /deep/ .ui.piled.segment:after,
+html /deep/ .ui.piled.segment:before {
   background-color: #ffffff;
   visibility: visible;
   content: '';
@@ -145,46 +256,39 @@
   width: 100%;
   box-shadow: 0px 0px 1px 1px rgba(39, 41, 43, 0.15);
 }
-.ui.piled.segment:after {
+html /deep/ .ui.piled.segment:after {
   -webkit-transform: rotate(1.2deg);
       -ms-transform: rotate(1.2deg);
           transform: rotate(1.2deg);
   top: 0;
   z-index: -1;
 }
-.ui.piled.segment:before {
+html /deep/ .ui.piled.segment:before {
   -webkit-transform: rotate(-1.2deg);
       -ms-transform: rotate(-1.2deg);
           transform: rotate(-1.2deg);
   top: 0;
   z-index: -2;
 }
-
-/* Piled Attached */
-.ui[class*="top attached"].piled.segment {
+html /deep/ .ui[class*="top attached"].piled.segment {
   margin-top: 3em;
   margin-bottom: 0em;
 }
-.ui.piled.segment[class*="top attached"]:first-child {
+html /deep/ .ui.piled.segment[class*="top attached"]:first-child {
   margin-top: 0em;
 }
-.ui.piled.segment[class*="bottom attached"] {
+html /deep/ .ui.piled.segment[class*="bottom attached"] {
   margin-top: 0em;
   margin-bottom: 3em;
 }
-.ui.piled.segment[class*="bottom attached"]:last-child {
+html /deep/ .ui.piled.segment[class*="bottom attached"]:last-child {
   margin-bottom: 0em;
 }
-
-/*-------------------
-       Stacked
---------------------*/
-
-.ui.stacked.segment {
+html /deep/ .ui.stacked.segment {
   padding-bottom: 1.4em;
 }
-.ui.stacked.segment:after,
-.ui.stacked.segment:before {
+html /deep/ .ui.stacked.segment:after,
+html /deep/ .ui.stacked.segment:before {
   content: '';
   position: absolute;
   bottom: -3px;
@@ -195,71 +299,36 @@
   height: 6px;
   visibility: visible;
 }
-.ui.stacked.segment:before {
+html /deep/ .ui.stacked.segment:before {
   display: none;
 }
-
-/* Add additional page */
-.ui.tall.stacked.segment:before {
+html /deep/ .ui.tall.stacked.segment:before {
   display: block;
   bottom: 0px;
 }
-
-/* Inverted */
-.ui.stacked.inverted.segment:after,
-.ui.stacked.inverted.segment:before {
+html /deep/ .ui.stacked.inverted.segment:after,
+html /deep/ .ui.stacked.inverted.segment:before {
   background-color: rgba(0, 0, 0, 0.03);
   border-top: 1px solid rgba(39, 41, 43, 0.3);
 }
-
-/*-------------------
-       Compact
---------------------*/
-
-.ui.compact.segment {
+html /deep/ .ui.compact.segment {
   display: table;
 }
-
-/*-------------------
-       Circular
---------------------*/
-
-.ui.circular.segment {
+html /deep/ .ui.circular.segment {
   display: table-cell;
   padding: 2em;
   text-align: center;
   vertical-align: middle;
   border-radius: 500em;
 }
-
-/*-------------------
-       Raised
---------------------*/
-
-.ui.raised.segment {
+html /deep/ .ui.raised.segment {
   box-shadow: 0px 0px 0px 1px rgba(39, 41, 43, 0.15), 0px 1px 4px 0px rgba(0, 0, 0, 0.15);
 }
-
-
-/*******************************
-            States
-*******************************/
-
-
-/*--------------
-    Disabled
----------------*/
-
-.ui.disabled.segment {
+html /deep/ .ui.disabled.segment {
   opacity: 0.3;
   color: rgba(40, 40, 40, 0.3);
 }
-
-/*--------------
-    Loading
----------------*/
-
-.ui.loading.segment {
+html /deep/ .ui.loading.segment {
   position: relative;
   cursor: default;
   point-events: none;
@@ -268,7 +337,7 @@
   -webkit-transition: all 0s linear;
           transition: all 0s linear;
 }
-.ui.loading.segment:before {
+html /deep/ .ui.loading.segment:before {
   position: absolute;
   content: '';
   top: 0%;
@@ -279,7 +348,7 @@
   border-radius: 0.2857rem;
   z-index: 100;
 }
-.ui.loading.segment:after {
+html /deep/ .ui.loading.segment:after {
   position: absolute;
   content: '';
   top: 50%;
@@ -319,222 +388,171 @@
             transform: rotate(360deg);
   }
 }
-
-
-/*******************************
-           Variations
-*******************************/
-
-
-/*-------------------
-       Basic
---------------------*/
-
-.ui.basic.segment {
+html /deep/ .ui.basic.segment {
   position: relative;
   background-color: transparent;
   box-shadow: none;
   border-radius: 0px;
 }
-
-/*-------------------
-       Fittted
---------------------*/
-
-.ui.fitted.segment {
+html /deep/ .ui.fitted.segment {
   padding: 0em;
 }
-
-/*-------------------
-       Colors
---------------------*/
-
-.ui.black.segment:not(.inverted) {
+html /deep/ .ui.black.segment:not(.inverted) {
   border-top: 2px solid #1b1c1d;
 }
-.ui.blue.segment:not(.inverted) {
+html /deep/ .ui.blue.segment:not(.inverted) {
   border-top: 2px solid #3b83c0;
 }
-.ui.green.segment:not(.inverted) {
+html /deep/ .ui.green.segment:not(.inverted) {
   border-top: 2px solid #5bbd72;
 }
-.ui.orange.segment:not(.inverted) {
+html /deep/ .ui.orange.segment:not(.inverted) {
   border-top: 2px solid #e07b53;
 }
-.ui.pink.segment:not(.inverted) {
+html /deep/ .ui.pink.segment:not(.inverted) {
   border-top: 2px solid #d9499a;
 }
-.ui.purple.segment:not(.inverted) {
+html /deep/ .ui.purple.segment:not(.inverted) {
   border-top: 2px solid #564f8a;
 }
-.ui.red.segment:not(.inverted) {
+html /deep/ .ui.red.segment:not(.inverted) {
   border-top: 2px solid #d95c5c;
 }
-.ui.teal.segment:not(.inverted) {
+html /deep/ .ui.teal.segment:not(.inverted) {
   border-top: 2px solid #00b5ad;
 }
-.ui.yellow.segment:not(.inverted) {
+html /deep/ .ui.yellow.segment:not(.inverted) {
   border-top: 2px solid #f2c61f;
 }
-.ui.black.segment:not(.inverted):not(.attached) {
+html /deep/ .ui.black.segment:not(.inverted):not(.attached) {
   border-top-left-radius: 0.2857rem !important;
   border-top-right-radius: 0.2857rem !important;
 }
-.ui.blue.segment:not(.inverted):not(.attached) {
+html /deep/ .ui.blue.segment:not(.inverted):not(.attached) {
   border-top-left-radius: 0.2857rem !important;
   border-top-right-radius: 0.2857rem !important;
 }
-.ui.green.segment:not(.inverted):not(.attached) {
+html /deep/ .ui.green.segment:not(.inverted):not(.attached) {
   border-top-left-radius: 0.2857rem !important;
   border-top-right-radius: 0.2857rem !important;
 }
-.ui.orange.segment:not(.inverted):not(.attached) {
+html /deep/ .ui.orange.segment:not(.inverted):not(.attached) {
   border-top-left-radius: 0.2857rem !important;
   border-top-right-radius: 0.2857rem !important;
 }
-.ui.pink.segment:not(.inverted):not(.attached) {
+html /deep/ .ui.pink.segment:not(.inverted):not(.attached) {
   border-top-left-radius: 0.2857rem !important;
   border-top-right-radius: 0.2857rem !important;
 }
-.ui.purple.segment:not(.inverted):not(.attached) {
+html /deep/ .ui.purple.segment:not(.inverted):not(.attached) {
   border-top-left-radius: 0.2857rem !important;
   border-top-right-radius: 0.2857rem !important;
 }
-.ui.red.segment:not(.inverted):not(.attached) {
+html /deep/ .ui.red.segment:not(.inverted):not(.attached) {
   border-top-left-radius: 0.2857rem !important;
   border-top-right-radius: 0.2857rem !important;
 }
-.ui.teal.segment:not(.inverted):not(.attached) {
+html /deep/ .ui.teal.segment:not(.inverted):not(.attached) {
   border-top-left-radius: 0.2857rem !important;
   border-top-right-radius: 0.2857rem !important;
 }
-.ui.yellow.segment:not(.inverted):not(.attached) {
+html /deep/ .ui.yellow.segment:not(.inverted):not(.attached) {
   border-top-left-radius: 0.2857rem !important;
   border-top-right-radius: 0.2857rem !important;
 }
-
-/*-------------------
-   Inverted Colors
---------------------*/
-
-.ui.inverted.segment,
-.ui.inverted.black.segment {
+html /deep/ .ui.inverted.segment,
+html /deep/ .ui.inverted.black.segment {
   background-color: #1b1c1d !important;
   color: #ffffff !important;
 }
-.ui.inverted.blue.segment {
+html /deep/ .ui.inverted.blue.segment {
   background-color: #3b83c0 !important;
   color: #ffffff !important;
 }
-.ui.inverted.green.segment {
+html /deep/ .ui.inverted.green.segment {
   background-color: #5bbd72 !important;
   color: #ffffff !important;
 }
-.ui.inverted.orange.segment {
+html /deep/ .ui.inverted.orange.segment {
   background-color: #e07b53 !important;
   color: #ffffff !important;
 }
-.ui.inverted.pink.segment {
+html /deep/ .ui.inverted.pink.segment {
   background-color: #d9499a !important;
   color: #ffffff !important;
 }
-.ui.inverted.purple.segment {
+html /deep/ .ui.inverted.purple.segment {
   background-color: #564f8a !important;
   color: #ffffff !important;
 }
-.ui.inverted.red.segment {
+html /deep/ .ui.inverted.red.segment {
   background-color: #d95c5c !important;
   color: #ffffff !important;
 }
-.ui.inverted.teal.segment {
+html /deep/ .ui.inverted.teal.segment {
   background-color: #00b5ad !important;
   color: #ffffff !important;
 }
-.ui.inverted.yellow.segment {
+html /deep/ .ui.inverted.yellow.segment {
   background-color: #f2c61f !important;
   color: #ffffff !important;
 }
-
-/*-------------------
-       Aligned
---------------------*/
-
-.ui[class*="left aligned"].segment {
+html /deep/ .ui[class*="left aligned"].segment {
   text-align: left;
 }
-.ui[class*="right aligned"].segment {
+html /deep/ .ui[class*="right aligned"].segment {
   text-align: right;
 }
-.ui[class*="center aligned"].segment {
+html /deep/ .ui[class*="center aligned"].segment {
   text-align: center;
 }
-
-/*-------------------
-       Floated
---------------------*/
-
-.ui.floated.segment,
-.ui[class*="left floated"].segment {
+html /deep/ .ui.floated.segment,
+html /deep/ .ui[class*="left floated"].segment {
   float: left;
   margin-right: 1rem;
 }
-.ui[class*="right floated"].segment {
+html /deep/ .ui[class*="right floated"].segment {
   float: right;
   margin-left: 1rem;
 }
-
-/*-------------------
-      Inverted
---------------------*/
-
-.ui.inverted.segment {
+html /deep/ .ui.inverted.segment {
   border: none;
   box-shadow: none;
 }
-.ui.inverted.segment .segment {
+html /deep/ .ui.inverted.segment .segment {
   color: rgba(0, 0, 0, 0.8);
 }
-.ui.inverted.segment .inverted.segment {
+html /deep/ .ui.inverted.segment .inverted.segment {
   color: #ffffff;
 }
-.ui.inverted.segment,
-.ui.primary.inverted.segment {
+html /deep/ .ui.inverted.segment,
+html /deep/ .ui.primary.inverted.segment {
   background-color: #1b1c1d;
   color: #ffffff;
 }
-.ui.inverted.block.segment,
-.ui.inverted.attached.segment {
+html /deep/ .ui.inverted.block.segment,
+html /deep/ .ui.inverted.attached.segment {
   border-color: #555555;
 }
-
-/*-------------------
-     Ordinality
---------------------*/
-
-.ui.secondary.segment {
+html /deep/ .ui.secondary.segment {
   background: #faf9fa;
   color: rgba(0, 0, 0, 0.8);
 }
-.ui.tertiary.segment {
+html /deep/ .ui.tertiary.segment {
   background: #ebebeb;
   color: rgba(0, 0, 0, 0.8);
 }
-.ui.secondary.inverted.segment {
+html /deep/ .ui.secondary.inverted.segment {
   background: -webkit-linear-gradient(rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.3) 100%);
   background: linear-gradient(rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.3) 100%);
   color: #fafafa;
 }
-.ui.tertiary.inverted.segment {
+html /deep/ .ui.tertiary.inverted.segment {
   background: -webkit-linear-gradient(rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.5) 100%);
   background: linear-gradient(rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.5) 100%);
   color: #f0f0f0;
 }
-
-/*-------------------
-      Attached
---------------------*/
-
-.ui.segment.attached {
+html /deep/ .ui.segment.attached {
   top: 0px;
   bottom: 0px;
   margin: 0em -1px;
@@ -546,24 +564,20 @@
   box-shadow: none;
   border: 1px solid #d4d4d5;
 }
-.ui.segment.attached + .ui.segment.attached:not(.top) {
+html /deep/ .ui.segment.attached + .ui.segment.attached:not(.top) {
   border-top: none;
 }
-
-/* Top */
-.ui[class*="top attached"].segment {
+html /deep/ .ui[class*="top attached"].segment {
   top: 0px;
   bottom: 0px;
   margin-top: 1rem;
   margin-bottom: 0em;
   border-radius: 0.2857rem 0.2857rem 0em 0em;
 }
-.ui.segment[class*="top attached"]:first-child {
+html /deep/ .ui.segment[class*="top attached"]:first-child {
   margin-top: 0em;
 }
-
-/* Bottom */
-.ui.segment[class*="bottom attached"] {
+html /deep/ .ui.segment[class*="bottom attached"] {
   top: 0px;
   bottom: 0px;
   margin-top: 0em;
@@ -571,18 +585,6 @@
   box-shadow: none, 0px 1px 2px 0 rgba(0, 0, 0, 0.05);
   border-radius: 0em 0em 0.2857rem 0.2857rem;
 }
-.ui.segment[class*="bottom attached"]:last-child {
+html /deep/ .ui.segment[class*="bottom attached"]:last-child {
   margin-bottom: 0em;
 }
-
-
-/*******************************
-         Theme Overrides
-*******************************/
-
-
-
-/*******************************
-         Site Overrides
-*******************************/
-

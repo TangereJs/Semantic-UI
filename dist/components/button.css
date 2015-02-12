@@ -15,7 +15,7 @@
             Button
 *******************************/
 
-.ui.button {
+html /deep/ .ui.button {
   cursor: pointer;
   display: inline-block;
   min-height: 1em;
