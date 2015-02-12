@@ -10,11 +10,23 @@
  *
  */
 
-html /deep/ {
-  /*******************************
+/*******************************
              Reset
 *******************************/
-  /* Border-Box */
+
+/* Border-Box */
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+html /deep/ {
   /* iPad Input Shadows */
   /*******************************
          Theme Overrides
@@ -187,16 +199,6 @@ html /deep/ {
   /*******************************
          Site Overrides
 *******************************/
-}
-
-html /deep/ *,
-html /deep/ *:before,
-html /deep/ *:after {
-  box-sizing: inherit;
-}
-
-html /deep/ html {
-  box-sizing: border-box;
 }
 
 html /deep/ input[type="text"],
