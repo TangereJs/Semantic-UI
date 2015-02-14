@@ -15192,30 +15192,108 @@ html /deep/ .ui.ordered.steps .step.completed:before {
       Cards
 ---------------*/
 
-.ui.cards {
+html /deep/ {
+  /* Clearing */
+  /*--------------
+      Card
+---------------*/
+  /*--------------
+  Rounded Edges
+---------------*/
+  /*--------------
+     Images
+---------------*/
+  /*--------------
+     Content
+---------------*/
+  /* Default Header Size */
+  /*--------------
+     Floated
+---------------*/
+  /*--------------
+  Content Image
+---------------*/
+  /*--------------
+   Description
+---------------*/
+  /*--------------
+    Paragraph
+---------------*/
+  /*--------------
+      Meta
+---------------*/
+  /*--------------
+      Links
+---------------*/
+  /* Generic */
+  /* Header */
+  /* Meta */
+  /*--------------
+     Buttons
+---------------*/
+  /*--------------
+     Labels
+---------------*/
+  /*-----Star----- */
+  /* Icon */
+  /*-----Like----- */
+  /* Icon */
+  /*----------------
+  Extra Content
+-----------------*/
+  /*******************************
+           Variations
+*******************************/
+  /*-------------------
+        Fluid
+--------------------*/
+  /*-------------------
+        Link
+--------------------*/
+  /*--------------
+   Card Count
+---------------*/
+  /*-------------------
+      Doubling
+--------------------*/
+  /* Mobily Only */
+  /* Tablet Only */
+  /*-------------------
+      Stackable
+--------------------*/
+  /*--------------
+      Size
+---------------*/
+  /*******************************
+         Theme Overrides
+*******************************/
+  /*******************************
+    User Variable Overrides
+*******************************/
+}
+
+html /deep/ .ui.cards {
   margin: 1em -0.5em 0em;
 }
 
-.ui.cards > .card {
+html /deep/ .ui.cards > .card {
   display: block;
   margin: 0em 0.5em 1.5em;
   float: left;
 }
 
-.ui.cards:first-child,
-.ui.card:first-child {
+html /deep/ .ui.cards:first-child,
+html /deep/ .ui.card:first-child {
   margin-top: 0em;
 }
 
-.ui.cards:last-child,
-.ui.card:last-child {
+html /deep/ .ui.cards:last-child,
+html /deep/ .ui.card:last-child {
   margin-bottom: 0em;
 }
 
-/* Clearing */
-
-.ui.cards:after,
-.ui.card:after {
+html /deep/ .ui.cards:after,
+html /deep/ .ui.card:after {
   display: block;
   content: ' ';
   height: 0px;
@@ -15224,12 +15302,8 @@ html /deep/ .ui.ordered.steps .step.completed:before {
   visibility: hidden;
 }
 
-/*--------------
-      Card
----------------*/
-
-.ui.cards > .card,
-.ui.card {
+html /deep/ .ui.cards > .card,
+html /deep/ .ui.card {
   max-width: 100%;
   position: relative;
   display: block;
@@ -15245,43 +15319,35 @@ html /deep/ .ui.ordered.steps .step.completed:before {
   z-index: '';
 }
 
-.ui.card {
+html /deep/ .ui.card {
   margin: 1em 0em;
 }
 
-.ui.cards > .card a,
-.ui.card a {
+html /deep/ .ui.cards > .card a,
+html /deep/ .ui.card a {
   cursor: pointer;
 }
 
-/*--------------
-  Rounded Edges
----------------*/
-
-.ui.cards > .card > :first-child,
-.ui.card > :first-child {
+html /deep/ .ui.cards > .card > :first-child,
+html /deep/ .ui.card > :first-child {
   border-radius: 2px 2px 0em 0em !important;
 }
 
-.ui.cards > .card > :last-child,
-.ui.card > :last-child {
+html /deep/ .ui.cards > .card > :last-child,
+html /deep/ .ui.card > :last-child {
   border-radius: 0em 0em 2px 2px !important;
 }
 
-/*--------------
-     Images
----------------*/
-
-.ui.cards > .card > .image,
-.ui.card > .image {
+html /deep/ .ui.cards > .card > .image,
+html /deep/ .ui.card > .image {
   display: block;
   position: relative;
   padding: 0em;
   background: rgba(0, 0, 0, 0.05);
 }
 
-.ui.cards > .card > .image > img,
-.ui.card > .image > img {
+html /deep/ .ui.cards > .card > .image > img,
+html /deep/ .ui.card > .image > img {
   display: block;
   width: 100%;
   height: auto;
@@ -15289,17 +15355,13 @@ html /deep/ .ui.ordered.steps .step.completed:before {
   border: none;
 }
 
-.ui.cards > .card > .image:only-child > img,
-.ui.card > .image:only-child > img {
+html /deep/ .ui.cards > .card > .image:only-child > img,
+html /deep/ .ui.card > .image:only-child > img {
   border-radius: 2px;
 }
 
-/*--------------
-     Content
----------------*/
-
-.ui.cards > .card > .content,
-.ui.card > .content {
+html /deep/ .ui.cards > .card > .content,
+html /deep/ .ui.card > .content {
   background: none;
   margin: 0em;
   padding: 1em 1em;
@@ -15309,8 +15371,8 @@ html /deep/ .ui.ordered.steps .step.completed:before {
   border-radius: 0em;
 }
 
-.ui.cards > .card > .content:after,
-.ui.card > .content:after {
+html /deep/ .ui.cards > .card > .content:after,
+html /deep/ .ui.card > .content:after {
   display: block;
   content: ' ';
   height: 0px;
@@ -15319,226 +15381,174 @@ html /deep/ .ui.ordered.steps .step.completed:before {
   visibility: hidden;
 }
 
-.ui.cards > .card > .content > .header,
-.ui.card > .content > .header {
+html /deep/ .ui.cards > .card > .content > .header,
+html /deep/ .ui.card > .content > .header {
   display: block;
   margin: 0em;
   font-family: 'Segoe UI', 'Segoe WP', 'Roboto', 'Frutiger', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: rgba(0, 0, 0, 0.85);
 }
 
-/* Default Header Size */
-
-.ui.cards > .card > .content > .header:not(.ui),
-.ui.card > .content > .header:not(.ui) {
+html /deep/ .ui.cards > .card > .content > .header:not(.ui),
+html /deep/ .ui.card > .content > .header:not(.ui) {
   font-weight: bold;
   font-size: 1.2em;
   margin-top: -0.165em;
   line-height: 1.33em;
 }
 
-.ui.cards > .card > .content > .meta + .description,
-.ui.cards > .card > .content > .header + .description,
-.ui.card > .content > .meta + .description,
-.ui.card > .content > .header + .description {
+html /deep/ .ui.cards > .card > .content > .meta + .description,
+html /deep/ .ui.cards > .card > .content > .header + .description,
+html /deep/ .ui.card > .content > .meta + .description,
+html /deep/ .ui.card > .content > .header + .description {
   margin-top: 0.5em;
 }
 
-/*--------------
-     Floated
----------------*/
-
-.ui.cards > .card [class*="left floated"],
-.ui.card [class*="left floated"] {
+html /deep/ .ui.cards > .card [class*="left floated"],
+html /deep/ .ui.card [class*="left floated"] {
   float: left;
 }
 
-.ui.cards > .card [class*="right floated"],
-.ui.card [class*="right floated"] {
+html /deep/ .ui.cards > .card [class*="right floated"],
+html /deep/ .ui.card [class*="right floated"] {
   float: right;
 }
 
-/*--------------
-  Content Image
----------------*/
-
-.ui.cards > .card .content img,
-.ui.card .content img {
+html /deep/ .ui.cards > .card .content img,
+html /deep/ .ui.card .content img {
   display: inline-block;
   vertical-align: middle;
   width: 2em;
 }
 
-.ui.cards > .card img.avatar,
-.ui.cards > .card .avatar img,
-.ui.card img.avatar,
-.ui.card .avatar img {
+html /deep/ .ui.cards > .card img.avatar,
+html /deep/ .ui.cards > .card .avatar img,
+html /deep/ .ui.card img.avatar,
+html /deep/ .ui.card .avatar img {
   width: 2em;
   height: 2em;
   border-radius: 500rem;
 }
 
-/*--------------
-   Description
----------------*/
-
-.ui.cards > .card > .content > .description,
-.ui.card > .content > .description {
+html /deep/ .ui.cards > .card > .content > .description,
+html /deep/ .ui.card > .content > .description {
   clear: both;
   color: rgba(0, 0, 0, 0.5);
 }
 
-/*--------------
-    Paragraph
----------------*/
-
-.ui.cards > .card > .content p,
-.ui.card > .content p {
+html /deep/ .ui.cards > .card > .content p,
+html /deep/ .ui.card > .content p {
   margin: 0em 0em 0.5em;
 }
 
-.ui.cards > .card > .content p:last-child,
-.ui.card > .content p:last-child {
+html /deep/ .ui.cards > .card > .content p:last-child,
+html /deep/ .ui.card > .content p:last-child {
   margin-bottom: 0em;
 }
 
-/*--------------
-      Meta
----------------*/
-
-.ui.cards > .card .meta,
-.ui.card .meta {
+html /deep/ .ui.cards > .card .meta,
+html /deep/ .ui.card .meta {
   font-size: 0.9em;
   color: rgba(0, 0, 0, 0.4);
 }
 
-.ui.cards > .card .meta *,
-.ui.card .meta * {
+html /deep/ .ui.cards > .card .meta *,
+html /deep/ .ui.card .meta * {
   margin-right: 0.3em;
 }
 
-.ui.cards > .card .meta :last-child,
-.ui.card .meta :last-child {
+html /deep/ .ui.cards > .card .meta :last-child,
+html /deep/ .ui.card .meta :last-child {
   margin-right: 0em;
 }
 
-.ui.cards > .card .meta [class*="right floated"],
-.ui.card .meta [class*="right floated"] {
+html /deep/ .ui.cards > .card .meta [class*="right floated"],
+html /deep/ .ui.card .meta [class*="right floated"] {
   margin-right: 0em;
   margin-left: 0.3em;
 }
 
-/*--------------
-      Links
----------------*/
-
-/* Generic */
-
-.ui.cards > .card > .content a:not(.ui),
-.ui.card > .content a:not(.ui) {
+html /deep/ .ui.cards > .card > .content a:not(.ui),
+html /deep/ .ui.card > .content a:not(.ui) {
   color: '';
   -webkit-transition: color 0.2s ease;
   transition: color 0.2s ease;
 }
 
-.ui.cards > .card > .content a:not(.ui):hover,
-.ui.card > .content a:not(.ui):hover {
+html /deep/ .ui.cards > .card > .content a:not(.ui):hover,
+html /deep/ .ui.card > .content a:not(.ui):hover {
   color: '';
 }
 
-/* Header */
-
-.ui.cards > .card > .content > a.header,
-.ui.card > .content > a.header {
+html /deep/ .ui.cards > .card > .content > a.header,
+html /deep/ .ui.card > .content > a.header {
   color: rgba(0, 0, 0, 0.85);
 }
 
-.ui.cards > .card > .content > a.header:hover,
-.ui.card > .content > a.header:hover {
+html /deep/ .ui.cards > .card > .content > a.header:hover,
+html /deep/ .ui.card > .content > a.header:hover {
   color: #00b2f3;
 }
 
-/* Meta */
-
-.ui.cards > .card .meta > a:not(.ui),
-.ui.card .meta > a:not(.ui) {
+html /deep/ .ui.cards > .card .meta > a:not(.ui),
+html /deep/ .ui.card .meta > a:not(.ui) {
   color: rgba(0, 0, 0, 0.4);
 }
 
-.ui.cards > .card .meta > a:not(.ui):hover,
-.ui.card .meta > a:not(.ui):hover {
+html /deep/ .ui.cards > .card .meta > a:not(.ui):hover,
+html /deep/ .ui.card .meta > a:not(.ui):hover {
   color: #212121;
 }
 
-/*--------------
-     Buttons
----------------*/
-
-.ui.cards > .card > .buttons:last-child,
-.ui.card > .buttons:last-child,
-.ui.cards > .card > .button:last-child,
-.ui.card > .button:last-child {
+html /deep/ .ui.cards > .card > .buttons:last-child,
+html /deep/ .ui.card > .buttons:last-child,
+html /deep/ .ui.cards > .card > .button:last-child,
+html /deep/ .ui.card > .button:last-child {
   margin: 0em -1px -0.2em;
   width: -webkit-calc(100% +  2px );
   width: calc(100% +  2px );
 }
 
-/*--------------
-     Labels
----------------*/
-
-/*-----Star----- */
-
-/* Icon */
-
-.ui.cards > .card > .content .star.icon,
-.ui.card > .content .star.icon {
+html /deep/ .ui.cards > .card > .content .star.icon,
+html /deep/ .ui.card > .content .star.icon {
   cursor: pointer;
   opacity: 0.75;
   -webkit-transition: color 0.2s ease;
   transition: color 0.2s ease;
 }
 
-.ui.cards > .card > .content .star.icon:hover,
-.ui.card > .content .star.icon:hover {
+html /deep/ .ui.cards > .card > .content .star.icon:hover,
+html /deep/ .ui.card > .content .star.icon:hover {
   opacity: 1;
   color: #ac9400;
 }
 
-.ui.cards > .card > .content .active.star.icon,
-.ui.card > .content .active.star.icon {
+html /deep/ .ui.cards > .card > .content .active.star.icon,
+html /deep/ .ui.card > .content .active.star.icon {
   color: #e9b539;
 }
 
-/*-----Like----- */
-
-/* Icon */
-
-.ui.cards > .card > .content .like.icon,
-.ui.card > .content .like.icon {
+html /deep/ .ui.cards > .card > .content .like.icon,
+html /deep/ .ui.card > .content .like.icon {
   cursor: pointer;
   opacity: 0.75;
   -webkit-transition: color 0.2s ease;
   transition: color 0.2s ease;
 }
 
-.ui.cards > .card > .content .like.icon:hover,
-.ui.card > .content .like.icon:hover {
+html /deep/ .ui.cards > .card > .content .like.icon:hover,
+html /deep/ .ui.card > .content .like.icon:hover {
   opacity: 1;
   color: #ffadae;
 }
 
-.ui.cards > .card > .content .active.like.icon,
-.ui.card > .content .active.like.icon {
+html /deep/ .ui.cards > .card > .content .active.like.icon,
+html /deep/ .ui.card > .content .active.like.icon {
   color: #ef404a;
 }
 
-/*----------------
-  Extra Content
------------------*/
-
-.ui.cards > .card > .extra,
-.ui.card > .extra {
+html /deep/ .ui.cards > .card > .extra,
+html /deep/ .ui.card > .extra {
   max-width: 100%;
   min-height: 0em !important;
   position: static;
@@ -15555,37 +15565,25 @@ html /deep/ .ui.ordered.steps .step.completed:before {
   border-top: 1px solid rgba(0, 0, 0, 0.05);
 }
 
-.ui.cards > .card > .extra a:not(.ui),
-.ui.card > .extra a:not(.ui) {
+html /deep/ .ui.cards > .card > .extra a:not(.ui),
+html /deep/ .ui.card > .extra a:not(.ui) {
   color: rgba(0, 0, 0, 0.4);
 }
 
-.ui.cards > .card > .extra a:not(.ui):hover,
-.ui.card > .extra a:not(.ui):hover {
+html /deep/ .ui.cards > .card > .extra a:not(.ui):hover,
+html /deep/ .ui.card > .extra a:not(.ui):hover {
   color: #00b2f3;
 }
 
-/*******************************
-           Variations
-*******************************/
-
-/*-------------------
-        Fluid
---------------------*/
-
-.ui.fluid.card {
+html /deep/ .ui.fluid.card {
   width: 100%;
   max-width: 9999px;
 }
 
-/*-------------------
-        Link
---------------------*/
-
-.ui.cards a.card:hover,
-.ui.link.cards .card:hover,
-a.ui.card:hover,
-.ui.link.card:hover {
+html /deep/ .ui.cards a.card:hover,
+html /deep/ .ui.link.cards .card:hover,
+html /deep/ a.ui.card:hover,
+html /deep/ .ui.link.card:hover {
   cursor: pointer;
   z-index: 5;
   background: '';
@@ -15593,121 +15591,117 @@ a.ui.card:hover,
   box-shadow: 0px 0.2em 0px 0px #bebebf, 0px 0px 0px 1px rgba(39, 41, 43, 0.3);
 }
 
-/*--------------
-   Card Count
----------------*/
-
-.ui.one.cards {
+html /deep/ .ui.one.cards {
   margin-left: 0em;
   margin-right: 0em;
 }
 
-.ui.one.cards > .card {
+html /deep/ .ui.one.cards > .card {
   width: 100%;
 }
 
-.ui.two.cards {
+html /deep/ .ui.two.cards {
   margin-left: -1em;
   margin-right: -1em;
 }
 
-.ui.two.cards > .card {
+html /deep/ .ui.two.cards > .card {
   width: -webkit-calc( 50%  -  2em );
   width: calc( 50%  -  2em );
   margin-left: 1em;
   margin-right: 1em;
 }
 
-.ui.two.cards > .card:nth-child(2n+1) {
+html /deep/ .ui.two.cards > .card:nth-child(2n+1) {
   clear: left;
 }
 
-.ui.three.cards {
+html /deep/ .ui.three.cards {
   margin-left: -1em;
   margin-right: -1em;
 }
 
-.ui.three.cards > .card {
+html /deep/ .ui.three.cards > .card {
   width: -webkit-calc( 33.33333333%  -  2em );
   width: calc( 33.33333333%  -  2em );
   margin-left: 1em;
   margin-right: 1em;
 }
 
-.ui.three.cards > .card:nth-child(3n+1) {
+html /deep/ .ui.three.cards > .card:nth-child(3n+1) {
   clear: left;
 }
 
-.ui.four.cards {
+html /deep/ .ui.four.cards {
   margin-left: -0.75em;
   margin-right: -0.75em;
 }
 
-.ui.four.cards > .card {
+html /deep/ .ui.four.cards > .card {
   width: -webkit-calc( 25%  -  1.5em );
   width: calc( 25%  -  1.5em );
   margin-left: 0.75em;
   margin-right: 0.75em;
 }
 
-.ui.four.cards > .card:nth-child(4n+1) {
+html /deep/ .ui.four.cards > .card:nth-child(4n+1) {
   clear: left;
 }
 
-.ui.five.cards {
+html /deep/ .ui.five.cards {
   margin-left: -0.75em;
   margin-right: -0.75em;
 }
 
-.ui.five.cards > .card {
+html /deep/ .ui.five.cards > .card {
   width: -webkit-calc( 20%  -  1.5em );
   width: calc( 20%  -  1.5em );
   margin-left: 0.75em;
   margin-right: 0.75em;
 }
 
-.ui.five.cards > .card:nth-child(5n+1) {
+html /deep/ .ui.five.cards > .card:nth-child(5n+1) {
   clear: left;
 }
 
-.ui.six.cards {
+html /deep/ .ui.six.cards {
   margin-left: -0.75em;
   margin-right: -0.75em;
 }
 
-.ui.six.cards > .card {
+html /deep/ .ui.six.cards > .card {
   width: -webkit-calc( 16.66666667%  -  1.5em );
   width: calc( 16.66666667%  -  1.5em );
   margin-left: 0.75em;
   margin-right: 0.75em;
 }
 
-.ui.six.cards > .card:nth-child(6n+1) {
+html /deep/ .ui.six.cards > .card:nth-child(6n+1) {
   clear: left;
 }
 
-.ui.seven.cards {
+html /deep/ .ui.seven.cards {
   margin-left: -0.5em;
   margin-right: -0.5em;
 }
 
-.ui.seven.cards > .card {
+html /deep/ .ui.seven.cards > .card {
   width: -webkit-calc( 14.28571429%  -  1em );
   width: calc( 14.28571429%  -  1em );
   margin-left: 0.5em;
   margin-right: 0.5em;
 }
 
-.ui.seven.cards > .card:nth-child(7n+1) {
+html /deep/ .ui.seven.cards > .card:nth-child(7n+1) {
   clear: left;
 }
 
-.ui.eight.cards {
+html /deep/ .ui.eight.cards {
   margin-left: -0.5em;
   margin-right: -0.5em;
 }
 
-.ui.eight.cards > .card {
+html /deep/ .ui.eight.cards > .card {
   width: -webkit-calc( 12.5%  -  1em );
   width: calc( 12.5%  -  1em );
   margin-left: 0.5em;
@@ -15715,16 +15709,16 @@ a.ui.card:hover,
   font-size: 11px;
 }
 
-.ui.eight.cards > .card:nth-child(8n+1) {
+html /deep/ .ui.eight.cards > .card:nth-child(8n+1) {
   clear: left;
 }
 
-.ui.nine.cards {
+html /deep/ .ui.nine.cards {
   margin-left: -0.5em;
   margin-right: -0.5em;
 }
 
-.ui.nine.cards > .card {
+html /deep/ .ui.nine.cards > .card {
   width: -webkit-calc( 11.11111111%  -  1em );
   width: calc( 11.11111111%  -  1em );
   margin-left: 0.5em;
@@ -15732,134 +15726,128 @@ a.ui.card:hover,
   font-size: 10px;
 }
 
-.ui.nine.cards > .card:nth-child(9n+1) {
+html /deep/ .ui.nine.cards > .card:nth-child(9n+1) {
   clear: left;
 }
 
-.ui.ten.cards {
+html /deep/ .ui.ten.cards {
   margin-left: -0.5em;
   margin-right: -0.5em;
 }
 
-.ui.ten.cards > .card {
+html /deep/ .ui.ten.cards > .card {
   width: -webkit-calc( 10%  -  1em );
   width: calc( 10%  -  1em );
   margin-left: 0.5em;
   margin-right: 0.5em;
 }
 
-.ui.ten.cards > .card:nth-child(10n+1) {
+html /deep/ .ui.ten.cards > .card:nth-child(10n+1) {
   clear: left;
 }
 
-/*-------------------
-      Doubling
---------------------*/
-
-/* Mobily Only */
-
 @media only screen and (max-width: 767px) {
-  .ui.two.doubling.cards {
+  html /deep/ .ui.two.doubling.cards {
     margin-left: 0em;
     margin-right: 0em;
   }
 
-  .ui.two.doubling.cards .card {
+  html /deep/ .ui.two.doubling.cards .card {
     width: 100%;
     margin-left: 0em;
     margin-right: 0em;
   }
 
-  .ui.three.doubling.cards {
+  html /deep/ .ui.three.doubling.cards {
     margin-left: -1em;
     margin-right: -1em;
   }
 
-  .ui.three.doubling.cards .card {
+  html /deep/ .ui.three.doubling.cards .card {
     width: -webkit-calc( 50%  -  2em );
     width: calc( 50%  -  2em );
     margin-left: 1em;
     margin-right: 1em;
   }
 
-  .ui.four.doubling.cards {
+  html /deep/ .ui.four.doubling.cards {
     margin-left: -1em;
     margin-right: -1em;
   }
 
-  .ui.four.doubling.cards .card {
+  html /deep/ .ui.four.doubling.cards .card {
     width: -webkit-calc( 50%  -  2em );
     width: calc( 50%  -  2em );
     margin-left: 1em;
     margin-right: 1em;
   }
 
-  .ui.five.doubling.cards {
+  html /deep/ .ui.five.doubling.cards {
     margin-left: -1em;
     margin-right: -1em;
   }
 
-  .ui.five.doubling.cards .card {
+  html /deep/ .ui.five.doubling.cards .card {
     width: -webkit-calc( 50%  -  2em );
     width: calc( 50%  -  2em );
     margin-left: 1em;
     margin-right: 1em;
   }
 
-  .ui.six.doubling.cards {
+  html /deep/ .ui.six.doubling.cards {
     margin-left: -1em;
     margin-right: -1em;
   }
 
-  .ui.six.doubling.cards .card {
+  html /deep/ .ui.six.doubling.cards .card {
     width: -webkit-calc( 50%  -  2em );
     width: calc( 50%  -  2em );
     margin-left: 1em;
     margin-right: 1em;
   }
 
-  .ui.seven.doubling.cards {
+  html /deep/ .ui.seven.doubling.cards {
     margin-left: -1em;
     margin-right: -1em;
   }
 
-  .ui.seven.doubling.cards .card {
+  html /deep/ .ui.seven.doubling.cards .card {
     width: -webkit-calc( 33.33333333%  -  2em );
     width: calc( 33.33333333%  -  2em );
     margin-left: 1em;
     margin-right: 1em;
   }
 
-  .ui.eight.doubling.cards {
+  html /deep/ .ui.eight.doubling.cards {
     margin-left: -1em;
     margin-right: -1em;
   }
 
-  .ui.eight.doubling.cards .card {
+  html /deep/ .ui.eight.doubling.cards .card {
     width: -webkit-calc( 33.33333333%  -  2em );
     width: calc( 33.33333333%  -  2em );
     margin-left: 1em;
     margin-right: 1em;
   }
 
-  .ui.nine.doubling.cards {
+  html /deep/ .ui.nine.doubling.cards {
     margin-left: -1em;
     margin-right: -1em;
   }
 
-  .ui.nine.doubling.cards .card {
+  html /deep/ .ui.nine.doubling.cards .card {
     width: -webkit-calc( 33.33333333%  -  2em );
     width: calc( 33.33333333%  -  2em );
     margin-left: 1em;
     margin-right: 1em;
   }
 
-  .ui.ten.doubling.cards {
+  html /deep/ .ui.ten.doubling.cards {
     margin-left: -1em;
     margin-right: -1em;
   }
 
-  .ui.ten.doubling.cards .card {
+  html /deep/ .ui.ten.doubling.cards .card {
     width: -webkit-calc( 33.33333333%  -  2em );
     width: calc( 33.33333333%  -  2em );
     margin-left: 1em;
@@ -15867,110 +15855,108 @@ a.ui.card:hover,
   }
 }
 
-/* Tablet Only */
-
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .ui.two.doubling.cards {
+  html /deep/ .ui.two.doubling.cards {
     margin-left: 0em;
     margin-right: 0em;
   }
 
-  .ui.two.doubling.cards .card {
+  html /deep/ .ui.two.doubling.cards .card {
     width: 100%;
     margin-left: 0em;
     margin-right: 0em;
   }
 
-  .ui.three.doubling.cards {
+  html /deep/ .ui.three.doubling.cards {
     margin-left: -1em;
     margin-right: -1em;
   }
 
-  .ui.three.doubling.cards .card {
+  html /deep/ .ui.three.doubling.cards .card {
     width: -webkit-calc( 50%  -  2em );
     width: calc( 50%  -  2em );
     margin-left: 1em;
     margin-right: 1em;
   }
 
-  .ui.four.doubling.cards {
+  html /deep/ .ui.four.doubling.cards {
     margin-left: -1em;
     margin-right: -1em;
   }
 
-  .ui.four.doubling.cards .card {
+  html /deep/ .ui.four.doubling.cards .card {
     width: -webkit-calc( 50%  -  2em );
     width: calc( 50%  -  2em );
     margin-left: 1em;
     margin-right: 1em;
   }
 
-  .ui.five.doubling.cards {
+  html /deep/ .ui.five.doubling.cards {
     margin-left: -1em;
     margin-right: -1em;
   }
 
-  .ui.five.doubling.cards .card {
+  html /deep/ .ui.five.doubling.cards .card {
     width: -webkit-calc( 33.33333333%  -  2em );
     width: calc( 33.33333333%  -  2em );
     margin-left: 1em;
     margin-right: 1em;
   }
 
-  .ui.six.doubling.cards {
+  html /deep/ .ui.six.doubling.cards {
     margin-left: -1em;
     margin-right: -1em;
   }
 
-  .ui.six.doubling.cards .card {
+  html /deep/ .ui.six.doubling.cards .card {
     width: -webkit-calc( 33.33333333%  -  2em );
     width: calc( 33.33333333%  -  2em );
     margin-left: 1em;
     margin-right: 1em;
   }
 
-  .ui.eight.doubling.cards {
+  html /deep/ .ui.eight.doubling.cards {
     margin-left: -1em;
     margin-right: -1em;
   }
 
-  .ui.eight.doubling.cards .card {
+  html /deep/ .ui.eight.doubling.cards .card {
     width: -webkit-calc( 33.33333333%  -  2em );
     width: calc( 33.33333333%  -  2em );
     margin-left: 1em;
     margin-right: 1em;
   }
 
-  .ui.eight.doubling.cards {
+  html /deep/ .ui.eight.doubling.cards {
     margin-left: -0.75em;
     margin-right: -0.75em;
   }
 
-  .ui.eight.doubling.cards .card {
+  html /deep/ .ui.eight.doubling.cards .card {
     width: -webkit-calc( 25%  -  1.5em );
     width: calc( 25%  -  1.5em );
     margin-left: 0.75em;
     margin-right: 0.75em;
   }
 
-  .ui.nine.doubling.cards {
+  html /deep/ .ui.nine.doubling.cards {
     margin-left: -0.75em;
     margin-right: -0.75em;
   }
 
-  .ui.nine.doubling.cards .card {
+  html /deep/ .ui.nine.doubling.cards .card {
     width: -webkit-calc( 25%  -  1.5em );
     width: calc( 25%  -  1.5em );
     margin-left: 0.75em;
     margin-right: 0.75em;
   }
 
-  .ui.ten.doubling.cards {
+  html /deep/ .ui.ten.doubling.cards {
     margin-left: -0.75em;
     margin-right: -0.75em;
   }
 
-  .ui.ten.doubling.cards .card {
+  html /deep/ .ui.ten.doubling.cards .card {
     width: -webkit-calc( 20%  -  1.5em );
     width: calc( 20%  -  1.5em );
     margin-left: 0.75em;
@@ -15978,20 +15964,16 @@ a.ui.card:hover,
   }
 }
 
-/*-------------------
-      Stackable
---------------------*/
-
 @media only screen and (max-width: 767px) {
-  .ui.stackable.cards {
+  html /deep/ .ui.stackable.cards {
     display: block !important;
   }
 
-  .ui.stackable.cards .card:first-child {
+  html /deep/ .ui.stackable.cards .card:first-child {
     margin-top: 0em !important;
   }
 
-  .ui.stackable.cards > .card {
+  html /deep/ .ui.stackable.cards > .card {
     display: block !important;
     height: auto !important;
     margin: 1em 1em;
@@ -16001,21 +15983,9 @@ a.ui.card:hover,
   }
 }
 
-/*--------------
-      Size
----------------*/
-
-.ui.cards > .card {
+html /deep/ .ui.cards > .card {
   font-size: 1em;
 }
-
-/*******************************
-         Theme Overrides
-*******************************/
-
-/*******************************
-    User Variable Overrides
-*******************************/
 /*
  * # Semantic UI - 1.9.0
  * https://github.com/Semantic-Org/Semantic-UI
@@ -16032,27 +16002,887 @@ a.ui.card:hover,
 *******************************/
 
 /*--------------
-    Comments
+      CardItems
 ---------------*/
 
-.ui.comments {
+html /deep/ {
+  /* Clearing */
+  /*--------------
+      CardItem
+---------------*/
+  /*--------------
+  Rounded Edges
+---------------*/
+  /*--------------
+     Images
+---------------*/
+  /*--------------
+     Content
+---------------*/
+  /* Default Header Size */
+  /*--------------
+     Floated
+---------------*/
+  /*--------------
+  Content Image
+---------------*/
+  /*--------------
+   Description
+---------------*/
+  /*--------------
+    Paragraph
+---------------*/
+  /*--------------
+      Meta
+---------------*/
+  /*--------------
+      Links
+---------------*/
+  /* Generic */
+  /* Header */
+  /* Meta */
+  /*--------------
+     Buttons
+---------------*/
+  /*--------------
+     Labels
+---------------*/
+  /*-----Star----- */
+  /* Icon */
+  /*-----Like----- */
+  /* Icon */
+  /*----------------
+  Extra Content
+-----------------*/
+  /*******************************
+           Variations
+*******************************/
+  /*-------------------
+        Fluid
+--------------------*/
+  /*-------------------
+        Link
+--------------------*/
+  /*--------------
+   CardItem Count
+---------------*/
+  /*-------------------
+      Doubling
+--------------------*/
+  /* Mobily Only */
+  /* Tablet Only */
+  /*-------------------
+      Stackable
+--------------------*/
+  /*--------------
+      Size
+---------------*/
+  /*******************************
+         Theme Overrides
+*******************************/
+  /*******************************
+    User Variable Overrides
+*******************************/
+}
+
+html /deep/ .ui.carditems {
+  margin: 1em -0.5em 0em;
+}
+
+html /deep/ .ui.carditems > .carditem {
+  display: block;
+  margin: 0em 0.5em 1.5em;
+  float: left;
+}
+
+html /deep/ .ui.carditems:first-child,
+html /deep/ .ui.carditem:first-child {
+  margin-top: 0em;
+}
+
+html /deep/ .ui.carditems:last-child,
+html /deep/ .ui.carditem:last-child {
+  margin-bottom: 0em;
+}
+
+html /deep/ .ui.carditems:after,
+html /deep/ .ui.carditem:after {
+  display: block;
+  content: ' ';
+  height: 0px;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+html /deep/ .ui.carditems > .carditem,
+html /deep/ .ui.carditem {
+  max-width: 100%;
+  position: relative;
+  display: block;
+  width: 290px;
+  min-height: 0px;
+  background: #ffffff;
+  padding: 0em;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0px 0.2em 0px 0px #d4d4d5, 0px 0px 0px 1px #d4d4d5;
+  -webkit-transition: box-shadow 0.2s ease;
+  transition: box-shadow 0.2s ease;
+  z-index: '';
+}
+
+html /deep/ .ui.carditem {
+  margin: 1em 0em;
+}
+
+html /deep/ .ui.carditems > .carditem a,
+html /deep/ .ui.carditem a {
+  cursor: pointer;
+}
+
+html /deep/ .ui.carditems > .carditem > :first-child,
+html /deep/ .ui.carditem > :first-child {
+  border-radius: 2px 2px 0em 0em !important;
+}
+
+html /deep/ .ui.carditems > .carditem > :last-child,
+html /deep/ .ui.carditem > :last-child {
+  border-radius: 0em 0em 2px 2px !important;
+}
+
+html /deep/ .ui.carditems > .carditem > .image,
+html /deep/ .ui.carditem > .image {
+  display: block;
+  position: relative;
+  padding: 0em;
+  background: rgba(0, 0, 0, 0.05);
+}
+
+html /deep/ .ui.carditems > .carditem > .image > img,
+html /deep/ .ui.carditem > .image > img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 2px 2px 0em 0em;
+  border: none;
+}
+
+html /deep/ .ui.carditems > .carditem > .image:only-child > img,
+html /deep/ .ui.carditem > .image:only-child > img {
+  border-radius: 2px;
+}
+
+html /deep/ .ui.carditems > .carditem > .content,
+html /deep/ .ui.carditem > .content {
+  background: none;
+  margin: 0em;
+  padding: 1em 1em;
+  box-shadow: none;
+  font-size: 1em;
+  border: none;
+  border-radius: 0em;
+}
+
+html /deep/ .ui.carditems > .carditem > .content:after,
+html /deep/ .ui.carditem > .content:after {
+  display: block;
+  content: ' ';
+  height: 0px;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+html /deep/ .ui.carditems > .carditem > .content > .header,
+html /deep/ .ui.carditem > .content > .header {
+  display: block;
+  margin: 0em;
+  font-family: 'Segoe UI', 'Segoe WP', 'Roboto', 'Frutiger', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+html /deep/ .ui.carditems > .carditem > .content > .header:not(.ui),
+html /deep/ .ui.carditem > .content > .header:not(.ui) {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-top: -0.165em;
+  line-height: 1.33em;
+}
+
+html /deep/ .ui.carditems > .carditem > .content > .meta + .description,
+html /deep/ .ui.carditems > .carditem > .content > .header + .description,
+html /deep/ .ui.carditem > .content > .meta + .description,
+html /deep/ .ui.carditem > .content > .header + .description {
+  margin-top: 0.5em;
+}
+
+html /deep/ .ui.carditems > .carditem [class*="left floated"],
+html /deep/ .ui.carditem [class*="left floated"] {
+  float: left;
+}
+
+html /deep/ .ui.carditems > .carditem [class*="right floated"],
+html /deep/ .ui.carditem [class*="right floated"] {
+  float: right;
+}
+
+html /deep/ .ui.carditems > .carditem .content img,
+html /deep/ .ui.carditem .content img {
+  display: inline-block;
+  vertical-align: middle;
+  width: 2em;
+}
+
+html /deep/ .ui.carditems > .carditem img.avatar,
+html /deep/ .ui.carditems > .carditem .avatar img,
+html /deep/ .ui.carditem img.avatar,
+html /deep/ .ui.carditem .avatar img {
+  width: 2em;
+  height: 2em;
+  border-radius: 500rem;
+}
+
+html /deep/ .ui.carditems > .carditem > .content > .description,
+html /deep/ .ui.carditem > .content > .description {
+  clear: both;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+html /deep/ .ui.carditems > .carditem > .content p,
+html /deep/ .ui.carditem > .content p {
+  margin: 0em 0em 0.5em;
+}
+
+html /deep/ .ui.carditems > .carditem > .content p:last-child,
+html /deep/ .ui.carditem > .content p:last-child {
+  margin-bottom: 0em;
+}
+
+html /deep/ .ui.carditems > .carditem .meta,
+html /deep/ .ui.carditem .meta {
+  font-size: 0.9em;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+html /deep/ .ui.carditems > .carditem .meta *,
+html /deep/ .ui.carditem .meta * {
+  margin-right: 0.3em;
+}
+
+html /deep/ .ui.carditems > .carditem .meta :last-child,
+html /deep/ .ui.carditem .meta :last-child {
+  margin-right: 0em;
+}
+
+html /deep/ .ui.carditems > .carditem .meta [class*="right floated"],
+html /deep/ .ui.carditem .meta [class*="right floated"] {
+  margin-right: 0em;
+  margin-left: 0.3em;
+}
+
+html /deep/ .ui.carditems > .carditem > .content a:not(.ui),
+html /deep/ .ui.carditem > .content a:not(.ui) {
+  color: '';
+  -webkit-transition: color 0.2s ease;
+  transition: color 0.2s ease;
+}
+
+html /deep/ .ui.carditems > .carditem > .content a:not(.ui):hover,
+html /deep/ .ui.carditem > .content a:not(.ui):hover {
+  color: '';
+}
+
+html /deep/ .ui.carditems > .carditem > .content > a.header,
+html /deep/ .ui.carditem > .content > a.header {
+  color: rgba(0, 0, 0, 0.85);
+}
+
+html /deep/ .ui.carditems > .carditem > .content > a.header:hover,
+html /deep/ .ui.carditem > .content > a.header:hover {
+  color: #00b2f3;
+}
+
+html /deep/ .ui.carditems > .carditem .meta > a:not(.ui),
+html /deep/ .ui.carditem .meta > a:not(.ui) {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+html /deep/ .ui.carditems > .carditem .meta > a:not(.ui):hover,
+html /deep/ .ui.carditem .meta > a:not(.ui):hover {
+  color: #212121;
+}
+
+html /deep/ .ui.carditems > .carditem > .buttons:last-child,
+html /deep/ .ui.carditem > .buttons:last-child,
+html /deep/ .ui.carditems > .carditem > .button:last-child,
+html /deep/ .ui.carditem > .button:last-child {
+  margin: 0em -1px -0.2em;
+  width: -webkit-calc(100% +  2px );
+  width: calc(100% +  2px );
+}
+
+html /deep/ .ui.carditems > .carditem > .content .star.icon,
+html /deep/ .ui.carditem > .content .star.icon {
+  cursor: pointer;
+  opacity: 0.75;
+  -webkit-transition: color 0.2s ease;
+  transition: color 0.2s ease;
+}
+
+html /deep/ .ui.carditems > .carditem > .content .star.icon:hover,
+html /deep/ .ui.carditem > .content .star.icon:hover {
+  opacity: 1;
+  color: #ac9400;
+}
+
+html /deep/ .ui.carditems > .carditem > .content .active.star.icon,
+html /deep/ .ui.carditem > .content .active.star.icon {
+  color: #e9b539;
+}
+
+html /deep/ .ui.carditems > .carditem > .content .like.icon,
+html /deep/ .ui.carditem > .content .like.icon {
+  cursor: pointer;
+  opacity: 0.75;
+  -webkit-transition: color 0.2s ease;
+  transition: color 0.2s ease;
+}
+
+html /deep/ .ui.carditems > .carditem > .content .like.icon:hover,
+html /deep/ .ui.carditem > .content .like.icon:hover {
+  opacity: 1;
+  color: #ffadae;
+}
+
+html /deep/ .ui.carditems > .carditem > .content .active.like.icon,
+html /deep/ .ui.carditem > .content .active.like.icon {
+  color: #ef404a;
+}
+
+html /deep/ .ui.carditems > .carditem > .extra,
+html /deep/ .ui.carditem > .extra {
+  max-width: 100%;
+  min-height: 0em !important;
+  position: static;
+  background: none;
+  width: auto;
+  margin: 0em 0em;
+  padding: 0.75em 1em;
+  top: 0em;
+  left: 0em;
+  color: rgba(0, 0, 0, 0.4);
+  box-shadow: none;
+  -webkit-transition: color 0.2s ease;
+  transition: color 0.2s ease;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+html /deep/ .ui.carditems > .carditem > .extra a:not(.ui),
+html /deep/ .ui.carditem > .extra a:not(.ui) {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+html /deep/ .ui.carditems > .carditem > .extra a:not(.ui):hover,
+html /deep/ .ui.carditem > .extra a:not(.ui):hover {
+  color: #00b2f3;
+}
+
+html /deep/ .ui.fluid.carditem {
+  width: 100%;
+  max-width: 9999px;
+}
+
+html /deep/ .ui.carditems a.carditem:hover,
+html /deep/ .ui.link.carditems .carditem:hover,
+html /deep/ a.ui.carditem:hover,
+html /deep/ .ui.link.carditem:hover {
+  cursor: pointer;
+  z-index: 5;
+  background: '';
+  border: none;
+  box-shadow: 0px 0.2em 0px 0px #bebebf, 0px 0px 0px 1px rgba(39, 41, 43, 0.3);
+}
+
+html /deep/ .ui.one.carditems {
+  margin-left: 0em;
+  margin-right: 0em;
+}
+
+html /deep/ .ui.one.carditems > .carditem {
+  width: 100%;
+}
+
+html /deep/ .ui.two.carditems {
+  margin-left: -1em;
+  margin-right: -1em;
+}
+
+html /deep/ .ui.two.carditems > .carditem {
+  width: -webkit-calc( 50%  -  2em );
+  width: calc( 50%  -  2em );
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+html /deep/ .ui.two.carditems > .carditem:nth-child(2n+1) {
+  clear: left;
+}
+
+html /deep/ .ui.three.carditems {
+  margin-left: -1em;
+  margin-right: -1em;
+}
+
+html /deep/ .ui.three.carditems > .carditem {
+  width: -webkit-calc( 33.33333333%  -  2em );
+  width: calc( 33.33333333%  -  2em );
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+html /deep/ .ui.three.carditems > .carditem:nth-child(3n+1) {
+  clear: left;
+}
+
+html /deep/ .ui.four.carditems {
+  margin-left: -0.75em;
+  margin-right: -0.75em;
+}
+
+html /deep/ .ui.four.carditems > .carditem {
+  width: -webkit-calc( 25%  -  1.5em );
+  width: calc( 25%  -  1.5em );
+  margin-left: 0.75em;
+  margin-right: 0.75em;
+}
+
+html /deep/ .ui.four.carditems > .carditem:nth-child(4n+1) {
+  clear: left;
+}
+
+html /deep/ .ui.five.carditems {
+  margin-left: -0.75em;
+  margin-right: -0.75em;
+}
+
+html /deep/ .ui.five.carditems > .carditem {
+  width: -webkit-calc( 20%  -  1.5em );
+  width: calc( 20%  -  1.5em );
+  margin-left: 0.75em;
+  margin-right: 0.75em;
+}
+
+html /deep/ .ui.five.carditems > .carditem:nth-child(5n+1) {
+  clear: left;
+}
+
+html /deep/ .ui.six.carditems {
+  margin-left: -0.75em;
+  margin-right: -0.75em;
+}
+
+html /deep/ .ui.six.carditems > .carditem {
+  width: -webkit-calc( 16.66666667%  -  1.5em );
+  width: calc( 16.66666667%  -  1.5em );
+  margin-left: 0.75em;
+  margin-right: 0.75em;
+}
+
+html /deep/ .ui.six.carditems > .carditem:nth-child(6n+1) {
+  clear: left;
+}
+
+html /deep/ .ui.seven.carditems {
+  margin-left: -0.5em;
+  margin-right: -0.5em;
+}
+
+html /deep/ .ui.seven.carditems > .carditem {
+  width: -webkit-calc( 14.28571429%  -  1em );
+  width: calc( 14.28571429%  -  1em );
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+html /deep/ .ui.seven.carditems > .carditem:nth-child(7n+1) {
+  clear: left;
+}
+
+html /deep/ .ui.eight.carditems {
+  margin-left: -0.5em;
+  margin-right: -0.5em;
+}
+
+html /deep/ .ui.eight.carditems > .carditem {
+  width: -webkit-calc( 12.5%  -  1em );
+  width: calc( 12.5%  -  1em );
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  font-size: 11px;
+}
+
+html /deep/ .ui.eight.carditems > .carditem:nth-child(8n+1) {
+  clear: left;
+}
+
+html /deep/ .ui.nine.carditems {
+  margin-left: -0.5em;
+  margin-right: -0.5em;
+}
+
+html /deep/ .ui.nine.carditems > .carditem {
+  width: -webkit-calc( 11.11111111%  -  1em );
+  width: calc( 11.11111111%  -  1em );
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  font-size: 10px;
+}
+
+html /deep/ .ui.nine.carditems > .carditem:nth-child(9n+1) {
+  clear: left;
+}
+
+html /deep/ .ui.ten.carditems {
+  margin-left: -0.5em;
+  margin-right: -0.5em;
+}
+
+html /deep/ .ui.ten.carditems > .carditem {
+  width: -webkit-calc( 10%  -  1em );
+  width: calc( 10%  -  1em );
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+html /deep/ .ui.ten.carditems > .carditem:nth-child(10n+1) {
+  clear: left;
+}
+
+@media only screen and (max-width: 767px) {
+  html /deep/ .ui.two.doubling.carditems {
+    margin-left: 0em;
+    margin-right: 0em;
+  }
+
+  html /deep/ .ui.two.doubling.carditems .carditem {
+    width: 100%;
+    margin-left: 0em;
+    margin-right: 0em;
+  }
+
+  html /deep/ .ui.three.doubling.carditems {
+    margin-left: -1em;
+    margin-right: -1em;
+  }
+
+  html /deep/ .ui.three.doubling.carditems .carditem {
+    width: -webkit-calc( 50%  -  2em );
+    width: calc( 50%  -  2em );
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  html /deep/ .ui.four.doubling.carditems {
+    margin-left: -1em;
+    margin-right: -1em;
+  }
+
+  html /deep/ .ui.four.doubling.carditems .carditem {
+    width: -webkit-calc( 50%  -  2em );
+    width: calc( 50%  -  2em );
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  html /deep/ .ui.five.doubling.carditems {
+    margin-left: -1em;
+    margin-right: -1em;
+  }
+
+  html /deep/ .ui.five.doubling.carditems .carditem {
+    width: -webkit-calc( 50%  -  2em );
+    width: calc( 50%  -  2em );
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  html /deep/ .ui.six.doubling.carditems {
+    margin-left: -1em;
+    margin-right: -1em;
+  }
+
+  html /deep/ .ui.six.doubling.carditems .carditem {
+    width: -webkit-calc( 50%  -  2em );
+    width: calc( 50%  -  2em );
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  html /deep/ .ui.seven.doubling.carditems {
+    margin-left: -1em;
+    margin-right: -1em;
+  }
+
+  html /deep/ .ui.seven.doubling.carditems .carditem {
+    width: -webkit-calc( 33.33333333%  -  2em );
+    width: calc( 33.33333333%  -  2em );
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  html /deep/ .ui.eight.doubling.carditems {
+    margin-left: -1em;
+    margin-right: -1em;
+  }
+
+  html /deep/ .ui.eight.doubling.carditems .carditem {
+    width: -webkit-calc( 33.33333333%  -  2em );
+    width: calc( 33.33333333%  -  2em );
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  html /deep/ .ui.nine.doubling.carditems {
+    margin-left: -1em;
+    margin-right: -1em;
+  }
+
+  html /deep/ .ui.nine.doubling.carditems .carditem {
+    width: -webkit-calc( 33.33333333%  -  2em );
+    width: calc( 33.33333333%  -  2em );
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  html /deep/ .ui.ten.doubling.carditems {
+    margin-left: -1em;
+    margin-right: -1em;
+  }
+
+  html /deep/ .ui.ten.doubling.carditems .carditem {
+    width: -webkit-calc( 33.33333333%  -  2em );
+    width: calc( 33.33333333%  -  2em );
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  html /deep/ .ui.two.doubling.carditems {
+    margin-left: 0em;
+    margin-right: 0em;
+  }
+
+  html /deep/ .ui.two.doubling.carditems .carditem {
+    width: 100%;
+    margin-left: 0em;
+    margin-right: 0em;
+  }
+
+  html /deep/ .ui.three.doubling.carditems {
+    margin-left: -1em;
+    margin-right: -1em;
+  }
+
+  html /deep/ .ui.three.doubling.carditems .carditem {
+    width: -webkit-calc( 50%  -  2em );
+    width: calc( 50%  -  2em );
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  html /deep/ .ui.four.doubling.carditems {
+    margin-left: -1em;
+    margin-right: -1em;
+  }
+
+  html /deep/ .ui.four.doubling.carditems .carditem {
+    width: -webkit-calc( 50%  -  2em );
+    width: calc( 50%  -  2em );
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  html /deep/ .ui.five.doubling.carditems {
+    margin-left: -1em;
+    margin-right: -1em;
+  }
+
+  html /deep/ .ui.five.doubling.carditems .carditem {
+    width: -webkit-calc( 33.33333333%  -  2em );
+    width: calc( 33.33333333%  -  2em );
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  html /deep/ .ui.six.doubling.carditems {
+    margin-left: -1em;
+    margin-right: -1em;
+  }
+
+  html /deep/ .ui.six.doubling.carditems .carditem {
+    width: -webkit-calc( 33.33333333%  -  2em );
+    width: calc( 33.33333333%  -  2em );
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  html /deep/ .ui.eight.doubling.carditems {
+    margin-left: -1em;
+    margin-right: -1em;
+  }
+
+  html /deep/ .ui.eight.doubling.carditems .carditem {
+    width: -webkit-calc( 33.33333333%  -  2em );
+    width: calc( 33.33333333%  -  2em );
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  html /deep/ .ui.eight.doubling.carditems {
+    margin-left: -0.75em;
+    margin-right: -0.75em;
+  }
+
+  html /deep/ .ui.eight.doubling.carditems .carditem {
+    width: -webkit-calc( 25%  -  1.5em );
+    width: calc( 25%  -  1.5em );
+    margin-left: 0.75em;
+    margin-right: 0.75em;
+  }
+
+  html /deep/ .ui.nine.doubling.carditems {
+    margin-left: -0.75em;
+    margin-right: -0.75em;
+  }
+
+  html /deep/ .ui.nine.doubling.carditems .carditem {
+    width: -webkit-calc( 25%  -  1.5em );
+    width: calc( 25%  -  1.5em );
+    margin-left: 0.75em;
+    margin-right: 0.75em;
+  }
+
+  html /deep/ .ui.ten.doubling.carditems {
+    margin-left: -0.75em;
+    margin-right: -0.75em;
+  }
+
+  html /deep/ .ui.ten.doubling.carditems .carditem {
+    width: -webkit-calc( 20%  -  1.5em );
+    width: calc( 20%  -  1.5em );
+    margin-left: 0.75em;
+    margin-right: 0.75em;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  html /deep/ .ui.stackable.carditems {
+    display: block !important;
+  }
+
+  html /deep/ .ui.stackable.carditems .carditem:first-child {
+    margin-top: 0em !important;
+  }
+
+  html /deep/ .ui.stackable.carditems > .carditem {
+    display: block !important;
+    height: auto !important;
+    margin: 1em 1em;
+    padding: 0 !important;
+    width: -webkit-calc( 100%  -  2em ) !important;
+    width: calc( 100%  -  2em ) !important;
+  }
+}
+
+html /deep/ .ui.carditems > .carditem {
+  font-size: 1em;
+}
+/*
+ * # Semantic UI - 1.9.0
+ * https://github.com/Semantic-Org/Semantic-UI
+ * http://www.semantic-ui.com/
+ *
+ * Copyright 2014 Contributors
+ * Released under the MIT license
+ * http://opensource.org/licenses/MIT
+ *
+ */
+
+/*******************************
+            Standard
+*******************************/
+
+html /deep/ {
+  /*--------------
+    Comments
+---------------*/
+  /*--------------
+     Comment
+---------------*/
+  /*--------------------
+    Nested Comments
+---------------------*/
+  /*--------------
+     Avatar
+---------------*/
+  /*--------------
+     Content
+---------------*/
+  /* If there is an avatar move content over */
+  /*--------------
+     Author
+---------------*/
+  /*--------------
+     Metadata
+---------------*/
+  /*--------------------
+     Comment Text
+---------------------*/
+  /*--------------------
+     User Actions
+---------------------*/
+  /*--------------------
+      Reply Form
+---------------------*/
+  /*******************************
+            State
+*******************************/
+  /*******************************
+           Variations
+*******************************/
+  /*--------------------
+        Threaded
+---------------------*/
+  /*--------------------
+        Minimal
+---------------------*/
+  /*--------------------
+       Sizes
+---------------------*/
+  /*******************************
+         Theme Overrides
+*******************************/
+  /*******************************
+    User Variable Overrides
+*******************************/
+}
+
+html /deep/ .ui.comments {
   margin: 1.5em 0em;
   max-width: 650px;
 }
 
-.ui.comments:first-child {
+html /deep/ .ui.comments:first-child {
   margin-top: 0em;
 }
 
-.ui.comments:last-child {
+html /deep/ .ui.comments:last-child {
   margin-bottom: 0em;
 }
 
-/*--------------
-     Comment
----------------*/
-
-.ui.comments .comment {
+html /deep/ .ui.comments .comment {
   position: relative;
   background: none;
   margin: 0.5em 0em 0em;
@@ -16062,37 +16892,29 @@ a.ui.card:hover,
   line-height: 1.2;
 }
 
-.ui.comments .comment:first-child {
+html /deep/ .ui.comments .comment:first-child {
   margin-top: 0em;
   padding-top: 0em;
 }
 
-/*--------------------
-    Nested Comments
----------------------*/
-
-.ui.comments .comment .comments {
+html /deep/ .ui.comments .comment .comments {
   margin: 0em 0em 0.5em 0.5em;
   padding: 1em 0em 1em 1em;
 }
 
-.ui.comments .comment .comments:before {
+html /deep/ .ui.comments .comment .comments:before {
   position: absolute;
   top: 0px;
   left: 0px;
 }
 
-.ui.comments .comment .comments .comment {
+html /deep/ .ui.comments .comment .comments .comment {
   border: none;
   border-top: none;
   background: none;
 }
 
-/*--------------
-     Avatar
----------------*/
-
-.ui.comments .comment .avatar {
+html /deep/ .ui.comments .comment .avatar {
   display: block;
   width: 2.5em;
   height: auto;
@@ -16100,8 +16922,8 @@ a.ui.card:hover,
   margin: 0.2em 0em 0em;
 }
 
-.ui.comments .comment img.avatar,
-.ui.comments .comment .avatar img {
+html /deep/ .ui.comments .comment img.avatar,
+html /deep/ .ui.comments .comment .avatar img {
   display: block;
   margin: 0em auto;
   width: 100%;
@@ -16109,63 +16931,45 @@ a.ui.card:hover,
   border-radius: 0.25rem;
 }
 
-/*--------------
-     Content
----------------*/
-
-.ui.comments .comment > .content {
+html /deep/ .ui.comments .comment > .content {
   display: block;
 }
 
-/* If there is an avatar move content over */
-
-.ui.comments .comment > .avatar ~ .content {
+html /deep/ .ui.comments .comment > .avatar ~ .content {
   margin-left: 3.5em;
 }
 
-/*--------------
-     Author
----------------*/
-
-.ui.comments .comment .author {
+html /deep/ .ui.comments .comment .author {
   font-size: 1em;
   color: #212121;
   font-weight: bold;
 }
 
-.ui.comments .comment a.author {
+html /deep/ .ui.comments .comment a.author {
   cursor: pointer;
 }
 
-.ui.comments .comment a.author:hover {
+html /deep/ .ui.comments .comment a.author:hover {
   color: #00b2f3;
 }
 
-/*--------------
-     Metadata
----------------*/
-
-.ui.comments .comment .metadata {
+html /deep/ .ui.comments .comment .metadata {
   display: inline-block;
   margin-left: 0.5em;
   color: rgba(0, 0, 0, 0.4);
   font-size: 0.875em;
 }
 
-.ui.comments .comment .metadata > * {
+html /deep/ .ui.comments .comment .metadata > * {
   display: inline-block;
   margin: 0em 0.5em 0em 0em;
 }
 
-.ui.comments .comment .metadata > :last-child {
+html /deep/ .ui.comments .comment .metadata > :last-child {
   margin-right: 0em;
 }
 
-/*--------------------
-     Comment Text
----------------------*/
-
-.ui.comments .comment .text {
+html /deep/ .ui.comments .comment .text {
   margin: 0.25em 0em 0.5em;
   font-size: 1em;
   word-wrap: break-word;
@@ -16173,77 +16977,53 @@ a.ui.card:hover,
   line-height: 1.3;
 }
 
-/*--------------------
-     User Actions
----------------------*/
-
-.ui.comments .comment .actions {
+html /deep/ .ui.comments .comment .actions {
   font-size: 0.875em;
 }
 
-.ui.comments .comment .actions a {
+html /deep/ .ui.comments .comment .actions a {
   cursor: pointer;
   display: inline-block;
   margin: 0em 0.75em 0em 0em;
   color: rgba(0, 0, 0, 0.4);
 }
 
-.ui.comments .comment .actions a:last-child {
+html /deep/ .ui.comments .comment .actions a:last-child {
   margin-right: 0em;
 }
 
-.ui.comments .comment .actions a.active,
-.ui.comments .comment .actions a:hover {
+html /deep/ .ui.comments .comment .actions a.active,
+html /deep/ .ui.comments .comment .actions a:hover {
   color: rgba(0, 0, 0, 0.8);
 }
 
-/*--------------------
-      Reply Form
----------------------*/
-
-.ui.comments > .reply.form {
+html /deep/ .ui.comments > .reply.form {
   margin-top: 1em;
 }
 
-.ui.comments .comment .reply.form {
+html /deep/ .ui.comments .comment .reply.form {
   width: 100%;
   margin-top: 1em;
 }
 
-.ui.comments .reply.form textarea {
+html /deep/ .ui.comments .reply.form textarea {
   font-size: 1em;
   height: 12em;
 }
 
-/*******************************
-            State
-*******************************/
-
-.ui.collapsed.comments,
-.ui.comments .collapsed.comments,
-.ui.comments .collapsed.comment {
+html /deep/ .ui.collapsed.comments,
+html /deep/ .ui.comments .collapsed.comments,
+html /deep/ .ui.comments .collapsed.comment {
   display: none;
 }
 
-/*******************************
-           Variations
-*******************************/
-
-/*--------------------
-        Threaded
----------------------*/
-
-.ui.threaded.comments .comment .comments {
+html /deep/ .ui.threaded.comments .comment .comments {
   margin: -1.5em 0 -1em 1.25em;
   padding: 3em 0em 2em 2.25em;
   box-shadow: -1px 0px 0px rgba(39, 41, 43, 0.15);
 }
 
-/*--------------------
-        Minimal
----------------------*/
-
-.ui.minimal.comments .comment .actions {
+html /deep/ .ui.minimal.comments .comment .actions {
   opacity: 0;
   position: absolute;
   top: 0px;
@@ -16255,37 +17035,25 @@ a.ui.card:hover,
   transition-delay: 0.1s;
 }
 
-.ui.minimal.comments .comment > .content:hover > .actions {
+html /deep/ .ui.minimal.comments .comment > .content:hover > .actions {
   opacity: 1;
 }
 
-/*--------------------
-       Sizes
----------------------*/
-
-.ui.small.comments {
+html /deep/ .ui.small.comments {
   font-size: 0.9em;
 }
 
-.ui.comments {
+html /deep/ .ui.comments {
   font-size: 1em;
 }
 
-.ui.large.comments {
+html /deep/ .ui.large.comments {
   font-size: 1.1em;
 }
 
-.ui.huge.comments {
+html /deep/ .ui.huge.comments {
   font-size: 1.2em;
 }
-
-/*******************************
-         Theme Overrides
-*******************************/
-
-/*******************************
-    User Variable Overrides
-*******************************/
 /*
  * # Semantic UI - 1.9.0
  * https://github.com/Semantic-Org/Semantic-UI
@@ -16301,25 +17069,62 @@ a.ui.card:hover,
          Activity Feed
 *******************************/
 
-.ui.feed {
+html /deep/ {
+  /*******************************
+            Content
+*******************************/
+  /* Event */
+  /* Event Label */
+  /* Content */
+  /* Link */
+  /*--------------
+      Date
+---------------*/
+  /*--------------
+     Summary
+---------------*/
+  /* Summary Image */
+  /*--------------
+      User
+---------------*/
+  /*--------------
+   Inline Date
+---------------*/
+  /* Date inside Summary */
+  /*--------------
+  Extra Summary
+---------------*/
+  /* Images */
+  /* Text */
+  /*--------------
+      Meta
+---------------*/
+  /* First element */
+  /* Action */
+  /*******************************
+            Variations
+*******************************/
+  /*******************************
+         Theme Overrides
+*******************************/
+  /*******************************
+    User Variable Overrides
+*******************************/
+}
+
+html /deep/ .ui.feed {
   margin: 1em 0em;
 }
 
-.ui.feed:first-child {
+html /deep/ .ui.feed:first-child {
   margin-top: 0em;
 }
 
-.ui.feed:last-child {
+html /deep/ .ui.feed:last-child {
   margin-top: 0em;
 }
 
-/*******************************
-            Content
-*******************************/
-
-/* Event */
-
-.ui.feed > .event {
+html /deep/ .ui.feed > .event {
   display: table;
   width: 100%;
   padding: 0.5rem 0em;
@@ -16328,18 +17133,16 @@ a.ui.card:hover,
   border-top: none;
 }
 
-.ui.feed > .event:first-child {
+html /deep/ .ui.feed > .event:first-child {
   border-top: 0px;
   padding-top: 0em;
 }
 
-.ui.feed > .event:last-child {
+html /deep/ .ui.feed > .event:last-child {
   padding-bottom: 0em;
 }
 
-/* Event Label */
-
-.ui.feed > .event > .label {
+html /deep/ .ui.feed > .event > .label {
   display: table-cell;
   width: 2.5em;
   height: 2.5em;
@@ -16347,7 +17150,7 @@ a.ui.card:hover,
   text-align: left;
 }
 
-.ui.feed > .event > .label .icon {
+html /deep/ .ui.feed > .event > .label .icon {
   opacity: 1;
   font-size: 1.5em;
   width: 100%;
@@ -16358,40 +17161,32 @@ a.ui.card:hover,
   color: rgba(0, 0, 0, 0.6);
 }
 
-.ui.feed > .event > .label img {
+html /deep/ .ui.feed > .event > .label img {
   width: 100%;
   height: auto;
   border-radius: 500rem;
 }
 
-.ui.feed > .event > .label + .content {
+html /deep/ .ui.feed > .event > .label + .content {
   padding: 0.5em 0em 0.5em 1.25em;
 }
 
-/* Content */
-
-.ui.feed > .event > .content {
+html /deep/ .ui.feed > .event > .content {
   display: table-cell;
   vertical-align: top;
   text-align: left;
   word-wrap: break-word;
 }
 
-.ui.feed > .event:last-child > .content {
+html /deep/ .ui.feed > .event:last-child > .content {
   padding-bottom: 0em;
 }
 
-/* Link */
-
-.ui.feed > .event > .content a {
+html /deep/ .ui.feed > .event > .content a {
   cursor: pointer;
 }
 
-/*--------------
-      Date
----------------*/
-
-.ui.feed > .event > .content .date {
+html /deep/ .ui.feed > .event > .content .date {
   margin: -0.5rem 0em 0em;
   padding: 0em;
   font-weight: normal;
@@ -16400,20 +17195,14 @@ a.ui.card:hover,
   color: rgba(0, 0, 0, 0.4);
 }
 
-/*--------------
-     Summary
----------------*/
-
-.ui.feed > .event > .content .summary {
+html /deep/ .ui.feed > .event > .content .summary {
   margin: 0em;
   font-size: 1em;
   font-weight: bold;
   color: #212121;
 }
 
-/* Summary Image */
-
-.ui.feed > .event > .content .summary img {
+html /deep/ .ui.feed > .event > .content .summary img {
   display: inline-block;
   width: auto;
   height: 2em;
@@ -16422,31 +17211,21 @@ a.ui.card:hover,
   vertical-align: middle;
 }
 
-/*--------------
-      User
----------------*/
-
-.ui.feed > .event > .content .user {
+html /deep/ .ui.feed > .event > .content .user {
   display: inline-block;
   font-weight: bold;
   margin-right: 0em;
   vertical-align: baseline;
 }
 
-.ui.feed > .event > .content .user img {
+html /deep/ .ui.feed > .event > .content .user img {
   margin: -0.25em 0.25em 0em 0em;
   width: auto;
   height: 2em;
   vertical-align: middle;
 }
 
-/*--------------
-   Inline Date
----------------*/
-
-/* Date inside Summary */
-
-.ui.feed > .event > .content .summary > .date {
+html /deep/ .ui.feed > .event > .content .summary > .date {
   display: inline-block;
   float: none;
   font-weight: normal;
@@ -16457,28 +17236,20 @@ a.ui.card:hover,
   color: rgba(0, 0, 0, 0.4);
 }
 
-/*--------------
-  Extra Summary
----------------*/
-
-.ui.feed > .event > .content .extra {
+html /deep/ .ui.feed > .event > .content .extra {
   margin: 0.5em 0em 0em;
   background: none;
   padding: 0em;
   color: #212121;
 }
 
-/* Images */
-
-.ui.feed > .event > .content .extra.images img {
+html /deep/ .ui.feed > .event > .content .extra.images img {
   display: inline-block;
   margin: 0em 0.25em 0em 0em;
   width: 6em;
 }
 
-/* Text */
-
-.ui.feed > .event > .content .extra.text {
+html /deep/ .ui.feed > .event > .content .extra.text {
   padding: 0.5em 1em;
   border-left: 3px solid rgba(0, 0, 0, 0.2);
   font-size: 1em;
@@ -16486,11 +17257,7 @@ a.ui.card:hover,
   line-height: 1.33;
 }
 
-/*--------------
-      Meta
----------------*/
-
-.ui.feed > .event > .content .meta {
+html /deep/ .ui.feed > .event > .content .meta {
   display: inline-block;
   font-size: 0.875em;
   margin: 0.5em 0em 0em;
@@ -16502,12 +17269,12 @@ a.ui.card:hover,
   color: rgba(0, 0, 0, 0.6);
 }
 
-.ui.feed > .event > .content .meta > * {
+html /deep/ .ui.feed > .event > .content .meta > * {
   position: relative;
   margin-left: 0.75em;
 }
 
-.ui.feed > .event > .content .meta > *:after {
+html /deep/ .ui.feed > .event > .content .meta > *:after {
   content: '';
   color: rgba(0, 0, 0, 0.2);
   top: 0em;
@@ -16517,34 +17284,30 @@ a.ui.card:hover,
   vertical-align: top;
 }
 
-.ui.feed > .event > .content .meta .like {
+html /deep/ .ui.feed > .event > .content .meta .like {
   color: '';
   -webkit-transition: 0.2s color ease;
   transition: 0.2s color ease;
 }
 
-.ui.feed > .event > .content .meta .like:hover .icon {
+html /deep/ .ui.feed > .event > .content .meta .like:hover .icon {
   color: #ff2733;
 }
 
-.ui.feed > .event > .content .meta .active.like .icon {
+html /deep/ .ui.feed > .event > .content .meta .active.like .icon {
   color: #ef404a;
 }
 
-/* First element */
-
-.ui.feed > .event > .content .meta > :first-child {
+html /deep/ .ui.feed > .event > .content .meta > :first-child {
   margin-left: 0em;
 }
 
-.ui.feed > .event > .content .meta > :first-child::after {
+html /deep/ .ui.feed > .event > .content .meta > :first-child::after {
   display: none;
 }
 
-/* Action */
-
-.ui.feed > .event > .content .meta a,
-.ui.feed > .event > .content .meta > .icon {
+html /deep/ .ui.feed > .event > .content .meta a,
+html /deep/ .ui.feed > .event > .content .meta > .icon {
   cursor: pointer;
   opacity: 1;
   color: rgba(0, 0, 0, 0.5);
@@ -16552,35 +17315,23 @@ a.ui.card:hover,
   transition: color 0.2s ease;
 }
 
-.ui.feed > .event > .content .meta a:hover,
-.ui.feed > .event > .content .meta a:hover .icon,
-.ui.feed > .event > .content .meta > .icon:hover {
+html /deep/ .ui.feed > .event > .content .meta a:hover,
+html /deep/ .ui.feed > .event > .content .meta a:hover .icon,
+html /deep/ .ui.feed > .event > .content .meta > .icon:hover {
   color: rgba(0, 0, 0, 0.8);
 }
 
-/*******************************
-            Variations
-*******************************/
-
-.ui.small.feed {
+html /deep/ .ui.small.feed {
   font-size: 0.9em;
 }
 
-.ui.feed {
+html /deep/ .ui.feed {
   font-size: 1em;
 }
 
-.ui.large.feed {
+html /deep/ .ui.large.feed {
   font-size: 1.1em;
 }
-
-/*******************************
-         Theme Overrides
-*******************************/
-
-/*******************************
-    User Variable Overrides
-*******************************/
 /*
  * # Semantic UI - 1.9.0
  * https://github.com/Semantic-Org/Semantic-UI
@@ -16596,11 +17347,88 @@ a.ui.card:hover,
             Standard
 *******************************/
 
-/*--------------
+html /deep/ {
+  /*--------------
       Item
 ---------------*/
+  /*--------------
+      Items
+---------------*/
+  /*--------------
+      Item
+---------------*/
+  /*--------------
+     Images
+---------------*/
+  /*--------------
+     Content
+---------------*/
+  /* Default Header Size */
+  /*--------------
+     Floated
+---------------*/
+  /*--------------
+  Content Image
+---------------*/
+  /*--------------
+   Description
+---------------*/
+  /*--------------
+    Paragraph
+---------------*/
+  /*--------------
+      Meta
+---------------*/
+  /*--------------
+      Links
+---------------*/
+  /* Generic */
+  /* Header */
+  /* Meta */
+  /*--------------
+     Labels
+---------------*/
+  /*-----Star----- */
+  /* Icon */
+  /*-----Like----- */
+  /* Icon */
+  /*----------------
+  Extra Content
+-----------------*/
+  /*******************************
+          Responsive
+*******************************/
+  /* Default Image Width */
+  /* Tablet Only */
+  /* Mobily Only */
+  /*******************************
+           Variations
+*******************************/
+  /*-------------------
+       Aligned
+--------------------*/
+  /*--------------
+     Relaxed
+---------------*/
+  /*-------------------
+      Divided
+--------------------*/
+  /* Relaxed Divided */
+  /*-------------------
+        Link
+--------------------*/
+  /*--------------
+      Size
+---------------*/
+  /*******************************
+         Theme Overrides
+*******************************/
+  /*******************************
+    User Variable Overrides
+*******************************/
+}
 
-.ui.items > .item {
+html /deep/ .ui.items > .item {
   table-layout: fixed;
   display: table;
   margin: 1em 0em;
@@ -16616,35 +17444,27 @@ a.ui.card:hover,
   z-index: '';
 }
 
-.ui.items > .item a {
+html /deep/ .ui.items > .item a {
   cursor: pointer;
 }
 
-/*--------------
-      Items
----------------*/
-
-.ui.items {
+html /deep/ .ui.items {
   margin: 1.5em 0em;
 }
 
-.ui.items:first-child {
+html /deep/ .ui.items:first-child {
   margin-top: 0em !important;
 }
 
-.ui.items:last-child {
+html /deep/ .ui.items:last-child {
   margin-bottom: 0em !important;
 }
 
-/*--------------
-      Item
----------------*/
-
-.ui.items > .item {
+html /deep/ .ui.items > .item {
   min-width: 100%;
 }
 
-.ui.items > .item:after {
+html /deep/ .ui.items > .item:after {
   display: block;
   content: ' ';
   height: 0px;
@@ -16653,19 +17473,15 @@ a.ui.card:hover,
   visibility: hidden;
 }
 
-.ui.items > .item:first-child {
+html /deep/ .ui.items > .item:first-child {
   margin-top: 0em;
 }
 
-.ui.items > .item:last-child {
+html /deep/ .ui.items > .item:last-child {
   margin-bottom: 0em;
 }
 
-/*--------------
-     Images
----------------*/
-
-.ui.items > .item > .image {
+html /deep/ .ui.items > .item > .image {
   position: relative;
   display: table-cell;
   float: none;
@@ -16675,7 +17491,7 @@ a.ui.card:hover,
   vertical-align: top;
 }
 
-.ui.items > .item > .image > img {
+html /deep/ .ui.items > .item > .image > img {
   display: block;
   width: 100%;
   height: auto;
@@ -16683,15 +17499,11 @@ a.ui.card:hover,
   border: none;
 }
 
-.ui.items > .item > .image:only-child > img {
+html /deep/ .ui.items > .item > .image:only-child > img {
   border-radius: 0rem;
 }
 
-/*--------------
-     Content
----------------*/
-
-.ui.items > .item > .content {
+html /deep/ .ui.items > .item > .content {
   display: block;
   background: none;
   margin: 0em;
@@ -16702,7 +17514,7 @@ a.ui.card:hover,
   border-radius: 0em;
 }
 
-.ui.items > .item > .content:after {
+html /deep/ .ui.items > .item > .content:after {
   display: block;
   content: ' ';
   height: 0px;
@@ -16711,7 +17523,7 @@ a.ui.card:hover,
   visibility: hidden;
 }
 
-.ui.items > .item > .image + .content {
+html /deep/ .ui.items > .item > .image + .content {
   width: 100%;
   display: table-cell;
   margin-left: 0em;
@@ -16719,7 +17531,7 @@ a.ui.card:hover,
   padding-left: 1.5em;
 }
 
-.ui.items > .item > .content > .header {
+html /deep/ .ui.items > .item > .content > .header {
   display: inline-block;
   margin: -0.165em 0em 0em;
   font-family: 'Segoe UI', 'Segoe WP', 'Roboto', 'Frutiger', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -16727,46 +17539,32 @@ a.ui.card:hover,
   color: rgba(0, 0, 0, 0.85);
 }
 
-/* Default Header Size */
-
-.ui.items > .item > .content > .header:not(.ui) {
+html /deep/ .ui.items > .item > .content > .header:not(.ui) {
   font-size: 1.2em;
 }
 
-/*--------------
-     Floated
----------------*/
-
-.ui.items > .item [class*="left floated"] {
+html /deep/ .ui.items > .item [class*="left floated"] {
   float: left;
 }
 
-.ui.items > .item [class*="right floated"] {
+html /deep/ .ui.items > .item [class*="right floated"] {
   float: right;
 }
 
-/*--------------
-  Content Image
----------------*/
-
-.ui.items > .item .content img {
+html /deep/ .ui.items > .item .content img {
   display: inline-block;
   vertical-align: middle;
   width: 2em;
 }
 
-.ui.items > .item img.avatar,
-.ui.items > .item .avatar img {
+html /deep/ .ui.items > .item img.avatar,
+html /deep/ .ui.items > .item .avatar img {
   width: 2em;
   height: 2em;
   border-radius: 500rem;
 }
 
-/*--------------
-   Description
----------------*/
-
-.ui.items > .item > .content > .description {
+html /deep/ .ui.items > .item > .content > .description {
   margin-top: 0.6em;
   max-width: 550px;
   font-size: 1em;
@@ -16774,126 +17572,92 @@ a.ui.card:hover,
   color: #212121;
 }
 
-/*--------------
-    Paragraph
----------------*/
-
-.ui.items > .item > .content p {
+html /deep/ .ui.items > .item > .content p {
   margin: 0em 0em 0.5em;
 }
 
-.ui.items > .item > .content p:last-child {
+html /deep/ .ui.items > .item > .content p:last-child {
   margin-bottom: 0em;
 }
 
-/*--------------
-      Meta
----------------*/
-
-.ui.items > .item .meta {
+html /deep/ .ui.items > .item .meta {
   font-size: 1em;
   line-height: 1em;
   color: rgba(0, 0, 0, 0.6);
 }
 
-.ui.items > .item .meta * {
+html /deep/ .ui.items > .item .meta * {
   margin-right: 0.3em;
 }
 
-.ui.items > .item .meta :last-child {
+html /deep/ .ui.items > .item .meta :last-child {
   margin-right: 0em;
 }
 
-.ui.items > .item .meta [class*="right floated"] {
+html /deep/ .ui.items > .item .meta [class*="right floated"] {
   margin-right: 0em;
   margin-left: 0.3em;
 }
 
-/*--------------
-      Links
----------------*/
-
-/* Generic */
-
-.ui.items > .item > .content a:not(.ui) {
+html /deep/ .ui.items > .item > .content a:not(.ui) {
   color: '';
   -webkit-transition: color 0.2s ease;
   transition: color 0.2s ease;
 }
 
-.ui.items > .item > .content a:not(.ui):hover {
+html /deep/ .ui.items > .item > .content a:not(.ui):hover {
   color: '';
 }
 
-/* Header */
-
-.ui.items > .item > .content > a.header {
+html /deep/ .ui.items > .item > .content > a.header {
   color: rgba(0, 0, 0, 0.85);
 }
 
-.ui.items > .item > .content > a.header:hover {
+html /deep/ .ui.items > .item > .content > a.header:hover {
   color: #00b2f3;
 }
 
-/* Meta */
-
-.ui.items > .item .meta > a:not(.ui) {
+html /deep/ .ui.items > .item .meta > a:not(.ui) {
   color: rgba(0, 0, 0, 0.4);
 }
 
-.ui.items > .item .meta > a:not(.ui):hover {
+html /deep/ .ui.items > .item .meta > a:not(.ui):hover {
   color: #212121;
 }
 
-/*--------------
-     Labels
----------------*/
-
-/*-----Star----- */
-
-/* Icon */
-
-.ui.items > .item > .content .favorite.icon {
+html /deep/ .ui.items > .item > .content .favorite.icon {
   cursor: pointer;
   opacity: 0.75;
   -webkit-transition: color 0.2s ease;
   transition: color 0.2s ease;
 }
 
-.ui.items > .item > .content .favorite.icon:hover {
+html /deep/ .ui.items > .item > .content .favorite.icon:hover {
   opacity: 1;
   color: #ffb70a;
 }
 
-.ui.items > .item > .content .active.favorite.icon {
+html /deep/ .ui.items > .item > .content .active.favorite.icon {
   color: #ffb70a;
 }
 
-/*-----Like----- */
-
-/* Icon */
-
-.ui.items > .item > .content .like.icon {
+html /deep/ .ui.items > .item > .content .like.icon {
   cursor: pointer;
   opacity: 0.75;
   -webkit-transition: color 0.2s ease;
   transition: color 0.2s ease;
 }
 
-.ui.items > .item > .content .like.icon:hover {
+html /deep/ .ui.items > .item > .content .like.icon:hover {
   opacity: 1;
   color: #ff2733;
 }
 
-.ui.items > .item > .content .active.like.icon {
+html /deep/ .ui.items > .item > .content .active.like.icon {
   color: #ff2733;
 }
 
-/*----------------
-  Extra Content
------------------*/
-
-.ui.items > .item .extra {
+html /deep/ .ui.items > .item .extra {
   display: block;
   position: relative;
   background: none;
@@ -16909,15 +17673,15 @@ a.ui.card:hover,
   border-top: none;
 }
 
-.ui.items > .item .extra > * {
+html /deep/ .ui.items > .item .extra > * {
   margin: 0.25rem 0.5rem 0.25rem 0em;
 }
 
-.ui.items > .item .extra > [class*="right floated"] {
+html /deep/ .ui.items > .item .extra > [class*="right floated"] {
   margin: 0.25rem 0em 0.25rem 0.5rem;
 }
 
-.ui.items > .item .extra:after {
+html /deep/ .ui.items > .item .extra:after {
   display: block;
   content: ' ';
   height: 0px;
@@ -16926,153 +17690,109 @@ a.ui.card:hover,
   visibility: hidden;
 }
 
-/*******************************
-          Responsive
-*******************************/
-
-/* Default Image Width */
-
-.ui.items > .item > .image:not(.ui) {
+html /deep/ .ui.items > .item > .image:not(.ui) {
   width: 175px;
 }
 
-/* Tablet Only */
-
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .ui.items > .item {
+  html /deep/ .ui.items > .item {
     margin: 1em 0em;
   }
 
-  .ui.items > .item > .image:not(.ui) {
+  html /deep/ .ui.items > .item > .image:not(.ui) {
     width: 150px;
   }
 
-  .ui.items > .item > .image + .content {
+  html /deep/ .ui.items > .item > .image + .content {
     display: block;
     padding: 0em 0em 0em 1em;
   }
 }
 
-/* Mobily Only */
-
 @media only screen and (max-width: 767px) {
-  .ui.items > .item {
+  html /deep/ .ui.items > .item {
     margin: 2em 0em;
   }
 
-  .ui.items > .item > .image {
+  html /deep/ .ui.items > .item > .image {
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
 
-  .ui.items > .item > .image,
-  .ui.items > .item > .image > img {
+  html /deep/ .ui.items > .item > .image,
+  html /deep/ .ui.items > .item > .image > img {
     max-width: 100% !important;
     width: auto !important;
     max-height: 250px !important;
   }
 
-  .ui.items > .item > .image + .content {
+  html /deep/ .ui.items > .item > .image + .content {
     display: block;
     padding: 1.5em 0em 0em;
   }
 }
 
-/*******************************
-           Variations
-*******************************/
-
-/*-------------------
-       Aligned
---------------------*/
-
-.ui.items > .item > .image + [class*="top aligned"].content {
+html /deep/ .ui.items > .item > .image + [class*="top aligned"].content {
   vertical-align: top;
 }
 
-.ui.items > .item > .image + [class*="middle aligned"].content {
+html /deep/ .ui.items > .item > .image + [class*="middle aligned"].content {
   vertical-align: middle;
 }
 
-.ui.items > .item > .image + [class*="bottom aligned"].content {
+html /deep/ .ui.items > .item > .image + [class*="bottom aligned"].content {
   vertical-align: bottom;
 }
 
-/*--------------
-     Relaxed
----------------*/
-
-.ui.relaxed.items > .item {
+html /deep/ .ui.relaxed.items > .item {
   margin: 1.5em 0em;
 }
 
-.ui[class*="very relaxed"].items > .item {
+html /deep/ .ui[class*="very relaxed"].items > .item {
   margin: 2em 0em;
 }
 
-/*-------------------
-      Divided
---------------------*/
-
-.ui.divided.items > .item {
+html /deep/ .ui.divided.items > .item {
   border-top: 1px solid rgba(39, 41, 43, 0.15);
   margin: 0em;
   padding: 1em 0em;
 }
 
-.ui.divided.items > .item:first-child {
+html /deep/ .ui.divided.items > .item:first-child {
   border-top: none;
   margin-top: 0em !important;
   padding-top: 0em !important;
 }
 
-.ui.divided.items > .item:last-child {
+html /deep/ .ui.divided.items > .item:last-child {
   margin-bottom: 0em !important;
   padding-bottom: 0em !important;
 }
 
-/* Relaxed Divided */
-
-.ui.relaxed.divided.items > .item {
+html /deep/ .ui.relaxed.divided.items > .item {
   margin: 0em;
   padding: 1.5em 0em;
 }
 
-.ui[class*="very relaxed"].divided.items > .item {
+html /deep/ .ui[class*="very relaxed"].divided.items > .item {
   margin: 0em;
   padding: 2em 0em;
 }
 
-/*-------------------
-        Link
---------------------*/
-
-.ui.items a.item:hover,
-.ui.link.items > .item:hover {
+html /deep/ .ui.items a.item:hover,
+html /deep/ .ui.link.items > .item:hover {
   cursor: pointer;
 }
 
-.ui.items a.item:hover .content .header,
-.ui.link.items > .item:hover .content .header {
+html /deep/ .ui.items a.item:hover .content .header,
+html /deep/ .ui.link.items > .item:hover .content .header {
   color: #00b2f3;
 }
 
-/*--------------
-      Size
----------------*/
-
-.ui.items > .item {
+html /deep/ .ui.items > .item {
   font-size: 1em;
 }
-
-/*******************************
-         Theme Overrides
-*******************************/
-
-/*******************************
-    User Variable Overrides
-*******************************/
 /*
  * # Semantic UI - 1.9.0
  * https://github.com/Semantic-Org/Semantic-UI

@@ -39,6 +39,7 @@
 	"message",
 	"table",		
 	"card",
+	"carditem",
 	"comment",
 	"feed",
 	"item",

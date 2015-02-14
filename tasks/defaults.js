@@ -55,6 +55,7 @@ module.exports = {
     // views
     'ad',
     'card',
+	'carditem',
     'comment',
     'feed',
     'item',

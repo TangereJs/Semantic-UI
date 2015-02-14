@@ -1,0 +1,187 @@
+/*******************************
+             CardItem
+*******************************/
+
+/*-------------------
+         View
+--------------------*/
+
+/* Shadow */
+@shadowDistance: 0.2em;
+@shadowBoxShadow: 0px @shadowDistance 0px 0px @solidBorderColor;
+
+/* Item */
+@background: #FFFFFF;
+@borderRadius: @defaultBorderRadius;
+@display: block;
+@margin: 1em 0em;
+@minHeight: 0px;
+@padding: 0em;
+@width: 290px;
+@borderWidth: 1px;
+@borderShadow: 0px 0px 0px @borderWidth @solidBorderColor;
+@boxShadow:
+  @shadowBoxShadow,
+  @borderShadow
+;
+@border: none;
+@zIndex: '';
+@transition: box-shadow @transitionDuration @transitionEasing;
+
+/* Item Group */
+@groupDisplay: block;
+@groupFloat: left;
+@horizontalSpacing: 0.5em;
+@rowSpacing: 1.5em;
+@groupCardItemsMargin: 1em -@horizontalSpacing 0em;
+@groupCardItemMargin: 0em @horizontalSpacing @rowSpacing;
+
+/*-------------------
+       Content
+--------------------*/
+
+/* Image */
+@imageBackground: @transparentBlack;
+@imagePadding: 0em;
+@imageBorder: none;
+@imageBorderRadius: @borderRadius @borderRadius 0em 0em;
+@imageBoxShadow: none;
+@imageBorder: none;
+
+/* Content */
+@contentMargin: 0em;
+@contentBackground: none;
+@contentPadding: 1em 1em;
+@contentFontSize: 1em;
+@contentBorder: none;
+@contentBorderRadius: 0em;
+@contentBoxShadow: none;
+
+/* Header */
+@headerMargin: 0em;
+@headerFontWeight: bold;
+@headerFontSize: 1.2em;
+@headerLineHeight: 1.33em;
+@headerLineHeightOffset: -(@lineHeight - 1em) / 2;
+@headerColor: @darkTextColor;
+
+/* Metadata */
+@metaFontSize: 0.9em;
+@metaSpacing: 0.3em;
+@metaColor: @lightTextColor;
+
+/* Icons */
+@actionOpacity: 0.75;
+@actionHoverOpacity: 1;
+@actionTransition: color @transitionDuration @transitionEasing;
+@starColor: #AC9400;
+@starActiveColor: #E9B539;
+@likeColor: #FFADAE;
+@likeActiveColor: #EF404A;
+
+/* Links */
+@contentLinkColor: '';
+@contentLinkHoverColor: '';
+@contentLinkTransition: color @transitionDuration @transitionEasing;
+
+@headerLinkColor: @headerColor;
+@headerLinkHoverColor: @linkHoverColor;
+
+@metaLinkColor: @lightTextColor;
+@metaLinkHoverColor: @textColor;
+
+/* Description */
+@descriptionDistance: 0.5em;
+@descriptionColor: rgba(0, 0, 0, 0.5);
+
+/* Content Image */
+@contentImageWidth: 2em;
+@contentImageVerticalAlign: middle;
+
+/* Avatar Image */
+@avatarSize: @contentImageWidth;
+@avatarBorderRadius: @circularRadius;
+
+/* Paragraph */
+@paragraphDistance: 0.5em;
+
+/* Additional Content */
+@extraDivider: 1px solid rgba(0, 0, 0, 0.05);
+@extraBackground: none;
+@extraPosition: static;
+@extraWidth: auto;
+@extraTop: 0em;
+@extraLeft: 0em;
+@extraMargin: 0em 0em;
+@extraPadding: 0.75em 1em;
+@extraBoxShadow: none;
+@extraColor: @lightTextColor;
+@extraTransition: color @transitionDuration @transitionEasing;
+
+/* Extra Links */
+@extraLinkColor: @unselectedTextColor;
+@extraLinkHoverColor: @linkHoverColor;
+
+/* Buttons */
+@buttonMargin: 0em -@borderWidth -@shadowDistance;
+@buttonWidth: ~"calc(100% + "(@borderWidth * 2)~")";
+
+/*-------------------
+      Variations
+--------------------*/
+
+/* Link */
+@linkHoverBackground: '';
+@linkHoverBorder: none;
+@linkHoverZIndex: 5;
+
+@shadowHoverBoxShadow: 0px @shadowDistance 0px 0px @solidSelectedBorderColor;
+@linkHoverBoxShadow:
+  @shadowHoverBoxShadow,
+  0px 0px 0px 1px @selectedBorderColor
+;
+
+/* CardItem Count */
+@wideCardItemSpacing: 1em;
+@carditemSpacing: 0.75em;
+@smallCardItemSpacing: 0.5em;
+
+@oneCardItemSpacing: 0em;
+@twoCardItemSpacing: @wideCardItemSpacing;
+@threeCardItemSpacing: @wideCardItemSpacing;
+@fourCardItemSpacing: @carditemSpacing;
+@fiveCardItemSpacing: @carditemSpacing;
+@sixCardItemSpacing: @carditemSpacing;
+@sevenCardItemSpacing: @smallCardItemSpacing;
+@eightCardItemSpacing: @smallCardItemSpacing;
+@nineCardItemSpacing: @smallCardItemSpacing;
+@tenCardItemSpacing: @smallCardItemSpacing;
+
+@oneCardItem: @oneColumn;
+@oneCardItemOffset: 0em;
+@twoCardItem: ~"calc("@twoColumn~" - "(@twoCardItemSpacing * 2)~")";
+@twoCardItemOffset: -@twoCardItemSpacing;
+@threeCardItem: ~"calc("@threeColumn~" - "(@threeCardItemSpacing * 2)~")";
+@threeCardItemOffset: -@threeCardItemSpacing;
+@fourCardItem: ~"calc("@fourColumn~" - "(@fourCardItemSpacing * 2)~")";
+@fourCardItemOffset: -@fourCardItemSpacing;
+@fiveCardItem: ~"calc("@fiveColumn~" - "(@fiveCardItemSpacing * 2)~")";
+@fiveCardItemOffset: -@fiveCardItemSpacing;
+@sixCardItem: ~"calc("@sixColumn~" - "(@sixCardItemSpacing * 2)~")";
+@sixCardItemOffset: -@sixCardItemSpacing;
+@sevenCardItem: ~"calc("@sevenColumn~" - "(@sevenCardItemSpacing * 2)~")";
+@sevenCardItemOffset: -@sevenCardItemSpacing;
+@eightCardItem: ~"calc("@eightColumn~" - "(@sevenCardItemSpacing * 2)~")";
+@eightCardItemOffset: -@sevenCardItemSpacing;
+@nineCardItem: ~"calc("@nineColumn~" - "(@nineCardItemSpacing * 2)~")";
+@nineCardItemOffset: -@nineCardItemSpacing;
+@tenCardItem: ~"calc("@tenColumn~" - "(@tenCardItemSpacing * 2)~")";
+@tenCardItemOffset: -@tenCardItemSpacing;
+
+/* Stackable */
+@stackableRowSpacing: 1em;
+@stackableCardItemSpacing: 1em;
+@stackableMargin: ~"calc("@oneColumn~" - "(@stackableCardItemSpacing * 2)~")";
+
+/* Sizes */
+@medium: 1em;
