@@ -37,8 +37,7 @@
 	"grid",
 	"menu",
 	"message",
-	"table",	
-	"ad",
+	"table",		
 	"card",
 	"comment",
 	"feed",
@@ -52,6 +51,7 @@
   "components_excluded": [	
 	"flag",
 	"icon",
+    "ad",
 	"accordion",
 	"checkbox",
 	"dimmer",
