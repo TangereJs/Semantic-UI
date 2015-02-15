@@ -23,6 +23,7 @@
     "better-console": "^0.2.3",
     "del": "^1.0.0",
     "extend": "^2.0.0",
+    "fs-sync": "^0.2.5",
     "github": "^0.2.3",
     "gulp": "^3.8.10",
     "gulp-autoprefixer": "^2.0.0",

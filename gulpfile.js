@@ -16,6 +16,7 @@ var
   del          = require('del'),
   extend       = require('extend'),
   fs           = require('fs'),
+  fssync       = require('fs-sync'),
   path         = require('path'),
   runSequence  = require('run-sequence'),
   wrench       = require('wrench'),
@@ -138,13 +139,11 @@ var
     config.paths.output.compressed = config.paths.output.compressed.replace("{theme}", themeName);
     config.paths.output.themes = config.paths.output.themes.replace("{theme}", themeName);
     config.paths.clean = config.paths.clean.replace("{theme}", themeName);
-    
-    var tcfile = "./src/themes/{theme}/theme.config".replace("{theme}", themeName);
-    console.log("copy " + tcfile + " to ./src");
+
     // copy theme config
-    gulp.src(tcfile)
-      .pipe(chmod(config.permission))
-      .pipe(gulp.dest("./src"));
+    var tcfile = "./src/themes/{theme}/theme.config".replace("{theme}", themeName);    
+    console.log("copy " + tcfile + " to ./src");
+    fssync.copy(tcfile, "./src/theme.config", { force: true });    
     
     // shorthand
     base    = config.base;
