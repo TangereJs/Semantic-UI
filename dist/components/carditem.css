@@ -189,16 +189,13 @@ html /deep/ .ui.carditem {
   max-width: 100%;
   position: relative;
   display: block;
-  width: 290px;
   min-height: 0px;
   background: #ffffff;
   padding: 0em;
   border: none;
   border-radius: 2px;
-  box-shadow: 0px 0.2em 0px 0px #d4d4d5, 0px 0px 0px 1px #d4d4d5;
   -webkit-transition: box-shadow 0.2s ease;
           transition: box-shadow 0.2s ease;
-  z-index: '';
 }
 html /deep/ .ui.carditem {
   margin: 1em 0em;
