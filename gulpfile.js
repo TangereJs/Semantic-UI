@@ -45,6 +45,7 @@ var
   uglify       = require('gulp-uglify'),
   util         = require('gulp-util'),
   watch        = require('gulp-watch'),
+  minimist     = require('minimist'),
 
   // config
   banner       = require('./tasks/banner'),
@@ -121,7 +122,30 @@ var
 
     // extend defaults using shallow copy
     config = extend(false, {}, defaults, config);
+    
+    // merge command line options --theme
+    var knownOptions = {
+      string: 'theme',
+      default: { theme: 'carbon' }
+    };
 
+    var options = minimist(process.argv.slice(2), knownOptions);
+    var themeName = options.theme;
+    
+    // replace {theme} in paths    
+    config.paths.output.packaged = config.paths.output.packaged.replace("{theme}", themeName);
+    config.paths.output.uncompressed = config.paths.output.uncompressed.replace("{theme}", themeName);
+    config.paths.output.compressed = config.paths.output.compressed.replace("{theme}", themeName);
+    config.paths.output.themes = config.paths.output.themes.replace("{theme}", themeName);
+    config.paths.clean = config.paths.clean.replace("{theme}", themeName);
+    
+    var tcfile = "./src/themes/{theme}/theme.config".replace("{theme}", themeName);
+    console.log("copy " + tcfile + " to ./src");
+    // copy theme config
+    gulp.src(tcfile)
+      .pipe(chmod(config.permission))
+      .pipe(gulp.dest("./src"));
+    
     // shorthand
     base    = config.base;
     clean   = config.paths.clean;
@@ -182,7 +206,7 @@ gulp.task('watch', 'Watch for site/theme changes (Default Task)', function(callb
 
 
   if(!fs.existsSync(config.files.theme)) {
-    console.error('Cant compile LESS. Run "gulp install" to create a theme config file');
+    console.error('Cant compile LESS ' + config.files.theme + '. Run "gulp install" to create a theme config file');
     return;
   }
 
@@ -347,7 +371,7 @@ gulp.task('build', 'Builds all files from source', function(callback) {
   console.info('Building Semantic');
 
   if(!fs.existsSync(config.files.theme)) {
-    console.error('Cant build LESS. Run "gulp install" to create a theme config file');
+    console.error('Cant compile LESS ' + config.files.theme + '. Run "gulp install" to create a theme config file');
     return;
   }
 
@@ -458,7 +482,7 @@ gulp.task('watch rtl', 'Watch for site/theme changes (Default Task)', function(c
   console.log('Watching RTL source files for changes');
 
   if(!fs.existsSync(config.files.theme)) {
-    console.error('Cant compile LESS. Run "gulp install" to create a theme config file');
+     console.error('Cant compile LESS ' + config.files.theme + '. Run "gulp install" to create a theme config file');
     return;
   }
 
@@ -615,7 +639,7 @@ gulp.task('build rtl', 'Builds all files from source', function(callback) {
   console.info('Building Semantic RTL');
 
   if(!fs.existsSync(config.files.theme)) {
-    console.error('Cant build LESS. Run "gulp install" to create a theme config file');
+    console.error('Cant compile LESS ' + config.files.theme + '. Run "gulp install" to create a theme config file');
     return;
   }
 
