@@ -1,0 +1,412 @@
+ /*
+ * # Semantic UI - 1.9.0
+ * https://github.com/Semantic-Org/Semantic-UI
+ * http://www.semantic-ui.com/
+ *
+ * Copyright 2014 Contributors
+ * Released under the MIT license
+ * http://opensource.org/licenses/MIT
+ *
+ */
+
+
+
+/*******************************
+           Statistic
+*******************************/
+
+html /deep/ {
+  
+/* Standalone */
+  
+/* Grouped */
+  
+
+/*******************************
+            Group
+*******************************/
+
+  
+/* Clearing */
+  
+
+/*******************************
+            Content
+*******************************/
+
+  
+/*--------------
+      Value
+---------------*/
+
+  
+/*--------------
+     Label
+---------------*/
+
+  
+/* Top Label */
+  
+/* Bottom Label */
+  
+
+/*******************************
+             Types
+*******************************/
+
+  
+/*--------------
+   Icon Value
+---------------*/
+
+  
+/*--------------
+   Text Value
+---------------*/
+
+  
+/*--------------
+   Image Value
+---------------*/
+
+  
+
+/*******************************
+            Variations
+*******************************/
+
+  
+/*--------------
+   Horizontal
+---------------*/
+
+  
+/*--------------
+     Colors
+---------------*/
+
+  
+/*--------------
+    Floated
+---------------*/
+
+  
+/*--------------
+    Inverted
+---------------*/
+
+  
+/*--------------
+     Sizes
+---------------*/
+
+  
+/* Mini */
+  
+/* Tiny */
+  
+/* Small */
+  
+/* Medium */
+  
+/* Large */
+  
+/* Huge */
+  
+
+/*******************************
+         Theme Overrides
+*******************************/
+
+  
+
+/*******************************
+    User Variable Overrides
+*******************************/
+
+}
+html /deep/ .ui.statistic {
+  display: inline-block;
+  margin: 1em 0em;
+  max-width: 175px;
+}
+html /deep/ .ui.statistic + .ui.statistic {
+  margin: 0em 0em 0em 1em;
+}
+html /deep/ .ui.statistic:first-child {
+  margin-top: 0em;
+}
+html /deep/ .ui.statistic:last-child {
+  margin-bottom: 0em;
+}
+html /deep/ .ui.statistics > .statistic {
+  display: block;
+  float: left;
+  margin: 0em 1em 2em;
+  max-width: 175px;
+}
+html /deep/ .ui.statistics {
+  display: block;
+  margin: 1em -1em;
+}
+html /deep/ .ui.statistics:after {
+  display: block;
+  content: ' ';
+  height: 0px;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+html /deep/ .ui.statistics:first-child {
+  margin-top: 0em;
+}
+html /deep/ .ui.statistics:last-child {
+  margin-bottom: 0em;
+}
+html /deep/ .ui.statistics .statistic > .value,
+html /deep/ .ui.statistic > .value {
+  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-size: 4rem;
+  font-weight: normal;
+  line-height: 1em;
+  color: #1b1c1d;
+  text-transform: uppercase;
+  text-align: center;
+}
+html /deep/ .ui.statistics .statistic > .label,
+html /deep/ .ui.statistic > .label {
+  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  color: rgba(0, 0, 0, 0.4);
+  text-transform: none;
+  text-align: center;
+}
+html /deep/ .ui.statistics .statistic > .label ~ .value,
+html /deep/ .ui.statistic > .label ~ .value {
+  margin-top: 0rem;
+}
+html /deep/ .ui.statistics .statistic > .value ~ .label,
+html /deep/ .ui.statistic > .value ~ .label {
+  margin-top: 0.25rem;
+}
+html /deep/ .ui.statistics .statistic > .value .icon,
+html /deep/ .ui.statistic > .value .icon {
+  opacity: 1;
+  width: auto;
+  margin: 0em;
+}
+html /deep/ .ui.statistics .statistic > .text.value,
+html /deep/ .ui.statistic > .text.value {
+  line-height: 1em;
+  min-height: 2em;
+  text-align: center;
+}
+html /deep/ .ui.statistics .statistic > .text.value + .label,
+html /deep/ .ui.statistic > .text.value + .label {
+  text-align: center;
+}
+html /deep/ .ui.statistics .statistic > .value img,
+html /deep/ .ui.statistic > .value img {
+  max-height: 3rem;
+  vertical-align: baseline;
+}
+html /deep/ .ui.horizontal.statistics,
+html /deep/ .ui.horizontal.statistic {
+  display: block;
+  margin: 0em;
+  max-width: 9999px;
+}
+html /deep/ .ui.horizontal.statistics .statistic {
+  float: none;
+  margin: 1em 0em;
+  max-width: 9999px;
+}
+html /deep/ .ui.horizontal.statistic > .text.value,
+html /deep/ .ui.horizontal.statistics > .statistic > .text.value {
+  min-height: 0em !important;
+}
+html /deep/ .ui.horizontal.statistics .statistic > .value .icon,
+html /deep/ .ui.horizontal.statistic > .value .icon {
+  width: 1.18em;
+}
+html /deep/ .ui.horizontal.statistics .statistic > .value,
+html /deep/ .ui.horizontal.statistic > .value {
+  display: inline-block;
+  vertical-align: middle;
+}
+html /deep/ .ui.horizontal.statistics .statistic > .label,
+html /deep/ .ui.horizontal.statistic > .label {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0em 0em 0em 0.75em;
+}
+html /deep/ .ui.blue.statistics .statistic > .value,
+html /deep/ .ui.statistics .blue.statistic > .value,
+html /deep/ .ui.blue.statistic > .value {
+  color: #3b83c0;
+}
+html /deep/ .ui.green.statistics .statistic > .value,
+html /deep/ .ui.statistics .green.statistic > .value,
+html /deep/ .ui.green.statistic > .value {
+  color: #5bbd72;
+}
+html /deep/ .ui.orange.statistics .statistic > .value,
+html /deep/ .ui.statistics .orange.statistic > .value,
+html /deep/ .ui.orange.statistic > .value {
+  color: #e07b53;
+}
+html /deep/ .ui.pink.statistics .statistic > .value,
+html /deep/ .ui.statistics .pink.statistic > .value,
+html /deep/ .ui.pink.statistic > .value {
+  color: #d9499a;
+}
+html /deep/ .ui.purple.statistics .statistic > .value,
+html /deep/ .ui.statistics .purple.statistic > .value,
+html /deep/ .ui.purple.statistic > .value {
+  color: #564f8a;
+}
+html /deep/ .ui.red.statistics .statistic > .value,
+html /deep/ .ui.statistics .red.statistic > .value,
+html /deep/ .ui.red.statistic > .value {
+  color: #d95c5c;
+}
+html /deep/ .ui.teal.statistics .statistic > .value,
+html /deep/ .ui.statistics .teal.statistic > .value,
+html /deep/ .ui.teal.statistic > .value {
+  color: #00b5ad;
+}
+html /deep/ .ui.yellow.statistics .statistic > .value,
+html /deep/ .ui.statistics .yellow.statistic > .value,
+html /deep/ .ui.yellow.statistic > .value {
+  color: #f2c61f;
+}
+html /deep/ .ui[class*="left floated"].statistic {
+  float: left;
+  margin: 0em 2em 1em 0em;
+}
+html /deep/ .ui[class*="right floated"].statistic {
+  float: right;
+  margin: 0em 0em 1em 2em;
+}
+html /deep/ .ui.floated.statistic:last-child {
+  margin-bottom: 0em;
+}
+html /deep/ .ui.inverted.statistic .value {
+  color: #ffffff;
+}
+html /deep/ .ui.inverted.statistic .label {
+  color: rgba(255, 255, 255, 0.8);
+}
+html /deep/ .ui.inverted.blue.statistics .statistic > .value,
+html /deep/ .ui.statistics .inverted.blue.statistic > .value,
+html /deep/ .ui.inverted.blue.statistic > .value {
+  color: #54c8ff;
+}
+html /deep/ .ui.inverted.green.statistics .statistic > .value,
+html /deep/ .ui.statistics .inverted.green.statistic > .value,
+html /deep/ .ui.inverted.green.statistic > .value {
+  color: #2ecc40;
+}
+html /deep/ .ui.inverted.orange.statistics .statistic > .value,
+html /deep/ .ui.statistics .inverted.orange.statistic > .value,
+html /deep/ .ui.inverted.orange.statistic > .value {
+  color: #ff851b;
+}
+html /deep/ .ui.inverted.pink.statistics .statistic > .value,
+html /deep/ .ui.statistics .inverted.pink.statistic > .value,
+html /deep/ .ui.inverted.pink.statistic > .value {
+  color: #ff8edf;
+}
+html /deep/ .ui.inverted.purple.statistics .statistic > .value,
+html /deep/ .ui.statistics .inverted.purple.statistic > .value,
+html /deep/ .ui.inverted.purple.statistic > .value {
+  color: #cdc6ff;
+}
+html /deep/ .ui.inverted.red.statistics .statistic > .value,
+html /deep/ .ui.statistics .inverted.red.statistic > .value,
+html /deep/ .ui.inverted.red.statistic > .value {
+  color: #ff695e;
+}
+html /deep/ .ui.inverted.teal.statistics .statistic > .value,
+html /deep/ .ui.statistics .inverted.teal.statistic > .value,
+html /deep/ .ui.inverted.teal.statistic > .value {
+  color: #6dffff;
+}
+html /deep/ .ui.inverted.yellow.statistics .statistic > .value,
+html /deep/ .ui.statistics .inverted.yellow.statistic > .value,
+html /deep/ .ui.inverted.yellow.statistic > .value {
+  color: #ffe21f;
+}
+html /deep/ .ui.mini.statistics .statistic > .value,
+html /deep/ .ui.mini.statistic > .value {
+  font-size: 1.5rem;
+}
+html /deep/ .ui.mini.horizontal.statistics .statistic > .value,
+html /deep/ .ui.mini.horizontal.statistic > .value {
+  font-size: 1.5rem;
+}
+html /deep/ .ui.mini.statistics .statistic > .text.value,
+html /deep/ .ui.mini.statistic > .text.value {
+  font-size: 1rem;
+}
+html /deep/ .ui.tiny.statistics .statistic > .value,
+html /deep/ .ui.tiny.statistic > .value {
+  font-size: 2rem;
+}
+html /deep/ .ui.tiny.horizontal.statistics .statistic > .value,
+html /deep/ .ui.tiny.horizontal.statistic > .value {
+  font-size: 2rem;
+}
+html /deep/ .ui.tiny.statistics .statistic > .text.value,
+html /deep/ .ui.tiny.statistic > .text.value {
+  font-size: 1rem;
+}
+html /deep/ .ui.small.statistics .statistic > .value,
+html /deep/ .ui.small.statistic > .value {
+  font-size: 3rem;
+}
+html /deep/ .ui.small.horizontal.statistics .statistic > .value,
+html /deep/ .ui.small.horizontal.statistic > .value {
+  font-size: 2rem;
+}
+html /deep/ .ui.small.statistics .statistic > .text.value,
+html /deep/ .ui.small.statistic > .text.value {
+  font-size: 1.5rem;
+}
+html /deep/ .ui.statistics .statistic > .value,
+html /deep/ .ui.statistic > .value {
+  font-size: 4rem;
+}
+html /deep/ .ui.horizontal.statistics .statistic > .value,
+html /deep/ .ui.horizontal.statistic > .value {
+  font-size: 3rem;
+}
+html /deep/ .ui.statistics .statistic > .text.value,
+html /deep/ .ui.statistic > .text.value {
+  font-size: 2rem;
+}
+html /deep/ .ui.large.statistics .statistic > .value,
+html /deep/ .ui.large.statistic > .value {
+  font-size: 5rem;
+}
+html /deep/ .ui.large.horizontal.statistics .statistic > .value,
+html /deep/ .ui.large.horizontal.statistic > .value {
+  font-size: 4rem;
+}
+html /deep/ .ui.large.statistics .statistic > .text.value,
+html /deep/ .ui.large.statistic > .text.value {
+  font-size: 2.5rem;
+}
+html /deep/ .ui.huge.statistics .statistic > .value,
+html /deep/ .ui.huge.statistic > .value {
+  font-size: 6rem;
+}
+html /deep/ .ui.huge.horizontal.statistics .statistic > .value,
+html /deep/ .ui.huge.horizontal.statistic > .value {
+  font-size: 5rem;
+}
+html /deep/ .ui.huge.statistics .statistic > .text.value,
+html /deep/ .ui.huge.statistic > .text.value {
+  font-size: 2.5rem;
+}

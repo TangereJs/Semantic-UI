@@ -1,0 +1,277 @@
+ /*
+ * # Semantic UI - 1.9.0
+ * https://github.com/Semantic-Org/Semantic-UI
+ * http://www.semantic-ui.com/
+ *
+ * Copyright 2014 Contributors
+ * Released under the MIT license
+ * http://opensource.org/licenses/MIT
+ *
+ */
+
+
+
+/*******************************
+             Image
+*******************************/
+
+html /deep/ {
+  
+
+/*******************************
+            States
+*******************************/
+
+  
+
+/*******************************
+          Variations
+*******************************/
+
+  
+/*--------------
+     Inline
+---------------*/
+
+  
+/*------------------
+  Vertical Aligned
+-------------------*/
+
+  
+/*--------------
+     Rounded
+---------------*/
+
+  
+/*--------------
+    Bordered
+---------------*/
+
+  
+/*--------------
+    Circular
+---------------*/
+
+  
+/*--------------
+     Fluid
+---------------*/
+
+  
+/*--------------
+     Avatar
+---------------*/
+
+  
+/*-------------------
+       Floated
+--------------------*/
+
+  
+/*--------------
+     Sizes
+---------------*/
+
+  
+
+/*******************************
+              Groups
+*******************************/
+
+  
+
+/*******************************
+         Theme Overrides
+*******************************/
+
+  
+
+/*******************************
+         Site Overrides
+*******************************/
+
+}
+html /deep/ .ui.image {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100%;
+  background-color: transparent;
+}
+html /deep/ img.ui.image {
+  display: block;
+}
+html /deep/ .ui.image svg,
+html /deep/ .ui.image img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+html /deep/ .ui.disabled.image {
+  cursor: default;
+  opacity: 0.3;
+}
+html /deep/ .ui.inline.image,
+html /deep/ .ui.inline.image svg,
+html /deep/ .ui.inline.image img {
+  display: inline-block;
+}
+html /deep/ .ui.top.aligned.images .image,
+html /deep/ .ui.top.aligned.image,
+html /deep/ .ui.top.aligned.image svg,
+html /deep/ .ui.top.aligned.image img {
+  display: inline-block;
+  vertical-align: top;
+}
+html /deep/ .ui.middle.aligned.images .image,
+html /deep/ .ui.middle.aligned.image,
+html /deep/ .ui.middle.aligned.image svg,
+html /deep/ .ui.middle.aligned.image img {
+  display: inline-block;
+  vertical-align: middle;
+}
+html /deep/ .ui.bottom.aligned.images .image,
+html /deep/ .ui.bottom.aligned.image,
+html /deep/ .ui.bottom.aligned.image svg,
+html /deep/ .ui.bottom.aligned.image img {
+  display: inline-block;
+  vertical-align: bottom;
+}
+html /deep/ .ui.rounded.images .image,
+html /deep/ .ui.rounded.images img,
+html /deep/ .ui.rounded.images svg,
+html /deep/ .ui.rounded.image img,
+html /deep/ .ui.rounded.image svg,
+html /deep/ .ui.rounded.image {
+  border-radius: 0.3125em;
+}
+html /deep/ .ui.bordered.images .image,
+html /deep/ .ui.bordered.images img,
+html /deep/ .ui.bordered.images svg,
+html /deep/ .ui.bordered.image img,
+html /deep/ .ui.bordered.image svg,
+html /deep/ img.ui.bordered.image {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+html /deep/ .ui.circular.images,
+html /deep/ .ui.circular.image {
+  overflow: hidden;
+}
+html /deep/ .ui.circular.images .image,
+html /deep/ .ui.circular.images img,
+html /deep/ .ui.circular.images svg,
+html /deep/ .ui.circular.image img,
+html /deep/ .ui.circular.image svg,
+html /deep/ .ui.circular.image {
+  border-radius: 500rem;
+}
+html /deep/ .ui.fluid.images,
+html /deep/ .ui.fluid.image,
+html /deep/ .ui.fluid.images img,
+html /deep/ .ui.fluid.images svg,
+html /deep/ .ui.fluid.image svg,
+html /deep/ .ui.fluid.image img {
+  display: block;
+  width: 100%;
+}
+html /deep/ .ui.avatar.images .image,
+html /deep/ .ui.avatar.images img,
+html /deep/ .ui.avatar.images svg,
+html /deep/ .ui.avatar.image img,
+html /deep/ .ui.avatar.image svg,
+html /deep/ .ui.avatar.image {
+  margin-right: 0.25em;
+  display: inline-block;
+  width: 2.5em;
+  height: 2.5em;
+  border-radius: 500rem;
+}
+html /deep/ .ui.floated.image,
+html /deep/ .ui.floated.images {
+  float: left;
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
+html /deep/ .ui.right.floated.images,
+html /deep/ .ui.right.floated.image {
+  float: right;
+  margin-right: 0em;
+  margin-bottom: 1em;
+  margin-left: 1em;
+}
+html /deep/ .ui.floated.images:last-child,
+html /deep/ .ui.floated.image:last-child {
+  margin-bottom: 0em;
+}
+html /deep/ .ui.centered.images,
+html /deep/ .ui.centered.image {
+  margin-left: auto;
+  margin-right: auto;
+}
+html /deep/ .ui.mini.images .image,
+html /deep/ .ui.mini.images img,
+html /deep/ .ui.mini.images svg,
+html /deep/ .ui.mini.image {
+  width: 20px;
+  font-size: 0.71428571rem;
+}
+html /deep/ .ui.tiny.images .image,
+html /deep/ .ui.tiny.images img,
+html /deep/ .ui.tiny.images svg,
+html /deep/ .ui.tiny.image {
+  width: 80px;
+  font-size: 0.85714286rem;
+}
+html /deep/ .ui.small.images .image,
+html /deep/ .ui.small.images img,
+html /deep/ .ui.small.images svg,
+html /deep/ .ui.small.image {
+  width: 150px;
+  font-size: 0.92857143rem;
+}
+html /deep/ .ui.medium.images .image,
+html /deep/ .ui.medium.images img,
+html /deep/ .ui.medium.images svg,
+html /deep/ .ui.medium.image {
+  width: 300px;
+  font-size: 1rem;
+}
+html /deep/ .ui.large.images .image,
+html /deep/ .ui.large.images img,
+html /deep/ .ui.large.images svg,
+html /deep/ .ui.large.image {
+  width: 450px;
+  font-size: 1.14285714rem;
+}
+html /deep/ .ui.big.images .image,
+html /deep/ .ui.big.images img,
+html /deep/ .ui.big.images svg,
+html /deep/ .ui.big.image {
+  width: 600px;
+  font-size: 1.28571429rem;
+}
+html /deep/ .ui.huge.images .image,
+html /deep/ .ui.huge.images img,
+html /deep/ .ui.huge.images svg,
+html /deep/ .ui.huge.image {
+  width: 800px;
+  font-size: 1.42857143rem;
+}
+html /deep/ .ui.massive.images .image,
+html /deep/ .ui.massive.images img,
+html /deep/ .ui.massive.images svg,
+html /deep/ .ui.massive.image {
+  width: 960px;
+  font-size: 1.71428571rem;
+}
+html /deep/ .ui.images {
+  font-size: 0em;
+  margin: 0em -0.25rem 0rem;
+}
+html /deep/ .ui.images .image,
+html /deep/ .ui.images img,
+html /deep/ .ui.images svg {
+  display: inline-block;
+  margin: 0em 0.25rem 0.5rem;
+}

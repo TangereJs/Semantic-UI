@@ -1,0 +1,590 @@
+ /*
+ * # Semantic UI - 1.9.0
+ * https://github.com/Semantic-Org/Semantic-UI
+ * http://www.semantic-ui.com/
+ *
+ * Copyright 2014 Contributors
+ * Released under the MIT license
+ * http://opensource.org/licenses/MIT
+ *
+ */
+
+
+
+/*******************************
+            Segment
+*******************************/
+
+html /deep/ {
+  
+/* Vertical */
+  
+/* Horizontal */
+  
+/*-------------------
+    Loose Coupling
+--------------------*/
+
+  
+/* Header */
+  
+/* Label */
+  
+/* Grid */
+  
+/* Table */
+  
+
+/*******************************
+             Types
+*******************************/
+
+  
+/*-------------------
+        Piled
+--------------------*/
+
+  
+/* Piled Attached */
+  
+/*-------------------
+       Stacked
+--------------------*/
+
+  
+/* Add additional page */
+  
+/* Inverted */
+  
+/*-------------------
+       Compact
+--------------------*/
+
+  
+/*-------------------
+       Circular
+--------------------*/
+
+  
+/*-------------------
+       Raised
+--------------------*/
+
+  
+
+/*******************************
+            States
+*******************************/
+
+  
+/*--------------
+    Disabled
+---------------*/
+
+  
+/*--------------
+    Loading
+---------------*/
+
+  
+
+/*******************************
+           Variations
+*******************************/
+
+  
+/*-------------------
+       Basic
+--------------------*/
+
+  
+/*-------------------
+       Fittted
+--------------------*/
+
+  
+/*-------------------
+       Colors
+--------------------*/
+
+  
+/*-------------------
+   Inverted Colors
+--------------------*/
+
+  
+/*-------------------
+       Aligned
+--------------------*/
+
+  
+/*-------------------
+       Floated
+--------------------*/
+
+  
+/*-------------------
+      Inverted
+--------------------*/
+
+  
+/*-------------------
+     Ordinality
+--------------------*/
+
+  
+/*-------------------
+      Attached
+--------------------*/
+
+  
+/* Top */
+  
+/* Bottom */
+  
+
+/*******************************
+         Theme Overrides
+*******************************/
+
+  
+
+/*******************************
+         Site Overrides
+*******************************/
+
+}
+html /deep/ .ui.segment {
+  position: relative;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 0px 1px rgba(39, 41, 43, 0.15), 0px 1px 2px 0 rgba(0, 0, 0, 0.05);
+  margin: 1rem 0em;
+  padding: 1em 1em;
+  border-radius: 0.2857rem;
+  border: none;
+}
+html /deep/ .ui.segment:first-child {
+  margin-top: 0em;
+}
+html /deep/ .ui.segment:last-child {
+  margin-bottom: 0em;
+}
+html /deep/ .ui.segment:after {
+  content: '';
+  display: block;
+  height: 0px;
+  clear: both;
+  visibility: hidden;
+}
+html /deep/ .ui[class*="vertical segment"] {
+  margin: 0em;
+  padding-left: 0em;
+  padding-right: 0em;
+  background-color: transparent;
+  border-radius: 0px;
+  border: none;
+  box-shadow: 0px -1px 0px rgba(39, 41, 43, 0.15) inset;
+}
+html /deep/ .ui[class*="vertical segment"]:last-child {
+  box-shadow: none;
+}
+html /deep/ .ui[class*="horizontal segment"] {
+  margin: 0em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  background-color: transparent;
+  border-radius: 0px;
+  border: none;
+  box-shadow: 1px 0px 0px rgba(39, 41, 43, 0.15);
+}
+html /deep/ .ui.inverted.segment > .ui.header {
+  color: #ffffff;
+}
+html /deep/ .ui[class*="bottom attached"].segment > [class*="top attached"].label {
+  border-top-left-radius: 0em;
+  border-top-right-radius: 0em;
+}
+html /deep/ .ui[class*="top attached"].segment > [class*="bottom attached"].label {
+  border-bottom-left-radius: 0em;
+  border-bottom-right-radius: 0em;
+}
+html /deep/ .ui.attached.segment:not(.top):not(.bottom) > [class*="top attached"].label {
+  border-top-left-radius: 0em;
+  border-top-right-radius: 0em;
+}
+html /deep/ .ui.attached.segment:not(.top):not(.bottom) > [class*="bottom attached"].label {
+  border-bottom-left-radius: 0em;
+  border-bottom-right-radius: 0em;
+}
+html /deep/ .ui.page.grid.segment,
+html /deep/ .ui.grid .ui.segment.column {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+html /deep/ .ui.grid.segment {
+  margin: 1rem 0rem;
+  border-radius: 0.2857rem;
+}
+html /deep/ .ui.basic.table.segment {
+  background: #ffffff;
+  border: none;
+  box-shadow: 0px 0px 0px 1px rgba(39, 41, 43, 0.15), 0px 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+html /deep/ .ui[class*="very basic"].table.segment {
+  padding: 1em 1em;
+}
+html /deep/ .ui.piled.segment {
+  margin: 3em 0em;
+  box-shadow: 0px 0px 1px 1px rgba(39, 41, 43, 0.15);
+  z-index: auto;
+}
+html /deep/ .ui.piled.segment:first-child {
+  margin-top: 0em;
+}
+html /deep/ .ui.piled.segment:last-child {
+  margin-bottom: 0em;
+}
+html /deep/ .ui.piled.segment:after,
+html /deep/ .ui.piled.segment:before {
+  background-color: #ffffff;
+  visibility: visible;
+  content: '';
+  display: block;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  width: 100%;
+  box-shadow: 0px 0px 1px 1px rgba(39, 41, 43, 0.15);
+}
+html /deep/ .ui.piled.segment:after {
+  -webkit-transform: rotate(1.2deg);
+      -ms-transform: rotate(1.2deg);
+          transform: rotate(1.2deg);
+  top: 0;
+  z-index: -1;
+}
+html /deep/ .ui.piled.segment:before {
+  -webkit-transform: rotate(-1.2deg);
+      -ms-transform: rotate(-1.2deg);
+          transform: rotate(-1.2deg);
+  top: 0;
+  z-index: -2;
+}
+html /deep/ .ui[class*="top attached"].piled.segment {
+  margin-top: 3em;
+  margin-bottom: 0em;
+}
+html /deep/ .ui.piled.segment[class*="top attached"]:first-child {
+  margin-top: 0em;
+}
+html /deep/ .ui.piled.segment[class*="bottom attached"] {
+  margin-top: 0em;
+  margin-bottom: 3em;
+}
+html /deep/ .ui.piled.segment[class*="bottom attached"]:last-child {
+  margin-bottom: 0em;
+}
+html /deep/ .ui.stacked.segment {
+  padding-bottom: 1.4em;
+}
+html /deep/ .ui.stacked.segment:after,
+html /deep/ .ui.stacked.segment:before {
+  content: '';
+  position: absolute;
+  bottom: -3px;
+  left: 0%;
+  border-top: 1px solid rgba(39, 41, 43, 0.15);
+  background-color: rgba(0, 0, 0, 0.03);
+  width: 100%;
+  height: 6px;
+  visibility: visible;
+}
+html /deep/ .ui.stacked.segment:before {
+  display: none;
+}
+html /deep/ .ui.tall.stacked.segment:before {
+  display: block;
+  bottom: 0px;
+}
+html /deep/ .ui.stacked.inverted.segment:after,
+html /deep/ .ui.stacked.inverted.segment:before {
+  background-color: rgba(0, 0, 0, 0.03);
+  border-top: 1px solid rgba(39, 41, 43, 0.3);
+}
+html /deep/ .ui.compact.segment {
+  display: table;
+}
+html /deep/ .ui.circular.segment {
+  display: table-cell;
+  padding: 2em;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 500em;
+}
+html /deep/ .ui.raised.segment {
+  box-shadow: 0px 0px 0px 1px rgba(39, 41, 43, 0.15), 0px 1px 4px 0px rgba(0, 0, 0, 0.15);
+}
+html /deep/ .ui.disabled.segment {
+  opacity: 0.3;
+  color: rgba(40, 40, 40, 0.3);
+}
+html /deep/ .ui.loading.segment {
+  position: relative;
+  cursor: default;
+  point-events: none;
+  text-shadow: none !important;
+  color: transparent !important;
+  -webkit-transition: all 0s linear;
+          transition: all 0s linear;
+}
+html /deep/ .ui.loading.segment:before {
+  position: absolute;
+  content: '';
+  top: 0%;
+  left: 0%;
+  background: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  height: 100%;
+  border-radius: 0.2857rem;
+  z-index: 100;
+}
+html /deep/ .ui.loading.segment:after {
+  position: absolute;
+  content: '';
+  top: 50%;
+  left: 50%;
+  margin: -1.5em 0em 0em -1.5em;
+  width: 3em;
+  height: 3em;
+  -webkit-animation: segment-spin 0.6s linear;
+          animation: segment-spin 0.6s linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  border-radius: 500rem;
+  border-color: #aaaaaa rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1);
+  border-style: solid;
+  border-width: 0.2em;
+  box-shadow: 0px 0px 0px 1px transparent;
+  visibility: visible;
+  z-index: 101;
+}
+@-webkit-keyframes segment-spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@keyframes segment-spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+html /deep/ .ui.basic.segment {
+  position: relative;
+  background-color: transparent;
+  box-shadow: none;
+  border-radius: 0px;
+}
+html /deep/ .ui.fitted.segment {
+  padding: 0em;
+}
+html /deep/ .ui.black.segment:not(.inverted) {
+  border-top: 2px solid #1b1c1d;
+}
+html /deep/ .ui.blue.segment:not(.inverted) {
+  border-top: 2px solid #3b83c0;
+}
+html /deep/ .ui.green.segment:not(.inverted) {
+  border-top: 2px solid #5bbd72;
+}
+html /deep/ .ui.orange.segment:not(.inverted) {
+  border-top: 2px solid #e07b53;
+}
+html /deep/ .ui.pink.segment:not(.inverted) {
+  border-top: 2px solid #d9499a;
+}
+html /deep/ .ui.purple.segment:not(.inverted) {
+  border-top: 2px solid #564f8a;
+}
+html /deep/ .ui.red.segment:not(.inverted) {
+  border-top: 2px solid #d95c5c;
+}
+html /deep/ .ui.teal.segment:not(.inverted) {
+  border-top: 2px solid #00b5ad;
+}
+html /deep/ .ui.yellow.segment:not(.inverted) {
+  border-top: 2px solid #f2c61f;
+}
+html /deep/ .ui.black.segment:not(.inverted):not(.attached) {
+  border-top-left-radius: 0.2857rem !important;
+  border-top-right-radius: 0.2857rem !important;
+}
+html /deep/ .ui.blue.segment:not(.inverted):not(.attached) {
+  border-top-left-radius: 0.2857rem !important;
+  border-top-right-radius: 0.2857rem !important;
+}
+html /deep/ .ui.green.segment:not(.inverted):not(.attached) {
+  border-top-left-radius: 0.2857rem !important;
+  border-top-right-radius: 0.2857rem !important;
+}
+html /deep/ .ui.orange.segment:not(.inverted):not(.attached) {
+  border-top-left-radius: 0.2857rem !important;
+  border-top-right-radius: 0.2857rem !important;
+}
+html /deep/ .ui.pink.segment:not(.inverted):not(.attached) {
+  border-top-left-radius: 0.2857rem !important;
+  border-top-right-radius: 0.2857rem !important;
+}
+html /deep/ .ui.purple.segment:not(.inverted):not(.attached) {
+  border-top-left-radius: 0.2857rem !important;
+  border-top-right-radius: 0.2857rem !important;
+}
+html /deep/ .ui.red.segment:not(.inverted):not(.attached) {
+  border-top-left-radius: 0.2857rem !important;
+  border-top-right-radius: 0.2857rem !important;
+}
+html /deep/ .ui.teal.segment:not(.inverted):not(.attached) {
+  border-top-left-radius: 0.2857rem !important;
+  border-top-right-radius: 0.2857rem !important;
+}
+html /deep/ .ui.yellow.segment:not(.inverted):not(.attached) {
+  border-top-left-radius: 0.2857rem !important;
+  border-top-right-radius: 0.2857rem !important;
+}
+html /deep/ .ui.inverted.segment,
+html /deep/ .ui.inverted.black.segment {
+  background-color: #1b1c1d !important;
+  color: #ffffff !important;
+}
+html /deep/ .ui.inverted.blue.segment {
+  background-color: #3b83c0 !important;
+  color: #ffffff !important;
+}
+html /deep/ .ui.inverted.green.segment {
+  background-color: #5bbd72 !important;
+  color: #ffffff !important;
+}
+html /deep/ .ui.inverted.orange.segment {
+  background-color: #e07b53 !important;
+  color: #ffffff !important;
+}
+html /deep/ .ui.inverted.pink.segment {
+  background-color: #d9499a !important;
+  color: #ffffff !important;
+}
+html /deep/ .ui.inverted.purple.segment {
+  background-color: #564f8a !important;
+  color: #ffffff !important;
+}
+html /deep/ .ui.inverted.red.segment {
+  background-color: #d95c5c !important;
+  color: #ffffff !important;
+}
+html /deep/ .ui.inverted.teal.segment {
+  background-color: #00b5ad !important;
+  color: #ffffff !important;
+}
+html /deep/ .ui.inverted.yellow.segment {
+  background-color: #f2c61f !important;
+  color: #ffffff !important;
+}
+html /deep/ .ui[class*="left aligned"].segment {
+  text-align: left;
+}
+html /deep/ .ui[class*="right aligned"].segment {
+  text-align: right;
+}
+html /deep/ .ui[class*="center aligned"].segment {
+  text-align: center;
+}
+html /deep/ .ui.floated.segment,
+html /deep/ .ui[class*="left floated"].segment {
+  float: left;
+  margin-right: 1rem;
+}
+html /deep/ .ui[class*="right floated"].segment {
+  float: right;
+  margin-left: 1rem;
+}
+html /deep/ .ui.inverted.segment {
+  border: none;
+  box-shadow: none;
+}
+html /deep/ .ui.inverted.segment .segment {
+  color: rgba(0, 0, 0, 0.8);
+}
+html /deep/ .ui.inverted.segment .inverted.segment {
+  color: #ffffff;
+}
+html /deep/ .ui.inverted.segment,
+html /deep/ .ui.primary.inverted.segment {
+  background-color: #1b1c1d;
+  color: #ffffff;
+}
+html /deep/ .ui.inverted.block.segment,
+html /deep/ .ui.inverted.attached.segment {
+  border-color: #555555;
+}
+html /deep/ .ui.secondary.segment {
+  background: #faf9fa;
+  color: rgba(0, 0, 0, 0.8);
+}
+html /deep/ .ui.tertiary.segment {
+  background: #ebebeb;
+  color: rgba(0, 0, 0, 0.8);
+}
+html /deep/ .ui.secondary.inverted.segment {
+  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.3) 100%);
+  background: linear-gradient(rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.3) 100%);
+  color: #fafafa;
+}
+html /deep/ .ui.tertiary.inverted.segment {
+  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.5) 100%);
+  background: linear-gradient(rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.5) 100%);
+  color: #f0f0f0;
+}
+html /deep/ .ui.segment.attached {
+  top: 0px;
+  bottom: 0px;
+  margin: 0em -1px;
+  width: -webkit-calc(100% +  2px );
+  width: calc(100% +  2px );
+  max-width: -webkit-calc(100% +  2px );
+  max-width: calc(100% +  2px );
+  border-radius: 0px;
+  box-shadow: none;
+  border: 1px solid #d4d4d5;
+}
+html /deep/ .ui.segment.attached + .ui.segment.attached:not(.top) {
+  border-top: none;
+}
+html /deep/ .ui[class*="top attached"].segment {
+  top: 0px;
+  bottom: 0px;
+  margin-top: 1rem;
+  margin-bottom: 0em;
+  border-radius: 0.2857rem 0.2857rem 0em 0em;
+}
+html /deep/ .ui.segment[class*="top attached"]:first-child {
+  margin-top: 0em;
+}
+html /deep/ .ui.segment[class*="bottom attached"] {
+  top: 0px;
+  bottom: 0px;
+  margin-top: 0em;
+  margin-bottom: 1rem;
+  box-shadow: none, 0px 1px 2px 0 rgba(0, 0, 0, 0.05);
+  border-radius: 0em 0em 0.2857rem 0.2857rem;
+}
+html /deep/ .ui.segment[class*="bottom attached"]:last-child {
+  margin-bottom: 0em;
+}

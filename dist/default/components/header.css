@@ -1,0 +1,598 @@
+ /*
+ * # Semantic UI - 1.9.0
+ * https://github.com/Semantic-Org/Semantic-UI
+ * http://www.semantic-ui.com/
+ *
+ * Copyright 2014 Contributors
+ * Released under the MIT license
+ * http://opensource.org/licenses/MIT
+ *
+ */
+
+
+
+/*******************************
+            Header
+*******************************/
+
+html /deep/ {
+  
+/* Standard */
+  
+/*--------------
+   Sub Header
+---------------*/
+
+  
+/*--------------
+      Icon
+---------------*/
+
+  
+/* With Text Node */
+  
+/*-------------------
+        Image
+--------------------*/
+
+  
+/*--------------
+     Content
+---------------*/
+
+  
+/* After Image */
+  
+/* After Icon */
+  
+/*--------------
+ Loose Coupling
+---------------*/
+
+  
+/* Positioning */
+  
+
+/*******************************
+            Types
+*******************************/
+
+  
+/*--------------
+     Page
+---------------*/
+
+  
+/* Sub Header */
+  
+/*--------------
+ Content Heading
+---------------*/
+
+  
+/* Sub Header */
+  
+/*-------------------
+        Icon
+--------------------*/
+
+  
+
+/*******************************
+            States
+*******************************/
+
+  
+
+/*******************************
+           Variations
+*******************************/
+
+  
+/*-------------------
+       Colors
+--------------------*/
+
+  
+/*-------------------
+      Inverted
+--------------------*/
+
+  
+/*-------------------
+   Inverted Colors
+--------------------*/
+
+  
+/*-------------------
+       Aligned
+--------------------*/
+
+  
+/*-------------------
+       Floated
+--------------------*/
+
+  
+/*-------------------
+       Fittted
+--------------------*/
+
+  
+/*-------------------
+      Dividing
+--------------------*/
+
+  
+/*-------------------
+        Block
+--------------------*/
+
+  
+/*-------------------
+       Attached
+--------------------*/
+
+  
+/* Attached Sizes */
+  
+/*-------------------
+        Sizing
+--------------------*/
+
+  
+
+/*******************************
+         Theme Overrides
+*******************************/
+
+  
+
+/*******************************
+         Site Overrides
+*******************************/
+
+}
+html /deep/ .ui.header {
+  border: none;
+  margin: -webkit-calc(2rem -  0.165em ) 0em 1rem;
+  margin: calc(2rem -  0.165em ) 0em 1rem;
+  padding: 0em 0em;
+  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  line-height: 1.33em;
+  text-transform: none;
+  color: rgba(0, 0, 0, 0.8);
+}
+html /deep/ .ui.header:first-child {
+  margin-top: -0.165em;
+}
+html /deep/ .ui.header:last-child {
+  margin-bottom: 0em;
+}
+html /deep/ .ui.header .sub.header {
+  font-weight: normal;
+  margin: 0em;
+  padding: 0em;
+  font-size: 1.1428rem;
+  line-height: 1.2em;
+  color: rgba(0, 0, 0, 0.5);
+}
+html /deep/ .ui.header > .icon {
+  display: table-cell;
+  opacity: 1;
+  font-size: 1.5em;
+  padding-top: 0.165em;
+  vertical-align: middle;
+}
+html /deep/ .ui.header .icon:only-child {
+  display: inline-block;
+  padding: 0em;
+  margin-right: 0.75rem;
+}
+html /deep/ .ui.header > .image,
+html /deep/ .ui.header > img {
+  display: inline-block;
+  margin-top: 0.165em;
+  width: 2.5em;
+  height: auto;
+  vertical-align: middle;
+}
+html /deep/ .ui.header > .image:only-child,
+html /deep/ .ui.header > img:only-child {
+  margin-right: 0.75rem;
+}
+html /deep/ .ui.header .content {
+  display: inline-block;
+  vertical-align: top;
+}
+html /deep/ .ui.header > img + .content,
+html /deep/ .ui.header > .image + .content {
+  padding-left: 0.75rem;
+  vertical-align: middle;
+}
+html /deep/ .ui.header > .icon + .content {
+  padding-left: 0.75rem;
+  display: table-cell;
+  vertical-align: middle;
+}
+html /deep/ .ui.header .ui.label {
+  margin: 0em 0em 0em 0.5rem;
+  vertical-align: middle;
+}
+html /deep/ .ui.header + p {
+  margin-top: 0em;
+}
+html /deep/ h1.ui.header {
+  font-size: 2rem;
+}
+html /deep/ h2.ui.header {
+  font-size: 1.714rem;
+}
+html /deep/ h3.ui.header {
+  font-size: 1.28rem;
+}
+html /deep/ h4.ui.header {
+  font-size: 1.071rem;
+}
+html /deep/ h5.ui.header {
+  font-size: 1rem;
+}
+html /deep/ h1.ui.header .sub.header {
+  font-size: 1.4285rem;
+}
+html /deep/ h2.ui.header .sub.header {
+  font-size: 1.1428rem;
+}
+html /deep/ h3.ui.header .sub.header {
+  font-size: 1.1428rem;
+}
+html /deep/ h4.ui.header .sub.header {
+  font-size: 1rem;
+}
+html /deep/ h5.ui.header .sub.header {
+  font-size: 0.9285rem;
+}
+html /deep/ .ui.huge.header {
+  min-height: 1em;
+  font-size: 2em;
+}
+html /deep/ .ui.large.header {
+  font-size: 1.714em;
+}
+html /deep/ .ui.medium.header {
+  font-size: 1.28em;
+}
+html /deep/ .ui.small.header {
+  font-size: 1.071em;
+}
+html /deep/ .ui.tiny.header {
+  font-size: 1em;
+}
+html /deep/ .ui.huge.header .sub.header {
+  font-size: 1.4285rem;
+}
+html /deep/ .ui.large.header .sub.header {
+  font-size: 1.4285rem;
+}
+html /deep/ .ui.header .sub.header {
+  font-size: 1.1428rem;
+}
+html /deep/ .ui.small.header .sub.header {
+  font-size: 1rem;
+}
+html /deep/ .ui.tiny.header .sub.header {
+  font-size: 0.9285rem;
+}
+html /deep/ .ui.icon.header {
+  display: inline-block;
+  text-align: center;
+  margin: 2rem 0em 1rem;
+}
+html /deep/ .ui.icon.header:after {
+  content: '';
+  display: block;
+  height: 0px;
+  clear: both;
+  visibility: hidden;
+}
+html /deep/ .ui.icon.header:first-child {
+  margin-top: 0em;
+}
+html /deep/ .ui.icon.header .icon {
+  float: none;
+  display: block;
+  width: auto;
+  height: auto;
+  padding: 0em;
+  font-size: 3em;
+  margin: 0em auto 0.25rem;
+  opacity: 1;
+}
+html /deep/ .ui.icon.header .content {
+  display: block;
+}
+html /deep/ .ui.icon.header .circular.icon {
+  font-size: 2em;
+}
+html /deep/ .ui.icon.header .square.icon {
+  font-size: 2em;
+}
+html /deep/ .ui.block.icon.header .icon {
+  margin-bottom: 0em;
+}
+html /deep/ .ui.icon.header.aligned {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+html /deep/ .ui.disabled.header {
+  opacity: 0.3;
+}
+html /deep/ .ui.black.header {
+  color: #1b1c1d !important;
+}
+html /deep/ a.ui.black.header:hover {
+  color: #1b1c1d !important;
+}
+html /deep/ .ui.blue.header {
+  color: #3b83c0 !important;
+}
+html /deep/ a.ui.blue.header:hover {
+  color: #458ac6 !important;
+}
+html /deep/ .ui.green.header {
+  color: #5bbd72 !important;
+}
+html /deep/ a.ui.green.header:hover {
+  color: #66c17b !important;
+}
+html /deep/ .ui.orange.header {
+  color: #e07b53 !important;
+}
+html /deep/ a.ui.orange.header:hover {
+  color: #e28560 !important;
+}
+html /deep/ .ui.pink.header {
+  color: #d9499a !important;
+}
+html /deep/ a.ui.pink.header:hover {
+  color: #dc56a1 !important;
+}
+html /deep/ .ui.purple.header {
+  color: #564f8a !important;
+}
+html /deep/ a.ui.purple.header:hover {
+  color: #5c5594 !important;
+}
+html /deep/ .ui.red.header {
+  color: #d95c5c !important;
+}
+html /deep/ a.ui.red.header:hover {
+  color: #dc6868 !important;
+}
+html /deep/ .ui.teal.header {
+  color: #00b5ad !important;
+}
+html /deep/ a.ui.teal.header:hover {
+  color: #00c4bc !important;
+}
+html /deep/ .ui.yellow.header {
+  color: #f2c61f !important;
+}
+html /deep/ a.ui.yellow.header:hover {
+  color: #f3ca2d !important;
+}
+html /deep/ .ui.black.dividing.header {
+  border-bottom: 2px solid #1b1c1d;
+}
+html /deep/ .ui.blue.dividing.header {
+  border-bottom: 2px solid #3b83c0;
+}
+html /deep/ .ui.green.dividing.header {
+  border-bottom: 2px solid #5bbd72;
+}
+html /deep/ .ui.orange.dividing.header {
+  border-bottom: 2px solid #e07b53;
+}
+html /deep/ .ui.pink.dividing.header {
+  border-bottom: 2px solid #d9499a;
+}
+html /deep/ .ui.purple.dividing.header {
+  border-bottom: 2px solid #564f8a;
+}
+html /deep/ .ui.red.dividing.header {
+  border-bottom: 2px solid #d95c5c;
+}
+html /deep/ .ui.teal.dividing.header {
+  border-bottom: 2px solid #00b5ad;
+}
+html /deep/ .ui.yellow.dividing.header {
+  border-bottom: 2px solid #f2c61f;
+}
+html /deep/ .ui.inverted.header {
+  color: #ffffff;
+}
+html /deep/ .ui.inverted.header .sub.header {
+  color: rgba(255, 255, 255, 0.85);
+}
+html /deep/ .ui.inverted.attached.header {
+  background: #333333 -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+  background: #333333 linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+  box-shadow: none;
+}
+html /deep/ .ui.inverted.block.header {
+  background: #333333 -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+  background: #333333 linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+  box-shadow: none;
+}
+html /deep/ .ui.inverted.black.header {
+  color: #aaaaaa !important;
+}
+html /deep/ a.ui.inverted.black.header:hover {
+  color: #b2b2b2 !important;
+}
+html /deep/ .ui.inverted.blue.header {
+  color: #54c8ff !important;
+}
+html /deep/ a.ui.inverted.blue.header:hover {
+  color: #63cdff !important;
+}
+html /deep/ .ui.inverted.green.header {
+  color: #2ecc40 !important;
+}
+html /deep/ a.ui.inverted.green.header:hover {
+  color: #37d249 !important;
+}
+html /deep/ .ui.inverted.orange.header {
+  color: #ff851b !important;
+}
+html /deep/ a.ui.inverted.orange.header:hover {
+  color: #ff8d2a !important;
+}
+html /deep/ .ui.inverted.pink.header {
+  color: #ff8edf !important;
+}
+html /deep/ a.ui.inverted.pink.header:hover {
+  color: #ff9de3 !important;
+}
+html /deep/ .ui.inverted.purple.header {
+  color: #cdc6ff !important;
+}
+html /deep/ a.ui.inverted.purple.header:hover {
+  color: #dad5ff !important;
+}
+html /deep/ .ui.inverted.red.header {
+  color: #ff695e !important;
+}
+html /deep/ a.ui.inverted.red.header:hover {
+  color: #ff776d !important;
+}
+html /deep/ .ui.inverted.teal.header {
+  color: #6dffff !important;
+}
+html /deep/ a.ui.inverted.teal.header:hover {
+  color: #7cffff !important;
+}
+html /deep/ .ui.inverted.yellow.header {
+  color: #ffe21f !important;
+}
+html /deep/ a.ui.inverted.yellow.header:hover {
+  color: #ffe42e !important;
+}
+html /deep/ .ui.inverted.block.header {
+  border-bottom: none;
+}
+html /deep/ .ui.left.aligned.header {
+  text-align: left;
+}
+html /deep/ .ui.right.aligned.header {
+  text-align: right;
+}
+html /deep/ .ui.centered.header,
+html /deep/ .ui.center.aligned.header {
+  text-align: center;
+}
+html /deep/ .ui.justified.header {
+  text-align: justify;
+}
+html /deep/ .ui.justified.header:after {
+  display: inline-block;
+  content: '';
+  width: 100%;
+}
+html /deep/ .ui.floated.header,
+html /deep/ .ui[class*="left floated"].header {
+  float: left;
+  margin-top: 0em;
+  margin-right: 0.5em;
+}
+html /deep/ .ui[class*="right floated"].header {
+  float: right;
+  margin-top: 0em;
+  margin-left: 0.5em;
+}
+html /deep/ .ui.fitted.header {
+  padding: 0em;
+}
+html /deep/ .ui.dividing.header {
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+html /deep/ .ui.dividing.header .sub.header {
+  padding-bottom: 0.25rem;
+}
+html /deep/ .ui.dividing.header .icon {
+  margin-bottom: 0em;
+}
+html /deep/ .ui.inverted.dividing.header {
+  border-bottom-color: rgba(255, 255, 255, 0.2);
+}
+html /deep/ .ui.block.header {
+  background: #f0f0f0;
+  padding: 0.75rem 1rem;
+  box-shadow: none;
+  border: 1px solid #d4d4d5;
+  border-radius: 0.3125rem;
+}
+html /deep/ .ui.tiny.block.header {
+  font-size: 1em;
+}
+html /deep/ .ui.small.block.header {
+  font-size: 1.071em;
+}
+html /deep/ .ui.block.header:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) {
+  font-size: 1.28em;
+}
+html /deep/ .ui.large.block.header {
+  font-size: 1.714em;
+}
+html /deep/ .ui.huge.block.header {
+  font-size: 2em;
+}
+html /deep/ .ui.attached.header {
+  background: #ffffff;
+  padding: 0.75rem 1rem;
+  margin-left: -1px;
+  margin-right: -1px;
+  box-shadow: none;
+  border: 1px solid #d4d4d5;
+}
+html /deep/ .ui.attached.block.header {
+  background: #f0f0f0;
+}
+html /deep/ .ui.attached:not(.top):not(.bottom).header {
+  margin-top: 0em;
+  margin-bottom: 0em;
+  border-top: none;
+  border-bottom: none;
+  border-radius: 0em;
+}
+html /deep/ .ui.top.attached.header {
+  margin-bottom: 0em;
+  border-bottom: none;
+  border-radius: 0.3125rem 0.3125rem 0em 0em;
+}
+html /deep/ .ui.bottom.attached.header {
+  margin-top: 0em;
+  border-top: none;
+  border-radius: 0em 0em 0.3125rem 0.3125rem;
+}
+html /deep/ .ui.tiny.attached.header {
+  font-size: 0.8571em;
+}
+html /deep/ .ui.small.attached.header {
+  font-size: 0.9285em;
+}
+html /deep/ .ui.attached.header:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) {
+  font-size: 1em;
+}
+html /deep/ .ui.large.attached.header {
+  font-size: 1.0714em;
+}
+html /deep/ .ui.huge.attached.header {
+  font-size: 1.1428em;
+}
+html /deep/ .ui.header:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) {
+  font-size: 1.28em;
+}
