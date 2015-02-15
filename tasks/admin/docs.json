@@ -8,12 +8,12 @@
       "themes": "src/themes/"
     },
     "output": {
-      "less":     "../docs/out/src/",
-      "packaged": "../docs/out/dist/",
-      "uncompressed": "../docs/out/dist/components/",
-      "compressed": "../docs/out/dist/components/",
-      "themes": "../docs/out/dist/themes/"
+      "less":     "../Semantic-UI-Docs/out/src/",
+      "packaged": "../Semantic-UI-Docs/out/dist/",
+      "uncompressed": "../Semantic-UI-Docs/out/dist/components/",
+      "compressed": "../Semantic-UI-Docs/out/dist/components/",
+      "themes": "../Semantic-UI-Docs/out/dist/themes/"
     },
-    "clean": "../docs/out/dist/"
+    "clean": "../Semantic-UI-Docs/out/dist/"
   }
 }
