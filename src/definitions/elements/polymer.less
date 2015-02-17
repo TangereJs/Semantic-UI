@@ -1,0 +1,39 @@
+ /*
+ * Semantic - Polymer integration
+ * http://github.com/TangereJs/semantic-ui/
+ *
+ *
+ * Copyright 2015 adenin TECHNOLOGIES
+ * Released under the MIT license
+ * http://opensource.org/licenses/MIT
+ *
+ */
+
+
+/*******************************
+            Theme
+*******************************/
+
+.polymer() {
+
+@type    : 'element';
+@element : 'polymer';
+
+@import (multiple) '../../theme.config';
+
+
+/*******************************
+             Flag
+*******************************/
+
+htmldeep {
+  
+.polymer {
+  background-color: @lightBlue;
+}
+
+.loadUIOverrides();
+
+}
+}
+.polymer();
