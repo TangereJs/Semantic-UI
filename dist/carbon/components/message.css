@@ -369,10 +369,10 @@
 }
 .ui.red.message {
   background-color: #ffe8e6;
-  color: #f44336;
+  color: #e41e2b;
 }
 .ui.red.message .header {
-  color: #f32c1e;
+  color: #d01925;
 }
 .ui.teal.message {
   background-color: #e9ffff;

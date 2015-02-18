@@ -222,7 +222,7 @@ html /deep/ .ui.input input:focus input::-moz-placeholder {
 html /deep/ .ui.input.error input {
   background-color: #fff0f0;
   border-color: #dbb1b1;
-  color: #f44336;
+  color: #e41e2b;
   box-shadow: none;
 }
 html /deep/ .ui.input.error input ::-webkit-input-placeholder {

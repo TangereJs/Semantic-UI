@@ -261,7 +261,7 @@ html /deep/ .ui.carditems > .carditem > .content > .header:not(.ui),
 html /deep/ .ui.carditem > .content > .header:not(.ui) {
   font-weight: bold;
   font-size: 1.2em;
-  margin-top: -0.165em;
+  margin-top: -0.25em;
   line-height: 1.33em;
 }
 html /deep/ .ui.carditems > .carditem > .content > .meta + .description,

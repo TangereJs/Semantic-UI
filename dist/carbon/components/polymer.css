@@ -12,7 +12,7 @@
 
 
 /*******************************
-             Flag
+            Polymer
 *******************************/
 
 html /deep/ {
@@ -36,4 +36,10 @@ html /deep/ #section {
 html /deep/ core-toolbar {
   color: #ffffff;
   background-color: #2979ff;
+}
+/*** avoid FOUC until this CSS is loaded ***/
+.fouc-initial-hide {
+  -webkit-transition: opacity ease-in 0.2s;
+          transition: opacity ease-in 0.2s;
+  opacity: 1;
 }

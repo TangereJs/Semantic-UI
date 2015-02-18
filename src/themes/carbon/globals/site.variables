@@ -17,14 +17,14 @@
 --------------------*/
 
 @emSize            : 14px;
-@fontSize          : 13px;
+@fontSize          : 14px;
 
 /*--------------
       Page
 ---------------*/  
 
 @pageBackground      : #F9F9F9;
-@lineHeight          : 1.33;
+@lineHeight          : 1.5;
 @textColor           : #212121;
 
 /*--------------
@@ -58,7 +58,7 @@
 @orange           : #FF9800;
 @pink             : #E91E63;
 @purple           : #9C27B0;
-@red              : #F44336;
+@red              : #E41E2b;  /*--- #F44336; ---*/
 @teal             : #1de9b6;
 @yellow           : #FFEB3B;
 
@@ -86,7 +86,7 @@
 --------------------*/
 
 @primaryColor        : @blue;
-@secondaryColor      : @grey;
+@secondaryColor      : @red;
 
 @lightPrimaryColor   : @lightBlue;
 @lightSecondaryColor : @lightGrey;

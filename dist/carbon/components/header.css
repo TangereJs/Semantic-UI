@@ -366,10 +366,10 @@ html /deep/ a.ui.purple.header:hover {
   color: #a72abd !important;
 }
 html /deep/ .ui.red.header {
-  color: #f44336 !important;
+  color: #e41e2b !important;
 }
 html /deep/ a.ui.red.header:hover {
-  color: #f55145 !important;
+  color: #e62c38 !important;
 }
 html /deep/ .ui.teal.header {
   color: #1de9b6 !important;
@@ -402,7 +402,7 @@ html /deep/ .ui.purple.dividing.header {
   border-bottom: 2px solid #9c27b0;
 }
 html /deep/ .ui.red.dividing.header {
-  border-bottom: 2px solid #f44336;
+  border-bottom: 2px solid #e41e2b;
 }
 html /deep/ .ui.teal.dividing.header {
   border-bottom: 2px solid #1de9b6;

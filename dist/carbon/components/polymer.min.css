@@ -8,4 +8,4 @@
  * http://opensource.org/licenses/MIT
  *
  */
-html /deep/ #section{background-image:inherit;background-color:#fff!important}html /deep/ core-toolbar{color:#fff;background-color:#2979ff}
+html /deep/ #section{background-image:inherit;background-color:#fff!important}html /deep/ core-toolbar{color:#fff;background-color:#2979ff}.fouc-initial-hide{-webkit-transition:opacity ease-in .2s;transition:opacity ease-in .2s;opacity:1}

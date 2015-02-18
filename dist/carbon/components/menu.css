@@ -1105,8 +1105,8 @@
 }
 .ui.menu .red.active.item,
 .ui.red.menu .active.item {
-  border-color: #f44336 !important;
-  color: #f44336 !important;
+  border-color: #e41e2b !important;
+  color: #e41e2b !important;
 }
 .ui.menu .teal.active.item,
 .ui.teal.menu .active.item {
@@ -1301,10 +1301,10 @@
 
 /* Red */
 .ui.inverted.red.menu {
-  background-color: #f44336;
+  background-color: #e41e2b;
 }
 .ui.inverted.red.pointing.menu .active.item:after {
-  background-color: #f44336;
+  background-color: #e41e2b;
 }
 
 /* Teal */

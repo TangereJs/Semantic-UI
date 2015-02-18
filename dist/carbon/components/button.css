@@ -1826,7 +1826,7 @@ html /deep/ .ui.button {
 
 .ui.red.buttons .button,
 .ui.red.button {
-  background-color: #f44336;
+  background-color: #e41e2b;
   color: #ffffff;
   text-shadow: none;
   background-image: none;
@@ -1836,13 +1836,13 @@ html /deep/ .ui.button {
 }
 .ui.red.buttons .button:hover,
 .ui.red.button:hover {
-  background-color: #f55145;
+  background-color: #e62c38;
   color: #ffffff;
   text-shadow: none;
 }
 .ui.red.buttons .button:active,
 .ui.red.button:active {
-  background-color: #f22314;
+  background-color: #c61823;
   color: #ffffff;
   text-shadow: none;
 }
@@ -1850,7 +1850,7 @@ html /deep/ .ui.button {
 .ui.red.buttons .active.button:active,
 .ui.red.active.button,
 .ui.red.button .active.button:active {
-  background-color: #f32c1e;
+  background-color: #d01925;
   color: #ffffff;
   text-shadow: none;
 }
@@ -1864,19 +1864,19 @@ html /deep/ .ui.button {
 .ui.basic.red.buttons .button:hover,
 .ui.basic.red.button:hover {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 2px #f55145 inset !important;
-  color: #f55145 !important;
+  box-shadow: 0px 0px 0px 2px #e62c38 inset !important;
+  color: #e62c38 !important;
 }
 .ui.basic.red.buttons .button:active,
 .ui.basic.red.button:active {
-  box-shadow: 0px 0px 0px 2px #f22314 inset !important;
-  color: #f22314 !important;
+  box-shadow: 0px 0px 0px 2px #c61823 inset !important;
+  color: #c61823 !important;
 }
 .ui.basic.red.buttons .active.button,
 .ui.basic.red.active.button {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 2px #f22314 inset !important;
-  color: #f22314 !important;
+  box-shadow: 0px 0px 0px 2px #c61823 inset !important;
+  color: #c61823 !important;
 }
 .ui.buttons > .basic.red.button:not(:first-child) {
   margin-left: -2px;
@@ -2200,7 +2200,7 @@ html /deep/ .ui.button {
 
 .ui.secondary.buttons .button,
 .ui.secondary.button {
-  background-color: #9e9e9e;
+  background-color: #e41e2b;
   color: #ffffff;
   text-shadow: none;
   background-image: none;
@@ -2210,19 +2210,19 @@ html /deep/ .ui.button {
 }
 .ui.secondary.buttons .button:hover,
 .ui.secondary.button:hover {
-  background-color: #a6a6a6;
+  background-color: #e62c38;
   color: #ffffff;
   text-shadow: none;
 }
 .ui.secondary.buttons .button:active,
 .ui.secondary.button:active {
-  background-color: #8c8c8c;
+  background-color: #c61823;
   color: #ffffff;
   text-shadow: none;
 }
 .ui.secondary.buttons .active.button,
 .ui.secondary.active.button {
-  background-color: #919191;
+  background-color: #d01925;
   color: #ffffff;
   text-shadow: none;
 }
@@ -2270,7 +2270,7 @@ html /deep/ .ui.button {
 
 .ui.negative.buttons .button,
 .ui.negative.button {
-  background-color: #f44336 !important;
+  background-color: #e41e2b !important;
   color: #ffffff;
   text-shadow: none;
   background-image: none;
@@ -2282,13 +2282,13 @@ html /deep/ .ui.button {
 .ui.negative.button:hover,
 .ui.negative.buttons .active.button,
 .ui.negative.active.button {
-  background-color: #f55145 !important;
+  background-color: #e62c38 !important;
   color: #ffffff;
   text-shadow: none;
 }
 .ui.negative.buttons .button:active,
 .ui.negative.button:active {
-  background-color: #f22314 !important;
+  background-color: #c61823 !important;
   color: #ffffff;
   text-shadow: none;
 }
@@ -2296,7 +2296,7 @@ html /deep/ .ui.button {
 .ui.negative.buttons .active.button:active,
 .ui.negative.active.button,
 .ui.negative.button .active.button:active {
-  background-color: #f32c1e;
+  background-color: #d01925;
   color: #ffffff;
   text-shadow: none;
 }

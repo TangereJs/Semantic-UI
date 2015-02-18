@@ -247,7 +247,7 @@ html /deep/ .ui.items > .item > .image + .content {
 }
 html /deep/ .ui.items > .item > .content > .header {
   display: inline-block;
-  margin: -0.165em 0em 0em;
+  margin: -0.25em 0em 0em;
   font-family: 'Segoe UI', 'Segoe WP', 'Roboto', 'Frutiger', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: bold;
   color: rgba(0, 0, 0, 0.85);

@@ -569,7 +569,7 @@
   border-top: 0.2em solid #9c27b0;
 }
 .ui.red.table {
-  border-top: 0.2em solid #f44336;
+  border-top: 0.2em solid #e41e2b;
 }
 .ui.teal.table {
   border-top: 0.2em solid #1de9b6;
@@ -608,7 +608,7 @@
   color: #ffffff !important;
 }
 .ui.inverted.red.table {
-  background-color: #f44336 !important;
+  background-color: #e41e2b !important;
   color: #ffffff !important;
 }
 .ui.inverted.teal.table {

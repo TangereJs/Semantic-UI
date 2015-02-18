@@ -25,7 +25,8 @@
 /*******************************
             Polymer
 *******************************/
-
+  
+  
 htmldeep {
 
   #section {
@@ -35,7 +36,7 @@ htmldeep {
   
   core-toolbar {
     color: rgb(255, 255, 255);
-    background-color: @lightBlue;
+    background-color: @lightPrimaryColor;
   }  
   
   
@@ -44,3 +45,12 @@ htmldeep {
 }
 }
 .polymer();
+
+
+/*** avoid FOUC until this CSS is loaded ***/
+
+
+.fouc-initial-hide {
+  transition: opacity ease-in 0.2s;
+  opacity: 1;
+}

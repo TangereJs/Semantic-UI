@@ -702,14 +702,14 @@ html /deep/ .ui.purple.ribbon.label {
 }
 html /deep/ .ui.red.labels .label,
 html /deep/ .ui.red.label {
-  background-color: #f44336 !important;
-  border-color: #f44336 !important;
+  background-color: #e41e2b !important;
+  border-color: #e41e2b !important;
   color: #ffffff !important;
 }
 html /deep/ .ui.labels .red.label:before,
 html /deep/ .ui.red.labels .label:before,
 html /deep/ .ui.red.label:before {
-  background-color: #f44336 !important;
+  background-color: #e41e2b !important;
 }
 html /deep/ .ui.red.corner.label,
 html /deep/ .ui.red.corner.label:hover {
@@ -717,17 +717,17 @@ html /deep/ .ui.red.corner.label:hover {
 }
 html /deep/ a.ui.red.labels .label:hover,
 html /deep/ a.ui.red.label:hover {
-  background-color: #f55145 !important;
-  border-color: #f55145 !important;
+  background-color: #e62c38 !important;
+  border-color: #e62c38 !important;
   color: #ffffff !important;
 }
 html /deep/ .ui.labels a.red.label:hover:before,
 html /deep/ .ui.red.labels a.label:hover:before,
 html /deep/ a.ui.red.label:hover:before {
-  background-color: #f55145 !important;
+  background-color: #e62c38 !important;
 }
 html /deep/ .ui.red.ribbon.label {
-  border-color: #ea1c0d !important;
+  border-color: #b91621 !important;
 }
 html /deep/ .ui.teal.labels .label,
 html /deep/ .ui.teal.label {

@@ -467,11 +467,11 @@ html {
 body {
   margin: 0px;
   padding: 0px;
-  min-width: 281px;
+  min-width: 278px;
   background: #f9f9f9;
   font-family: 'Segoe UI', 'Segoe WP', 'Roboto', 'Frutiger', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 13px;
-  line-height: 1.33;
+  font-size: 14px;
+  line-height: 1.5;
   color: #212121;
   font-smoothing: antialiased;
 }
@@ -504,8 +504,8 @@ html /deep/ h4,
 html /deep/ h5 {
   font-family: 'Segoe UI', 'Segoe WP', 'Roboto', 'Frutiger', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   line-height: 1.33em;
-  margin: -webkit-calc(2rem -  0.165em ) 0em 1rem;
-  margin: calc(2rem -  0.165em ) 0em 1rem;
+  margin: -webkit-calc(2rem -  0.25em ) 0em 1rem;
+  margin: calc(2rem -  0.25em ) 0em 1rem;
   font-weight: 400;
   padding: 0em;
 }
@@ -2668,7 +2668,7 @@ html /deep/ .ui.button {
 
 .ui.red.buttons .button,
 .ui.red.button {
-  background-color: #f44336;
+  background-color: #e41e2b;
   color: #ffffff;
   text-shadow: none;
   background-image: none;
@@ -2680,14 +2680,14 @@ html /deep/ .ui.button {
 
 .ui.red.buttons .button:hover,
 .ui.red.button:hover {
-  background-color: #f55145;
+  background-color: #e62c38;
   color: #ffffff;
   text-shadow: none;
 }
 
 .ui.red.buttons .button:active,
 .ui.red.button:active {
-  background-color: #f22314;
+  background-color: #c61823;
   color: #ffffff;
   text-shadow: none;
 }
@@ -2696,7 +2696,7 @@ html /deep/ .ui.button {
 .ui.red.buttons .active.button:active,
 .ui.red.active.button,
 .ui.red.button .active.button:active {
-  background-color: #f32c1e;
+  background-color: #d01925;
   color: #ffffff;
   text-shadow: none;
 }
@@ -2712,21 +2712,21 @@ html /deep/ .ui.button {
 .ui.basic.red.buttons .button:hover,
 .ui.basic.red.button:hover {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 2px #f55145 inset !important;
-  color: #f55145 !important;
+  box-shadow: 0px 0px 0px 2px #e62c38 inset !important;
+  color: #e62c38 !important;
 }
 
 .ui.basic.red.buttons .button:active,
 .ui.basic.red.button:active {
-  box-shadow: 0px 0px 0px 2px #f22314 inset !important;
-  color: #f22314 !important;
+  box-shadow: 0px 0px 0px 2px #c61823 inset !important;
+  color: #c61823 !important;
 }
 
 .ui.basic.red.buttons .active.button,
 .ui.basic.red.active.button {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 2px #f22314 inset !important;
-  color: #f22314 !important;
+  box-shadow: 0px 0px 0px 2px #c61823 inset !important;
+  color: #c61823 !important;
 }
 
 .ui.buttons > .basic.red.button:not(:first-child) {
@@ -3097,7 +3097,7 @@ html /deep/ .ui.button {
 
 .ui.secondary.buttons .button,
 .ui.secondary.button {
-  background-color: #9e9e9e;
+  background-color: #e41e2b;
   color: #ffffff;
   text-shadow: none;
   background-image: none;
@@ -3109,21 +3109,21 @@ html /deep/ .ui.button {
 
 .ui.secondary.buttons .button:hover,
 .ui.secondary.button:hover {
-  background-color: #a6a6a6;
+  background-color: #e62c38;
   color: #ffffff;
   text-shadow: none;
 }
 
 .ui.secondary.buttons .button:active,
 .ui.secondary.button:active {
-  background-color: #8c8c8c;
+  background-color: #c61823;
   color: #ffffff;
   text-shadow: none;
 }
 
 .ui.secondary.buttons .active.button,
 .ui.secondary.active.button {
-  background-color: #919191;
+  background-color: #d01925;
   color: #ffffff;
   text-shadow: none;
 }
@@ -3175,7 +3175,7 @@ html /deep/ .ui.button {
 
 .ui.negative.buttons .button,
 .ui.negative.button {
-  background-color: #f44336 !important;
+  background-color: #e41e2b !important;
   color: #ffffff;
   text-shadow: none;
   background-image: none;
@@ -3189,14 +3189,14 @@ html /deep/ .ui.button {
 .ui.negative.button:hover,
 .ui.negative.buttons .active.button,
 .ui.negative.active.button {
-  background-color: #f55145 !important;
+  background-color: #e62c38 !important;
   color: #ffffff;
   text-shadow: none;
 }
 
 .ui.negative.buttons .button:active,
 .ui.negative.button:active {
-  background-color: #f22314 !important;
+  background-color: #c61823 !important;
   color: #ffffff;
   text-shadow: none;
 }
@@ -3205,7 +3205,7 @@ html /deep/ .ui.button {
 .ui.negative.buttons .active.button:active,
 .ui.negative.active.button,
 .ui.negative.button .active.button:active {
-  background-color: #f32c1e;
+  background-color: #d01925;
   color: #ffffff;
   text-shadow: none;
 }
@@ -3900,11 +3900,11 @@ html /deep/ a.ui.purple.header:hover {
 }
 
 html /deep/ .ui.red.header {
-  color: #f44336 !important;
+  color: #e41e2b !important;
 }
 
 html /deep/ a.ui.red.header:hover {
-  color: #f55145 !important;
+  color: #e62c38 !important;
 }
 
 html /deep/ .ui.teal.header {
@@ -3948,7 +3948,7 @@ html /deep/ .ui.purple.dividing.header {
 }
 
 html /deep/ .ui.red.dividing.header {
-  border-bottom: 2px solid #f44336;
+  border-bottom: 2px solid #e41e2b;
 }
 
 html /deep/ .ui.teal.dividing.header {
@@ -4645,7 +4645,7 @@ html /deep/ .ui.input input:focus input::-moz-placeholder {
 html /deep/ .ui.input.error input {
   background-color: #fff0f0;
   border-color: #dbb1b1;
-  color: #f44336;
+  color: #e41e2b;
   box-shadow: none;
 }
 
@@ -5635,15 +5635,15 @@ html /deep/ .ui.purple.ribbon.label {
 
 html /deep/ .ui.red.labels .label,
 html /deep/ .ui.red.label {
-  background-color: #f44336 !important;
-  border-color: #f44336 !important;
+  background-color: #e41e2b !important;
+  border-color: #e41e2b !important;
   color: #ffffff !important;
 }
 
 html /deep/ .ui.labels .red.label:before,
 html /deep/ .ui.red.labels .label:before,
 html /deep/ .ui.red.label:before {
-  background-color: #f44336 !important;
+  background-color: #e41e2b !important;
 }
 
 html /deep/ .ui.red.corner.label,
@@ -5653,19 +5653,19 @@ html /deep/ .ui.red.corner.label:hover {
 
 html /deep/ a.ui.red.labels .label:hover,
 html /deep/ a.ui.red.label:hover {
-  background-color: #f55145 !important;
-  border-color: #f55145 !important;
+  background-color: #e62c38 !important;
+  border-color: #e62c38 !important;
   color: #ffffff !important;
 }
 
 html /deep/ .ui.labels a.red.label:hover:before,
 html /deep/ .ui.red.labels a.label:hover:before,
 html /deep/ a.ui.red.label:hover:before {
-  background-color: #f55145 !important;
+  background-color: #e62c38 !important;
 }
 
 html /deep/ .ui.red.ribbon.label {
-  border-color: #ea1c0d !important;
+  border-color: #b91621 !important;
 }
 
 html /deep/ .ui.teal.labels .label,
@@ -7137,7 +7137,7 @@ html /deep/ .ui.inline.loader.visible {
  */
 
 /*******************************
-             Flag
+            Polymer
 *******************************/
 
 html /deep/ {
@@ -7157,6 +7157,14 @@ html /deep/ #section {
 html /deep/ core-toolbar {
   color: #ffffff;
   background-color: #2979ff;
+}
+
+/*** avoid FOUC until this CSS is loaded ***/
+
+.fouc-initial-hide {
+  -webkit-transition: opacity ease-in 0.2s;
+  transition: opacity ease-in 0.2s;
+  opacity: 1;
 }
 /*
  * # Semantic UI - 1.9.0
@@ -7990,7 +7998,7 @@ html /deep/ .ui.purple.segment:not(.inverted) {
 }
 
 html /deep/ .ui.red.segment:not(.inverted) {
-  border-top: 2px solid #f44336;
+  border-top: 2px solid #e41e2b;
 }
 
 html /deep/ .ui.teal.segment:not(.inverted) {
@@ -8078,7 +8086,7 @@ html /deep/ .ui.inverted.purple.segment {
 }
 
 html /deep/ .ui.inverted.red.segment {
-  background-color: #f44336 !important;
+  background-color: #e41e2b !important;
   color: #ffffff !important;
 }
 
@@ -9054,19 +9062,19 @@ html /deep/ .ui.ordered.steps .step.completed:before {
 /* Error Placeholder */
 
 .ui.form .error ::-webkit-input-placeholder {
-  color: #f77066;
+  color: #e94c56;
 }
 
 .ui.form .error ::-moz-placeholder {
-  color: #f77066;
+  color: #e94c56;
 }
 
 .ui.form .error :focus::-webkit-input-placeholder {
-  color: #f55a4e;
+  color: #e73540;
 }
 
 .ui.form .error :focus::-moz-placeholder {
-  color: #f55a4e;
+  color: #e73540;
 }
 
 /*--------------------
@@ -9135,12 +9143,12 @@ html /deep/ .ui.ordered.steps .step.completed:before {
 .ui.form .field.error label,
 .ui.form .fields.error .field .input,
 .ui.form .field.error .input {
-  color: #f44336;
+  color: #e41e2b;
 }
 
 .ui.form .fields.error .field .corner.label,
 .ui.form .field.error .corner.label {
-  border-color: #f44336;
+  border-color: #e41e2b;
   color: #ffffff;
 }
 
@@ -9168,9 +9176,9 @@ html /deep/ .ui.ordered.steps .step.completed:before {
 .ui.form .field.error input[type="url"] {
   background: #fff0f0;
   border-color: #dbb1b1;
-  color: #f44336;
+  color: #e41e2b;
   border-radius: 0em 2px 2px 0em;
-  box-shadow: 2px 0em 0em 0em #f44336 inset;
+  box-shadow: 2px 0em 0em 0em #e41e2b inset;
 }
 
 .ui.form .field.error textarea:focus,
@@ -9186,9 +9194,9 @@ html /deep/ .ui.ordered.steps .step.completed:before {
 .ui.form .field.error input[type="url"]:focus {
   background: #fff0f0;
   border-color: #dbb1b1;
-  color: #f55145;
+  color: #e62c38;
   -webkit-appearance: none;
-  box-shadow: 2px 0em 0em 0em #f55145 inset;
+  box-shadow: 2px 0em 0em 0em #e62c38 inset;
 }
 
 /*------------------
@@ -9201,7 +9209,7 @@ html /deep/ .ui.ordered.steps .step.completed:before {
 .ui.form .field.error .ui.dropdown .text,
 .ui.form .field.error .ui.dropdown .item {
   background: #fff0f0;
-  color: #f44336;
+  color: #e41e2b;
 }
 
 .ui.form .fields.error .field .ui.dropdown,
@@ -9241,7 +9249,7 @@ html /deep/ .ui.ordered.steps .step.completed:before {
 .ui.form .field.error .checkbox:not(.toggle):not(.slider) label,
 .ui.form .fields.error .field .checkbox:not(.toggle):not(.slider) .box,
 .ui.form .field.error .checkbox:not(.toggle):not(.slider) .box {
-  color: #f44336;
+  color: #e41e2b;
 }
 
 .ui.form .fields.error .field .checkbox:not(.toggle):not(.slider) label:before,
@@ -9256,7 +9264,7 @@ html /deep/ .ui.ordered.steps .step.completed:before {
 .ui.form .field.error .checkbox label:after,
 .ui.form .fields.error .field .checkbox .box:after,
 .ui.form .field.error .checkbox .box:after {
-  color: #f44336;
+  color: #e41e2b;
 }
 
 /*--------------------
@@ -9361,7 +9369,7 @@ html /deep/ .ui.ordered.steps .step.completed:before {
 .ui.form .required.field > .checkbox:after {
   margin: -0.2em 0em 0em 0.2em;
   content: '*';
-  color: #f44336;
+  color: #e41e2b;
 }
 
 .ui.form .required.fields > .field > label:after,
@@ -11278,7 +11286,7 @@ html /deep/ .ui.ordered.steps .step.completed:before {
 
 .ui.grid > .red.row,
 .ui.grid .red.column {
-  background-color: #f44336 !important;
+  background-color: #e41e2b !important;
   color: #ffffff;
 }
 
@@ -13035,8 +13043,8 @@ html /deep/ .ui.ordered.steps .step.completed:before {
 
 .ui.menu .red.active.item,
 .ui.red.menu .active.item {
-  border-color: #f44336 !important;
-  color: #f44336 !important;
+  border-color: #e41e2b !important;
+  color: #e41e2b !important;
 }
 
 .ui.menu .teal.active.item,
@@ -13258,11 +13266,11 @@ html /deep/ .ui.ordered.steps .step.completed:before {
 /* Red */
 
 .ui.inverted.red.menu {
-  background-color: #f44336;
+  background-color: #e41e2b;
 }
 
 .ui.inverted.red.pointing.menu .active.item:after {
-  background-color: #f44336;
+  background-color: #e41e2b;
 }
 
 /* Teal */
@@ -14011,11 +14019,11 @@ html /deep/ .ui.ordered.steps .step.completed:before {
 
 .ui.red.message {
   background-color: #ffe8e6;
-  color: #f44336;
+  color: #e41e2b;
 }
 
 .ui.red.message .header {
-  color: #f32c1e;
+  color: #d01925;
 }
 
 .ui.teal.message {
@@ -14705,7 +14713,7 @@ html /deep/ .ui.ordered.steps .step.completed:before {
 }
 
 .ui.red.table {
-  border-top: 0.2em solid #f44336;
+  border-top: 0.2em solid #e41e2b;
 }
 
 .ui.teal.table {
@@ -14752,7 +14760,7 @@ html /deep/ .ui.ordered.steps .step.completed:before {
 }
 
 .ui.inverted.red.table {
-  background-color: #f44336 !important;
+  background-color: #e41e2b !important;
   color: #ffffff !important;
 }
 
@@ -15426,7 +15434,7 @@ html /deep/ .ui.cards > .card > .content > .header:not(.ui),
 html /deep/ .ui.card > .content > .header:not(.ui) {
   font-weight: bold;
   font-size: 1.2em;
-  margin-top: -0.165em;
+  margin-top: -0.25em;
   line-height: 1.33em;
 }
 
@@ -16236,7 +16244,7 @@ html /deep/ .ui.carditems > .carditem > .content > .header:not(.ui),
 html /deep/ .ui.carditem > .content > .header:not(.ui) {
   font-weight: bold;
   font-size: 1.2em;
-  margin-top: -0.165em;
+  margin-top: -0.25em;
   line-height: 1.33em;
 }
 
@@ -17046,7 +17054,7 @@ html /deep/ .ui.carditems > .carditem > .content > .header:not(.ui),
 html /deep/ .ui.carditem > .content > .header:not(.ui) {
   font-weight: bold;
   font-size: 1.2em;
-  margin-top: -0.165em;
+  margin-top: -0.25em;
   line-height: 1.33em;
 }
 
@@ -18373,7 +18381,7 @@ html /deep/ .ui.items > .item > .image + .content {
 
 html /deep/ .ui.items > .item > .content > .header {
   display: inline-block;
-  margin: -0.165em 0em 0em;
+  margin: -0.25em 0em 0em;
   font-family: 'Segoe UI', 'Segoe WP', 'Roboto', 'Frutiger', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: bold;
   color: rgba(0, 0, 0, 0.85);
@@ -18882,7 +18890,7 @@ html /deep/ .ui.purple.statistic > .value {
 html /deep/ .ui.red.statistics .statistic > .value,
 html /deep/ .ui.statistics .red.statistic > .value,
 html /deep/ .ui.red.statistic > .value {
-  color: #f44336;
+  color: #e41e2b;
 }
 
 html /deep/ .ui.teal.statistics .statistic > .value,
@@ -19329,19 +19337,19 @@ html /deep/ .ui.huge.statistic > .text.value {
 /* Error Placeholder */
 
 .ui.form .error ::-webkit-input-placeholder {
-  color: #f77066;
+  color: #e94c56;
 }
 
 .ui.form .error ::-moz-placeholder {
-  color: #f77066;
+  color: #e94c56;
 }
 
 .ui.form .error :focus::-webkit-input-placeholder {
-  color: #f55a4e;
+  color: #e73540;
 }
 
 .ui.form .error :focus::-moz-placeholder {
-  color: #f55a4e;
+  color: #e73540;
 }
 
 /*--------------------
@@ -19410,12 +19418,12 @@ html /deep/ .ui.huge.statistic > .text.value {
 .ui.form .field.error label,
 .ui.form .fields.error .field .input,
 .ui.form .field.error .input {
-  color: #f44336;
+  color: #e41e2b;
 }
 
 .ui.form .fields.error .field .corner.label,
 .ui.form .field.error .corner.label {
-  border-color: #f44336;
+  border-color: #e41e2b;
   color: #ffffff;
 }
 
@@ -19443,9 +19451,9 @@ html /deep/ .ui.huge.statistic > .text.value {
 .ui.form .field.error input[type="url"] {
   background: #fff0f0;
   border-color: #dbb1b1;
-  color: #f44336;
+  color: #e41e2b;
   border-radius: 0em 2px 2px 0em;
-  box-shadow: 2px 0em 0em 0em #f44336 inset;
+  box-shadow: 2px 0em 0em 0em #e41e2b inset;
 }
 
 .ui.form .field.error textarea:focus,
@@ -19461,9 +19469,9 @@ html /deep/ .ui.huge.statistic > .text.value {
 .ui.form .field.error input[type="url"]:focus {
   background: #fff0f0;
   border-color: #dbb1b1;
-  color: #f55145;
+  color: #e62c38;
   -webkit-appearance: none;
-  box-shadow: 2px 0em 0em 0em #f55145 inset;
+  box-shadow: 2px 0em 0em 0em #e62c38 inset;
 }
 
 /*------------------
@@ -19476,7 +19484,7 @@ html /deep/ .ui.huge.statistic > .text.value {
 .ui.form .field.error .ui.dropdown .text,
 .ui.form .field.error .ui.dropdown .item {
   background: #fff0f0;
-  color: #f44336;
+  color: #e41e2b;
 }
 
 .ui.form .fields.error .field .ui.dropdown,
@@ -19516,7 +19524,7 @@ html /deep/ .ui.huge.statistic > .text.value {
 .ui.form .field.error .checkbox:not(.toggle):not(.slider) label,
 .ui.form .fields.error .field .checkbox:not(.toggle):not(.slider) .box,
 .ui.form .field.error .checkbox:not(.toggle):not(.slider) .box {
-  color: #f44336;
+  color: #e41e2b;
 }
 
 .ui.form .fields.error .field .checkbox:not(.toggle):not(.slider) label:before,
@@ -19531,7 +19539,7 @@ html /deep/ .ui.huge.statistic > .text.value {
 .ui.form .field.error .checkbox label:after,
 .ui.form .fields.error .field .checkbox .box:after,
 .ui.form .field.error .checkbox .box:after {
-  color: #f44336;
+  color: #e41e2b;
 }
 
 /*--------------------
@@ -19636,7 +19644,7 @@ html /deep/ .ui.huge.statistic > .text.value {
 .ui.form .required.field > .checkbox:after {
   margin: -0.2em 0em 0em 0.2em;
   content: '*';
-  color: #f44336;
+  color: #e41e2b;
 }
 
 .ui.form .required.fields > .field > label:after,

@@ -269,7 +269,7 @@ html /deep/ .ui.purple.statistic > .value {
 html /deep/ .ui.red.statistics .statistic > .value,
 html /deep/ .ui.statistics .red.statistic > .value,
 html /deep/ .ui.red.statistic > .value {
-  color: #f44336;
+  color: #e41e2b;
 }
 html /deep/ .ui.teal.statistics .statistic > .value,
 html /deep/ .ui.statistics .teal.statistic > .value,

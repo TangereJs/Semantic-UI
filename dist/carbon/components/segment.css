@@ -416,7 +416,7 @@ html /deep/ .ui.purple.segment:not(.inverted) {
   border-top: 2px solid #9c27b0;
 }
 html /deep/ .ui.red.segment:not(.inverted) {
-  border-top: 2px solid #f44336;
+  border-top: 2px solid #e41e2b;
 }
 html /deep/ .ui.teal.segment:not(.inverted) {
   border-top: 2px solid #1de9b6;
@@ -486,7 +486,7 @@ html /deep/ .ui.inverted.purple.segment {
   color: #ffffff !important;
 }
 html /deep/ .ui.inverted.red.segment {
-  background-color: #f44336 !important;
+  background-color: #e41e2b !important;
   color: #ffffff !important;
 }
 html /deep/ .ui.inverted.teal.segment {
