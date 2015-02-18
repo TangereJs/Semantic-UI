@@ -1,0 +1,39 @@
+ /*
+ * # Semantic UI - 1.9.0
+ * https://github.com/Semantic-Org/Semantic-UI
+ * http://www.semantic-ui.com/
+ *
+ * Copyright 2014 Contributors
+ * Released under the MIT license
+ * http://opensource.org/licenses/MIT
+ *
+ */
+
+
+
+/*******************************
+             Flag
+*******************************/
+
+html /deep/ {
+  
+
+/*******************************
+         Theme Overrides
+*******************************/
+
+  
+
+/*******************************
+         Site Overrides
+*******************************/
+
+}
+html /deep/ #section {
+  background-image: inherit;
+  background-color: white !important;
+}
+html /deep/ core-toolbar {
+  color: #ffffff;
+  background-color: #2979ff;
+}

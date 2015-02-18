@@ -7141,6 +7141,33 @@ html /deep/ .ui.inline.loader.visible {
  */
 
 /*******************************
+             Flag
+*******************************/
+
+html /deep/ {
+  /*******************************
+         Theme Overrides
+*******************************/
+  /*******************************
+         Site Overrides
+*******************************/
+}
+
+html /deep/ .polymer {
+  background-color: #54c8ff;
+}
+/*
+ * # Semantic UI - 1.9.0
+ * https://github.com/Semantic-Org/Semantic-UI
+ * http://www.semantic-ui.com/
+ *
+ * Copyright 2014 Contributors
+ * Released under the MIT license
+ * http://opensource.org/licenses/MIT
+ *
+ */
+
+/*******************************
              Rails
 *******************************/
 
