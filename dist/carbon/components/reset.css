@@ -20,7 +20,7 @@
 *,
 *:before,
 *:after {
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 html {
   box-sizing: border-box;
@@ -212,6 +212,11 @@ html /deep/ {
          Site Overrides
 *******************************/
 
+}
+html /deep/ *,
+html /deep/ *:before,
+html /deep/ *:after {
+  box-sizing: border-box;
 }
 html /deep/ input[type="text"],
 html /deep/ input[type="email"],

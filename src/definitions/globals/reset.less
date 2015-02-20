@@ -30,7 +30,7 @@
 *,
 *:before,
 *:after {
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 html {
   box-sizing: border-box;
@@ -38,6 +38,12 @@ html {
 
 
 htmldeep { 
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}  
   
 /* iPad Input Shadows */
 input[type="text"], input[type="email"], input[type="search"], input[type="password"] {
