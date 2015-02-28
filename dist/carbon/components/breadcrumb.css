@@ -9,32 +9,66 @@
  *
  */
 
-
+html /deep/ {
+  
 
 /*******************************
            Breadcrumb
 *******************************/
 
-.ui.breadcrumb {
-  margin: 1em 0em;
-  display: inline-block;
-  vertical-align: middle;
-}
-.ui.breadcrumb:first-child {
-  margin-top: 0em;
-}
-.ui.breadcrumb:last-child {
-  margin-bottom: 0em;
-}
-
+  
 
 /*******************************
           Content
 *******************************/
 
-
+  
 /* Divider */
-.ui.breadcrumb .divider {
+  
+/* Link */
+  
+/* Icon Divider */
+  
+/* Section */
+  
+/* Loose Coupling */
+  
+
+/*******************************
+            States
+*******************************/
+
+  
+
+/*******************************
+           Variations
+*******************************/
+
+  
+
+/*******************************
+         Theme Overrides
+*******************************/
+
+  
+
+/*******************************
+         Site Overrides
+*******************************/
+
+}
+html /deep/ .ui.breadcrumb {
+  margin: 1em 0em;
+  display: inline-block;
+  vertical-align: middle;
+}
+html /deep/ .ui.breadcrumb:first-child {
+  margin-top: 0em;
+}
+html /deep/ .ui.breadcrumb:last-child {
+  margin-bottom: 0em;
+}
+html /deep/ .ui.breadcrumb .divider {
   display: inline-block;
   opacity: 0.5;
   margin: 0em 0.2rem 0em;
@@ -42,84 +76,52 @@
   color: rgba(0, 0, 0, 0.4);
   vertical-align: baseline;
 }
-
-/* Link */
-.ui.breadcrumb a {
+html /deep/ .ui.breadcrumb a {
   color: #009fda;
 }
-.ui.breadcrumb a:hover {
+html /deep/ .ui.breadcrumb a:hover {
   color: #00b2f3;
 }
-
-/* Icon Divider */
-.ui.breadcrumb .icon.divider {
+html /deep/ .ui.breadcrumb .icon.divider {
   font-size: 0.7em;
   vertical-align: middle;
 }
-
-/* Section */
-.ui.breadcrumb a.section {
+html /deep/ .ui.breadcrumb a.section {
   cursor: pointer;
 }
-.ui.breadcrumb .section {
+html /deep/ .ui.breadcrumb .section {
   display: inline-block;
   margin: 0em;
   padding: 0em;
 }
-
-/* Loose Coupling */
-.ui.breadcrumb.segment {
+html /deep/ .ui.breadcrumb.segment {
   display: inline-block;
   padding: 0.5em 1em;
 }
-
-
-/*******************************
-            States
-*******************************/
-
-.ui.breadcrumb .active.section {
+html /deep/ .ui.breadcrumb .active.section {
   font-weight: bold;
 }
-
-
-/*******************************
-           Variations
-*******************************/
-
-.ui.mini.breadcrumb {
+html /deep/ .ui.mini.breadcrumb {
   font-size: 0.65em;
 }
-.ui.tiny.breadcrumb {
+html /deep/ .ui.tiny.breadcrumb {
   font-size: 0.7em;
 }
-.ui.small.breadcrumb {
+html /deep/ .ui.small.breadcrumb {
   font-size: 0.75em;
 }
-.ui.breadcrumb {
+html /deep/ .ui.breadcrumb {
   font-size: 1em;
 }
-.ui.large.breadcrumb {
+html /deep/ .ui.large.breadcrumb {
   font-size: 1.1em;
 }
-.ui.big.breadcrumb {
+html /deep/ .ui.big.breadcrumb {
   font-size: 1.05em;
 }
-.ui.huge.breadcrumb {
+html /deep/ .ui.huge.breadcrumb {
   font-size: 1.3em;
 }
-.ui.massive.breadcrumb {
+html /deep/ .ui.massive.breadcrumb {
   font-size: 1.5em;
 }
-
-
-/*******************************
-         Theme Overrides
-*******************************/
-
-
-
-/*******************************
-         Site Overrides
-*******************************/
-
