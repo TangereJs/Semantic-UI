@@ -920,15 +920,13 @@ html /deep/ .ui.basic.vertical.buttons .button:first-child {
 html /deep/ .ui.labeled.icon.buttons .button,
 html /deep/ .ui.labeled.icon.button {
   position: relative;
-  padding-left: 4.07142em !important;
+  padding-left: 2.5em !important;
   padding-right: 1.5em !important;
 }
 html /deep/ .ui.labeled.icon.buttons > .button > .icon,
 html /deep/ .ui.labeled.icon.button > .icon {
   position: absolute;
-  width: 2.57142em;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.05);
   text-align: center;
   color: '';
   border-radius: 2px 0px 0px 2px;
@@ -939,9 +937,11 @@ html /deep/ .ui.labeled.icon.buttons > .button > .icon,
 html /deep/ .ui.labeled.icon.button > .icon {
   top: 0em;
   left: 0em;
+  margin-left: 0.5em;
+  width: 1.25em;
 }
 html /deep/ .ui[class*="right labeled"].icon.button {
-  padding-right: 4.07142em !important;
+  padding-right: 2.5em !important;
   padding-left: 1.5em !important;
 }
 html /deep/ .ui[class*="right labeled"].icon.button > .icon {

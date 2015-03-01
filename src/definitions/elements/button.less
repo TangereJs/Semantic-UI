@@ -747,17 +747,13 @@ htmldeep {
 /* Left Labeled */
 .ui.labeled.icon.buttons > .button > .icon,
 .ui.labeled.icon.button > .icon {
-  position: absolute;
-  width: @labeledIconWidth;
-  height: 100%;
-
-  background-color: @labeledIconBackgroundColor;
+  position: absolute;  
+  height: 100%;  
   text-align: center;
   color: @labeledIconColor;
-
   border-radius: @borderRadius 0px 0px @borderRadius;
   line-height: 1;
-  box-shadow: @labeledIconLeftShadow;
+  box-shadow: @labeledIconLeftShadow;  
 }
 
 /* Left Labeled */
@@ -765,6 +761,8 @@ htmldeep {
 .ui.labeled.icon.button > .icon {
   top: 0em;
   left: 0em;
+  margin-left: @leftIconMargin;
+  width: @iconWidth;
 }
 
 /* Right Labeled */

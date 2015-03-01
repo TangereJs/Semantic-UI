@@ -46,8 +46,9 @@
 @iconColor: '';
 @iconTransition: opacity @transitionDuration @transitionEasing;
 @iconVerticalAlign: baseline;
-
+@iconWidth: 1.25em;
 @iconMargin: 0em @iconDistance 0em -(@iconDistance / 2);
+@leftIconMargin: .5em;
 @rightIconMargin: 0em -(@iconDistance / 2) 0em @iconDistance;
 
 /* Loader */
@@ -164,7 +165,7 @@
 /* Labeled Icon */
 @labeledIconWidth: 1em + (@verticalPadding * 2);
 @labeledIconBackgroundColor: rgba(0, 0, 0, 0.05);
-@labeledIconPadding: (@horizontalPadding + @labeledIconWidth);
+@labeledIconPadding: (@horizontalPadding + 1em);
 @labeledIconBorder: transparent;
 @labeledIconColor: '';
 
