@@ -28,87 +28,28 @@
 
 htmldeep {  
   
-@font-face {
-  font-family: 'Icons';
-  src: url("@{fontPath}/@{fontName}.eot");
-  src:
-    url("@{fontPath}/@{fontName}.eot?#iefix") format('embedded-opentype'),
-    url("@{fontPath}/@{fontName}.woff2") format('woff'),
-    url("@{fontPath}/@{fontName}.woff") format('woff'),
-    url("@{fontPath}/@{fontName}.ttf") format('truetype'),
-    url("@{fontPath}/@{fontName}.svg#icons") format('svg')
-  ;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-decoration: inherit;
-  text-transform: none;
-}
-
-i.icon {
-  display: inline-block;
-  opacity: @opacity;
-
-  margin: 0em @distanceFromText 0em 0em;
-
-  width: @width;
-  height: @height;
-
-  font-family: 'Icons';
-  font-style: normal;
-  line-height: 1;
-  font-weight: normal;
-  text-decoration: inherit;
-  text-align: center;
-
-  speak: none;
-  font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  backface-visibility: hidden;
-}
-
-i.icon:before {
-  background: none !important;
-}
-
 /*******************************
              Types
 *******************************/
 
-/*--------------
-    Loading
----------------*/
-
-i.icon.loading {
-  height: 1em;
-  animation: icon-loading @loadingDuration linear infinite;
-}
-@keyframes icon-loading {
- from {
-    transform: rotate(0deg);
- }
- to {
-    transform: rotate(360deg);
- }
-}
 
 /*******************************
              States
 *******************************/
 
-i.icon.hover {
+core-icon.hover {
   opacity: 1;
 }
 
-i.icon.active {
+core-icon.active {
   opacity: 1;
 }
 
-i.emphasized.icon {
+core-icon.emphasized {
   opacity: 1;
 }
 
-i.disabled.icon {
+core-icon.disabled {
   pointer-events: none;
   opacity: @disabledOpacity !important;
 }
@@ -123,12 +64,12 @@ i.disabled.icon {
          Link
 --------------------*/
 
-i.link.icon {
+core-icon.link {
   cursor: pointer;
   opacity: @linkOpacity;
   transition: opacity @transitionDuration @transitionEasing;
 }
-i.link.icon:hover {
+core-icon.link:hover {
   opacity: 1 !important;
 }
 
@@ -136,18 +77,15 @@ i.link.icon:hover {
       Circular
 --------------------*/
 
-i.circular.icon {
+core-icon.circular {
   border-radius: 500em !important;
-
-  padding: @circularPadding !important;
-
   box-shadow: @circularShadow;
-
-  line-height: 1 !important;
+  border: @circularBorder solid transparent !important;  
   width: @circularSize !important;
-  height: @circularSize !important;
+  height: @circularSize !important;  
 }
-i.circular.inverted.icon {
+  
+core-icon.circular.inverted {
   border: none;
   box-shadow: none;
 }
@@ -156,11 +94,11 @@ i.circular.inverted.icon {
       Flipped
 --------------------*/
 
-i.flipped.icon,
-i.horizontally.flipped.icon {
+core-icon.flipped,
+core-icon.horizontally.flipped {
   transform: scale(-1, 1);
 }
-i.vertically.flipped.icon {
+core-icon.vertically.flipped {
   transform: scale(1, -1);
 }
 
@@ -168,14 +106,14 @@ i.vertically.flipped.icon {
       Rotated
 --------------------*/
 
-i.rotated.icon,
-i.right.rotated.icon,
-i.clockwise.rotated.icon {
+core-icon.rotated,
+core-icon.right.rotated,
+core-icon.clockwise.rotated {
   transform: rotate(90deg);
 }
 
-i.left.rotated.icon,
-i.counterclockwise.rotated.icon {
+core-icon.left.rotated,
+core-icon.counterclockwise.rotated {
   transform: rotate(-90deg);
 }
 
@@ -183,7 +121,7 @@ i.counterclockwise.rotated.icon {
       Bordered
 --------------------*/
 
-i.bordered.icon {
+core-icon.bordered {
   width: @borderedSize;
   height: @borderedSize;
 
@@ -192,7 +130,7 @@ i.bordered.icon {
 
   vertical-align: baseline;
 }
-i.bordered.inverted.icon {
+core-icon.bordered.inverted {
   border: none;
   box-shadow: none;
 }
@@ -201,34 +139,34 @@ i.bordered.inverted.icon {
        Colors
 --------------------*/
 
-i.white.icon {
+core-icon.white {
   color: @white !important;
 }
-i.black.icon {
+core-icon.black {
   color: @black !important;
 }
-i.blue.icon {
+core-icon.blue {
   color: @blue !important;
 }
-i.green.icon {
+core-icon.green {
   color: @green !important;
 }
-i.orange.icon {
+core-icon.orange {
   color: @orange !important;
 }
-i.pink.icon {
+core-icon.pink {
   color: @pink !important;
 }
-i.purple.icon {
+core-icon.purple {
   color: @purple !important;
 }
-i.red.icon {
+core-icon.red {
   color: @red !important;
 }
-i.teal.icon {
+core-icon.teal {
   color: @teal !important;
 }
-i.yellow.icon {
+core-icon.yellow {
   color: @yellow !important;
 }
 
@@ -237,85 +175,85 @@ i.yellow.icon {
       Inverted
 --------------------*/
 
-i.inverted.icon {
+core-icon.inverted {
   color: @white;
 }
-i.inverted.black.icon {
+core-icon.inverted.black {
   color: @lightBlack !important;
 }
-i.inverted.blue.icon {
+core-icon.inverted.blue {
   color: @lightBlue !important;
 }
-i.inverted.green.icon {
+core-icon.inverted.green {
   color: @lightGreen !important;
 }
-i.inverted.orange.icon {
+core-icon.inverted.orange {
   color: @lightOrange !important;
 }
-i.inverted.pink.icon {
+core-icon.inverted.pink {
   color: @lightPink !important;
 }
-i.inverted.purple.icon {
+core-icon.inverted.purple {
   color: @lightPurple !important;
 }
-i.inverted.red.icon {
+core-icon.inverted.red {
   color: @lightRed !important;
 }
-i.inverted.teal.icon {
+core-icon.inverted.teal {
   color: @lightTeal !important;
 }
-i.inverted.yellow.icon {
+core-icon.inverted.yellow {
   color: @lightYellow !important;
 }
 
 /* Inverted Shapes */
-i.inverted.bordered.icon,
-i.inverted.circular.icon {
+core-icon.inverted.bordered,
+core-icon.inverted.circular {
   background-color: #222222 !important;
   color: #FFFFFF !important;
 }
-i.inverted.bordered.black.icon,
-i.inverted.circular.black.icon {
+core-icon.inverted.bordered.black,
+core-icon.inverted.circular.black {
   background-color: @black !important;
   color: #FFFFFF !important;
 }
-i.inverted.bordered.blue.icon,
-i.inverted.circular.blue.icon {
+core-icon.inverted.bordered.blue,
+core-icon.inverted.circular.blue {
   background-color: @blue !important;
   color: #FFFFFF !important;
 }
-i.inverted.bordered.green.icon,
-i.inverted.circular.green.icon {
+core-icon.inverted.bordered.green,
+core-icon.inverted.circular.green {
   background-color: @green !important;
   color: #FFFFFF !important;
 }
-i.inverted.bordered.orange.icon,
-i.inverted.circular.orange.icon {
+core-icon.inverted.bordered.orange,
+core-icon.inverted.circular.orange {
   background-color: @orange !important;
   color: #FFFFFF !important;
 }
-i.inverted.bordered.pink.icon,
-i.inverted.circular.pink.icon {
+core-icon.inverted.bordered.pink,
+core-icon.inverted.circular.pink {
   background-color: @pink !important;
   color: #FFFFFF !important;
 }
-i.inverted.bordered.purple.icon,
-i.inverted.circular.purple.icon {
+core-icon.inverted.bordered.purple,
+core-icon.inverted.circular.purple {
   background-color: @purple !important;
   color: #FFFFFF !important;
 }
-i.inverted.bordered.red.icon,
-i.inverted.circular.red.icon {
+core-icon.inverted.bordered.red,
+core-icon.inverted.circular.red {
   background-color: @red !important;
   color: #FFFFFF !important;
 }
-i.inverted.bordered.teal.icon,
-i.inverted.circular.teal.icon {
+core-icon.inverted.bordered.teal,
+core-icon.inverted.circular.teal {
   background-color: @teal !important;
   color: #FFFFFF !important;
 }
-i.inverted.bordered.yellow.icon,
-i.inverted.circular.yellow.icon {
+core-icon.inverted.bordered.yellow,
+core-icon.inverted.circular.yellow {
   background-color: @yellow !important;
   color: #FFFFFF !important;
 }
@@ -325,25 +263,25 @@ i.inverted.circular.yellow.icon {
         Sizes
 --------------------*/
 
-i.small.icon {
+core-icon.small {
   font-size: @small;
 }
-i.icon {
+core-icon {
   font-size: @medium;
 }
-i.large.icon {
+core-icon.large {
   font-size: @large;
   vertical-align: middle;
 }
-i.big.icon {
+core-icon.big {
   font-size: @big;
   vertical-align: middle;
 }
-i.huge.icon {
+core-icon.huge {
   font-size: @huge;
   vertical-align: middle;
 }
-i.massive.icon {
+core-icon.massive {
   font-size: @massive;
   vertical-align: middle;
 }
