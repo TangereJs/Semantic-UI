@@ -285,13 +285,13 @@ gulp.task('watch', 'Watch for site/theme changes (Default Task)', function(callb
           .pipe(plumber())
           .pipe(replace(assetPaths.source, assetPaths.uncompressed))
           //.pipe(sourcemaps.write('/', settings.sourcemap))
-          .pipe(header(banner, settings.header))
-          .pipe(replace('htmldeep', 'html /deep/'))
+          .pipe(header(banner, settings.header))          
           .pipe(chmod(config.permission))
           .pipe(gulp.dest(output.uncompressed))
           .pipe(print(log.created))
           .on('end', function() {
             gulp.start('package uncompressed css');
+            gulp.start('package uncompressed css-deep');
           })
         ;
 
@@ -302,13 +302,13 @@ gulp.task('watch', 'Watch for site/theme changes (Default Task)', function(callb
           .pipe(minifyCSS(settings.minify))
           .pipe(rename(settings.rename.minCSS))
           //.pipe(sourcemaps.write('/', settings.sourcemap))
-          .pipe(header(banner, settings.header))
-          .pipe(replace('htmldeep', 'html /deep/'))
+          .pipe(header(banner, settings.header))          
           .pipe(chmod(config.permission))
           .pipe(gulp.dest(output.compressed))
           .pipe(print(log.created))
           .on('end', function() {
             gulp.start('package compressed css');
+            gulp.start('package compressed css-deep');
           })
         ;
 
@@ -430,13 +430,13 @@ gulp.task('build', 'Builds all files from source', function(callback) {
     .pipe(plumber())
     .pipe(replace(assetPaths.source, assetPaths.uncompressed))
     //.pipe(sourcemaps.write('/', settings.sourcemap))
-    .pipe(header(banner, settings.header))
-    .pipe(replace('htmldeep', 'html /deep/'))
+    .pipe(header(banner, settings.header))    
     .pipe(chmod(config.permission))
     .pipe(gulp.dest(output.uncompressed))
     .pipe(print(log.created))
     .on('end', function() {
       gulp.start('package uncompressed css');
+      gulp.start('package uncompressed css-deep');
     })
   ;
 
@@ -447,14 +447,14 @@ gulp.task('build', 'Builds all files from source', function(callback) {
     .pipe(minifyCSS(settings.minify))
     .pipe(rename(settings.rename.minCSS))
     //.pipe(sourcemaps.write('/', settings.sourcemap))
-    .pipe(header(banner, settings.header))
-    .pipe(replace('htmldeep', 'html /deep/'))
+    .pipe(header(banner, settings.header))    
     .pipe(chmod(config.permission))
     .pipe(gulp.dest(output.compressed))
     .pipe(print(log.created))
     .on('end', function() {
       callback();
       gulp.start('package compressed css');
+      gulp.start('package compressed css-deep');
     })
   ;
 
@@ -749,29 +749,56 @@ gulp.task('package compressed rtl css', false, function () {
 
 gulp.task('package uncompressed css', false, function() {
   return gulp.src(output.uncompressed + '**/' + componentGlob + config.ignoredFiles + '.css')
-    .pipe(plumber())
+    .pipe(plumber())    
     .pipe(replace(assetPaths.uncompressed, assetPaths.packaged))
-    .pipe(concatCSS('semantic.css'))
-    .pipe(replace('htmldeep', 'html /deep/'))
+    .pipe(replace('htmldeep', 'html '))
+    .pipe(concatCSS('semantic.css'))    
     .pipe(chmod(config.permission))
-      .pipe(gulp.dest(output.packaged))
-      .pipe(print(log.created))
+    .pipe(gulp.dest(output.packaged))
+    .pipe(print(log.created))
   ;
 });
 
 gulp.task('package compressed css', false, function() {
   return gulp.src(output.uncompressed + '**/' + componentGlob + config.ignoredFiles + '.css')
-    .pipe(plumber())
+    .pipe(plumber())    
     .pipe(replace(assetPaths.uncompressed, assetPaths.packaged))
+    .pipe(replace('htmldeep', 'html '))
     .pipe(concatCSS('semantic.min.css'))
-      .pipe(minifyCSS(settings.minify))
-      .pipe(header(banner, settings.header))
-      .pipe(replace('htmldeep', 'html /deep/'))
-      .pipe(chmod(config.permission))
-      .pipe(gulp.dest(output.packaged))
-      .pipe(print(log.created))
+    .pipe(minifyCSS(settings.minify))
+    .pipe(header(banner, settings.header))      
+    .pipe(chmod(config.permission))
+    .pipe(gulp.dest(output.packaged))
+    .pipe(print(log.created))
   ;
 });
+
+gulp.task('package uncompressed css-deep', false, function() {
+  return gulp.src(output.uncompressed + '**/' + componentGlob + config.ignoredFiles + '.css')
+    .pipe(plumber())    
+    .pipe(replace(assetPaths.uncompressed, assetPaths.packaged))
+    .pipe(replace('htmldeep', 'html /deep/'))
+    .pipe(concatCSS('semantic-deep.css'))    
+    .pipe(chmod(config.permission))
+    .pipe(gulp.dest(output.packaged))
+    .pipe(print(log.created))
+  ;
+});
+
+gulp.task('package compressed css-deep', false, function() {
+  return gulp.src(output.uncompressed + '**/' + componentGlob + config.ignoredFiles + '.css')
+    .pipe(plumber())
+    .pipe(replace('htmldeep', 'html /deep/'))
+    .pipe(replace(assetPaths.uncompressed, assetPaths.packaged))
+    .pipe(concatCSS('semantic-deep.min.css'))
+    .pipe(minifyCSS(settings.minify))
+    .pipe(header(banner, settings.header))      
+    .pipe(chmod(config.permission))
+    .pipe(gulp.dest(output.packaged))
+    .pipe(print(log.created))
+  ;
+});
+
 
 gulp.task('package uncompressed js', false, function() {
   return gulp.src(output.uncompressed + '**/' + componentGlob + '!(*.min|*.map).js')
