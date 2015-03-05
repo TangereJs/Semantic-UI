@@ -9,7 +9,7 @@
  *
  */
 
-html /deep/ {
+htmldeep {
   
 
 /*******************************
@@ -217,23 +217,23 @@ html /deep/ {
 *******************************/
 
 }
-html /deep/ .ui.form {
+htmldeep .ui.form {
   position: relative;
   max-width: 100%;
 }
-html /deep/ .ui.form > p {
+htmldeep .ui.form > p {
   margin: 1em 0em;
 }
-html /deep/ .ui.form .fields .field,
-html /deep/ .ui.form .field {
+htmldeep .ui.form .fields .field,
+htmldeep .ui.form .field {
   clear: both;
   margin: 0em 0em 1em;
 }
-html /deep/ .ui.form .fields:last-child,
-html /deep/ .ui.form .field:last-child {
+htmldeep .ui.form .fields:last-child,
+htmldeep .ui.form .field:last-child {
   margin-bottom: 0em;
 }
-html /deep/ .ui.form .field > label {
+htmldeep .ui.form .field > label {
   display: block;
   margin: 0em 0em 0.2857rem 0em;
   color: #212121;
@@ -241,14 +241,14 @@ html /deep/ .ui.form .field > label {
   font-weight: bold;
   text-transform: none;
 }
-html /deep/ .ui.form .grouped.fields > label {
+htmldeep .ui.form .grouped.fields > label {
   margin: 0em 0em 0.2857rem 0em;
   color: #212121;
   font-size: 0.9285em;
   font-weight: bold;
   text-transform: none;
 }
-html /deep/ .ui.form .inline.fields > label {
+htmldeep .ui.form .inline.fields > label {
   display: inline-block;
   vertical-align: middle;
   margin: 0em 1em 0em 0em;
@@ -257,31 +257,31 @@ html /deep/ .ui.form .inline.fields > label {
   font-weight: bold;
   text-transform: none;
 }
-html /deep/ .ui.form textarea,
-html /deep/ .ui.form input:not([type]),
-html /deep/ .ui.form input[type="date"],
-html /deep/ .ui.form input[type="datetime-local"],
-html /deep/ .ui.form input[type="email"],
-html /deep/ .ui.form input[type="number"],
-html /deep/ .ui.form input[type="password"],
-html /deep/ .ui.form input[type="tel"],
-html /deep/ .ui.form input[type="time"],
-html /deep/ .ui.form input[type="text"],
-html /deep/ .ui.form input[type="url"],
-html /deep/ .ui.form .ui.input {
+htmldeep .ui.form textarea,
+htmldeep .ui.form input:not([type]),
+htmldeep .ui.form input[type="date"],
+htmldeep .ui.form input[type="datetime-local"],
+htmldeep .ui.form input[type="email"],
+htmldeep .ui.form input[type="number"],
+htmldeep .ui.form input[type="password"],
+htmldeep .ui.form input[type="tel"],
+htmldeep .ui.form input[type="time"],
+htmldeep .ui.form input[type="text"],
+htmldeep .ui.form input[type="url"],
+htmldeep .ui.form .ui.input {
   width: 100%;
   vertical-align: top;
 }
-html /deep/ .ui.form input:not([type]),
-html /deep/ .ui.form input[type="date"],
-html /deep/ .ui.form input[type="datetime-local"],
-html /deep/ .ui.form input[type="email"],
-html /deep/ .ui.form input[type="number"],
-html /deep/ .ui.form input[type="password"],
-html /deep/ .ui.form input[type="tel"],
-html /deep/ .ui.form input[type="time"],
-html /deep/ .ui.form input[type="text"],
-html /deep/ .ui.form input[type="url"] {
+htmldeep .ui.form input:not([type]),
+htmldeep .ui.form input[type="date"],
+htmldeep .ui.form input[type="datetime-local"],
+htmldeep .ui.form input[type="email"],
+htmldeep .ui.form input[type="number"],
+htmldeep .ui.form input[type="password"],
+htmldeep .ui.form input[type="tel"],
+htmldeep .ui.form input[type="time"],
+htmldeep .ui.form input[type="text"],
+htmldeep .ui.form input[type="url"] {
   font-family: 'Segoe UI', 'Segoe WP', 'Roboto', 'Frutiger', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin: 0em;
   outline: none;
@@ -298,8 +298,8 @@ html /deep/ .ui.form input[type="url"] {
   -webkit-transition: background-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
           transition: background-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
 }
-html /deep/ .ui.textarea,
-html /deep/ .ui.form textarea {
+htmldeep .ui.textarea,
+htmldeep .ui.form textarea {
   margin: 0em;
   -webkit-appearance: none;
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
@@ -319,14 +319,14 @@ html /deep/ .ui.form textarea {
   line-height: 1.2857;
   resize: vertical;
 }
-html /deep/ .ui.form textarea,
-html /deep/ .ui.form input[type="checkbox"] {
+htmldeep .ui.form textarea,
+htmldeep .ui.form input[type="checkbox"] {
   vertical-align: top;
 }
-html /deep/ .ui.form input.attached {
+htmldeep .ui.form input.attached {
   width: auto;
 }
-html /deep/ .ui.form select {
+htmldeep .ui.form select {
   display: block;
   height: auto;
   width: 100%;
@@ -339,85 +339,85 @@ html /deep/ .ui.form select {
   -webkit-transition: background-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
           transition: background-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
 }
-html /deep/ .ui.form .field > .selection.dropdown {
+htmldeep .ui.form .field > .selection.dropdown {
   width: 100%;
 }
-html /deep/ .ui.form .field > .selection.dropdown > .dropdown.icon {
+htmldeep .ui.form .field > .selection.dropdown > .dropdown.icon {
   float: right;
 }
-html /deep/ .ui.form .inline.field > .selection.dropdown {
+htmldeep .ui.form .inline.field > .selection.dropdown {
   width: auto;
 }
-html /deep/ .ui.form .inline.field > .selection.dropdown > .dropdown.icon {
+htmldeep .ui.form .inline.field > .selection.dropdown > .dropdown.icon {
   float: none;
 }
-html /deep/ .ui.form .divider {
+htmldeep .ui.form .divider {
   clear: both;
   margin: 1em 0em;
 }
-html /deep/ .ui.form .info.message,
-html /deep/ .ui.form .success.message,
-html /deep/ .ui.form .warning.message,
-html /deep/ .ui.form .error.message {
+htmldeep .ui.form .info.message,
+htmldeep .ui.form .success.message,
+htmldeep .ui.form .warning.message,
+htmldeep .ui.form .error.message {
   display: none;
 }
-html /deep/ .ui.form .message:first-child {
+htmldeep .ui.form .message:first-child {
   margin-top: 0px;
 }
-html /deep/ .ui.form .field .prompt.label {
+htmldeep .ui.form .field .prompt.label {
   white-space: nowrap;
 }
-html /deep/ .ui.form .inline.field .prompt {
+htmldeep .ui.form .inline.field .prompt {
   margin: 0em 0em 0em 1em;
 }
-html /deep/ .ui.form .inline.field .prompt:before {
+htmldeep .ui.form .inline.field .prompt:before {
   margin-top: -0.3em;
   bottom: auto;
   right: auto;
   top: 50%;
   left: 0em;
 }
-html /deep/ .ui.form ::-webkit-input-placeholder {
+htmldeep .ui.form ::-webkit-input-placeholder {
   color: #adadad;
 }
-html /deep/ .ui.form ::-moz-placeholder {
+htmldeep .ui.form ::-moz-placeholder {
   color: #adadad;
 }
-html /deep/ .ui.form :focus::-webkit-input-placeholder {
+htmldeep .ui.form :focus::-webkit-input-placeholder {
   color: #7a7a7a;
 }
-html /deep/ .ui.form :focus::-moz-placeholder {
+htmldeep .ui.form :focus::-moz-placeholder {
   color: #7a7a7a;
 }
-html /deep/ .ui.form .error ::-webkit-input-placeholder {
+htmldeep .ui.form .error ::-webkit-input-placeholder {
   color: #e94c56;
 }
-html /deep/ .ui.form .error ::-moz-placeholder {
+htmldeep .ui.form .error ::-moz-placeholder {
   color: #e94c56;
 }
-html /deep/ .ui.form .error :focus::-webkit-input-placeholder {
+htmldeep .ui.form .error :focus::-webkit-input-placeholder {
   color: #e73540;
 }
-html /deep/ .ui.form .error :focus::-moz-placeholder {
+htmldeep .ui.form .error :focus::-moz-placeholder {
   color: #e73540;
 }
-html /deep/ .ui.form input:not([type]):focus,
-html /deep/ .ui.form input[type="date"]:focus,
-html /deep/ .ui.form input[type="datetime-local"]:focus,
-html /deep/ .ui.form input[type="email"]:focus,
-html /deep/ .ui.form input[type="number"]:focus,
-html /deep/ .ui.form input[type="password"]:focus,
-html /deep/ .ui.form input[type="tel"]:focus,
-html /deep/ .ui.form input[type="time"]:focus,
-html /deep/ .ui.form input[type="text"]:focus,
-html /deep/ .ui.form input[type="url"]:focus {
+htmldeep .ui.form input:not([type]):focus,
+htmldeep .ui.form input[type="date"]:focus,
+htmldeep .ui.form input[type="datetime-local"]:focus,
+htmldeep .ui.form input[type="email"]:focus,
+htmldeep .ui.form input[type="number"]:focus,
+htmldeep .ui.form input[type="password"]:focus,
+htmldeep .ui.form input[type="tel"]:focus,
+htmldeep .ui.form input[type="time"]:focus,
+htmldeep .ui.form input[type="text"]:focus,
+htmldeep .ui.form input[type="url"]:focus {
   color: rgba(0, 0, 0, 0.85);
   border-color: rgba(39, 41, 43, 0.3);
   border-radius: 0em 2px 2px 0em;
   background: #ffffff;
   box-shadow: 1px 0em 0em 0em rgba(39, 41, 43, 0.3) inset;
 }
-html /deep/ .ui.form textarea:focus {
+htmldeep .ui.form textarea:focus {
   color: rgba(0, 0, 0, 0.85);
   border-color: rgba(39, 41, 43, 0.3);
   border-radius: 0em 2px 2px 0em;
@@ -425,129 +425,129 @@ html /deep/ .ui.form textarea:focus {
   box-shadow: 1px 0em 0em 0em rgba(39, 41, 43, 0.3) inset;
   -webkit-appearance: none;
 }
-html /deep/ .ui.form.success .success.message {
+htmldeep .ui.form.success .success.message {
   display: block;
 }
-html /deep/ .ui.form.warning .warning.message {
+htmldeep .ui.form.warning .warning.message {
   display: block;
 }
-html /deep/ .ui.form.error .error.message {
+htmldeep .ui.form.error .error.message {
   display: block;
 }
-html /deep/ .ui.form .fields.error .field label,
-html /deep/ .ui.form .field.error label,
-html /deep/ .ui.form .fields.error .field .input,
-html /deep/ .ui.form .field.error .input {
+htmldeep .ui.form .fields.error .field label,
+htmldeep .ui.form .field.error label,
+htmldeep .ui.form .fields.error .field .input,
+htmldeep .ui.form .field.error .input {
   color: #e41e2b;
 }
-html /deep/ .ui.form .fields.error .field .corner.label,
-html /deep/ .ui.form .field.error .corner.label {
+htmldeep .ui.form .fields.error .field .corner.label,
+htmldeep .ui.form .field.error .corner.label {
   border-color: #e41e2b;
   color: #ffffff;
 }
-html /deep/ .ui.form .fields.error .field textarea,
-html /deep/ .ui.form .fields.error .field input:not([type]),
-html /deep/ .ui.form .fields.error .field input[type="date"],
-html /deep/ .ui.form .fields.error .field input[type="datetime-local"],
-html /deep/ .ui.form .fields.error .field input[type="email"],
-html /deep/ .ui.form .fields.error .field input[type="number"],
-html /deep/ .ui.form .fields.error .field input[type="password"],
-html /deep/ .ui.form .fields.error .field input[type="tel"],
-html /deep/ .ui.form .fields.error .field input[type="time"],
-html /deep/ .ui.form .fields.error .field input[type="text"],
-html /deep/ .ui.form .fields.error .field input[type="url"],
-html /deep/ .ui.form .field.error textarea,
-html /deep/ .ui.form .field.error input:not([type]),
-html /deep/ .ui.form .field.error input[type="date"],
-html /deep/ .ui.form .field.error input[type="datetime-local"],
-html /deep/ .ui.form .field.error input[type="email"],
-html /deep/ .ui.form .field.error input[type="number"],
-html /deep/ .ui.form .field.error input[type="password"],
-html /deep/ .ui.form .field.error input[type="tel"],
-html /deep/ .ui.form .field.error input[type="time"],
-html /deep/ .ui.form .field.error input[type="text"],
-html /deep/ .ui.form .field.error input[type="url"] {
+htmldeep .ui.form .fields.error .field textarea,
+htmldeep .ui.form .fields.error .field input:not([type]),
+htmldeep .ui.form .fields.error .field input[type="date"],
+htmldeep .ui.form .fields.error .field input[type="datetime-local"],
+htmldeep .ui.form .fields.error .field input[type="email"],
+htmldeep .ui.form .fields.error .field input[type="number"],
+htmldeep .ui.form .fields.error .field input[type="password"],
+htmldeep .ui.form .fields.error .field input[type="tel"],
+htmldeep .ui.form .fields.error .field input[type="time"],
+htmldeep .ui.form .fields.error .field input[type="text"],
+htmldeep .ui.form .fields.error .field input[type="url"],
+htmldeep .ui.form .field.error textarea,
+htmldeep .ui.form .field.error input:not([type]),
+htmldeep .ui.form .field.error input[type="date"],
+htmldeep .ui.form .field.error input[type="datetime-local"],
+htmldeep .ui.form .field.error input[type="email"],
+htmldeep .ui.form .field.error input[type="number"],
+htmldeep .ui.form .field.error input[type="password"],
+htmldeep .ui.form .field.error input[type="tel"],
+htmldeep .ui.form .field.error input[type="time"],
+htmldeep .ui.form .field.error input[type="text"],
+htmldeep .ui.form .field.error input[type="url"] {
   background: #fff0f0;
   border-color: #dbb1b1;
   color: #e41e2b;
   border-radius: 0em 2px 2px 0em;
   box-shadow: 2px 0em 0em 0em #e41e2b inset;
 }
-html /deep/ .ui.form .field.error textarea:focus,
-html /deep/ .ui.form .field.error input:not([type]):focus,
-html /deep/ .ui.form .field.error input[type="date"]:focus,
-html /deep/ .ui.form .field.error input[type="datetime-local"]:focus,
-html /deep/ .ui.form .field.error input[type="email"]:focus,
-html /deep/ .ui.form .field.error input[type="number"]:focus,
-html /deep/ .ui.form .field.error input[type="password"]:focus,
-html /deep/ .ui.form .field.error input[type="tel"]:focus,
-html /deep/ .ui.form .field.error input[type="time"]:focus,
-html /deep/ .ui.form .field.error input[type="text"]:focus,
-html /deep/ .ui.form .field.error input[type="url"]:focus {
+htmldeep .ui.form .field.error textarea:focus,
+htmldeep .ui.form .field.error input:not([type]):focus,
+htmldeep .ui.form .field.error input[type="date"]:focus,
+htmldeep .ui.form .field.error input[type="datetime-local"]:focus,
+htmldeep .ui.form .field.error input[type="email"]:focus,
+htmldeep .ui.form .field.error input[type="number"]:focus,
+htmldeep .ui.form .field.error input[type="password"]:focus,
+htmldeep .ui.form .field.error input[type="tel"]:focus,
+htmldeep .ui.form .field.error input[type="time"]:focus,
+htmldeep .ui.form .field.error input[type="text"]:focus,
+htmldeep .ui.form .field.error input[type="url"]:focus {
   background: #fff0f0;
   border-color: #dbb1b1;
   color: #e62c38;
   -webkit-appearance: none;
   box-shadow: 2px 0em 0em 0em #e62c38 inset;
 }
-html /deep/ .ui.form .fields.error .field .ui.dropdown,
-html /deep/ .ui.form .fields.error .field .ui.dropdown .item,
-html /deep/ .ui.form .field.error .ui.dropdown,
-html /deep/ .ui.form .field.error .ui.dropdown .text,
-html /deep/ .ui.form .field.error .ui.dropdown .item {
+htmldeep .ui.form .fields.error .field .ui.dropdown,
+htmldeep .ui.form .fields.error .field .ui.dropdown .item,
+htmldeep .ui.form .field.error .ui.dropdown,
+htmldeep .ui.form .field.error .ui.dropdown .text,
+htmldeep .ui.form .field.error .ui.dropdown .item {
   background: #fff0f0;
   color: #e41e2b;
 }
-html /deep/ .ui.form .fields.error .field .ui.dropdown,
-html /deep/ .ui.form .field.error .ui.dropdown {
+htmldeep .ui.form .fields.error .field .ui.dropdown,
+htmldeep .ui.form .field.error .ui.dropdown {
   border-color: #dbb1b1 !important;
 }
-html /deep/ .ui.form .fields.error .field .ui.dropdown:hover,
-html /deep/ .ui.form .field.error .ui.dropdown:hover {
+htmldeep .ui.form .fields.error .field .ui.dropdown:hover,
+htmldeep .ui.form .field.error .ui.dropdown:hover {
   border-color: #dbb1b1 !important;
 }
-html /deep/ .ui.form .fields.error .field .ui.dropdown:hover .menu,
-html /deep/ .ui.form .field.error .ui.dropdown:hover .menu {
+htmldeep .ui.form .fields.error .field .ui.dropdown:hover .menu,
+htmldeep .ui.form .field.error .ui.dropdown:hover .menu {
   border-color: #dbb1b1;
 }
-html /deep/ .ui.form .fields.error .field .ui.dropdown .menu .item:hover,
-html /deep/ .ui.form .field.error .ui.dropdown .menu .item:hover {
+htmldeep .ui.form .fields.error .field .ui.dropdown .menu .item:hover,
+htmldeep .ui.form .field.error .ui.dropdown .menu .item:hover {
   background-color: #fff2f2;
 }
-html /deep/ .ui.form .fields.error .field .ui.dropdown .menu .active.item,
-html /deep/ .ui.form .field.error .ui.dropdown .menu .active.item {
+htmldeep .ui.form .fields.error .field .ui.dropdown .menu .active.item,
+htmldeep .ui.form .field.error .ui.dropdown .menu .active.item {
   background-color: #fdcfcf !important;
 }
-html /deep/ .ui.form .fields.error .field .checkbox:not(.toggle):not(.slider) label,
-html /deep/ .ui.form .field.error .checkbox:not(.toggle):not(.slider) label,
-html /deep/ .ui.form .fields.error .field .checkbox:not(.toggle):not(.slider) .box,
-html /deep/ .ui.form .field.error .checkbox:not(.toggle):not(.slider) .box {
+htmldeep .ui.form .fields.error .field .checkbox:not(.toggle):not(.slider) label,
+htmldeep .ui.form .field.error .checkbox:not(.toggle):not(.slider) label,
+htmldeep .ui.form .fields.error .field .checkbox:not(.toggle):not(.slider) .box,
+htmldeep .ui.form .field.error .checkbox:not(.toggle):not(.slider) .box {
   color: #e41e2b;
 }
-html /deep/ .ui.form .fields.error .field .checkbox:not(.toggle):not(.slider) label:before,
-html /deep/ .ui.form .field.error .checkbox:not(.toggle):not(.slider) label:before,
-html /deep/ .ui.form .fields.error .field .checkbox:not(.toggle):not(.slider) .box:before,
-html /deep/ .ui.form .field.error .checkbox:not(.toggle):not(.slider) .box:before {
+htmldeep .ui.form .fields.error .field .checkbox:not(.toggle):not(.slider) label:before,
+htmldeep .ui.form .field.error .checkbox:not(.toggle):not(.slider) label:before,
+htmldeep .ui.form .fields.error .field .checkbox:not(.toggle):not(.slider) .box:before,
+htmldeep .ui.form .field.error .checkbox:not(.toggle):not(.slider) .box:before {
   background: #fff0f0;
   border-color: #dbb1b1;
 }
-html /deep/ .ui.form .fields.error .field .checkbox label:after,
-html /deep/ .ui.form .field.error .checkbox label:after,
-html /deep/ .ui.form .fields.error .field .checkbox .box:after,
-html /deep/ .ui.form .field.error .checkbox .box:after {
+htmldeep .ui.form .fields.error .field .checkbox label:after,
+htmldeep .ui.form .field.error .checkbox label:after,
+htmldeep .ui.form .fields.error .field .checkbox .box:after,
+htmldeep .ui.form .field.error .checkbox .box:after {
   color: #e41e2b;
 }
-html /deep/ .ui.form .field :disabled,
-html /deep/ .ui.form .field.disabled {
+htmldeep .ui.form .field :disabled,
+htmldeep .ui.form .field.disabled {
   opacity: 0.5;
 }
-html /deep/ .ui.form .field.disabled label {
+htmldeep .ui.form .field.disabled label {
   opacity: 0.5;
 }
-html /deep/ .ui.form .field.disabled :disabled {
+htmldeep .ui.form .field.disabled :disabled {
   opacity: 1;
 }
-html /deep/ .ui.loading.form {
+htmldeep .ui.loading.form {
   position: relative;
   cursor: default;
   point-events: none;
@@ -557,7 +557,7 @@ html /deep/ .ui.loading.form {
           transition: all 0s linear;
   z-index: 100;
 }
-html /deep/ .ui.loading.form:before {
+htmldeep .ui.loading.form:before {
   position: absolute;
   content: '';
   top: 0%;
@@ -567,7 +567,7 @@ html /deep/ .ui.loading.form:before {
   height: 100%;
   z-index: 100;
 }
-html /deep/ .ui.loading.form:after {
+htmldeep .ui.loading.form:after {
   position: absolute;
   content: '';
   top: 50%;
@@ -607,52 +607,52 @@ html /deep/ .ui.loading.form:after {
             transform: rotate(360deg);
   }
 }
-html /deep/ .ui.form .required.fields > .field > label:after,
-html /deep/ .ui.form .required.field > label:after,
-html /deep/ .ui.form .required.fields > .field > .checkbox:after,
-html /deep/ .ui.form .required.field > .checkbox:after {
+htmldeep .ui.form .required.fields > .field > label:after,
+htmldeep .ui.form .required.field > label:after,
+htmldeep .ui.form .required.fields > .field > .checkbox:after,
+htmldeep .ui.form .required.field > .checkbox:after {
   margin: -0.2em 0em 0em 0.2em;
   content: '*';
   color: #e41e2b;
 }
-html /deep/ .ui.form .required.fields > .field > label:after,
-html /deep/ .ui.form .required.field > label:after {
+htmldeep .ui.form .required.fields > .field > label:after,
+htmldeep .ui.form .required.field > label:after {
   display: inline-block;
   vertical-align: top;
 }
-html /deep/ .ui.form .required.fields > .field > .checkbox:after,
-html /deep/ .ui.form .required.field > .checkbox:after {
+htmldeep .ui.form .required.fields > .field > .checkbox:after,
+htmldeep .ui.form .required.field > .checkbox:after {
   position: absolute;
   top: 0%;
   left: 100%;
 }
-html /deep/ .ui.inverted.form label,
-html /deep/ .ui.form .inverted.segment label,
-html /deep/ .ui.form .inverted.segment .ui.checkbox label,
-html /deep/ .ui.form .inverted.segment .ui.checkbox .box,
-html /deep/ .ui.inverted.form .ui.checkbox label,
-html /deep/ .ui.inverted.form .ui.checkbox .box {
+htmldeep .ui.inverted.form label,
+htmldeep .ui.form .inverted.segment label,
+htmldeep .ui.form .inverted.segment .ui.checkbox label,
+htmldeep .ui.form .inverted.segment .ui.checkbox .box,
+htmldeep .ui.inverted.form .ui.checkbox label,
+htmldeep .ui.inverted.form .ui.checkbox .box {
   color: #ffffff;
 }
-html /deep/ .ui.form .grouped.fields {
+htmldeep .ui.form .grouped.fields {
   margin: 0em 0em 1em;
 }
-html /deep/ .ui.form .grouped.fields:last-child {
+htmldeep .ui.form .grouped.fields:last-child {
   margin-bottom: 0em;
 }
-html /deep/ .ui.form .grouped.fields > label {
+htmldeep .ui.form .grouped.fields > label {
   font-size: 0.9285em;
 }
-html /deep/ .ui.form .grouped.fields .field {
+htmldeep .ui.form .grouped.fields .field {
   display: block;
   float: none;
   margin: 0.5em 0em;
   padding: 0em;
 }
-html /deep/ .ui.form .fields {
+htmldeep .ui.form .fields {
   clear: both;
 }
-html /deep/ .ui.form .fields:after {
+htmldeep .ui.form .fields:after {
   content: ' ';
   display: block;
   clear: both;
@@ -660,189 +660,189 @@ html /deep/ .ui.form .fields:after {
   line-height: 0;
   height: 0;
 }
-html /deep/ .ui.form .fields > .field {
+htmldeep .ui.form .fields > .field {
   clear: none;
   float: left;
   padding-left: 0.5em;
   padding-right: 0.5em;
 }
-html /deep/ .ui.form .fields > .field:first-child {
+htmldeep .ui.form .fields > .field:first-child {
   border-left: none;
   box-shadow: none;
 }
-html /deep/ .ui.form .two.fields > .fields,
-html /deep/ .ui.form .two.fields > .field {
+htmldeep .ui.form .two.fields > .fields,
+htmldeep .ui.form .two.fields > .field {
   width: 50%;
 }
-html /deep/ .ui.form .three.fields > .fields,
-html /deep/ .ui.form .three.fields > .field {
+htmldeep .ui.form .three.fields > .fields,
+htmldeep .ui.form .three.fields > .field {
   width: 33.33333333%;
 }
-html /deep/ .ui.form .four.fields > .fields,
-html /deep/ .ui.form .four.fields > .field {
+htmldeep .ui.form .four.fields > .fields,
+htmldeep .ui.form .four.fields > .field {
   width: 25%;
 }
-html /deep/ .ui.form .five.fields > .fields,
-html /deep/ .ui.form .five.fields > .field {
+htmldeep .ui.form .five.fields > .fields,
+htmldeep .ui.form .five.fields > .field {
   width: 20%;
 }
-html /deep/ .ui.form .six.fields > .fields,
-html /deep/ .ui.form .six.fields > .field {
+htmldeep .ui.form .six.fields > .fields,
+htmldeep .ui.form .six.fields > .field {
   width: 16.66666667%;
 }
-html /deep/ .ui.form .seven.fields > .fields,
-html /deep/ .ui.form .seven.fields > .field {
+htmldeep .ui.form .seven.fields > .fields,
+htmldeep .ui.form .seven.fields > .field {
   width: 14.28571429%;
 }
-html /deep/ .ui.form .eight.fields > .fields,
-html /deep/ .ui.form .eight.fields > .field {
+htmldeep .ui.form .eight.fields > .fields,
+htmldeep .ui.form .eight.fields > .field {
   width: 12.5%;
 }
-html /deep/ .ui.form .nine.fields > .fields,
-html /deep/ .ui.form .nine.fields > .field {
+htmldeep .ui.form .nine.fields > .fields,
+htmldeep .ui.form .nine.fields > .field {
   width: 11.11111111%;
 }
-html /deep/ .ui.form .ten.fields > .fields,
-html /deep/ .ui.form .ten.fields > .field {
+htmldeep .ui.form .ten.fields > .fields,
+htmldeep .ui.form .ten.fields > .field {
   width: 10%;
 }
 @media only screen and (max-width: 767px) {
-  html /deep/ .ui.form .two.fields > .fields,
-  html /deep/ .ui.form .two.fields > .field,
-  html /deep/ .ui.form .three.fields > .fields,
-  html /deep/ .ui.form .three.fields > .field,
-  html /deep/ .ui.form .four.fields > .fields,
-  html /deep/ .ui.form .four.fields > .field,
-  html /deep/ .ui.form .five.fields > .fields,
-  html /deep/ .ui.form .five.fields > .field,
-  html /deep/ .ui.form .six.fields > .fields,
-  html /deep/ .ui.form .six.fields > .field,
-  html /deep/ .ui.form .seven.fields > .fields,
-  html /deep/ .ui.form .seven.fields > .field,
-  html /deep/ .ui.form .eight.fields > .fields,
-  html /deep/ .ui.form .eight.fields > .field,
-  html /deep/ .ui.form .nine.fields > .fields,
-  html /deep/ .ui.form .nine.fields > .field,
-  html /deep/ .ui.form .ten.fields > .fields,
-  html /deep/ .ui.form .ten.fields > .field {
+  htmldeep .ui.form .two.fields > .fields,
+  htmldeep .ui.form .two.fields > .field,
+  htmldeep .ui.form .three.fields > .fields,
+  htmldeep .ui.form .three.fields > .field,
+  htmldeep .ui.form .four.fields > .fields,
+  htmldeep .ui.form .four.fields > .field,
+  htmldeep .ui.form .five.fields > .fields,
+  htmldeep .ui.form .five.fields > .field,
+  htmldeep .ui.form .six.fields > .fields,
+  htmldeep .ui.form .six.fields > .field,
+  htmldeep .ui.form .seven.fields > .fields,
+  htmldeep .ui.form .seven.fields > .field,
+  htmldeep .ui.form .eight.fields > .fields,
+  htmldeep .ui.form .eight.fields > .field,
+  htmldeep .ui.form .nine.fields > .fields,
+  htmldeep .ui.form .nine.fields > .field,
+  htmldeep .ui.form .ten.fields > .fields,
+  htmldeep .ui.form .ten.fields > .field {
     width: 100% !important;
     margin: 0em 0em 1em;
     padding-left: 0%;
     padding-right: 0%;
   }
 }
-html /deep/ .ui.form .fields .field:first-child {
+htmldeep .ui.form .fields .field:first-child {
   padding-left: 0%;
 }
-html /deep/ .ui.form .fields .field:last-child {
+htmldeep .ui.form .fields .field:last-child {
   padding-right: 0%;
 }
-html /deep/ .ui.form .fields .wide.field {
+htmldeep .ui.form .fields .wide.field {
   width: 6.25%;
   padding-left: 0.5em;
   padding-right: 0.5em;
 }
-html /deep/ .ui.form .fields .wide.field:first-child {
+htmldeep .ui.form .fields .wide.field:first-child {
   padding-left: 0%;
 }
-html /deep/ .ui.form .fields .wide.field:last-child {
+htmldeep .ui.form .fields .wide.field:last-child {
   padding-right: 0%;
 }
-html /deep/ .ui.form .one.wide.field {
+htmldeep .ui.form .one.wide.field {
   width: 6.25% !important;
 }
-html /deep/ .ui.form .two.wide.field {
+htmldeep .ui.form .two.wide.field {
   width: 12.5% !important;
 }
-html /deep/ .ui.form .three.wide.field {
+htmldeep .ui.form .three.wide.field {
   width: 18.75% !important;
 }
-html /deep/ .ui.form .four.wide.field {
+htmldeep .ui.form .four.wide.field {
   width: 25% !important;
 }
-html /deep/ .ui.form .five.wide.field {
+htmldeep .ui.form .five.wide.field {
   width: 31.25% !important;
 }
-html /deep/ .ui.form .six.wide.field {
+htmldeep .ui.form .six.wide.field {
   width: 37.5% !important;
 }
-html /deep/ .ui.form .seven.wide.field {
+htmldeep .ui.form .seven.wide.field {
   width: 43.75% !important;
 }
-html /deep/ .ui.form .eight.wide.field {
+htmldeep .ui.form .eight.wide.field {
   width: 50% !important;
 }
-html /deep/ .ui.form .nine.wide.field {
+htmldeep .ui.form .nine.wide.field {
   width: 56.25% !important;
 }
-html /deep/ .ui.form .ten.wide.field {
+htmldeep .ui.form .ten.wide.field {
   width: 62.5% !important;
 }
-html /deep/ .ui.form .eleven.wide.field {
+htmldeep .ui.form .eleven.wide.field {
   width: 68.75% !important;
 }
-html /deep/ .ui.form .twelve.wide.field {
+htmldeep .ui.form .twelve.wide.field {
   width: 75% !important;
 }
-html /deep/ .ui.form .thirteen.wide.field {
+htmldeep .ui.form .thirteen.wide.field {
   width: 81.25% !important;
 }
-html /deep/ .ui.form .fourteen.wide.field {
+htmldeep .ui.form .fourteen.wide.field {
   width: 87.5% !important;
 }
-html /deep/ .ui.form .fifteen.wide.field {
+htmldeep .ui.form .fifteen.wide.field {
   width: 93.75% !important;
 }
-html /deep/ .ui.form .sixteen.wide.field {
+htmldeep .ui.form .sixteen.wide.field {
   width: 100% !important;
 }
 @media only screen and (max-width: 767px) {
-  html /deep/ .ui.form .two.fields > .fields,
-  html /deep/ .ui.form .two.fields > .field,
-  html /deep/ .ui.form .three.fields > .fields,
-  html /deep/ .ui.form .three.fields > .field,
-  html /deep/ .ui.form .four.fields > .fields,
-  html /deep/ .ui.form .four.fields > .field,
-  html /deep/ .ui.form .five.fields > .fields,
-  html /deep/ .ui.form .five.fields > .field,
-  html /deep/ .ui.form .fields > .two.wide.field,
-  html /deep/ .ui.form .fields > .three.wide.field,
-  html /deep/ .ui.form .fields > .four.wide.field,
-  html /deep/ .ui.form .fields > .five.wide.field,
-  html /deep/ .ui.form .fields > .six.wide.field,
-  html /deep/ .ui.form .fields > .seven.wide.field,
-  html /deep/ .ui.form .fields > .eight.wide.field,
-  html /deep/ .ui.form .fields > .nine.wide.field,
-  html /deep/ .ui.form .fields > .ten.wide.field,
-  html /deep/ .ui.form .fields > .eleven.wide.field,
-  html /deep/ .ui.form .fields > .twelve.wide.field,
-  html /deep/ .ui.form .fields > .thirteen.wide.field,
-  html /deep/ .ui.form .fields > .fourteen.wide.field,
-  html /deep/ .ui.form .fields > .fifteen.wide.field,
-  html /deep/ .ui.form .fields > .sixteen.wide.field {
+  htmldeep .ui.form .two.fields > .fields,
+  htmldeep .ui.form .two.fields > .field,
+  htmldeep .ui.form .three.fields > .fields,
+  htmldeep .ui.form .three.fields > .field,
+  htmldeep .ui.form .four.fields > .fields,
+  htmldeep .ui.form .four.fields > .field,
+  htmldeep .ui.form .five.fields > .fields,
+  htmldeep .ui.form .five.fields > .field,
+  htmldeep .ui.form .fields > .two.wide.field,
+  htmldeep .ui.form .fields > .three.wide.field,
+  htmldeep .ui.form .fields > .four.wide.field,
+  htmldeep .ui.form .fields > .five.wide.field,
+  htmldeep .ui.form .fields > .six.wide.field,
+  htmldeep .ui.form .fields > .seven.wide.field,
+  htmldeep .ui.form .fields > .eight.wide.field,
+  htmldeep .ui.form .fields > .nine.wide.field,
+  htmldeep .ui.form .fields > .ten.wide.field,
+  htmldeep .ui.form .fields > .eleven.wide.field,
+  htmldeep .ui.form .fields > .twelve.wide.field,
+  htmldeep .ui.form .fields > .thirteen.wide.field,
+  htmldeep .ui.form .fields > .fourteen.wide.field,
+  htmldeep .ui.form .fields > .fifteen.wide.field,
+  htmldeep .ui.form .fields > .sixteen.wide.field {
     width: 100% !important;
     margin: 0em 0em 1em;
     padding-left: 0%;
     padding-right: 0%;
   }
 }
-html /deep/ .ui.form .inline.fields {
+htmldeep .ui.form .inline.fields {
   margin: 0em 0em 1em;
 }
-html /deep/ .ui.form .inline.fields .field {
+htmldeep .ui.form .inline.fields .field {
   display: inline-block;
   float: none;
   margin: 0em 1em 0em 0em;
   padding: 0em;
 }
-html /deep/ .ui.form .inline.fields .field > label,
-html /deep/ .ui.form .inline.fields .field > p,
-html /deep/ .ui.form .inline.fields .field > input,
-html /deep/ .ui.form .inline.fields .field > .ui.input,
-html /deep/ .ui.form .inline.field > label,
-html /deep/ .ui.form .inline.field > p,
-html /deep/ .ui.form .inline.field > input,
-html /deep/ .ui.form .inline.field > .ui.input {
+htmldeep .ui.form .inline.fields .field > label,
+htmldeep .ui.form .inline.fields .field > p,
+htmldeep .ui.form .inline.fields .field > input,
+htmldeep .ui.form .inline.fields .field > .ui.input,
+htmldeep .ui.form .inline.field > label,
+htmldeep .ui.form .inline.field > p,
+htmldeep .ui.form .inline.field > input,
+htmldeep .ui.form .inline.field > .ui.input {
   display: inline-block;
   width: auto;
   margin-top: 0em;
@@ -850,32 +850,32 @@ html /deep/ .ui.form .inline.field > .ui.input {
   vertical-align: middle;
   font-size: 0.9285em;
 }
-html /deep/ .ui.form .inline.fields .field > input,
-html /deep/ .ui.form .inline.fields .field > .ui.input,
-html /deep/ .ui.form .inline.field > input,
-html /deep/ .ui.form .inline.field > .ui.input {
+htmldeep .ui.form .inline.fields .field > input,
+htmldeep .ui.form .inline.fields .field > .ui.input,
+htmldeep .ui.form .inline.field > input,
+htmldeep .ui.form .inline.field > .ui.input {
   font-size: 0.9285em;
 }
-html /deep/ .ui.form .inline.fields .field > .ui.checkbox label {
+htmldeep .ui.form .inline.fields .field > .ui.checkbox label {
   padding-left: 1.75em;
 }
-html /deep/ .ui.form .inline.fields .field > :first-child,
-html /deep/ .ui.form .inline.field > :first-child {
+htmldeep .ui.form .inline.fields .field > :first-child,
+htmldeep .ui.form .inline.field > :first-child {
   margin: 0em 0.2857rem 0em 0em;
 }
-html /deep/ .ui.form .inline.fields .field > :only-child,
-html /deep/ .ui.form .inline.field > :only-child {
+htmldeep .ui.form .inline.fields .field > :only-child,
+htmldeep .ui.form .inline.field > :only-child {
   margin: 0em;
 }
-html /deep/ .ui.small.form {
+htmldeep .ui.small.form {
   font-size: 0.875em;
 }
-html /deep/ .ui.form {
+htmldeep .ui.form {
   font-size: auto;
 }
-html /deep/ .ui.large.form {
+htmldeep .ui.large.form {
   font-size: 1.125em;
 }
-html /deep/ .ui.huge.form {
+htmldeep .ui.huge.form {
   font-size: 1.2em;
 }

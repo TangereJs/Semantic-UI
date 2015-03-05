@@ -15,7 +15,7 @@
              Icon
 *******************************/
 
-html /deep/ {
+htmldeep {
   
 
 /*******************************
@@ -89,203 +89,203 @@ html /deep/ {
 *******************************/
 
 }
-html /deep/ core-icon.hover {
+htmldeep core-icon.hover {
   opacity: 1;
 }
-html /deep/ core-icon.active {
+htmldeep core-icon.active {
   opacity: 1;
 }
-html /deep/ core-icon.emphasized {
+htmldeep core-icon.emphasized {
   opacity: 1;
 }
-html /deep/ core-icon.disabled {
+htmldeep core-icon.disabled {
   pointer-events: none;
   opacity: 0.3 !important;
 }
-html /deep/ core-icon.link {
+htmldeep core-icon.link {
   cursor: pointer;
   opacity: 0.8;
   -webkit-transition: opacity 0.2s ease;
           transition: opacity 0.2s ease;
 }
-html /deep/ core-icon.link:hover {
+htmldeep core-icon.link:hover {
   opacity: 1 !important;
 }
-html /deep/ core-icon.circular {
+htmldeep core-icon.circular {
   border-radius: 500em !important;
   box-shadow: 0em 0em 0em 0.1em rgba(0, 0, 0, 0.1) inset;
   border: 0.35em solid transparent !important;
   width: 2em !important;
   height: 2em !important;
 }
-html /deep/ core-icon.circular.inverted {
+htmldeep core-icon.circular.inverted {
   border: none;
   box-shadow: none;
 }
-html /deep/ core-icon.flipped,
-html /deep/ core-icon.horizontally.flipped {
+htmldeep core-icon.flipped,
+htmldeep core-icon.horizontally.flipped {
   -webkit-transform: scale(-1, 1);
       -ms-transform: scale(-1, 1);
           transform: scale(-1, 1);
 }
-html /deep/ core-icon.vertically.flipped {
+htmldeep core-icon.vertically.flipped {
   -webkit-transform: scale(1, -1);
       -ms-transform: scale(1, -1);
           transform: scale(1, -1);
 }
-html /deep/ core-icon.rotated,
-html /deep/ core-icon.right.rotated,
-html /deep/ core-icon.clockwise.rotated {
+htmldeep core-icon.rotated,
+htmldeep core-icon.right.rotated,
+htmldeep core-icon.clockwise.rotated {
   -webkit-transform: rotate(90deg);
       -ms-transform: rotate(90deg);
           transform: rotate(90deg);
 }
-html /deep/ core-icon.left.rotated,
-html /deep/ core-icon.counterclockwise.rotated {
+htmldeep core-icon.left.rotated,
+htmldeep core-icon.counterclockwise.rotated {
   -webkit-transform: rotate(-90deg);
       -ms-transform: rotate(-90deg);
           transform: rotate(-90deg);
 }
-html /deep/ core-icon.bordered {
+htmldeep core-icon.bordered {
   width: 2em;
   height: 2em;
   padding: 0.55em 0.385em !important;
   box-shadow: 0em 0em 0em 0.1em rgba(0, 0, 0, 0.1) inset;
   vertical-align: baseline;
 }
-html /deep/ core-icon.bordered.inverted {
+htmldeep core-icon.bordered.inverted {
   border: none;
   box-shadow: none;
 }
-html /deep/ core-icon.white {
+htmldeep core-icon.white {
   color: #ffffff !important;
 }
-html /deep/ core-icon.black {
+htmldeep core-icon.black {
   color: #1b1c1d !important;
 }
-html /deep/ core-icon.blue {
+htmldeep core-icon.blue {
   color: #2196f3 !important;
 }
-html /deep/ core-icon.green {
+htmldeep core-icon.green {
   color: #4caf50 !important;
 }
-html /deep/ core-icon.orange {
+htmldeep core-icon.orange {
   color: #ff9800 !important;
 }
-html /deep/ core-icon.pink {
+htmldeep core-icon.pink {
   color: #e91e63 !important;
 }
-html /deep/ core-icon.purple {
+htmldeep core-icon.purple {
   color: #9c27b0 !important;
 }
-html /deep/ core-icon.red {
+htmldeep core-icon.red {
   color: #e41e2b !important;
 }
-html /deep/ core-icon.teal {
+htmldeep core-icon.teal {
   color: #1de9b6 !important;
 }
-html /deep/ core-icon.yellow {
+htmldeep core-icon.yellow {
   color: #ffeb3b !important;
 }
-html /deep/ core-icon.inverted {
+htmldeep core-icon.inverted {
   color: #ffffff;
 }
-html /deep/ core-icon.inverted.black {
+htmldeep core-icon.inverted.black {
   color: #333333 !important;
 }
-html /deep/ core-icon.inverted.blue {
+htmldeep core-icon.inverted.blue {
   color: #2979ff !important;
 }
-html /deep/ core-icon.inverted.green {
+htmldeep core-icon.inverted.green {
   color: #00e676 !important;
 }
-html /deep/ core-icon.inverted.orange {
+htmldeep core-icon.inverted.orange {
   color: #ff9100 !important;
 }
-html /deep/ core-icon.inverted.pink {
+htmldeep core-icon.inverted.pink {
   color: #f50057 !important;
 }
-html /deep/ core-icon.inverted.purple {
+htmldeep core-icon.inverted.purple {
   color: #d500f9 !important;
 }
-html /deep/ core-icon.inverted.red {
+htmldeep core-icon.inverted.red {
   color: #ff1744 !important;
 }
-html /deep/ core-icon.inverted.teal {
+htmldeep core-icon.inverted.teal {
   color: #1de9b6 !important;
 }
-html /deep/ core-icon.inverted.yellow {
+htmldeep core-icon.inverted.yellow {
   color: #ffea00 !important;
 }
-html /deep/ core-icon.inverted.bordered,
-html /deep/ core-icon.inverted.circular {
+htmldeep core-icon.inverted.bordered,
+htmldeep core-icon.inverted.circular {
   background-color: #222222 !important;
   color: #FFFFFF !important;
 }
-html /deep/ core-icon.inverted.bordered.black,
-html /deep/ core-icon.inverted.circular.black {
+htmldeep core-icon.inverted.bordered.black,
+htmldeep core-icon.inverted.circular.black {
   background-color: #1b1c1d !important;
   color: #FFFFFF !important;
 }
-html /deep/ core-icon.inverted.bordered.blue,
-html /deep/ core-icon.inverted.circular.blue {
+htmldeep core-icon.inverted.bordered.blue,
+htmldeep core-icon.inverted.circular.blue {
   background-color: #2196f3 !important;
   color: #FFFFFF !important;
 }
-html /deep/ core-icon.inverted.bordered.green,
-html /deep/ core-icon.inverted.circular.green {
+htmldeep core-icon.inverted.bordered.green,
+htmldeep core-icon.inverted.circular.green {
   background-color: #4caf50 !important;
   color: #FFFFFF !important;
 }
-html /deep/ core-icon.inverted.bordered.orange,
-html /deep/ core-icon.inverted.circular.orange {
+htmldeep core-icon.inverted.bordered.orange,
+htmldeep core-icon.inverted.circular.orange {
   background-color: #ff9800 !important;
   color: #FFFFFF !important;
 }
-html /deep/ core-icon.inverted.bordered.pink,
-html /deep/ core-icon.inverted.circular.pink {
+htmldeep core-icon.inverted.bordered.pink,
+htmldeep core-icon.inverted.circular.pink {
   background-color: #e91e63 !important;
   color: #FFFFFF !important;
 }
-html /deep/ core-icon.inverted.bordered.purple,
-html /deep/ core-icon.inverted.circular.purple {
+htmldeep core-icon.inverted.bordered.purple,
+htmldeep core-icon.inverted.circular.purple {
   background-color: #9c27b0 !important;
   color: #FFFFFF !important;
 }
-html /deep/ core-icon.inverted.bordered.red,
-html /deep/ core-icon.inverted.circular.red {
+htmldeep core-icon.inverted.bordered.red,
+htmldeep core-icon.inverted.circular.red {
   background-color: #e41e2b !important;
   color: #FFFFFF !important;
 }
-html /deep/ core-icon.inverted.bordered.teal,
-html /deep/ core-icon.inverted.circular.teal {
+htmldeep core-icon.inverted.bordered.teal,
+htmldeep core-icon.inverted.circular.teal {
   background-color: #1de9b6 !important;
   color: #FFFFFF !important;
 }
-html /deep/ core-icon.inverted.bordered.yellow,
-html /deep/ core-icon.inverted.circular.yellow {
+htmldeep core-icon.inverted.bordered.yellow,
+htmldeep core-icon.inverted.circular.yellow {
   background-color: #ffeb3b !important;
   color: #FFFFFF !important;
 }
-html /deep/ core-icon.small {
+htmldeep core-icon.small {
   font-size: 0.875em;
 }
-html /deep/ core-icon {
+htmldeep core-icon {
   font-size: 1em;
 }
-html /deep/ core-icon.large {
+htmldeep core-icon.large {
   font-size: 1.5em;
   vertical-align: middle;
 }
-html /deep/ core-icon.big {
+htmldeep core-icon.big {
   font-size: 2em;
   vertical-align: middle;
 }
-html /deep/ core-icon.huge {
+htmldeep core-icon.huge {
   font-size: 4em;
   vertical-align: middle;
 }
-html /deep/ core-icon.massive {
+htmldeep core-icon.massive {
   font-size: 8em;
   vertical-align: middle;
 }

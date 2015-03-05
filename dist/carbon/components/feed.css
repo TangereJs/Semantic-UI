@@ -15,7 +15,7 @@
          Activity Feed
 *******************************/
 
-html /deep/ {
+htmldeep {
   
 
 /*******************************
@@ -91,16 +91,16 @@ html /deep/ {
 *******************************/
 
 }
-html /deep/ .ui.feed {
+htmldeep .ui.feed {
   margin: 1em 0em;
 }
-html /deep/ .ui.feed:first-child {
+htmldeep .ui.feed:first-child {
   margin-top: 0em;
 }
-html /deep/ .ui.feed:last-child {
+htmldeep .ui.feed:last-child {
   margin-top: 0em;
 }
-html /deep/ .ui.feed > .event {
+htmldeep .ui.feed > .event {
   display: table;
   width: 100%;
   padding: 0.5rem 0em;
@@ -108,21 +108,21 @@ html /deep/ .ui.feed > .event {
   background: none;
   border-top: none;
 }
-html /deep/ .ui.feed > .event:first-child {
+htmldeep .ui.feed > .event:first-child {
   border-top: 0px;
   padding-top: 0em;
 }
-html /deep/ .ui.feed > .event:last-child {
+htmldeep .ui.feed > .event:last-child {
   padding-bottom: 0em;
 }
-html /deep/ .ui.feed > .event > .label {
+htmldeep .ui.feed > .event > .label {
   display: table-cell;
   width: 2.5em;
   height: 2.5em;
   vertical-align: top;
   text-align: left;
 }
-html /deep/ .ui.feed > .event > .label .icon {
+htmldeep .ui.feed > .event > .label .icon {
   opacity: 1;
   font-size: 1.5em;
   width: 100%;
@@ -132,27 +132,27 @@ html /deep/ .ui.feed > .event > .label .icon {
   border-radius: none;
   color: rgba(0, 0, 0, 0.6);
 }
-html /deep/ .ui.feed > .event > .label img {
+htmldeep .ui.feed > .event > .label img {
   width: 100%;
   height: auto;
   border-radius: 500rem;
 }
-html /deep/ .ui.feed > .event > .label + .content {
+htmldeep .ui.feed > .event > .label + .content {
   padding: 0.5em 0em 0.5em 1.25em;
 }
-html /deep/ .ui.feed > .event > .content {
+htmldeep .ui.feed > .event > .content {
   display: table-cell;
   vertical-align: top;
   text-align: left;
   word-wrap: break-word;
 }
-html /deep/ .ui.feed > .event:last-child > .content {
+htmldeep .ui.feed > .event:last-child > .content {
   padding-bottom: 0em;
 }
-html /deep/ .ui.feed > .event > .content a {
+htmldeep .ui.feed > .event > .content a {
   cursor: pointer;
 }
-html /deep/ .ui.feed > .event > .content .date {
+htmldeep .ui.feed > .event > .content .date {
   margin: -0.5rem 0em 0em;
   padding: 0em;
   font-weight: normal;
@@ -160,13 +160,13 @@ html /deep/ .ui.feed > .event > .content .date {
   font-style: normal;
   color: rgba(0, 0, 0, 0.4);
 }
-html /deep/ .ui.feed > .event > .content .summary {
+htmldeep .ui.feed > .event > .content .summary {
   margin: 0em;
   font-size: 1em;
   font-weight: bold;
   color: #212121;
 }
-html /deep/ .ui.feed > .event > .content .summary img {
+htmldeep .ui.feed > .event > .content .summary img {
   display: inline-block;
   width: auto;
   height: 2em;
@@ -174,19 +174,19 @@ html /deep/ .ui.feed > .event > .content .summary img {
   border-radius: 0.25em;
   vertical-align: middle;
 }
-html /deep/ .ui.feed > .event > .content .user {
+htmldeep .ui.feed > .event > .content .user {
   display: inline-block;
   font-weight: bold;
   margin-right: 0em;
   vertical-align: baseline;
 }
-html /deep/ .ui.feed > .event > .content .user img {
+htmldeep .ui.feed > .event > .content .user img {
   margin: -0.25em 0.25em 0em 0em;
   width: auto;
   height: 2em;
   vertical-align: middle;
 }
-html /deep/ .ui.feed > .event > .content .summary > .date {
+htmldeep .ui.feed > .event > .content .summary > .date {
   display: inline-block;
   float: none;
   font-weight: normal;
@@ -196,25 +196,25 @@ html /deep/ .ui.feed > .event > .content .summary > .date {
   padding: 0em;
   color: rgba(0, 0, 0, 0.4);
 }
-html /deep/ .ui.feed > .event > .content .extra {
+htmldeep .ui.feed > .event > .content .extra {
   margin: 0.5em 0em 0em;
   background: none;
   padding: 0em;
   color: #212121;
 }
-html /deep/ .ui.feed > .event > .content .extra.images img {
+htmldeep .ui.feed > .event > .content .extra.images img {
   display: inline-block;
   margin: 0em 0.25em 0em 0em;
   width: 6em;
 }
-html /deep/ .ui.feed > .event > .content .extra.text {
+htmldeep .ui.feed > .event > .content .extra.text {
   padding: 0.5em 1em;
   border-left: 3px solid rgba(0, 0, 0, 0.2);
   font-size: 1em;
   max-width: 500px;
   line-height: 1.33;
 }
-html /deep/ .ui.feed > .event > .content .meta {
+htmldeep .ui.feed > .event > .content .meta {
   display: inline-block;
   font-size: 0.875em;
   margin: 0.5em 0em 0em;
@@ -225,11 +225,11 @@ html /deep/ .ui.feed > .event > .content .meta {
   padding: 0em;
   color: rgba(0, 0, 0, 0.6);
 }
-html /deep/ .ui.feed > .event > .content .meta > * {
+htmldeep .ui.feed > .event > .content .meta > * {
   position: relative;
   margin-left: 0.75em;
 }
-html /deep/ .ui.feed > .event > .content .meta > *:after {
+htmldeep .ui.feed > .event > .content .meta > *:after {
   content: '';
   color: rgba(0, 0, 0, 0.2);
   top: 0em;
@@ -238,42 +238,42 @@ html /deep/ .ui.feed > .event > .content .meta > *:after {
   position: absolute;
   vertical-align: top;
 }
-html /deep/ .ui.feed > .event > .content .meta .like {
+htmldeep .ui.feed > .event > .content .meta .like {
   color: '';
   -webkit-transition: 0.2s color ease;
           transition: 0.2s color ease;
 }
-html /deep/ .ui.feed > .event > .content .meta .like:hover .icon {
+htmldeep .ui.feed > .event > .content .meta .like:hover .icon {
   color: #ff2733;
 }
-html /deep/ .ui.feed > .event > .content .meta .active.like .icon {
+htmldeep .ui.feed > .event > .content .meta .active.like .icon {
   color: #ef404a;
 }
-html /deep/ .ui.feed > .event > .content .meta > :first-child {
+htmldeep .ui.feed > .event > .content .meta > :first-child {
   margin-left: 0em;
 }
-html /deep/ .ui.feed > .event > .content .meta > :first-child::after {
+htmldeep .ui.feed > .event > .content .meta > :first-child::after {
   display: none;
 }
-html /deep/ .ui.feed > .event > .content .meta a,
-html /deep/ .ui.feed > .event > .content .meta > .icon {
+htmldeep .ui.feed > .event > .content .meta a,
+htmldeep .ui.feed > .event > .content .meta > .icon {
   cursor: pointer;
   opacity: 1;
   color: rgba(0, 0, 0, 0.5);
   -webkit-transition: color 0.2s ease;
           transition: color 0.2s ease;
 }
-html /deep/ .ui.feed > .event > .content .meta a:hover,
-html /deep/ .ui.feed > .event > .content .meta a:hover .icon,
-html /deep/ .ui.feed > .event > .content .meta > .icon:hover {
+htmldeep .ui.feed > .event > .content .meta a:hover,
+htmldeep .ui.feed > .event > .content .meta a:hover .icon,
+htmldeep .ui.feed > .event > .content .meta > .icon:hover {
   color: rgba(0, 0, 0, 0.8);
 }
-html /deep/ .ui.small.feed {
+htmldeep .ui.small.feed {
   font-size: 0.9em;
 }
-html /deep/ .ui.feed {
+htmldeep .ui.feed {
   font-size: 1em;
 }
-html /deep/ .ui.large.feed {
+htmldeep .ui.large.feed {
   font-size: 1.1em;
 }

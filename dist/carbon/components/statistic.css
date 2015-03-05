@@ -15,7 +15,7 @@
            Statistic
 *******************************/
 
-html /deep/ {
+htmldeep {
   
 /* Standalone */
   
@@ -125,31 +125,31 @@ html /deep/ {
 *******************************/
 
 }
-html /deep/ .ui.statistic {
+htmldeep .ui.statistic {
   display: inline-block;
   margin: 1em 0em;
   max-width: 175px;
 }
-html /deep/ .ui.statistic + .ui.statistic {
+htmldeep .ui.statistic + .ui.statistic {
   margin: 0em 0em 0em 1em;
 }
-html /deep/ .ui.statistic:first-child {
+htmldeep .ui.statistic:first-child {
   margin-top: 0em;
 }
-html /deep/ .ui.statistic:last-child {
+htmldeep .ui.statistic:last-child {
   margin-bottom: 0em;
 }
-html /deep/ .ui.statistics > .statistic {
+htmldeep .ui.statistics > .statistic {
   display: block;
   float: left;
   margin: 0em 1em 2em;
   max-width: 175px;
 }
-html /deep/ .ui.statistics {
+htmldeep .ui.statistics {
   display: block;
   margin: 1em -1em;
 }
-html /deep/ .ui.statistics:after {
+htmldeep .ui.statistics:after {
   display: block;
   content: ' ';
   height: 0px;
@@ -157,14 +157,14 @@ html /deep/ .ui.statistics:after {
   overflow: hidden;
   visibility: hidden;
 }
-html /deep/ .ui.statistics:first-child {
+htmldeep .ui.statistics:first-child {
   margin-top: 0em;
 }
-html /deep/ .ui.statistics:last-child {
+htmldeep .ui.statistics:last-child {
   margin-bottom: 0em;
 }
-html /deep/ .ui.statistics .statistic > .value,
-html /deep/ .ui.statistic > .value {
+htmldeep .ui.statistics .statistic > .value,
+htmldeep .ui.statistic > .value {
   font-family: 'Segoe UI', 'Segoe WP', 'Roboto', 'Frutiger', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 4rem;
   font-weight: normal;
@@ -173,8 +173,8 @@ html /deep/ .ui.statistic > .value {
   text-transform: uppercase;
   text-align: center;
 }
-html /deep/ .ui.statistics .statistic > .label,
-html /deep/ .ui.statistic > .label {
+htmldeep .ui.statistics .statistic > .label,
+htmldeep .ui.statistic > .label {
   font-family: 'Segoe UI', 'Segoe WP', 'Roboto', 'Frutiger', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 1rem;
   font-weight: normal;
@@ -182,231 +182,231 @@ html /deep/ .ui.statistic > .label {
   text-transform: none;
   text-align: center;
 }
-html /deep/ .ui.statistics .statistic > .label ~ .value,
-html /deep/ .ui.statistic > .label ~ .value {
+htmldeep .ui.statistics .statistic > .label ~ .value,
+htmldeep .ui.statistic > .label ~ .value {
   margin-top: 0rem;
 }
-html /deep/ .ui.statistics .statistic > .value ~ .label,
-html /deep/ .ui.statistic > .value ~ .label {
+htmldeep .ui.statistics .statistic > .value ~ .label,
+htmldeep .ui.statistic > .value ~ .label {
   margin-top: 0.25rem;
 }
-html /deep/ .ui.statistics .statistic > .value .icon,
-html /deep/ .ui.statistic > .value .icon {
+htmldeep .ui.statistics .statistic > .value .icon,
+htmldeep .ui.statistic > .value .icon {
   opacity: 1;
   width: auto;
   margin: 0em;
 }
-html /deep/ .ui.statistics .statistic > .text.value,
-html /deep/ .ui.statistic > .text.value {
+htmldeep .ui.statistics .statistic > .text.value,
+htmldeep .ui.statistic > .text.value {
   line-height: 1em;
   min-height: 2em;
   text-align: center;
 }
-html /deep/ .ui.statistics .statistic > .text.value + .label,
-html /deep/ .ui.statistic > .text.value + .label {
+htmldeep .ui.statistics .statistic > .text.value + .label,
+htmldeep .ui.statistic > .text.value + .label {
   text-align: center;
 }
-html /deep/ .ui.statistics .statistic > .value img,
-html /deep/ .ui.statistic > .value img {
+htmldeep .ui.statistics .statistic > .value img,
+htmldeep .ui.statistic > .value img {
   max-height: 3rem;
   vertical-align: baseline;
 }
-html /deep/ .ui.horizontal.statistics,
-html /deep/ .ui.horizontal.statistic {
+htmldeep .ui.horizontal.statistics,
+htmldeep .ui.horizontal.statistic {
   display: block;
   margin: 0em;
   max-width: 9999px;
 }
-html /deep/ .ui.horizontal.statistics .statistic {
+htmldeep .ui.horizontal.statistics .statistic {
   float: none;
   margin: 1em 0em;
   max-width: 9999px;
 }
-html /deep/ .ui.horizontal.statistic > .text.value,
-html /deep/ .ui.horizontal.statistics > .statistic > .text.value {
+htmldeep .ui.horizontal.statistic > .text.value,
+htmldeep .ui.horizontal.statistics > .statistic > .text.value {
   min-height: 0em !important;
 }
-html /deep/ .ui.horizontal.statistics .statistic > .value .icon,
-html /deep/ .ui.horizontal.statistic > .value .icon {
+htmldeep .ui.horizontal.statistics .statistic > .value .icon,
+htmldeep .ui.horizontal.statistic > .value .icon {
   width: 1.18em;
 }
-html /deep/ .ui.horizontal.statistics .statistic > .value,
-html /deep/ .ui.horizontal.statistic > .value {
+htmldeep .ui.horizontal.statistics .statistic > .value,
+htmldeep .ui.horizontal.statistic > .value {
   display: inline-block;
   vertical-align: middle;
 }
-html /deep/ .ui.horizontal.statistics .statistic > .label,
-html /deep/ .ui.horizontal.statistic > .label {
+htmldeep .ui.horizontal.statistics .statistic > .label,
+htmldeep .ui.horizontal.statistic > .label {
   display: inline-block;
   vertical-align: middle;
   margin: 0em 0em 0em 0.75em;
 }
-html /deep/ .ui.blue.statistics .statistic > .value,
-html /deep/ .ui.statistics .blue.statistic > .value,
-html /deep/ .ui.blue.statistic > .value {
+htmldeep .ui.blue.statistics .statistic > .value,
+htmldeep .ui.statistics .blue.statistic > .value,
+htmldeep .ui.blue.statistic > .value {
   color: #2196f3;
 }
-html /deep/ .ui.green.statistics .statistic > .value,
-html /deep/ .ui.statistics .green.statistic > .value,
-html /deep/ .ui.green.statistic > .value {
+htmldeep .ui.green.statistics .statistic > .value,
+htmldeep .ui.statistics .green.statistic > .value,
+htmldeep .ui.green.statistic > .value {
   color: #4caf50;
 }
-html /deep/ .ui.orange.statistics .statistic > .value,
-html /deep/ .ui.statistics .orange.statistic > .value,
-html /deep/ .ui.orange.statistic > .value {
+htmldeep .ui.orange.statistics .statistic > .value,
+htmldeep .ui.statistics .orange.statistic > .value,
+htmldeep .ui.orange.statistic > .value {
   color: #ff9800;
 }
-html /deep/ .ui.pink.statistics .statistic > .value,
-html /deep/ .ui.statistics .pink.statistic > .value,
-html /deep/ .ui.pink.statistic > .value {
+htmldeep .ui.pink.statistics .statistic > .value,
+htmldeep .ui.statistics .pink.statistic > .value,
+htmldeep .ui.pink.statistic > .value {
   color: #e91e63;
 }
-html /deep/ .ui.purple.statistics .statistic > .value,
-html /deep/ .ui.statistics .purple.statistic > .value,
-html /deep/ .ui.purple.statistic > .value {
+htmldeep .ui.purple.statistics .statistic > .value,
+htmldeep .ui.statistics .purple.statistic > .value,
+htmldeep .ui.purple.statistic > .value {
   color: #9c27b0;
 }
-html /deep/ .ui.red.statistics .statistic > .value,
-html /deep/ .ui.statistics .red.statistic > .value,
-html /deep/ .ui.red.statistic > .value {
+htmldeep .ui.red.statistics .statistic > .value,
+htmldeep .ui.statistics .red.statistic > .value,
+htmldeep .ui.red.statistic > .value {
   color: #e41e2b;
 }
-html /deep/ .ui.teal.statistics .statistic > .value,
-html /deep/ .ui.statistics .teal.statistic > .value,
-html /deep/ .ui.teal.statistic > .value {
+htmldeep .ui.teal.statistics .statistic > .value,
+htmldeep .ui.statistics .teal.statistic > .value,
+htmldeep .ui.teal.statistic > .value {
   color: #1de9b6;
 }
-html /deep/ .ui.yellow.statistics .statistic > .value,
-html /deep/ .ui.statistics .yellow.statistic > .value,
-html /deep/ .ui.yellow.statistic > .value {
+htmldeep .ui.yellow.statistics .statistic > .value,
+htmldeep .ui.statistics .yellow.statistic > .value,
+htmldeep .ui.yellow.statistic > .value {
   color: #ffeb3b;
 }
-html /deep/ .ui[class*="left floated"].statistic {
+htmldeep .ui[class*="left floated"].statistic {
   float: left;
   margin: 0em 2em 1em 0em;
 }
-html /deep/ .ui[class*="right floated"].statistic {
+htmldeep .ui[class*="right floated"].statistic {
   float: right;
   margin: 0em 0em 1em 2em;
 }
-html /deep/ .ui.floated.statistic:last-child {
+htmldeep .ui.floated.statistic:last-child {
   margin-bottom: 0em;
 }
-html /deep/ .ui.inverted.statistic .value {
+htmldeep .ui.inverted.statistic .value {
   color: #ffffff;
 }
-html /deep/ .ui.inverted.statistic .label {
+htmldeep .ui.inverted.statistic .label {
   color: rgba(255, 255, 255, 0.8);
 }
-html /deep/ .ui.inverted.blue.statistics .statistic > .value,
-html /deep/ .ui.statistics .inverted.blue.statistic > .value,
-html /deep/ .ui.inverted.blue.statistic > .value {
+htmldeep .ui.inverted.blue.statistics .statistic > .value,
+htmldeep .ui.statistics .inverted.blue.statistic > .value,
+htmldeep .ui.inverted.blue.statistic > .value {
   color: #2979ff;
 }
-html /deep/ .ui.inverted.green.statistics .statistic > .value,
-html /deep/ .ui.statistics .inverted.green.statistic > .value,
-html /deep/ .ui.inverted.green.statistic > .value {
+htmldeep .ui.inverted.green.statistics .statistic > .value,
+htmldeep .ui.statistics .inverted.green.statistic > .value,
+htmldeep .ui.inverted.green.statistic > .value {
   color: #00e676;
 }
-html /deep/ .ui.inverted.orange.statistics .statistic > .value,
-html /deep/ .ui.statistics .inverted.orange.statistic > .value,
-html /deep/ .ui.inverted.orange.statistic > .value {
+htmldeep .ui.inverted.orange.statistics .statistic > .value,
+htmldeep .ui.statistics .inverted.orange.statistic > .value,
+htmldeep .ui.inverted.orange.statistic > .value {
   color: #ff9100;
 }
-html /deep/ .ui.inverted.pink.statistics .statistic > .value,
-html /deep/ .ui.statistics .inverted.pink.statistic > .value,
-html /deep/ .ui.inverted.pink.statistic > .value {
+htmldeep .ui.inverted.pink.statistics .statistic > .value,
+htmldeep .ui.statistics .inverted.pink.statistic > .value,
+htmldeep .ui.inverted.pink.statistic > .value {
   color: #f50057;
 }
-html /deep/ .ui.inverted.purple.statistics .statistic > .value,
-html /deep/ .ui.statistics .inverted.purple.statistic > .value,
-html /deep/ .ui.inverted.purple.statistic > .value {
+htmldeep .ui.inverted.purple.statistics .statistic > .value,
+htmldeep .ui.statistics .inverted.purple.statistic > .value,
+htmldeep .ui.inverted.purple.statistic > .value {
   color: #d500f9;
 }
-html /deep/ .ui.inverted.red.statistics .statistic > .value,
-html /deep/ .ui.statistics .inverted.red.statistic > .value,
-html /deep/ .ui.inverted.red.statistic > .value {
+htmldeep .ui.inverted.red.statistics .statistic > .value,
+htmldeep .ui.statistics .inverted.red.statistic > .value,
+htmldeep .ui.inverted.red.statistic > .value {
   color: #ff1744;
 }
-html /deep/ .ui.inverted.teal.statistics .statistic > .value,
-html /deep/ .ui.statistics .inverted.teal.statistic > .value,
-html /deep/ .ui.inverted.teal.statistic > .value {
+htmldeep .ui.inverted.teal.statistics .statistic > .value,
+htmldeep .ui.statistics .inverted.teal.statistic > .value,
+htmldeep .ui.inverted.teal.statistic > .value {
   color: #1de9b6;
 }
-html /deep/ .ui.inverted.yellow.statistics .statistic > .value,
-html /deep/ .ui.statistics .inverted.yellow.statistic > .value,
-html /deep/ .ui.inverted.yellow.statistic > .value {
+htmldeep .ui.inverted.yellow.statistics .statistic > .value,
+htmldeep .ui.statistics .inverted.yellow.statistic > .value,
+htmldeep .ui.inverted.yellow.statistic > .value {
   color: #ffea00;
 }
-html /deep/ .ui.mini.statistics .statistic > .value,
-html /deep/ .ui.mini.statistic > .value {
+htmldeep .ui.mini.statistics .statistic > .value,
+htmldeep .ui.mini.statistic > .value {
   font-size: 1.5rem;
 }
-html /deep/ .ui.mini.horizontal.statistics .statistic > .value,
-html /deep/ .ui.mini.horizontal.statistic > .value {
+htmldeep .ui.mini.horizontal.statistics .statistic > .value,
+htmldeep .ui.mini.horizontal.statistic > .value {
   font-size: 1.5rem;
 }
-html /deep/ .ui.mini.statistics .statistic > .text.value,
-html /deep/ .ui.mini.statistic > .text.value {
+htmldeep .ui.mini.statistics .statistic > .text.value,
+htmldeep .ui.mini.statistic > .text.value {
   font-size: 1rem;
 }
-html /deep/ .ui.tiny.statistics .statistic > .value,
-html /deep/ .ui.tiny.statistic > .value {
+htmldeep .ui.tiny.statistics .statistic > .value,
+htmldeep .ui.tiny.statistic > .value {
   font-size: 2rem;
 }
-html /deep/ .ui.tiny.horizontal.statistics .statistic > .value,
-html /deep/ .ui.tiny.horizontal.statistic > .value {
+htmldeep .ui.tiny.horizontal.statistics .statistic > .value,
+htmldeep .ui.tiny.horizontal.statistic > .value {
   font-size: 2rem;
 }
-html /deep/ .ui.tiny.statistics .statistic > .text.value,
-html /deep/ .ui.tiny.statistic > .text.value {
+htmldeep .ui.tiny.statistics .statistic > .text.value,
+htmldeep .ui.tiny.statistic > .text.value {
   font-size: 1rem;
 }
-html /deep/ .ui.small.statistics .statistic > .value,
-html /deep/ .ui.small.statistic > .value {
+htmldeep .ui.small.statistics .statistic > .value,
+htmldeep .ui.small.statistic > .value {
   font-size: 3rem;
 }
-html /deep/ .ui.small.horizontal.statistics .statistic > .value,
-html /deep/ .ui.small.horizontal.statistic > .value {
+htmldeep .ui.small.horizontal.statistics .statistic > .value,
+htmldeep .ui.small.horizontal.statistic > .value {
   font-size: 2rem;
 }
-html /deep/ .ui.small.statistics .statistic > .text.value,
-html /deep/ .ui.small.statistic > .text.value {
+htmldeep .ui.small.statistics .statistic > .text.value,
+htmldeep .ui.small.statistic > .text.value {
   font-size: 1.5rem;
 }
-html /deep/ .ui.statistics .statistic > .value,
-html /deep/ .ui.statistic > .value {
+htmldeep .ui.statistics .statistic > .value,
+htmldeep .ui.statistic > .value {
   font-size: 4rem;
 }
-html /deep/ .ui.horizontal.statistics .statistic > .value,
-html /deep/ .ui.horizontal.statistic > .value {
+htmldeep .ui.horizontal.statistics .statistic > .value,
+htmldeep .ui.horizontal.statistic > .value {
   font-size: 3rem;
 }
-html /deep/ .ui.statistics .statistic > .text.value,
-html /deep/ .ui.statistic > .text.value {
+htmldeep .ui.statistics .statistic > .text.value,
+htmldeep .ui.statistic > .text.value {
   font-size: 2rem;
 }
-html /deep/ .ui.large.statistics .statistic > .value,
-html /deep/ .ui.large.statistic > .value {
+htmldeep .ui.large.statistics .statistic > .value,
+htmldeep .ui.large.statistic > .value {
   font-size: 5rem;
 }
-html /deep/ .ui.large.horizontal.statistics .statistic > .value,
-html /deep/ .ui.large.horizontal.statistic > .value {
+htmldeep .ui.large.horizontal.statistics .statistic > .value,
+htmldeep .ui.large.horizontal.statistic > .value {
   font-size: 4rem;
 }
-html /deep/ .ui.large.statistics .statistic > .text.value,
-html /deep/ .ui.large.statistic > .text.value {
+htmldeep .ui.large.statistics .statistic > .text.value,
+htmldeep .ui.large.statistic > .text.value {
   font-size: 2.5rem;
 }
-html /deep/ .ui.huge.statistics .statistic > .value,
-html /deep/ .ui.huge.statistic > .value {
+htmldeep .ui.huge.statistics .statistic > .value,
+htmldeep .ui.huge.statistic > .value {
   font-size: 6rem;
 }
-html /deep/ .ui.huge.horizontal.statistics .statistic > .value,
-html /deep/ .ui.huge.horizontal.statistic > .value {
+htmldeep .ui.huge.horizontal.statistics .statistic > .value,
+htmldeep .ui.huge.horizontal.statistic > .value {
   font-size: 5rem;
 }
-html /deep/ .ui.huge.statistics .statistic > .text.value,
-html /deep/ .ui.huge.statistic > .text.value {
+htmldeep .ui.huge.statistics .statistic > .text.value,
+htmldeep .ui.huge.statistic > .text.value {
   font-size: 2.5rem;
 }

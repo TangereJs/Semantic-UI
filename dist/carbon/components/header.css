@@ -15,7 +15,7 @@
             Header
 *******************************/
 
-html /deep/ {
+htmldeep {
   
 /* Standard */
   
@@ -153,7 +153,7 @@ html /deep/ {
 *******************************/
 
 }
-html /deep/ .ui.header {
+htmldeep .ui.header {
   border: none;
   margin: -webkit-calc(2rem -  0.165em ) 0em 1rem;
   margin: calc(2rem -  0.165em ) 0em 1rem;
@@ -164,13 +164,13 @@ html /deep/ .ui.header {
   text-transform: none;
   color: #212121;
 }
-html /deep/ .ui.header:first-child {
+htmldeep .ui.header:first-child {
   margin-top: -0.165em;
 }
-html /deep/ .ui.header:last-child {
+htmldeep .ui.header:last-child {
   margin-bottom: 0em;
 }
-html /deep/ .ui.header .sub.header {
+htmldeep .ui.header .sub.header {
   font-weight: normal;
   margin: 0em;
   padding: 0em;
@@ -178,128 +178,128 @@ html /deep/ .ui.header .sub.header {
   line-height: 1.2em;
   color: rgba(0, 0, 0, 0.5);
 }
-html /deep/ .ui.header > .icon {
+htmldeep .ui.header > .icon {
   display: table-cell;
   opacity: 1;
   font-size: 1.5em;
   padding-top: 0.165em;
   vertical-align: middle;
 }
-html /deep/ .ui.header .icon:only-child {
+htmldeep .ui.header .icon:only-child {
   display: inline-block;
   padding: 0em;
   margin-right: 0.75rem;
 }
-html /deep/ .ui.header > .image,
-html /deep/ .ui.header > img {
+htmldeep .ui.header > .image,
+htmldeep .ui.header > img {
   display: inline-block;
   margin-top: 0.165em;
   width: 2.5em;
   height: auto;
   vertical-align: middle;
 }
-html /deep/ .ui.header > .image:only-child,
-html /deep/ .ui.header > img:only-child {
+htmldeep .ui.header > .image:only-child,
+htmldeep .ui.header > img:only-child {
   margin-right: 0.75rem;
 }
-html /deep/ .ui.header .content {
+htmldeep .ui.header .content {
   display: inline-block;
   vertical-align: top;
 }
-html /deep/ .ui.header > img + .content,
-html /deep/ .ui.header > .image + .content {
+htmldeep .ui.header > img + .content,
+htmldeep .ui.header > .image + .content {
   padding-left: 0.75rem;
   vertical-align: middle;
 }
-html /deep/ .ui.header > .icon + .content {
+htmldeep .ui.header > .icon + .content {
   padding-left: 0.75rem;
   display: table-cell;
   vertical-align: middle;
 }
-html /deep/ .ui.header .ui.label {
+htmldeep .ui.header .ui.label {
   margin: 0em 0em 0em 0.5rem;
   vertical-align: middle;
 }
-html /deep/ .ui.header + p {
+htmldeep .ui.header + p {
   margin-top: 0em;
 }
-html /deep/ h1.ui.header {
+htmldeep h1.ui.header {
   font-size: 2.25rem;
 }
-html /deep/ h2.ui.header {
+htmldeep h2.ui.header {
   font-size: 2rem;
 }
-html /deep/ h3.ui.header {
+htmldeep h3.ui.header {
   font-size: 1.75rem;
 }
-html /deep/ h4.ui.header {
+htmldeep h4.ui.header {
   font-size: 1.5rem;
 }
-html /deep/ h5.ui.header {
+htmldeep h5.ui.header {
   font-size: 1.25rem;
 }
-html /deep/ h1.ui.header .sub.header {
+htmldeep h1.ui.header .sub.header {
   font-size: 1.4285rem;
 }
-html /deep/ h2.ui.header .sub.header {
+htmldeep h2.ui.header .sub.header {
   font-size: 1.1428rem;
 }
-html /deep/ h3.ui.header .sub.header {
+htmldeep h3.ui.header .sub.header {
   font-size: 1.1428rem;
 }
-html /deep/ h4.ui.header .sub.header {
+htmldeep h4.ui.header .sub.header {
   font-size: 1rem;
 }
-html /deep/ h5.ui.header .sub.header {
+htmldeep h5.ui.header .sub.header {
   font-size: 0.9285rem;
 }
-html /deep/ .ui.huge.header {
+htmldeep .ui.huge.header {
   min-height: 1em;
   font-size: 2.25em;
 }
-html /deep/ .ui.large.header {
+htmldeep .ui.large.header {
   font-size: 2em;
 }
-html /deep/ .ui.medium.header {
+htmldeep .ui.medium.header {
   font-size: 1.75em;
 }
-html /deep/ .ui.small.header {
+htmldeep .ui.small.header {
   font-size: 1.5em;
 }
-html /deep/ .ui.tiny.header {
+htmldeep .ui.tiny.header {
   font-size: 1.25em;
 }
-html /deep/ .ui.huge.header .sub.header {
+htmldeep .ui.huge.header .sub.header {
   font-size: 1.4285rem;
 }
-html /deep/ .ui.large.header .sub.header {
+htmldeep .ui.large.header .sub.header {
   font-size: 1.4285rem;
 }
-html /deep/ .ui.header .sub.header {
+htmldeep .ui.header .sub.header {
   font-size: 1.1428rem;
 }
-html /deep/ .ui.small.header .sub.header {
+htmldeep .ui.small.header .sub.header {
   font-size: 1rem;
 }
-html /deep/ .ui.tiny.header .sub.header {
+htmldeep .ui.tiny.header .sub.header {
   font-size: 0.9285rem;
 }
-html /deep/ .ui.icon.header {
+htmldeep .ui.icon.header {
   display: inline-block;
   text-align: center;
   margin: 2rem 0em 1rem;
 }
-html /deep/ .ui.icon.header:after {
+htmldeep .ui.icon.header:after {
   content: '';
   display: block;
   height: 0px;
   clear: both;
   visibility: hidden;
 }
-html /deep/ .ui.icon.header:first-child {
+htmldeep .ui.icon.header:first-child {
   margin-top: 0em;
 }
-html /deep/ .ui.icon.header .icon {
+htmldeep .ui.icon.header .icon {
   float: none;
   display: block;
   width: auto;
@@ -309,248 +309,248 @@ html /deep/ .ui.icon.header .icon {
   margin: 0em auto 0.25rem;
   opacity: 1;
 }
-html /deep/ .ui.icon.header .content {
+htmldeep .ui.icon.header .content {
   display: block;
 }
-html /deep/ .ui.icon.header .circular.icon {
+htmldeep .ui.icon.header .circular.icon {
   font-size: 2em;
 }
-html /deep/ .ui.icon.header .square.icon {
+htmldeep .ui.icon.header .square.icon {
   font-size: 2em;
 }
-html /deep/ .ui.block.icon.header .icon {
+htmldeep .ui.block.icon.header .icon {
   margin-bottom: 0em;
 }
-html /deep/ .ui.icon.header.aligned {
+htmldeep .ui.icon.header.aligned {
   margin-left: auto;
   margin-right: auto;
   display: block;
 }
-html /deep/ .ui.disabled.header {
+htmldeep .ui.disabled.header {
   opacity: 0.3;
 }
-html /deep/ .ui.black.header {
+htmldeep .ui.black.header {
   color: #1b1c1d !important;
 }
-html /deep/ a.ui.black.header:hover {
+htmldeep a.ui.black.header:hover {
   color: #1b1c1d !important;
 }
-html /deep/ .ui.blue.header {
+htmldeep .ui.blue.header {
   color: #2196f3 !important;
 }
-html /deep/ a.ui.blue.header:hover {
+htmldeep a.ui.blue.header:hover {
   color: #309df4 !important;
 }
-html /deep/ .ui.green.header {
+htmldeep .ui.green.header {
   color: #4caf50 !important;
 }
-html /deep/ a.ui.green.header:hover {
+htmldeep a.ui.green.header:hover {
   color: #55b559 !important;
 }
-html /deep/ .ui.orange.header {
+htmldeep .ui.orange.header {
   color: #ff9800 !important;
 }
-html /deep/ a.ui.orange.header:hover {
+htmldeep a.ui.orange.header:hover {
   color: #ff9e0f !important;
 }
-html /deep/ .ui.pink.header {
+htmldeep .ui.pink.header {
   color: #e91e63 !important;
 }
-html /deep/ a.ui.pink.header:hover {
+htmldeep a.ui.pink.header:hover {
   color: #ea2c6d !important;
 }
-html /deep/ .ui.purple.header {
+htmldeep .ui.purple.header {
   color: #9c27b0 !important;
 }
-html /deep/ a.ui.purple.header:hover {
+htmldeep a.ui.purple.header:hover {
   color: #a72abd !important;
 }
-html /deep/ .ui.red.header {
+htmldeep .ui.red.header {
   color: #e41e2b !important;
 }
-html /deep/ a.ui.red.header:hover {
+htmldeep a.ui.red.header:hover {
   color: #e62c38 !important;
 }
-html /deep/ .ui.teal.header {
+htmldeep .ui.teal.header {
   color: #1de9b6 !important;
 }
-html /deep/ a.ui.teal.header:hover {
+htmldeep a.ui.teal.header:hover {
   color: #2beabb !important;
 }
-html /deep/ .ui.yellow.header {
+htmldeep .ui.yellow.header {
   color: #ffeb3b !important;
 }
-html /deep/ a.ui.yellow.header:hover {
+htmldeep a.ui.yellow.header:hover {
   color: #ffed4a !important;
 }
-html /deep/ .ui.black.dividing.header {
+htmldeep .ui.black.dividing.header {
   border-bottom: 2px solid #1b1c1d;
 }
-html /deep/ .ui.blue.dividing.header {
+htmldeep .ui.blue.dividing.header {
   border-bottom: 2px solid #2196f3;
 }
-html /deep/ .ui.green.dividing.header {
+htmldeep .ui.green.dividing.header {
   border-bottom: 2px solid #4caf50;
 }
-html /deep/ .ui.orange.dividing.header {
+htmldeep .ui.orange.dividing.header {
   border-bottom: 2px solid #ff9800;
 }
-html /deep/ .ui.pink.dividing.header {
+htmldeep .ui.pink.dividing.header {
   border-bottom: 2px solid #e91e63;
 }
-html /deep/ .ui.purple.dividing.header {
+htmldeep .ui.purple.dividing.header {
   border-bottom: 2px solid #9c27b0;
 }
-html /deep/ .ui.red.dividing.header {
+htmldeep .ui.red.dividing.header {
   border-bottom: 2px solid #e41e2b;
 }
-html /deep/ .ui.teal.dividing.header {
+htmldeep .ui.teal.dividing.header {
   border-bottom: 2px solid #1de9b6;
 }
-html /deep/ .ui.yellow.dividing.header {
+htmldeep .ui.yellow.dividing.header {
   border-bottom: 2px solid #ffeb3b;
 }
-html /deep/ .ui.inverted.header {
+htmldeep .ui.inverted.header {
   color: #ffffff;
 }
-html /deep/ .ui.inverted.header .sub.header {
+htmldeep .ui.inverted.header .sub.header {
   color: rgba(255, 255, 255, 0.85);
 }
-html /deep/ .ui.inverted.attached.header {
+htmldeep .ui.inverted.attached.header {
   background: #333333 -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.05));
   background: #333333 linear-gradient(transparent, rgba(0, 0, 0, 0.05));
   box-shadow: none;
 }
-html /deep/ .ui.inverted.block.header {
+htmldeep .ui.inverted.block.header {
   background: #333333 -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.05));
   background: #333333 linear-gradient(transparent, rgba(0, 0, 0, 0.05));
   box-shadow: none;
 }
-html /deep/ .ui.inverted.black.header {
+htmldeep .ui.inverted.black.header {
   color: #aaaaaa !important;
 }
-html /deep/ a.ui.inverted.black.header:hover {
+htmldeep a.ui.inverted.black.header:hover {
   color: #b2b2b2 !important;
 }
-html /deep/ .ui.inverted.blue.header {
+htmldeep .ui.inverted.blue.header {
   color: #2979ff !important;
 }
-html /deep/ a.ui.inverted.blue.header:hover {
+htmldeep a.ui.inverted.blue.header:hover {
   color: #3883ff !important;
 }
-html /deep/ .ui.inverted.green.header {
+htmldeep .ui.inverted.green.header {
   color: #00e676 !important;
 }
-html /deep/ a.ui.inverted.green.header:hover {
+htmldeep a.ui.inverted.green.header:hover {
   color: #00f57e !important;
 }
-html /deep/ .ui.inverted.orange.header {
+htmldeep .ui.inverted.orange.header {
   color: #ff9100 !important;
 }
-html /deep/ a.ui.inverted.orange.header:hover {
+htmldeep a.ui.inverted.orange.header:hover {
   color: #ff980f !important;
 }
-html /deep/ .ui.inverted.pink.header {
+htmldeep .ui.inverted.pink.header {
   color: #f50057 !important;
 }
-html /deep/ a.ui.inverted.pink.header:hover {
+htmldeep a.ui.inverted.pink.header:hover {
   color: #ff055e !important;
 }
-html /deep/ .ui.inverted.purple.header {
+htmldeep .ui.inverted.purple.header {
   color: #d500f9 !important;
 }
-html /deep/ a.ui.inverted.purple.header:hover {
+htmldeep a.ui.inverted.purple.header:hover {
   color: #db09ff !important;
 }
-html /deep/ .ui.inverted.red.header {
+htmldeep .ui.inverted.red.header {
   color: #ff1744 !important;
 }
-html /deep/ a.ui.inverted.red.header:hover {
+htmldeep a.ui.inverted.red.header:hover {
   color: #ff2650 !important;
 }
-html /deep/ .ui.inverted.teal.header {
+htmldeep .ui.inverted.teal.header {
   color: #1de9b6 !important;
 }
-html /deep/ a.ui.inverted.teal.header:hover {
+htmldeep a.ui.inverted.teal.header:hover {
   color: #2beabb !important;
 }
-html /deep/ .ui.inverted.yellow.header {
+htmldeep .ui.inverted.yellow.header {
   color: #ffea00 !important;
 }
-html /deep/ a.ui.inverted.yellow.header:hover {
+htmldeep a.ui.inverted.yellow.header:hover {
   color: #ffeb0f !important;
 }
-html /deep/ .ui.inverted.block.header {
+htmldeep .ui.inverted.block.header {
   border-bottom: none;
 }
-html /deep/ .ui.left.aligned.header {
+htmldeep .ui.left.aligned.header {
   text-align: left;
 }
-html /deep/ .ui.right.aligned.header {
+htmldeep .ui.right.aligned.header {
   text-align: right;
 }
-html /deep/ .ui.centered.header,
-html /deep/ .ui.center.aligned.header {
+htmldeep .ui.centered.header,
+htmldeep .ui.center.aligned.header {
   text-align: center;
 }
-html /deep/ .ui.justified.header {
+htmldeep .ui.justified.header {
   text-align: justify;
 }
-html /deep/ .ui.justified.header:after {
+htmldeep .ui.justified.header:after {
   display: inline-block;
   content: '';
   width: 100%;
 }
-html /deep/ .ui.floated.header,
-html /deep/ .ui[class*="left floated"].header {
+htmldeep .ui.floated.header,
+htmldeep .ui[class*="left floated"].header {
   float: left;
   margin-top: 0em;
   margin-right: 0.5em;
 }
-html /deep/ .ui[class*="right floated"].header {
+htmldeep .ui[class*="right floated"].header {
   float: right;
   margin-top: 0em;
   margin-left: 0.5em;
 }
-html /deep/ .ui.fitted.header {
+htmldeep .ui.fitted.header {
   padding: 0em;
 }
-html /deep/ .ui.dividing.header {
+htmldeep .ui.dividing.header {
   padding-bottom: 0.25rem;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
-html /deep/ .ui.dividing.header .sub.header {
+htmldeep .ui.dividing.header .sub.header {
   padding-bottom: 0.25rem;
 }
-html /deep/ .ui.dividing.header .icon {
+htmldeep .ui.dividing.header .icon {
   margin-bottom: 0em;
 }
-html /deep/ .ui.inverted.dividing.header {
+htmldeep .ui.inverted.dividing.header {
   border-bottom-color: rgba(255, 255, 255, 0.2);
 }
-html /deep/ .ui.block.header {
+htmldeep .ui.block.header {
   background: #f0f0f0;
   padding: 0.75rem 1rem;
   box-shadow: none;
   border: 1px solid #d4d4d5;
   border-radius: 0.3125rem;
 }
-html /deep/ .ui.tiny.block.header {
+htmldeep .ui.tiny.block.header {
   font-size: 1.25em;
 }
-html /deep/ .ui.small.block.header {
+htmldeep .ui.small.block.header {
   font-size: 1.5em;
 }
-html /deep/ .ui.block.header:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) {
+htmldeep .ui.block.header:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) {
   font-size: 1.75em;
 }
-html /deep/ .ui.large.block.header {
+htmldeep .ui.large.block.header {
   font-size: 2em;
 }
-html /deep/ .ui.huge.block.header {
+htmldeep .ui.huge.block.header {
   font-size: 2.25em;
 }
-html /deep/ .ui.attached.header {
+htmldeep .ui.attached.header {
   background: #ffffff;
   padding: 0.75rem 1rem;
   margin-left: -1px;
@@ -558,41 +558,41 @@ html /deep/ .ui.attached.header {
   box-shadow: none;
   border: 1px solid #d4d4d5;
 }
-html /deep/ .ui.attached.block.header {
+htmldeep .ui.attached.block.header {
   background: #f0f0f0;
 }
-html /deep/ .ui.attached:not(.top):not(.bottom).header {
+htmldeep .ui.attached:not(.top):not(.bottom).header {
   margin-top: 0em;
   margin-bottom: 0em;
   border-top: none;
   border-bottom: none;
   border-radius: 0em;
 }
-html /deep/ .ui.top.attached.header {
+htmldeep .ui.top.attached.header {
   margin-bottom: 0em;
   border-bottom: none;
   border-radius: 0.3125rem 0.3125rem 0em 0em;
 }
-html /deep/ .ui.bottom.attached.header {
+htmldeep .ui.bottom.attached.header {
   margin-top: 0em;
   border-top: none;
   border-radius: 0em 0em 0.3125rem 0.3125rem;
 }
-html /deep/ .ui.tiny.attached.header {
+htmldeep .ui.tiny.attached.header {
   font-size: 0.8571em;
 }
-html /deep/ .ui.small.attached.header {
+htmldeep .ui.small.attached.header {
   font-size: 0.9285em;
 }
-html /deep/ .ui.attached.header:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) {
+htmldeep .ui.attached.header:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) {
   font-size: 1em;
 }
-html /deep/ .ui.large.attached.header {
+htmldeep .ui.large.attached.header {
   font-size: 1.0714em;
 }
-html /deep/ .ui.huge.attached.header {
+htmldeep .ui.huge.attached.header {
   font-size: 1.1428em;
 }
-html /deep/ .ui.header:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) {
+htmldeep .ui.header:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) {
   font-size: 1.75em;
 }

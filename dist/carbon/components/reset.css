@@ -25,7 +25,7 @@
 html {
   box-sizing: border-box;
 }
-html /deep/ {
+htmldeep {
   
 /* iPad Input Shadows */
   
@@ -213,21 +213,21 @@ html /deep/ {
 *******************************/
 
 }
-html /deep/ *,
-html /deep/ *:before,
-html /deep/ *:after {
+htmldeep *,
+htmldeep *:before,
+htmldeep *:after {
   box-sizing: border-box;
 }
-html /deep/ input[type="text"],
-html /deep/ input[type="email"],
-html /deep/ input[type="search"],
-html /deep/ input[type="password"] {
+htmldeep input[type="text"],
+htmldeep input[type="email"],
+htmldeep input[type="search"],
+htmldeep input[type="password"] {
   -webkit-appearance: none;
   -moz-appearance: none;
   
 /* mobile firefox too! */
 }
-html /deep/ html {
+htmldeep html {
   font-family: sans-serif;
   
 /* 1 */
@@ -238,27 +238,27 @@ html /deep/ html {
   
 /* 2 */
 }
-html /deep/ body {
+htmldeep body {
   margin: 0;
 }
-html /deep/ article,
-html /deep/ aside,
-html /deep/ details,
-html /deep/ figcaption,
-html /deep/ figure,
-html /deep/ footer,
-html /deep/ header,
-html /deep/ hgroup,
-html /deep/ main,
-html /deep/ nav,
-html /deep/ section,
-html /deep/ summary {
+htmldeep article,
+htmldeep aside,
+htmldeep details,
+htmldeep figcaption,
+htmldeep figure,
+htmldeep footer,
+htmldeep header,
+htmldeep hgroup,
+htmldeep main,
+htmldeep nav,
+htmldeep section,
+htmldeep summary {
   display: block;
 }
-html /deep/ audio,
-html /deep/ canvas,
-html /deep/ progress,
-html /deep/ video {
+htmldeep audio,
+htmldeep canvas,
+htmldeep progress,
+htmldeep video {
   display: inline-block;
   
 /* 1 */
@@ -266,83 +266,83 @@ html /deep/ video {
   
 /* 2 */
 }
-html /deep/ audio:not([controls]) {
+htmldeep audio:not([controls]) {
   display: none;
   height: 0;
 }
-html /deep/ [hidden],
-html /deep/ template {
+htmldeep [hidden],
+htmldeep template {
   display: none;
 }
-html /deep/ a {
+htmldeep a {
   background: transparent;
 }
-html /deep/ a:active,
-html /deep/ a:hover {
+htmldeep a:active,
+htmldeep a:hover {
   outline: 0;
 }
-html /deep/ abbr[title] {
+htmldeep abbr[title] {
   border-bottom: 1px dotted;
 }
-html /deep/ b,
-html /deep/ strong {
+htmldeep b,
+htmldeep strong {
   font-weight: bold;
 }
-html /deep/ dfn {
+htmldeep dfn {
   font-style: italic;
 }
-html /deep/ h1 {
+htmldeep h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
-html /deep/ mark {
+htmldeep mark {
   background: #ff0;
   color: #000;
 }
-html /deep/ small {
+htmldeep small {
   font-size: 80%;
 }
-html /deep/ sub,
-html /deep/ sup {
+htmldeep sub,
+htmldeep sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
   vertical-align: baseline;
 }
-html /deep/ sup {
+htmldeep sup {
   top: -0.5em;
 }
-html /deep/ sub {
+htmldeep sub {
   bottom: -0.25em;
 }
-html /deep/ img {
+htmldeep img {
   border: 0;
 }
-html /deep/ svg:not(:root) {
+htmldeep svg:not(:root) {
   overflow: hidden;
 }
-html /deep/ figure {
+htmldeep figure {
   margin: 1em 40px;
 }
-html /deep/ hr {
+htmldeep hr {
   box-sizing: content-box;
   height: 0;
 }
-html /deep/ pre {
+htmldeep pre {
   overflow: auto;
 }
-html /deep/ code,
-html /deep/ kbd,
-html /deep/ pre,
-html /deep/ samp {
+htmldeep code,
+htmldeep kbd,
+htmldeep pre,
+htmldeep samp {
   font-family: monospace, monospace;
   font-size: 1em;
 }
-html /deep/ button,
-html /deep/ input,
-html /deep/ optgroup,
-html /deep/ select,
-html /deep/ textarea {
+htmldeep button,
+htmldeep input,
+htmldeep optgroup,
+htmldeep select,
+htmldeep textarea {
   color: inherit;
   
 /* 1 */
@@ -353,17 +353,17 @@ html /deep/ textarea {
   
 /* 3 */
 }
-html /deep/ button {
+htmldeep button {
   overflow: visible;
 }
-html /deep/ button,
-html /deep/ select {
+htmldeep button,
+htmldeep select {
   text-transform: none;
 }
-html /deep/ button,
-html /deep/ html input[type="button"],
-html /deep/ input[type="reset"],
-html /deep/ input[type="submit"] {
+htmldeep button,
+htmldeep html input[type="button"],
+htmldeep input[type="reset"],
+htmldeep input[type="submit"] {
   -webkit-appearance: button;
   
 /* 2 */
@@ -371,20 +371,20 @@ html /deep/ input[type="submit"] {
   
 /* 3 */
 }
-html /deep/ button[disabled],
-html /deep/ html input[disabled] {
+htmldeep button[disabled],
+htmldeep html input[disabled] {
   cursor: default;
 }
-html /deep/ button::-moz-focus-inner,
-html /deep/ input::-moz-focus-inner {
+htmldeep button::-moz-focus-inner,
+htmldeep input::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
-html /deep/ input {
+htmldeep input {
   line-height: normal;
 }
-html /deep/ input[type="checkbox"],
-html /deep/ input[type="radio"] {
+htmldeep input[type="checkbox"],
+htmldeep input[type="radio"] {
   box-sizing: border-box;
   
 /* 1 */
@@ -392,11 +392,11 @@ html /deep/ input[type="radio"] {
   
 /* 2 */
 }
-html /deep/ input[type="number"]::-webkit-inner-spin-button,
-html /deep/ input[type="number"]::-webkit-outer-spin-button {
+htmldeep input[type="number"]::-webkit-inner-spin-button,
+htmldeep input[type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
-html /deep/ input[type="search"] {
+htmldeep input[type="search"] {
   -webkit-appearance: textfield;
   
 /* 1 */
@@ -404,16 +404,16 @@ html /deep/ input[type="search"] {
 /* 2 */
   box-sizing: content-box;
 }
-html /deep/ input[type="search"]::-webkit-search-cancel-button,
-html /deep/ input[type="search"]::-webkit-search-decoration {
+htmldeep input[type="search"]::-webkit-search-cancel-button,
+htmldeep input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
-html /deep/ fieldset {
+htmldeep fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em;
 }
-html /deep/ legend {
+htmldeep legend {
   border: 0;
   
 /* 1 */
@@ -421,17 +421,17 @@ html /deep/ legend {
   
 /* 2 */
 }
-html /deep/ textarea {
+htmldeep textarea {
   overflow: auto;
 }
-html /deep/ optgroup {
+htmldeep optgroup {
   font-weight: bold;
 }
-html /deep/ table {
+htmldeep table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-html /deep/ td,
-html /deep/ th {
+htmldeep td,
+htmldeep th {
   padding: 0;
 }

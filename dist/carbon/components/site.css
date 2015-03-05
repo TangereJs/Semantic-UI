@@ -39,7 +39,7 @@ body {
              Headers
 *******************************/
 
-html /deep/ {
+htmldeep {
   
 
 /*******************************
@@ -68,11 +68,11 @@ html /deep/ {
 *******************************/
 
 }
-html /deep/ h1,
-html /deep/ h2,
-html /deep/ h3,
-html /deep/ h4,
-html /deep/ h5 {
+htmldeep h1,
+htmldeep h2,
+htmldeep h3,
+htmldeep h4,
+htmldeep h5 {
   font-family: 'Segoe UI', 'Segoe WP', 'Roboto', 'Frutiger', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   line-height: 1.33em;
   margin: -webkit-calc(2rem -  0.25em ) 0em 1rem;
@@ -80,63 +80,63 @@ html /deep/ h5 {
   font-weight: 400;
   padding: 0em;
 }
-html /deep/ h1 {
+htmldeep h1 {
   min-height: 1rem;
   font-size: 2.25rem;
 }
-html /deep/ h2 {
+htmldeep h2 {
   font-size: 2rem;
 }
-html /deep/ h3 {
+htmldeep h3 {
   font-size: 1.75rem;
 }
-html /deep/ h4 {
+htmldeep h4 {
   font-size: 1.5rem;
 }
-html /deep/ h5 {
+htmldeep h5 {
   font-size: 1.25rem;
 }
-html /deep/ p {
+htmldeep p {
   margin: 0em 0em 1.53em;
   line-height: 1.7em;
 }
-html /deep/ p:first-child {
+htmldeep p:first-child {
   margin-top: 0em;
 }
-html /deep/ p:last-child {
+htmldeep p:last-child {
   margin-bottom: 0em;
 }
-html /deep/ a {
+htmldeep a {
   color: #009fda;
   text-decoration: none;
 }
-html /deep/ a:hover {
+htmldeep a:hover {
   color: #00b2f3;
 }
-html /deep/ ::-webkit-selection {
+htmldeep ::-webkit-selection {
   background-color: #009fda;
   color: #ffffff;
 }
-html /deep/ ::-moz-selection {
+htmldeep ::-moz-selection {
   background-color: #009fda;
   color: #ffffff;
 }
-html /deep/ ::selection {
+htmldeep ::selection {
   background-color: #009fda;
   color: #ffffff;
 }
-html /deep/ textarea::-webkit-selection,
-html /deep/ input::-webkit-selection {
+htmldeep textarea::-webkit-selection,
+htmldeep input::-webkit-selection {
   background-color: rgba(100, 100, 100, 0.4);
   color: #212121;
 }
-html /deep/ textarea::-moz-selection,
-html /deep/ input::-moz-selection {
+htmldeep textarea::-moz-selection,
+htmldeep input::-moz-selection {
   background-color: rgba(100, 100, 100, 0.4);
   color: #212121;
 }
-html /deep/ textarea::selection,
-html /deep/ input::selection {
+htmldeep textarea::selection,
+htmldeep input::selection {
   background-color: rgba(100, 100, 100, 0.4);
   color: #212121;
 }

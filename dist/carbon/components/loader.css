@@ -15,7 +15,7 @@
             Loader
 *******************************/
 
-html /deep/ {
+htmldeep {
   
 /* Standard Size */
   
@@ -92,7 +92,7 @@ html /deep/ {
 *******************************/
 
 }
-html /deep/ .ui.loader {
+htmldeep .ui.loader {
   display: none;
   position: absolute;
   top: 50%;
@@ -104,7 +104,7 @@ html /deep/ .ui.loader {
       -ms-transform: translateX(-50%) translateY(-50%);
           transform: translateX(-50%) translateY(-50%);
 }
-html /deep/ .ui.loader:before {
+htmldeep .ui.loader:before {
   position: absolute;
   content: '';
   top: 0%;
@@ -114,7 +114,7 @@ html /deep/ .ui.loader:before {
   border-radius: 500rem;
   border: 0.2em solid rgba(0, 0, 0, 0.1);
 }
-html /deep/ .ui.loader:after {
+htmldeep .ui.loader:after {
   position: absolute;
   content: '';
   top: 0%;
@@ -151,121 +151,121 @@ html /deep/ .ui.loader:after {
             transform: rotate(360deg);
   }
 }
-html /deep/ .ui.loader:before,
-html /deep/ .ui.loader:after {
+htmldeep .ui.loader:before,
+htmldeep .ui.loader:after {
   width: 2.2585em;
   height: 2.2585em;
   margin: 0em 0em 0em -1.12925em;
 }
-html /deep/ .ui.mini.loader:before,
-html /deep/ .ui.mini.loader:after {
+htmldeep .ui.mini.loader:before,
+htmldeep .ui.mini.loader:after {
   width: 1.2857em;
   height: 1.2857em;
   margin: 0em 0em 0em -0.64285em;
 }
-html /deep/ .ui.small.loader:before,
-html /deep/ .ui.small.loader:after {
+htmldeep .ui.small.loader:before,
+htmldeep .ui.small.loader:after {
   width: 1.7142em;
   height: 1.7142em;
   margin: 0em 0em 0em -0.8571em;
 }
-html /deep/ .ui.large.loader:before,
-html /deep/ .ui.large.loader:after {
+htmldeep .ui.large.loader:before,
+htmldeep .ui.large.loader:after {
   width: 4.5714em;
   height: 4.5714em;
   margin: 0em 0em 0em -2.2857em;
 }
-html /deep/ .ui.dimmer .loader {
+htmldeep .ui.dimmer .loader {
   display: block;
 }
-html /deep/ .ui.dimmer .ui.loader {
+htmldeep .ui.dimmer .ui.loader {
   color: #ffffff;
 }
-html /deep/ .ui.dimmer .ui.loader:before {
+htmldeep .ui.dimmer .ui.loader:before {
   border-color: rgba(255, 255, 255, 0.15);
 }
-html /deep/ .ui.dimmer .ui.loader:after {
+htmldeep .ui.dimmer .ui.loader:after {
   border-color: #ffffff transparent transparent;
 }
-html /deep/ .ui.inverted.dimmer .ui.loader {
+htmldeep .ui.inverted.dimmer .ui.loader {
   color: #212121;
 }
-html /deep/ .ui.inverted.dimmer .ui.loader:before {
+htmldeep .ui.inverted.dimmer .ui.loader:before {
   border-color: rgba(0, 0, 0, 0.1);
 }
-html /deep/ .ui.inverted.dimmer .ui.loader:after {
+htmldeep .ui.inverted.dimmer .ui.loader:after {
   border-color: #aaaaaa transparent transparent;
 }
-html /deep/ .ui.text.loader {
+htmldeep .ui.text.loader {
   width: auto !important;
   height: auto !important;
   text-align: center;
   font-style: normal;
 }
-html /deep/ .ui.indeterminate.loader:after {
+htmldeep .ui.indeterminate.loader:after {
   -webkit-animation-direction: reverse;
           animation-direction: reverse;
   -webkit-animation-duration: 1.2s;
           animation-duration: 1.2s;
 }
-html /deep/ .ui.loader.active,
-html /deep/ .ui.loader.visible {
+htmldeep .ui.loader.active,
+htmldeep .ui.loader.visible {
   display: block;
 }
-html /deep/ .ui.loader.disabled,
-html /deep/ .ui.loader.hidden {
+htmldeep .ui.loader.disabled,
+htmldeep .ui.loader.hidden {
   display: none;
 }
-html /deep/ .ui.inverted.dimmer .ui.mini.loader,
-html /deep/ .ui.mini.loader {
+htmldeep .ui.inverted.dimmer .ui.mini.loader,
+htmldeep .ui.mini.loader {
   width: 1.2857em;
   height: 1.2857em;
   font-size: 0.7857em;
 }
-html /deep/ .ui.inverted.dimmer .ui.small.loader,
-html /deep/ .ui.small.loader {
+htmldeep .ui.inverted.dimmer .ui.small.loader,
+htmldeep .ui.small.loader {
   width: 1.7142em;
   height: 1.7142em;
   font-size: 0.9285em;
 }
-html /deep/ .ui.inverted.dimmer .ui.loader,
-html /deep/ .ui.loader {
+htmldeep .ui.inverted.dimmer .ui.loader,
+htmldeep .ui.loader {
   width: 2.2585em;
   height: 2.2585em;
   font-size: 1em;
 }
-html /deep/ .ui.inverted.dimmer .ui.loader.large,
-html /deep/ .ui.loader.large {
+htmldeep .ui.inverted.dimmer .ui.loader.large,
+htmldeep .ui.loader.large {
   width: 4.5714em;
   height: 4.5714em;
   font-size: 1.1428em;
 }
-html /deep/ .ui.mini.text.loader {
+htmldeep .ui.mini.text.loader {
   min-width: 1.2857em;
   padding-top: 1.9857em;
 }
-html /deep/ .ui.small.text.loader {
+htmldeep .ui.small.text.loader {
   min-width: 1.7142em;
   padding-top: 2.4142em;
 }
-html /deep/ .ui.text.loader {
+htmldeep .ui.text.loader {
   min-width: 2.2585em;
   padding-top: 2.9585em;
 }
-html /deep/ .ui.large.text.loader {
+htmldeep .ui.large.text.loader {
   min-width: 4.5714em;
   padding-top: 5.2714em;
 }
-html /deep/ .ui.inverted.loader {
+htmldeep .ui.inverted.loader {
   color: #ffffff;
 }
-html /deep/ .ui.inverted.loader:before {
+htmldeep .ui.inverted.loader:before {
   border-color: rgba(255, 255, 255, 0.15);
 }
-html /deep/ .ui.inverted.loader:after {
+htmldeep .ui.inverted.loader:after {
   border-top-color: #ffffff;
 }
-html /deep/ .ui.inline.loader {
+htmldeep .ui.inline.loader {
   position: relative;
   vertical-align: middle;
   margin: 0em;
@@ -275,7 +275,7 @@ html /deep/ .ui.inline.loader {
       -ms-transform: none;
           transform: none;
 }
-html /deep/ .ui.inline.loader.active,
-html /deep/ .ui.inline.loader.visible {
+htmldeep .ui.inline.loader.active,
+htmldeep .ui.inline.loader.visible {
   display: inline-block;
 }

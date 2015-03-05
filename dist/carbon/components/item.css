@@ -15,7 +15,7 @@
             Standard
 *******************************/
 
-html /deep/ {
+htmldeep {
   
 /*--------------
       Item
@@ -157,7 +157,7 @@ html /deep/ {
 *******************************/
 
 }
-html /deep/ .ui.items > .item {
+htmldeep .ui.items > .item {
   table-layout: fixed;
   display: table;
   margin: 1em 0em;
@@ -172,22 +172,22 @@ html /deep/ .ui.items > .item {
           transition: box-shadow 0.2s ease;
   z-index: '';
 }
-html /deep/ .ui.items > .item a {
+htmldeep .ui.items > .item a {
   cursor: pointer;
 }
-html /deep/ .ui.items {
+htmldeep .ui.items {
   margin: 1.5em 0em;
 }
-html /deep/ .ui.items:first-child {
+htmldeep .ui.items:first-child {
   margin-top: 0em !important;
 }
-html /deep/ .ui.items:last-child {
+htmldeep .ui.items:last-child {
   margin-bottom: 0em !important;
 }
-html /deep/ .ui.items > .item {
+htmldeep .ui.items > .item {
   min-width: 100%;
 }
-html /deep/ .ui.items > .item:after {
+htmldeep .ui.items > .item:after {
   display: block;
   content: ' ';
   height: 0px;
@@ -195,13 +195,13 @@ html /deep/ .ui.items > .item:after {
   overflow: hidden;
   visibility: hidden;
 }
-html /deep/ .ui.items > .item:first-child {
+htmldeep .ui.items > .item:first-child {
   margin-top: 0em;
 }
-html /deep/ .ui.items > .item:last-child {
+htmldeep .ui.items > .item:last-child {
   margin-bottom: 0em;
 }
-html /deep/ .ui.items > .item > .image {
+htmldeep .ui.items > .item > .image {
   position: relative;
   display: table-cell;
   float: none;
@@ -210,17 +210,17 @@ html /deep/ .ui.items > .item > .image {
   max-height: '';
   vertical-align: top;
 }
-html /deep/ .ui.items > .item > .image > img {
+htmldeep .ui.items > .item > .image > img {
   display: block;
   width: 100%;
   height: auto;
   border-radius: 0.125rem;
   border: none;
 }
-html /deep/ .ui.items > .item > .image:only-child > img {
+htmldeep .ui.items > .item > .image:only-child > img {
   border-radius: 0rem;
 }
-html /deep/ .ui.items > .item > .content {
+htmldeep .ui.items > .item > .content {
   display: block;
   background: none;
   margin: 0em;
@@ -230,7 +230,7 @@ html /deep/ .ui.items > .item > .content {
   border: none;
   border-radius: 0em;
 }
-html /deep/ .ui.items > .item > .content:after {
+htmldeep .ui.items > .item > .content:after {
   display: block;
   content: ' ';
   height: 0px;
@@ -238,115 +238,115 @@ html /deep/ .ui.items > .item > .content:after {
   overflow: hidden;
   visibility: hidden;
 }
-html /deep/ .ui.items > .item > .image + .content {
+htmldeep .ui.items > .item > .image + .content {
   width: 100%;
   display: table-cell;
   margin-left: 0em;
   vertical-align: top;
   padding-left: 1.5em;
 }
-html /deep/ .ui.items > .item > .content > .header {
+htmldeep .ui.items > .item > .content > .header {
   display: inline-block;
   margin: -0.25em 0em 0em;
   font-family: 'Segoe UI', 'Segoe WP', 'Roboto', 'Frutiger', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: bold;
   color: rgba(0, 0, 0, 0.85);
 }
-html /deep/ .ui.items > .item > .content > .header:not(.ui) {
+htmldeep .ui.items > .item > .content > .header:not(.ui) {
   font-size: 1.2em;
 }
-html /deep/ .ui.items > .item [class*="left floated"] {
+htmldeep .ui.items > .item [class*="left floated"] {
   float: left;
 }
-html /deep/ .ui.items > .item [class*="right floated"] {
+htmldeep .ui.items > .item [class*="right floated"] {
   float: right;
 }
-html /deep/ .ui.items > .item .content img {
+htmldeep .ui.items > .item .content img {
   display: inline-block;
   vertical-align: middle;
   width: 2em;
 }
-html /deep/ .ui.items > .item img.avatar,
-html /deep/ .ui.items > .item .avatar img {
+htmldeep .ui.items > .item img.avatar,
+htmldeep .ui.items > .item .avatar img {
   width: 2em;
   height: 2em;
   border-radius: 500rem;
 }
-html /deep/ .ui.items > .item > .content > .description {
+htmldeep .ui.items > .item > .content > .description {
   margin-top: 0.6em;
   max-width: 550px;
   font-size: 1em;
   line-height: 1.33;
   color: #212121;
 }
-html /deep/ .ui.items > .item > .content p {
+htmldeep .ui.items > .item > .content p {
   margin: 0em 0em 0.5em;
 }
-html /deep/ .ui.items > .item > .content p:last-child {
+htmldeep .ui.items > .item > .content p:last-child {
   margin-bottom: 0em;
 }
-html /deep/ .ui.items > .item .meta {
+htmldeep .ui.items > .item .meta {
   font-size: 1em;
   line-height: 1em;
   color: rgba(0, 0, 0, 0.6);
 }
-html /deep/ .ui.items > .item .meta * {
+htmldeep .ui.items > .item .meta * {
   margin-right: 0.3em;
 }
-html /deep/ .ui.items > .item .meta :last-child {
+htmldeep .ui.items > .item .meta :last-child {
   margin-right: 0em;
 }
-html /deep/ .ui.items > .item .meta [class*="right floated"] {
+htmldeep .ui.items > .item .meta [class*="right floated"] {
   margin-right: 0em;
   margin-left: 0.3em;
 }
-html /deep/ .ui.items > .item > .content a:not(.ui) {
+htmldeep .ui.items > .item > .content a:not(.ui) {
   color: '';
   -webkit-transition: color 0.2s ease;
           transition: color 0.2s ease;
 }
-html /deep/ .ui.items > .item > .content a:not(.ui):hover {
+htmldeep .ui.items > .item > .content a:not(.ui):hover {
   color: '';
 }
-html /deep/ .ui.items > .item > .content > a.header {
+htmldeep .ui.items > .item > .content > a.header {
   color: rgba(0, 0, 0, 0.85);
 }
-html /deep/ .ui.items > .item > .content > a.header:hover {
+htmldeep .ui.items > .item > .content > a.header:hover {
   color: #00b2f3;
 }
-html /deep/ .ui.items > .item .meta > a:not(.ui) {
+htmldeep .ui.items > .item .meta > a:not(.ui) {
   color: rgba(0, 0, 0, 0.4);
 }
-html /deep/ .ui.items > .item .meta > a:not(.ui):hover {
+htmldeep .ui.items > .item .meta > a:not(.ui):hover {
   color: #212121;
 }
-html /deep/ .ui.items > .item > .content .favorite.icon {
+htmldeep .ui.items > .item > .content .favorite.icon {
   cursor: pointer;
   opacity: 0.75;
   -webkit-transition: color 0.2s ease;
           transition: color 0.2s ease;
 }
-html /deep/ .ui.items > .item > .content .favorite.icon:hover {
+htmldeep .ui.items > .item > .content .favorite.icon:hover {
   opacity: 1;
   color: #ffb70a;
 }
-html /deep/ .ui.items > .item > .content .active.favorite.icon {
+htmldeep .ui.items > .item > .content .active.favorite.icon {
   color: #ffb70a;
 }
-html /deep/ .ui.items > .item > .content .like.icon {
+htmldeep .ui.items > .item > .content .like.icon {
   cursor: pointer;
   opacity: 0.75;
   -webkit-transition: color 0.2s ease;
           transition: color 0.2s ease;
 }
-html /deep/ .ui.items > .item > .content .like.icon:hover {
+htmldeep .ui.items > .item > .content .like.icon:hover {
   opacity: 1;
   color: #ff2733;
 }
-html /deep/ .ui.items > .item > .content .active.like.icon {
+htmldeep .ui.items > .item > .content .active.like.icon {
   color: #ff2733;
 }
-html /deep/ .ui.items > .item .extra {
+htmldeep .ui.items > .item .extra {
   display: block;
   position: relative;
   background: none;
@@ -361,13 +361,13 @@ html /deep/ .ui.items > .item .extra {
           transition: color 0.2s ease;
   border-top: none;
 }
-html /deep/ .ui.items > .item .extra > * {
+htmldeep .ui.items > .item .extra > * {
   margin: 0.25rem 0.5rem 0.25rem 0em;
 }
-html /deep/ .ui.items > .item .extra > [class*="right floated"] {
+htmldeep .ui.items > .item .extra > [class*="right floated"] {
   margin: 0.25rem 0em 0.25rem 0.5rem;
 }
-html /deep/ .ui.items > .item .extra:after {
+htmldeep .ui.items > .item .extra:after {
   display: block;
   content: ' ';
   height: 0px;
@@ -375,86 +375,86 @@ html /deep/ .ui.items > .item .extra:after {
   overflow: hidden;
   visibility: hidden;
 }
-html /deep/ .ui.items > .item > .image:not(.ui) {
+htmldeep .ui.items > .item > .image:not(.ui) {
   width: 175px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  html /deep/ .ui.items > .item {
+  htmldeep .ui.items > .item {
     margin: 1em 0em;
   }
-  html /deep/ .ui.items > .item > .image:not(.ui) {
+  htmldeep .ui.items > .item > .image:not(.ui) {
     width: 150px;
   }
-  html /deep/ .ui.items > .item > .image + .content {
+  htmldeep .ui.items > .item > .image + .content {
     display: block;
     padding: 0em 0em 0em 1em;
   }
 }
 @media only screen and (max-width: 767px) {
-  html /deep/ .ui.items > .item {
+  htmldeep .ui.items > .item {
     margin: 2em 0em;
   }
-  html /deep/ .ui.items > .item > .image {
+  htmldeep .ui.items > .item > .image {
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
-  html /deep/ .ui.items > .item > .image,
-  html /deep/ .ui.items > .item > .image > img {
+  htmldeep .ui.items > .item > .image,
+  htmldeep .ui.items > .item > .image > img {
     max-width: 100% !important;
     width: auto !important;
     max-height: 250px !important;
   }
-  html /deep/ .ui.items > .item > .image + .content {
+  htmldeep .ui.items > .item > .image + .content {
     display: block;
     padding: 1.5em 0em 0em;
   }
 }
-html /deep/ .ui.items > .item > .image + [class*="top aligned"].content {
+htmldeep .ui.items > .item > .image + [class*="top aligned"].content {
   vertical-align: top;
 }
-html /deep/ .ui.items > .item > .image + [class*="middle aligned"].content {
+htmldeep .ui.items > .item > .image + [class*="middle aligned"].content {
   vertical-align: middle;
 }
-html /deep/ .ui.items > .item > .image + [class*="bottom aligned"].content {
+htmldeep .ui.items > .item > .image + [class*="bottom aligned"].content {
   vertical-align: bottom;
 }
-html /deep/ .ui.relaxed.items > .item {
+htmldeep .ui.relaxed.items > .item {
   margin: 1.5em 0em;
 }
-html /deep/ .ui[class*="very relaxed"].items > .item {
+htmldeep .ui[class*="very relaxed"].items > .item {
   margin: 2em 0em;
 }
-html /deep/ .ui.divided.items > .item {
+htmldeep .ui.divided.items > .item {
   border-top: 1px solid rgba(39, 41, 43, 0.15);
   margin: 0em;
   padding: 1em 0em;
 }
-html /deep/ .ui.divided.items > .item:first-child {
+htmldeep .ui.divided.items > .item:first-child {
   border-top: none;
   margin-top: 0em !important;
   padding-top: 0em !important;
 }
-html /deep/ .ui.divided.items > .item:last-child {
+htmldeep .ui.divided.items > .item:last-child {
   margin-bottom: 0em !important;
   padding-bottom: 0em !important;
 }
-html /deep/ .ui.relaxed.divided.items > .item {
+htmldeep .ui.relaxed.divided.items > .item {
   margin: 0em;
   padding: 1.5em 0em;
 }
-html /deep/ .ui[class*="very relaxed"].divided.items > .item {
+htmldeep .ui[class*="very relaxed"].divided.items > .item {
   margin: 0em;
   padding: 2em 0em;
 }
-html /deep/ .ui.items a.item:hover,
-html /deep/ .ui.link.items > .item:hover {
+htmldeep .ui.items a.item:hover,
+htmldeep .ui.link.items > .item:hover {
   cursor: pointer;
 }
-html /deep/ .ui.items a.item:hover .content .header,
-html /deep/ .ui.link.items > .item:hover .content .header {
+htmldeep .ui.items a.item:hover .content .header,
+htmldeep .ui.link.items > .item:hover .content .header {
   color: #00b2f3;
 }
-html /deep/ .ui.items > .item {
+htmldeep .ui.items > .item {
   font-size: 1em;
 }

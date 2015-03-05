@@ -15,7 +15,7 @@
             Polymer
 *******************************/
 
-html /deep/ {
+htmldeep {
   
 
 /*******************************
@@ -29,11 +29,11 @@ html /deep/ {
 *******************************/
 
 }
-html /deep/ #section {
+htmldeep #section {
   background-image: inherit;
   background-color: white !important;
 }
-html /deep/ core-toolbar {
+htmldeep core-toolbar {
   color: #ffffff;
   background-color: #2979ff;
 }

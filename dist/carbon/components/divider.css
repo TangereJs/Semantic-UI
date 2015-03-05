@@ -15,7 +15,7 @@
             Divider
 *******************************/
 
-html /deep/ {
+htmldeep {
   
 /*--------------
       Basic
@@ -92,7 +92,7 @@ html /deep/ {
 *******************************/
 
 }
-html /deep/ .ui.divider {
+htmldeep .ui.divider {
   margin: 1rem 0rem;
   line-height: 1;
   height: 0em;
@@ -106,14 +106,14 @@ html /deep/ .ui.divider {
           user-select: none;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
-html /deep/ .ui.divider:not(.vertical):not(.horizontal) {
+htmldeep .ui.divider:not(.vertical):not(.horizontal) {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
-html /deep/ .ui.grid > .ui.divider {
+htmldeep .ui.grid > .ui.divider {
   font-size: 1rem;
 }
-html /deep/ .ui.horizontal.divider {
+htmldeep .ui.horizontal.divider {
   position: relative;
   height: auto;
   margin: '';
@@ -121,8 +121,8 @@ html /deep/ .ui.horizontal.divider {
   line-height: 1;
   text-align: center;
 }
-html /deep/ .ui.horizontal.divider:before,
-html /deep/ .ui.horizontal.divider:after {
+htmldeep .ui.horizontal.divider:before,
+htmldeep .ui.horizontal.divider:after {
   position: absolute;
   content: '';
   z-index: 3;
@@ -132,14 +132,14 @@ html /deep/ .ui.horizontal.divider:after {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
-html /deep/ .ui.horizontal.divider:before {
+htmldeep .ui.horizontal.divider:before {
   margin-left: -webkit-calc(-50% -  1em );
   margin-left: calc(-50% -  1em );
 }
-html /deep/ .ui.horizontal.divider:after {
+htmldeep .ui.horizontal.divider:after {
   margin-left: 1em;
 }
-html /deep/ .ui.vertical.divider {
+htmldeep .ui.vertical.divider {
   position: absolute;
   z-index: 2;
   top: 50%;
@@ -154,8 +154,8 @@ html /deep/ .ui.vertical.divider {
       -ms-transform: translateX(-50%);
           transform: translateX(-50%);
 }
-html /deep/ .ui.vertical.divider:before,
-html /deep/ .ui.vertical.divider:after {
+htmldeep .ui.vertical.divider:before,
+htmldeep .ui.vertical.divider:after {
   position: absolute;
   left: 50%;
   content: '';
@@ -166,16 +166,16 @@ html /deep/ .ui.vertical.divider:after {
   height: -webkit-calc(100% -  1rem );
   height: calc(100% -  1rem );
 }
-html /deep/ .ui.vertical.divider:before {
+htmldeep .ui.vertical.divider:before {
   top: -100%;
 }
-html /deep/ .ui.vertical.divider:after {
+htmldeep .ui.vertical.divider:after {
   top: auto;
   bottom: 0px;
 }
 @media only screen and (max-width: 767px) {
-  html /deep/ .ui.stackable.grid .ui.vertical.divider,
-  html /deep/ .ui.grid .stackable.row .ui.vertical.divider {
+  htmldeep .ui.stackable.grid .ui.vertical.divider,
+  htmldeep .ui.grid .stackable.row .ui.vertical.divider {
     position: relative;
     margin: 1rem 0rem;
     left: 50%;
@@ -184,10 +184,10 @@ html /deep/ .ui.vertical.divider:after {
     line-height: 1;
     text-align: center;
   }
-  html /deep/ .ui.stackable.grid .ui.vertical.divider:before,
-  html /deep/ .ui.grid .stackable.row .ui.vertical.divider:before,
-  html /deep/ .ui.stackable.grid .ui.vertical.divider:after,
-  html /deep/ .ui.grid .stackable.row .ui.vertical.divider:after {
+  htmldeep .ui.stackable.grid .ui.vertical.divider:before,
+  htmldeep .ui.grid .stackable.row .ui.vertical.divider:before,
+  htmldeep .ui.stackable.grid .ui.vertical.divider:after,
+  htmldeep .ui.grid .stackable.row .ui.vertical.divider:after {
     position: absolute;
     left: auto;
     content: '';
@@ -198,47 +198,47 @@ html /deep/ .ui.vertical.divider:after {
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   }
-  html /deep/ .ui.stackable.grid .ui.vertical.divider:before,
-  html /deep/ .ui.grid .stackable.row .ui.vertical.divider:before {
+  htmldeep .ui.stackable.grid .ui.vertical.divider:before,
+  htmldeep .ui.grid .stackable.row .ui.vertical.divider:before {
     margin-left: -51%;
   }
-  html /deep/ .ui.stackable.grid .ui.vertical.divider:after,
-  html /deep/ .ui.grid .stackable.row .ui.vertical.divider:after {
+  htmldeep .ui.stackable.grid .ui.vertical.divider:after,
+  htmldeep .ui.grid .stackable.row .ui.vertical.divider:after {
     margin-left: 1em;
   }
 }
-html /deep/ .ui.divider > .icon {
+htmldeep .ui.divider > .icon {
   margin: 0rem;
   font-size: 1rem;
   height: 1em;
   vertical-align: middle;
 }
-html /deep/ .ui.hidden.divider {
+htmldeep .ui.hidden.divider {
   border-color: transparent !important;
 }
-html /deep/ .ui.divider.inverted,
-html /deep/ .ui.vertical.inverted.divider,
-html /deep/ .ui.horizontal.inverted.divider {
+htmldeep .ui.divider.inverted,
+htmldeep .ui.vertical.inverted.divider,
+htmldeep .ui.horizontal.inverted.divider {
   color: #ffffff;
 }
-html /deep/ .ui.divider.inverted,
-html /deep/ .ui.divider.inverted:after,
-html /deep/ .ui.divider.inverted:before {
+htmldeep .ui.divider.inverted,
+htmldeep .ui.divider.inverted:after,
+htmldeep .ui.divider.inverted:before {
   border-top-color: rgba(0, 0, 0, 0.15) !important;
   border-bottom-color: rgba(255, 255, 255, 0.15) !important;
   border-left-color: rgba(0, 0, 0, 0.15) !important;
   border-right-color: rgba(255, 255, 255, 0.15) !important;
 }
-html /deep/ .ui.fitted.divider {
+htmldeep .ui.fitted.divider {
   margin: 0em;
 }
-html /deep/ .ui.clearing.divider {
+htmldeep .ui.clearing.divider {
   clear: both;
 }
-html /deep/ .ui.section.divider {
+htmldeep .ui.section.divider {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
-html /deep/ .ui.divider {
+htmldeep .ui.divider {
   font-size: 1rem;
 }

@@ -9,7 +9,7 @@
  *
  */
 
-html /deep/ {
+htmldeep {
   
 
 /*******************************
@@ -57,18 +57,18 @@ html /deep/ {
 *******************************/
 
 }
-html /deep/ .ui.breadcrumb {
+htmldeep .ui.breadcrumb {
   margin: 1em 0em;
   display: inline-block;
   vertical-align: middle;
 }
-html /deep/ .ui.breadcrumb:first-child {
+htmldeep .ui.breadcrumb:first-child {
   margin-top: 0em;
 }
-html /deep/ .ui.breadcrumb:last-child {
+htmldeep .ui.breadcrumb:last-child {
   margin-bottom: 0em;
 }
-html /deep/ .ui.breadcrumb .divider {
+htmldeep .ui.breadcrumb .divider {
   display: inline-block;
   opacity: 0.5;
   margin: 0em 0.2rem 0em;
@@ -76,52 +76,52 @@ html /deep/ .ui.breadcrumb .divider {
   color: rgba(0, 0, 0, 0.4);
   vertical-align: baseline;
 }
-html /deep/ .ui.breadcrumb a {
+htmldeep .ui.breadcrumb a {
   color: #009fda;
 }
-html /deep/ .ui.breadcrumb a:hover {
+htmldeep .ui.breadcrumb a:hover {
   color: #00b2f3;
 }
-html /deep/ .ui.breadcrumb .icon.divider {
+htmldeep .ui.breadcrumb .icon.divider {
   font-size: 0.7em;
   vertical-align: middle;
 }
-html /deep/ .ui.breadcrumb a.section {
+htmldeep .ui.breadcrumb a.section {
   cursor: pointer;
 }
-html /deep/ .ui.breadcrumb .section {
+htmldeep .ui.breadcrumb .section {
   display: inline-block;
   margin: 0em;
   padding: 0em;
 }
-html /deep/ .ui.breadcrumb.segment {
+htmldeep .ui.breadcrumb.segment {
   display: inline-block;
   padding: 0.5em 1em;
 }
-html /deep/ .ui.breadcrumb .active.section {
+htmldeep .ui.breadcrumb .active.section {
   font-weight: bold;
 }
-html /deep/ .ui.mini.breadcrumb {
+htmldeep .ui.mini.breadcrumb {
   font-size: 0.65em;
 }
-html /deep/ .ui.tiny.breadcrumb {
+htmldeep .ui.tiny.breadcrumb {
   font-size: 0.7em;
 }
-html /deep/ .ui.small.breadcrumb {
+htmldeep .ui.small.breadcrumb {
   font-size: 0.75em;
 }
-html /deep/ .ui.breadcrumb {
+htmldeep .ui.breadcrumb {
   font-size: 1em;
 }
-html /deep/ .ui.large.breadcrumb {
+htmldeep .ui.large.breadcrumb {
   font-size: 1.1em;
 }
-html /deep/ .ui.big.breadcrumb {
+htmldeep .ui.big.breadcrumb {
   font-size: 1.05em;
 }
-html /deep/ .ui.huge.breadcrumb {
+htmldeep .ui.huge.breadcrumb {
   font-size: 1.3em;
 }
-html /deep/ .ui.massive.breadcrumb {
+htmldeep .ui.massive.breadcrumb {
   font-size: 1.5em;
 }

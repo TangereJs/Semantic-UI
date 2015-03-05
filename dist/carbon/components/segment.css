@@ -15,7 +15,7 @@
             Segment
 *******************************/
 
-html /deep/ {
+htmldeep {
   
 /* Vertical */
   
@@ -154,7 +154,7 @@ html /deep/ {
 *******************************/
 
 }
-html /deep/ .ui.segment {
+htmldeep .ui.segment {
   position: relative;
   background-color: #ffffff;
   box-shadow: 0px 0px 0px 1px rgba(39, 41, 43, 0.15), 0px 1px 2px 0 rgba(0, 0, 0, 0.05);
@@ -163,20 +163,20 @@ html /deep/ .ui.segment {
   border-radius: 2px;
   border: none;
 }
-html /deep/ .ui.segment:first-child {
+htmldeep .ui.segment:first-child {
   margin-top: 0em;
 }
-html /deep/ .ui.segment:last-child {
+htmldeep .ui.segment:last-child {
   margin-bottom: 0em;
 }
-html /deep/ .ui.segment:after {
+htmldeep .ui.segment:after {
   content: '';
   display: block;
   height: 0px;
   clear: both;
   visibility: hidden;
 }
-html /deep/ .ui[class*="vertical segment"] {
+htmldeep .ui[class*="vertical segment"] {
   margin: 0em;
   padding-left: 0em;
   padding-right: 0em;
@@ -185,10 +185,10 @@ html /deep/ .ui[class*="vertical segment"] {
   border: none;
   box-shadow: 0px -1px 0px rgba(39, 41, 43, 0.15) inset;
 }
-html /deep/ .ui[class*="vertical segment"]:last-child {
+htmldeep .ui[class*="vertical segment"]:last-child {
   box-shadow: none;
 }
-html /deep/ .ui[class*="horizontal segment"] {
+htmldeep .ui[class*="horizontal segment"] {
   margin: 0em;
   padding-top: 0em;
   padding-bottom: 0em;
@@ -197,55 +197,55 @@ html /deep/ .ui[class*="horizontal segment"] {
   border: none;
   box-shadow: 1px 0px 0px rgba(39, 41, 43, 0.15);
 }
-html /deep/ .ui.inverted.segment > .ui.header {
+htmldeep .ui.inverted.segment > .ui.header {
   color: #ffffff;
 }
-html /deep/ .ui[class*="bottom attached"].segment > [class*="top attached"].label {
+htmldeep .ui[class*="bottom attached"].segment > [class*="top attached"].label {
   border-top-left-radius: 0em;
   border-top-right-radius: 0em;
 }
-html /deep/ .ui[class*="top attached"].segment > [class*="bottom attached"].label {
+htmldeep .ui[class*="top attached"].segment > [class*="bottom attached"].label {
   border-bottom-left-radius: 0em;
   border-bottom-right-radius: 0em;
 }
-html /deep/ .ui.attached.segment:not(.top):not(.bottom) > [class*="top attached"].label {
+htmldeep .ui.attached.segment:not(.top):not(.bottom) > [class*="top attached"].label {
   border-top-left-radius: 0em;
   border-top-right-radius: 0em;
 }
-html /deep/ .ui.attached.segment:not(.top):not(.bottom) > [class*="bottom attached"].label {
+htmldeep .ui.attached.segment:not(.top):not(.bottom) > [class*="bottom attached"].label {
   border-bottom-left-radius: 0em;
   border-bottom-right-radius: 0em;
 }
-html /deep/ .ui.page.grid.segment,
-html /deep/ .ui.grid .ui.segment.column {
+htmldeep .ui.page.grid.segment,
+htmldeep .ui.grid .ui.segment.column {
   padding-top: 2em;
   padding-bottom: 2em;
 }
-html /deep/ .ui.grid.segment {
+htmldeep .ui.grid.segment {
   margin: 1rem 0rem;
   border-radius: 2px;
 }
-html /deep/ .ui.basic.table.segment {
+htmldeep .ui.basic.table.segment {
   background: #ffffff;
   border: none;
   box-shadow: 0px 0px 0px 1px rgba(39, 41, 43, 0.15), 0px 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
-html /deep/ .ui[class*="very basic"].table.segment {
+htmldeep .ui[class*="very basic"].table.segment {
   padding: 1em 1em;
 }
-html /deep/ .ui.piled.segment {
+htmldeep .ui.piled.segment {
   margin: 3em 0em;
   box-shadow: 0px 0px 1px 1px rgba(39, 41, 43, 0.15);
   z-index: auto;
 }
-html /deep/ .ui.piled.segment:first-child {
+htmldeep .ui.piled.segment:first-child {
   margin-top: 0em;
 }
-html /deep/ .ui.piled.segment:last-child {
+htmldeep .ui.piled.segment:last-child {
   margin-bottom: 0em;
 }
-html /deep/ .ui.piled.segment:after,
-html /deep/ .ui.piled.segment:before {
+htmldeep .ui.piled.segment:after,
+htmldeep .ui.piled.segment:before {
   background-color: #ffffff;
   visibility: visible;
   content: '';
@@ -256,39 +256,39 @@ html /deep/ .ui.piled.segment:before {
   width: 100%;
   box-shadow: 0px 0px 1px 1px rgba(39, 41, 43, 0.15);
 }
-html /deep/ .ui.piled.segment:after {
+htmldeep .ui.piled.segment:after {
   -webkit-transform: rotate(1.2deg);
       -ms-transform: rotate(1.2deg);
           transform: rotate(1.2deg);
   top: 0;
   z-index: -1;
 }
-html /deep/ .ui.piled.segment:before {
+htmldeep .ui.piled.segment:before {
   -webkit-transform: rotate(-1.2deg);
       -ms-transform: rotate(-1.2deg);
           transform: rotate(-1.2deg);
   top: 0;
   z-index: -2;
 }
-html /deep/ .ui[class*="top attached"].piled.segment {
+htmldeep .ui[class*="top attached"].piled.segment {
   margin-top: 3em;
   margin-bottom: 0em;
 }
-html /deep/ .ui.piled.segment[class*="top attached"]:first-child {
+htmldeep .ui.piled.segment[class*="top attached"]:first-child {
   margin-top: 0em;
 }
-html /deep/ .ui.piled.segment[class*="bottom attached"] {
+htmldeep .ui.piled.segment[class*="bottom attached"] {
   margin-top: 0em;
   margin-bottom: 3em;
 }
-html /deep/ .ui.piled.segment[class*="bottom attached"]:last-child {
+htmldeep .ui.piled.segment[class*="bottom attached"]:last-child {
   margin-bottom: 0em;
 }
-html /deep/ .ui.stacked.segment {
+htmldeep .ui.stacked.segment {
   padding-bottom: 1.4em;
 }
-html /deep/ .ui.stacked.segment:after,
-html /deep/ .ui.stacked.segment:before {
+htmldeep .ui.stacked.segment:after,
+htmldeep .ui.stacked.segment:before {
   content: '';
   position: absolute;
   bottom: -3px;
@@ -299,36 +299,36 @@ html /deep/ .ui.stacked.segment:before {
   height: 6px;
   visibility: visible;
 }
-html /deep/ .ui.stacked.segment:before {
+htmldeep .ui.stacked.segment:before {
   display: none;
 }
-html /deep/ .ui.tall.stacked.segment:before {
+htmldeep .ui.tall.stacked.segment:before {
   display: block;
   bottom: 0px;
 }
-html /deep/ .ui.stacked.inverted.segment:after,
-html /deep/ .ui.stacked.inverted.segment:before {
+htmldeep .ui.stacked.inverted.segment:after,
+htmldeep .ui.stacked.inverted.segment:before {
   background-color: rgba(0, 0, 0, 0.03);
   border-top: 1px solid rgba(39, 41, 43, 0.3);
 }
-html /deep/ .ui.compact.segment {
+htmldeep .ui.compact.segment {
   display: table;
 }
-html /deep/ .ui.circular.segment {
+htmldeep .ui.circular.segment {
   display: table-cell;
   padding: 2em;
   text-align: center;
   vertical-align: middle;
   border-radius: 500em;
 }
-html /deep/ .ui.raised.segment {
+htmldeep .ui.raised.segment {
   box-shadow: 0px 0px 0px 1px rgba(39, 41, 43, 0.15), 0px 1px 4px 0px rgba(0, 0, 0, 0.15);
 }
-html /deep/ .ui.disabled.segment {
+htmldeep .ui.disabled.segment {
   opacity: 0.3;
   color: rgba(40, 40, 40, 0.3);
 }
-html /deep/ .ui.loading.segment {
+htmldeep .ui.loading.segment {
   position: relative;
   cursor: default;
   point-events: none;
@@ -337,7 +337,7 @@ html /deep/ .ui.loading.segment {
   -webkit-transition: all 0s linear;
           transition: all 0s linear;
 }
-html /deep/ .ui.loading.segment:before {
+htmldeep .ui.loading.segment:before {
   position: absolute;
   content: '';
   top: 0%;
@@ -348,7 +348,7 @@ html /deep/ .ui.loading.segment:before {
   border-radius: 2px;
   z-index: 100;
 }
-html /deep/ .ui.loading.segment:after {
+htmldeep .ui.loading.segment:after {
   position: absolute;
   content: '';
   top: 50%;
@@ -388,171 +388,171 @@ html /deep/ .ui.loading.segment:after {
             transform: rotate(360deg);
   }
 }
-html /deep/ .ui.basic.segment {
+htmldeep .ui.basic.segment {
   position: relative;
   background-color: transparent;
   box-shadow: none;
   border-radius: 0px;
 }
-html /deep/ .ui.fitted.segment {
+htmldeep .ui.fitted.segment {
   padding: 0em;
 }
-html /deep/ .ui.black.segment:not(.inverted) {
+htmldeep .ui.black.segment:not(.inverted) {
   border-top: 2px solid #1b1c1d;
 }
-html /deep/ .ui.blue.segment:not(.inverted) {
+htmldeep .ui.blue.segment:not(.inverted) {
   border-top: 2px solid #2196f3;
 }
-html /deep/ .ui.green.segment:not(.inverted) {
+htmldeep .ui.green.segment:not(.inverted) {
   border-top: 2px solid #4caf50;
 }
-html /deep/ .ui.orange.segment:not(.inverted) {
+htmldeep .ui.orange.segment:not(.inverted) {
   border-top: 2px solid #ff9800;
 }
-html /deep/ .ui.pink.segment:not(.inverted) {
+htmldeep .ui.pink.segment:not(.inverted) {
   border-top: 2px solid #e91e63;
 }
-html /deep/ .ui.purple.segment:not(.inverted) {
+htmldeep .ui.purple.segment:not(.inverted) {
   border-top: 2px solid #9c27b0;
 }
-html /deep/ .ui.red.segment:not(.inverted) {
+htmldeep .ui.red.segment:not(.inverted) {
   border-top: 2px solid #e41e2b;
 }
-html /deep/ .ui.teal.segment:not(.inverted) {
+htmldeep .ui.teal.segment:not(.inverted) {
   border-top: 2px solid #1de9b6;
 }
-html /deep/ .ui.yellow.segment:not(.inverted) {
+htmldeep .ui.yellow.segment:not(.inverted) {
   border-top: 2px solid #ffeb3b;
 }
-html /deep/ .ui.black.segment:not(.inverted):not(.attached) {
+htmldeep .ui.black.segment:not(.inverted):not(.attached) {
   border-top-left-radius: 2px !important;
   border-top-right-radius: 2px !important;
 }
-html /deep/ .ui.blue.segment:not(.inverted):not(.attached) {
+htmldeep .ui.blue.segment:not(.inverted):not(.attached) {
   border-top-left-radius: 2px !important;
   border-top-right-radius: 2px !important;
 }
-html /deep/ .ui.green.segment:not(.inverted):not(.attached) {
+htmldeep .ui.green.segment:not(.inverted):not(.attached) {
   border-top-left-radius: 2px !important;
   border-top-right-radius: 2px !important;
 }
-html /deep/ .ui.orange.segment:not(.inverted):not(.attached) {
+htmldeep .ui.orange.segment:not(.inverted):not(.attached) {
   border-top-left-radius: 2px !important;
   border-top-right-radius: 2px !important;
 }
-html /deep/ .ui.pink.segment:not(.inverted):not(.attached) {
+htmldeep .ui.pink.segment:not(.inverted):not(.attached) {
   border-top-left-radius: 2px !important;
   border-top-right-radius: 2px !important;
 }
-html /deep/ .ui.purple.segment:not(.inverted):not(.attached) {
+htmldeep .ui.purple.segment:not(.inverted):not(.attached) {
   border-top-left-radius: 2px !important;
   border-top-right-radius: 2px !important;
 }
-html /deep/ .ui.red.segment:not(.inverted):not(.attached) {
+htmldeep .ui.red.segment:not(.inverted):not(.attached) {
   border-top-left-radius: 2px !important;
   border-top-right-radius: 2px !important;
 }
-html /deep/ .ui.teal.segment:not(.inverted):not(.attached) {
+htmldeep .ui.teal.segment:not(.inverted):not(.attached) {
   border-top-left-radius: 2px !important;
   border-top-right-radius: 2px !important;
 }
-html /deep/ .ui.yellow.segment:not(.inverted):not(.attached) {
+htmldeep .ui.yellow.segment:not(.inverted):not(.attached) {
   border-top-left-radius: 2px !important;
   border-top-right-radius: 2px !important;
 }
-html /deep/ .ui.inverted.segment,
-html /deep/ .ui.inverted.black.segment {
+htmldeep .ui.inverted.segment,
+htmldeep .ui.inverted.black.segment {
   background-color: #1b1c1d !important;
   color: #ffffff !important;
 }
-html /deep/ .ui.inverted.blue.segment {
+htmldeep .ui.inverted.blue.segment {
   background-color: #2196f3 !important;
   color: #ffffff !important;
 }
-html /deep/ .ui.inverted.green.segment {
+htmldeep .ui.inverted.green.segment {
   background-color: #4caf50 !important;
   color: #ffffff !important;
 }
-html /deep/ .ui.inverted.orange.segment {
+htmldeep .ui.inverted.orange.segment {
   background-color: #ff9800 !important;
   color: #ffffff !important;
 }
-html /deep/ .ui.inverted.pink.segment {
+htmldeep .ui.inverted.pink.segment {
   background-color: #e91e63 !important;
   color: #ffffff !important;
 }
-html /deep/ .ui.inverted.purple.segment {
+htmldeep .ui.inverted.purple.segment {
   background-color: #9c27b0 !important;
   color: #ffffff !important;
 }
-html /deep/ .ui.inverted.red.segment {
+htmldeep .ui.inverted.red.segment {
   background-color: #e41e2b !important;
   color: #ffffff !important;
 }
-html /deep/ .ui.inverted.teal.segment {
+htmldeep .ui.inverted.teal.segment {
   background-color: #1de9b6 !important;
   color: #ffffff !important;
 }
-html /deep/ .ui.inverted.yellow.segment {
+htmldeep .ui.inverted.yellow.segment {
   background-color: #ffeb3b !important;
   color: #ffffff !important;
 }
-html /deep/ .ui[class*="left aligned"].segment {
+htmldeep .ui[class*="left aligned"].segment {
   text-align: left;
 }
-html /deep/ .ui[class*="right aligned"].segment {
+htmldeep .ui[class*="right aligned"].segment {
   text-align: right;
 }
-html /deep/ .ui[class*="center aligned"].segment {
+htmldeep .ui[class*="center aligned"].segment {
   text-align: center;
 }
-html /deep/ .ui.floated.segment,
-html /deep/ .ui[class*="left floated"].segment {
+htmldeep .ui.floated.segment,
+htmldeep .ui[class*="left floated"].segment {
   float: left;
   margin-right: 1rem;
 }
-html /deep/ .ui[class*="right floated"].segment {
+htmldeep .ui[class*="right floated"].segment {
   float: right;
   margin-left: 1rem;
 }
-html /deep/ .ui.inverted.segment {
+htmldeep .ui.inverted.segment {
   border: none;
   box-shadow: none;
 }
-html /deep/ .ui.inverted.segment .segment {
+htmldeep .ui.inverted.segment .segment {
   color: #212121;
 }
-html /deep/ .ui.inverted.segment .inverted.segment {
+htmldeep .ui.inverted.segment .inverted.segment {
   color: #ffffff;
 }
-html /deep/ .ui.inverted.segment,
-html /deep/ .ui.primary.inverted.segment {
+htmldeep .ui.inverted.segment,
+htmldeep .ui.primary.inverted.segment {
   background-color: #1b1c1d;
   color: #ffffff;
 }
-html /deep/ .ui.inverted.block.segment,
-html /deep/ .ui.inverted.attached.segment {
+htmldeep .ui.inverted.block.segment,
+htmldeep .ui.inverted.attached.segment {
   border-color: #555555;
 }
-html /deep/ .ui.secondary.segment {
+htmldeep .ui.secondary.segment {
   background: #faf9fa;
   color: #212121;
 }
-html /deep/ .ui.tertiary.segment {
+htmldeep .ui.tertiary.segment {
   background: #ebebeb;
   color: #212121;
 }
-html /deep/ .ui.secondary.inverted.segment {
+htmldeep .ui.secondary.inverted.segment {
   background: -webkit-linear-gradient(rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.3) 100%);
   background: linear-gradient(rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.3) 100%);
   color: #fafafa;
 }
-html /deep/ .ui.tertiary.inverted.segment {
+htmldeep .ui.tertiary.inverted.segment {
   background: -webkit-linear-gradient(rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.5) 100%);
   background: linear-gradient(rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.5) 100%);
   color: #f0f0f0;
 }
-html /deep/ .ui.segment.attached {
+htmldeep .ui.segment.attached {
   top: 0px;
   bottom: 0px;
   margin: 0em -1px;
@@ -564,20 +564,20 @@ html /deep/ .ui.segment.attached {
   box-shadow: none;
   border: 1px solid #d4d4d5;
 }
-html /deep/ .ui.segment.attached + .ui.segment.attached:not(.top) {
+htmldeep .ui.segment.attached + .ui.segment.attached:not(.top) {
   border-top: none;
 }
-html /deep/ .ui[class*="top attached"].segment {
+htmldeep .ui[class*="top attached"].segment {
   top: 0px;
   bottom: 0px;
   margin-top: 1rem;
   margin-bottom: 0em;
   border-radius: 2px 2px 0em 0em;
 }
-html /deep/ .ui.segment[class*="top attached"]:first-child {
+htmldeep .ui.segment[class*="top attached"]:first-child {
   margin-top: 0em;
 }
-html /deep/ .ui.segment[class*="bottom attached"] {
+htmldeep .ui.segment[class*="bottom attached"] {
   top: 0px;
   bottom: 0px;
   margin-top: 0em;
@@ -585,6 +585,6 @@ html /deep/ .ui.segment[class*="bottom attached"] {
   box-shadow: none, 0px 1px 2px 0 rgba(0, 0, 0, 0.05);
   border-radius: 0em 0em 2px 2px;
 }
-html /deep/ .ui.segment[class*="bottom attached"]:last-child {
+htmldeep .ui.segment[class*="bottom attached"]:last-child {
   margin-bottom: 0em;
 }

@@ -20,7 +20,7 @@
         Inputs
 ---------------------*/
 
-html /deep/ {
+htmldeep {
   
 /*--------------------
       Placeholder
@@ -140,12 +140,12 @@ html /deep/ {
 *******************************/
 
 }
-html /deep/ .ui.input {
+htmldeep .ui.input {
   position: relative;
   display: inline-block;
   color: #212121;
 }
-html /deep/ .ui.input input {
+htmldeep .ui.input input {
   margin: 0em;
   width: 100%;
   outline: none;
@@ -162,20 +162,20 @@ html /deep/ .ui.input input {
           transition: background-color 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
   box-shadow: none;
 }
-html /deep/ .ui.input input::-webkit-input-placeholder {
+htmldeep .ui.input input::-webkit-input-placeholder {
   color: rgba(0, 0, 0, 0.4);
 }
-html /deep/ .ui.input input::-moz-placeholder {
+htmldeep .ui.input input::-moz-placeholder {
   color: rgba(0, 0, 0, 0.4);
 }
-html /deep/ .ui.input input:active,
-html /deep/ .ui.input.down input {
+htmldeep .ui.input input:active,
+htmldeep .ui.input.down input {
   border-color: rgba(0, 0, 0, 0.3);
   background: #fafafa;
   color: #212121;
   box-shadow: none;
 }
-html /deep/ .ui.loading.loading.input > i.icon:before {
+htmldeep .ui.loading.loading.input > i.icon:before {
   position: absolute;
   content: '';
   top: 50%;
@@ -186,7 +186,7 @@ html /deep/ .ui.loading.loading.input > i.icon:before {
   border-radius: 500rem;
   border: 0.2em solid rgba(0, 0, 0, 0.1);
 }
-html /deep/ .ui.loading.loading.input > i.icon:after {
+htmldeep .ui.loading.loading.input > i.icon:after {
   position: absolute;
   content: '';
   top: 50%;
@@ -204,65 +204,65 @@ html /deep/ .ui.loading.loading.input > i.icon:after {
   border-width: 0.2em;
   box-shadow: 0px 0px 0px 1px transparent;
 }
-html /deep/ .ui.input.focus input,
-html /deep/ .ui.input input:focus {
+htmldeep .ui.input.focus input,
+htmldeep .ui.input input:focus {
   border-color: rgba(39, 41, 43, 0.3);
   background: #ffffff;
   color: rgba(0, 0, 0, 0.8);
   box-shadow: none;
 }
-html /deep/ .ui.input.focus input input::-webkit-input-placeholder,
-html /deep/ .ui.input input:focus input::-webkit-input-placeholder {
+htmldeep .ui.input.focus input input::-webkit-input-placeholder,
+htmldeep .ui.input input:focus input::-webkit-input-placeholder {
   color: #212121;
 }
-html /deep/ .ui.input.focus input input::-moz-placeholder,
-html /deep/ .ui.input input:focus input::-moz-placeholder {
+htmldeep .ui.input.focus input input::-moz-placeholder,
+htmldeep .ui.input input:focus input::-moz-placeholder {
   color: #212121;
 }
-html /deep/ .ui.input.error input {
+htmldeep .ui.input.error input {
   background-color: #fff0f0;
   border-color: #dbb1b1;
   color: #e41e2b;
   box-shadow: none;
 }
-html /deep/ .ui.input.error input ::-webkit-input-placeholder {
+htmldeep .ui.input.error input ::-webkit-input-placeholder {
   color: rgba(255, 80, 80, 0.4);
 }
-html /deep/ .ui.input.error input ::-moz-placeholder {
+htmldeep .ui.input.error input ::-moz-placeholder {
   color: rgba(255, 80, 80, 0.4);
 }
-html /deep/ .ui.input.error input :focus::-webkit-input-placeholder {
+htmldeep .ui.input.error input :focus::-webkit-input-placeholder {
   color: rgba(255, 80, 80, 0.7);
 }
-html /deep/ .ui.input.error input :focus::-moz-placeholder {
+htmldeep .ui.input.error input :focus::-moz-placeholder {
   color: rgba(255, 80, 80, 0.7);
 }
-html /deep/ .ui.transparent.input input {
+htmldeep .ui.transparent.input input {
   border-color: transparent;
   background-color: transparent;
   padding: 0em;
 }
-html /deep/ .ui.transparent.icon.input > i.icon {
+htmldeep .ui.transparent.icon.input > i.icon {
   width: 1.25em;
 }
-html /deep/ .ui.transparent.icon.input > input {
+htmldeep .ui.transparent.icon.input > input {
   padding-left: 0em !important;
   padding-right: 2em !important;
 }
-html /deep/ .ui.transparent[class*="left icon"].input > input {
+htmldeep .ui.transparent[class*="left icon"].input > input {
   padding-left: 0em !important;
   padding-left: 2em !important;
 }
-html /deep/ .ui.transparent.inverted.input input::-moz-placeholder {
+htmldeep .ui.transparent.inverted.input input::-moz-placeholder {
   color: rgba(255, 255, 255, 0.5);
 }
-html /deep/ .ui.transparent.inverted.input {
+htmldeep .ui.transparent.inverted.input {
   color: #ffffff;
 }
-html /deep/ .ui.transparent.inverted.input input {
+htmldeep .ui.transparent.inverted.input input {
   color: inherit;
 }
-html /deep/ .ui.icon.input > i.icon {
+htmldeep .ui.icon.input > i.icon {
   cursor: default;
   position: absolute;
   text-align: center;
@@ -276,11 +276,11 @@ html /deep/ .ui.icon.input > i.icon {
   -webkit-transition: opacity 0.3s ease;
           transition: opacity 0.3s ease;
 }
-html /deep/ .ui.icon.input input {
+htmldeep .ui.icon.input input {
   padding-right: 2.82142em !important;
 }
-html /deep/ .ui.icon.input > i.icon:before,
-html /deep/ .ui.icon.input > i.icon:after {
+htmldeep .ui.icon.input > i.icon:before,
+htmldeep .ui.icon.input > i.icon:after {
   left: 0;
   position: absolute;
   text-align: center;
@@ -288,170 +288,170 @@ html /deep/ .ui.icon.input > i.icon:after {
   width: 100%;
   margin-top: -0.5em;
 }
-html /deep/ .ui.icon.input > i.link.icon {
+htmldeep .ui.icon.input > i.link.icon {
   cursor: pointer;
 }
-html /deep/ .ui.icon.input > i.circular.icon {
+htmldeep .ui.icon.input > i.circular.icon {
   top: 0.35em;
   right: 0.5em;
 }
-html /deep/ .ui[class*="left icon"].input > i.icon {
+htmldeep .ui[class*="left icon"].input > i.icon {
   right: auto;
   left: 1px;
   border-radius: 2px 0em 0em 2px;
 }
-html /deep/ .ui[class*="left icon"].input > i.circular.icon {
+htmldeep .ui[class*="left icon"].input > i.circular.icon {
   right: auto;
   left: 0.5em;
 }
-html /deep/ .ui[class*="left icon"].input > input {
+htmldeep .ui[class*="left icon"].input > input {
   padding-left: 2.82142em !important;
   padding-right: 1em !important;
 }
-html /deep/ .ui.icon.input > input:focus ~ i.icon {
+htmldeep .ui.icon.input > input:focus ~ i.icon {
   opacity: 1;
 }
-html /deep/ .ui.labeled.input {
+htmldeep .ui.labeled.input {
   display: table;
 }
-html /deep/ .ui.labeled.input > input {
+htmldeep .ui.labeled.input > input {
   display: table-cell;
   vertical-align: top;
 }
-html /deep/ .ui.labeled.input > .label {
+htmldeep .ui.labeled.input > .label {
   display: table-cell !important;
   vertical-align: middle;
   white-space: nowrap;
   font-size: 1em;
 }
-html /deep/ .ui.labeled.input > .label > .icon {
+htmldeep .ui.labeled.input > .label > .icon {
   display: inline;
   vertical-align: top;
 }
-html /deep/ .ui.fluid.labeled.input {
+htmldeep .ui.fluid.labeled.input {
   display: table;
   width: 100%;
 }
-html /deep/ .ui.fluid.labeled.input > .label {
+htmldeep .ui.fluid.labeled.input > .label {
   width: 0.01%;
 }
-html /deep/ .ui.labeled.input:not([class*="corner labeled"]):not([class*="right labeled"]) > input {
+htmldeep .ui.labeled.input:not([class*="corner labeled"]):not([class*="right labeled"]) > input {
   border-left: none;
   border-top-left-radius: 0px;
   border-bottom-left-radius: 0px;
 }
-html /deep/ .ui.labeled.input:not([class*="corner labeled"]):not([class*="right labeled"]) > .label {
+htmldeep .ui.labeled.input:not([class*="corner labeled"]):not([class*="right labeled"]) > .label {
   border-top-right-radius: 0px;
   border-bottom-right-radius: 0px;
 }
-html /deep/ .ui[class*="right labeled"].input > input {
+htmldeep .ui[class*="right labeled"].input > input {
   border-right: none;
   border-top-right-radius: 0px !important;
   border-bottom-right-radius: 0px !important;
 }
-html /deep/ .ui[class*="right labeled"].input > .label {
+htmldeep .ui[class*="right labeled"].input > .label {
   border-top-left-radius: 0px;
   border-bottom-left-radius: 0px;
 }
-html /deep/ .ui.labeled.input .corner.label {
+htmldeep .ui.labeled.input .corner.label {
   top: 1px;
   right: 1px;
   font-size: 0.75em;
   border-radius: 0em 2px 0em 0em;
 }
-html /deep/ .ui.labeled.input input {
+htmldeep .ui.labeled.input input {
   padding-right: 2.5em !important;
 }
-html /deep/ .ui[class*="corner labeled"].input {
+htmldeep .ui[class*="corner labeled"].input {
   display: inline-block;
 }
-html /deep/ .ui[class*="corner labeled"].input > input {
+htmldeep .ui[class*="corner labeled"].input > input {
   display: block;
 }
-html /deep/ .ui[class*="corner labeled"].icon.input:not(.left) > input {
+htmldeep .ui[class*="corner labeled"].icon.input:not(.left) > input {
   padding-right: 3.25em !important;
 }
-html /deep/ .ui[class*="corner labeled"].icon.input:not(.left) > .icon {
+htmldeep .ui[class*="corner labeled"].icon.input:not(.left) > .icon {
   margin-right: 1.25em;
 }
-html /deep/ .ui.action.input {
+htmldeep .ui.action.input {
   display: table;
 }
-html /deep/ .ui.action.input > input {
+htmldeep .ui.action.input > input {
   display: table-cell;
   vertical-align: top;
 }
-html /deep/ .ui.action.input > .button,
-html /deep/ .ui.action.input > .buttons {
+htmldeep .ui.action.input > .button,
+htmldeep .ui.action.input > .buttons {
   display: table-cell !important;
   vertical-align: middle;
   white-space: nowrap;
   margin: 0;
 }
-html /deep/ .ui.action.input > .button,
-html /deep/ .ui.action.input > .buttons > .button {
+htmldeep .ui.action.input > .button,
+htmldeep .ui.action.input > .buttons > .button {
   vertical-align: middle;
   white-space: nowrap;
   margin: 0;
   padding-top: 0.78571em;
   padding-bottom: 0.78571em;
 }
-html /deep/ .ui.action.input > .button > .icon,
-html /deep/ .ui.action.input > .buttons > .button > .icon {
+htmldeep .ui.action.input > .button > .icon,
+htmldeep .ui.action.input > .buttons > .button > .icon {
   display: inline;
   vertical-align: top;
 }
-html /deep/ .ui.fluid.action.input {
+htmldeep .ui.fluid.action.input {
   display: table;
   width: 100%;
 }
-html /deep/ .ui.fluid.action.input > .button {
+htmldeep .ui.fluid.action.input > .button {
   width: 0.01%;
 }
-html /deep/ .ui.action.input:not([class*="left action"]) > input {
+htmldeep .ui.action.input:not([class*="left action"]) > input {
   border-right: none;
   border-top-right-radius: 0px !important;
   border-bottom-right-radius: 0px !important;
 }
-html /deep/ .ui.action.input:not([class*="left action"]) > .button,
-html /deep/ .ui.action.input:not([class*="left action"]) > .buttons > .button {
+htmldeep .ui.action.input:not([class*="left action"]) > .button,
+htmldeep .ui.action.input:not([class*="left action"]) > .buttons > .button {
   border-top-left-radius: 0px;
   border-bottom-left-radius: 0px;
 }
-html /deep/ .ui[class*="left action"].input > .button,
-html /deep/ .ui[class*="left action"].input > .buttons > .button {
+htmldeep .ui[class*="left action"].input > .button,
+htmldeep .ui[class*="left action"].input > .buttons > .button {
   border-top-right-radius: 0px;
   border-bottom-right-radius: 0px;
 }
-html /deep/ .ui[class*="left action"].input > input {
+htmldeep .ui[class*="left action"].input > input {
   border-left: none;
   border-top-left-radius: 0px;
   border-bottom-left-radius: 0px;
 }
-html /deep/ .ui.inverted.input input {
+htmldeep .ui.inverted.input input {
   border: none;
 }
-html /deep/ .ui.fluid.input {
+htmldeep .ui.fluid.input {
   display: block;
 }
-html /deep/ .ui.mini.input {
+htmldeep .ui.mini.input {
   font-size: 0.8125rem;
 }
-html /deep/ .ui.small.input {
+htmldeep .ui.small.input {
   font-size: 0.875rem;
 }
-html /deep/ .ui.input {
+htmldeep .ui.input {
   font-size: 1rem;
 }
-html /deep/ .ui.large.input {
+htmldeep .ui.large.input {
   font-size: 1.125rem;
 }
-html /deep/ .ui.big.input {
+htmldeep .ui.big.input {
   font-size: 1.25rem;
 }
-html /deep/ .ui.huge.input {
+htmldeep .ui.huge.input {
   font-size: 1.375rem;
 }
-html /deep/ .ui.massive.input {
+htmldeep .ui.massive.input {
   font-size: 1.5rem;
 }

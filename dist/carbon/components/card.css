@@ -20,7 +20,7 @@
       Cards
 ---------------*/
 
-html /deep/ {
+htmldeep {
   
 /* Clearing */
   
@@ -159,24 +159,24 @@ html /deep/ {
 *******************************/
 
 }
-html /deep/ .ui.cards {
+htmldeep .ui.cards {
   margin: 1em -0.5em 0em;
 }
-html /deep/ .ui.cards > .card {
+htmldeep .ui.cards > .card {
   display: block;
   margin: 0em 0.5em 1.5em;
   float: left;
 }
-html /deep/ .ui.cards:first-child,
-html /deep/ .ui.card:first-child {
+htmldeep .ui.cards:first-child,
+htmldeep .ui.card:first-child {
   margin-top: 0em;
 }
-html /deep/ .ui.cards:last-child,
-html /deep/ .ui.card:last-child {
+htmldeep .ui.cards:last-child,
+htmldeep .ui.card:last-child {
   margin-bottom: 0em;
 }
-html /deep/ .ui.cards:after,
-html /deep/ .ui.card:after {
+htmldeep .ui.cards:after,
+htmldeep .ui.card:after {
   display: block;
   content: ' ';
   height: 0px;
@@ -184,8 +184,8 @@ html /deep/ .ui.card:after {
   overflow: hidden;
   visibility: hidden;
 }
-html /deep/ .ui.cards > .card,
-html /deep/ .ui.card {
+htmldeep .ui.cards > .card,
+htmldeep .ui.card {
   max-width: 100%;
   position: relative;
   display: block;
@@ -200,42 +200,42 @@ html /deep/ .ui.card {
           transition: box-shadow 0.2s ease;
   z-index: '';
 }
-html /deep/ .ui.card {
+htmldeep .ui.card {
   margin: 1em 0em;
 }
-html /deep/ .ui.cards > .card a,
-html /deep/ .ui.card a {
+htmldeep .ui.cards > .card a,
+htmldeep .ui.card a {
   cursor: pointer;
 }
-html /deep/ .ui.cards > .card > :first-child,
-html /deep/ .ui.card > :first-child {
+htmldeep .ui.cards > .card > :first-child,
+htmldeep .ui.card > :first-child {
   border-radius: 2px 2px 0em 0em !important;
 }
-html /deep/ .ui.cards > .card > :last-child,
-html /deep/ .ui.card > :last-child {
+htmldeep .ui.cards > .card > :last-child,
+htmldeep .ui.card > :last-child {
   border-radius: 0em 0em 2px 2px !important;
 }
-html /deep/ .ui.cards > .card > .image,
-html /deep/ .ui.card > .image {
+htmldeep .ui.cards > .card > .image,
+htmldeep .ui.card > .image {
   display: block;
   position: relative;
   padding: 0em;
   background: rgba(0, 0, 0, 0.05);
 }
-html /deep/ .ui.cards > .card > .image > img,
-html /deep/ .ui.card > .image > img {
+htmldeep .ui.cards > .card > .image > img,
+htmldeep .ui.card > .image > img {
   display: block;
   width: 100%;
   height: auto;
   border-radius: 2px 2px 0em 0em;
   border: none;
 }
-html /deep/ .ui.cards > .card > .image:only-child > img,
-html /deep/ .ui.card > .image:only-child > img {
+htmldeep .ui.cards > .card > .image:only-child > img,
+htmldeep .ui.card > .image:only-child > img {
   border-radius: 2px;
 }
-html /deep/ .ui.cards > .card > .content,
-html /deep/ .ui.card > .content {
+htmldeep .ui.cards > .card > .content,
+htmldeep .ui.card > .content {
   background: none;
   margin: 0em;
   padding: 1em 1em;
@@ -244,8 +244,8 @@ html /deep/ .ui.card > .content {
   border: none;
   border-radius: 0em;
 }
-html /deep/ .ui.cards > .card > .content:after,
-html /deep/ .ui.card > .content:after {
+htmldeep .ui.cards > .card > .content:after,
+htmldeep .ui.card > .content:after {
   display: block;
   content: ' ';
   height: 0px;
@@ -253,147 +253,147 @@ html /deep/ .ui.card > .content:after {
   overflow: hidden;
   visibility: hidden;
 }
-html /deep/ .ui.cards > .card > .content > .header,
-html /deep/ .ui.card > .content > .header {
+htmldeep .ui.cards > .card > .content > .header,
+htmldeep .ui.card > .content > .header {
   display: block;
   margin: 0em;
   font-family: 'Segoe UI', 'Segoe WP', 'Roboto', 'Frutiger', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: rgba(0, 0, 0, 0.85);
 }
-html /deep/ .ui.cards > .card > .content > .header:not(.ui),
-html /deep/ .ui.card > .content > .header:not(.ui) {
+htmldeep .ui.cards > .card > .content > .header:not(.ui),
+htmldeep .ui.card > .content > .header:not(.ui) {
   font-weight: bold;
   font-size: 1.2em;
   margin-top: -0.25em;
   line-height: 1.33em;
 }
-html /deep/ .ui.cards > .card > .content > .meta + .description,
-html /deep/ .ui.cards > .card > .content > .header + .description,
-html /deep/ .ui.card > .content > .meta + .description,
-html /deep/ .ui.card > .content > .header + .description {
+htmldeep .ui.cards > .card > .content > .meta + .description,
+htmldeep .ui.cards > .card > .content > .header + .description,
+htmldeep .ui.card > .content > .meta + .description,
+htmldeep .ui.card > .content > .header + .description {
   margin-top: 0.5em;
 }
-html /deep/ .ui.cards > .card [class*="left floated"],
-html /deep/ .ui.card [class*="left floated"] {
+htmldeep .ui.cards > .card [class*="left floated"],
+htmldeep .ui.card [class*="left floated"] {
   float: left;
 }
-html /deep/ .ui.cards > .card [class*="right floated"],
-html /deep/ .ui.card [class*="right floated"] {
+htmldeep .ui.cards > .card [class*="right floated"],
+htmldeep .ui.card [class*="right floated"] {
   float: right;
 }
-html /deep/ .ui.cards > .card .content img,
-html /deep/ .ui.card .content img {
+htmldeep .ui.cards > .card .content img,
+htmldeep .ui.card .content img {
   display: inline-block;
   vertical-align: middle;
   width: 2em;
 }
-html /deep/ .ui.cards > .card img.avatar,
-html /deep/ .ui.cards > .card .avatar img,
-html /deep/ .ui.card img.avatar,
-html /deep/ .ui.card .avatar img {
+htmldeep .ui.cards > .card img.avatar,
+htmldeep .ui.cards > .card .avatar img,
+htmldeep .ui.card img.avatar,
+htmldeep .ui.card .avatar img {
   width: 2em;
   height: 2em;
   border-radius: 500rem;
 }
-html /deep/ .ui.cards > .card > .content > .description,
-html /deep/ .ui.card > .content > .description {
+htmldeep .ui.cards > .card > .content > .description,
+htmldeep .ui.card > .content > .description {
   clear: both;
   color: rgba(0, 0, 0, 0.5);
 }
-html /deep/ .ui.cards > .card > .content p,
-html /deep/ .ui.card > .content p {
+htmldeep .ui.cards > .card > .content p,
+htmldeep .ui.card > .content p {
   margin: 0em 0em 0.5em;
 }
-html /deep/ .ui.cards > .card > .content p:last-child,
-html /deep/ .ui.card > .content p:last-child {
+htmldeep .ui.cards > .card > .content p:last-child,
+htmldeep .ui.card > .content p:last-child {
   margin-bottom: 0em;
 }
-html /deep/ .ui.cards > .card .meta,
-html /deep/ .ui.card .meta {
+htmldeep .ui.cards > .card .meta,
+htmldeep .ui.card .meta {
   font-size: 0.9em;
   color: rgba(0, 0, 0, 0.4);
 }
-html /deep/ .ui.cards > .card .meta *,
-html /deep/ .ui.card .meta * {
+htmldeep .ui.cards > .card .meta *,
+htmldeep .ui.card .meta * {
   margin-right: 0.3em;
 }
-html /deep/ .ui.cards > .card .meta :last-child,
-html /deep/ .ui.card .meta :last-child {
+htmldeep .ui.cards > .card .meta :last-child,
+htmldeep .ui.card .meta :last-child {
   margin-right: 0em;
 }
-html /deep/ .ui.cards > .card .meta [class*="right floated"],
-html /deep/ .ui.card .meta [class*="right floated"] {
+htmldeep .ui.cards > .card .meta [class*="right floated"],
+htmldeep .ui.card .meta [class*="right floated"] {
   margin-right: 0em;
   margin-left: 0.3em;
 }
-html /deep/ .ui.cards > .card > .content a:not(.ui),
-html /deep/ .ui.card > .content a:not(.ui) {
+htmldeep .ui.cards > .card > .content a:not(.ui),
+htmldeep .ui.card > .content a:not(.ui) {
   color: '';
   -webkit-transition: color 0.2s ease;
           transition: color 0.2s ease;
 }
-html /deep/ .ui.cards > .card > .content a:not(.ui):hover,
-html /deep/ .ui.card > .content a:not(.ui):hover {
+htmldeep .ui.cards > .card > .content a:not(.ui):hover,
+htmldeep .ui.card > .content a:not(.ui):hover {
   color: '';
 }
-html /deep/ .ui.cards > .card > .content > a.header,
-html /deep/ .ui.card > .content > a.header {
+htmldeep .ui.cards > .card > .content > a.header,
+htmldeep .ui.card > .content > a.header {
   color: rgba(0, 0, 0, 0.85);
 }
-html /deep/ .ui.cards > .card > .content > a.header:hover,
-html /deep/ .ui.card > .content > a.header:hover {
+htmldeep .ui.cards > .card > .content > a.header:hover,
+htmldeep .ui.card > .content > a.header:hover {
   color: #00b2f3;
 }
-html /deep/ .ui.cards > .card .meta > a:not(.ui),
-html /deep/ .ui.card .meta > a:not(.ui) {
+htmldeep .ui.cards > .card .meta > a:not(.ui),
+htmldeep .ui.card .meta > a:not(.ui) {
   color: rgba(0, 0, 0, 0.4);
 }
-html /deep/ .ui.cards > .card .meta > a:not(.ui):hover,
-html /deep/ .ui.card .meta > a:not(.ui):hover {
+htmldeep .ui.cards > .card .meta > a:not(.ui):hover,
+htmldeep .ui.card .meta > a:not(.ui):hover {
   color: #212121;
 }
-html /deep/ .ui.cards > .card > .buttons:last-child,
-html /deep/ .ui.card > .buttons:last-child,
-html /deep/ .ui.cards > .card > .button:last-child,
-html /deep/ .ui.card > .button:last-child {
+htmldeep .ui.cards > .card > .buttons:last-child,
+htmldeep .ui.card > .buttons:last-child,
+htmldeep .ui.cards > .card > .button:last-child,
+htmldeep .ui.card > .button:last-child {
   margin: 0em -1px -0.2em;
   width: -webkit-calc(100% +  2px );
   width: calc(100% +  2px );
 }
-html /deep/ .ui.cards > .card > .content .star.icon,
-html /deep/ .ui.card > .content .star.icon {
+htmldeep .ui.cards > .card > .content .star.icon,
+htmldeep .ui.card > .content .star.icon {
   cursor: pointer;
   opacity: 0.75;
   -webkit-transition: color 0.2s ease;
           transition: color 0.2s ease;
 }
-html /deep/ .ui.cards > .card > .content .star.icon:hover,
-html /deep/ .ui.card > .content .star.icon:hover {
+htmldeep .ui.cards > .card > .content .star.icon:hover,
+htmldeep .ui.card > .content .star.icon:hover {
   opacity: 1;
   color: #ac9400;
 }
-html /deep/ .ui.cards > .card > .content .active.star.icon,
-html /deep/ .ui.card > .content .active.star.icon {
+htmldeep .ui.cards > .card > .content .active.star.icon,
+htmldeep .ui.card > .content .active.star.icon {
   color: #e9b539;
 }
-html /deep/ .ui.cards > .card > .content .like.icon,
-html /deep/ .ui.card > .content .like.icon {
+htmldeep .ui.cards > .card > .content .like.icon,
+htmldeep .ui.card > .content .like.icon {
   cursor: pointer;
   opacity: 0.75;
   -webkit-transition: color 0.2s ease;
           transition: color 0.2s ease;
 }
-html /deep/ .ui.cards > .card > .content .like.icon:hover,
-html /deep/ .ui.card > .content .like.icon:hover {
+htmldeep .ui.cards > .card > .content .like.icon:hover,
+htmldeep .ui.card > .content .like.icon:hover {
   opacity: 1;
   color: #ffadae;
 }
-html /deep/ .ui.cards > .card > .content .active.like.icon,
-html /deep/ .ui.card > .content .active.like.icon {
+htmldeep .ui.cards > .card > .content .active.like.icon,
+htmldeep .ui.card > .content .active.like.icon {
   color: #ef404a;
 }
-html /deep/ .ui.cards > .card > .extra,
-html /deep/ .ui.card > .extra {
+htmldeep .ui.cards > .card > .extra,
+htmldeep .ui.card > .extra {
   max-width: 100%;
   min-height: 0em !important;
   position: static;
@@ -409,239 +409,239 @@ html /deep/ .ui.card > .extra {
           transition: color 0.2s ease;
   border-top: 1px solid rgba(0, 0, 0, 0.05);
 }
-html /deep/ .ui.cards > .card > .extra a:not(.ui),
-html /deep/ .ui.card > .extra a:not(.ui) {
+htmldeep .ui.cards > .card > .extra a:not(.ui),
+htmldeep .ui.card > .extra a:not(.ui) {
   color: rgba(0, 0, 0, 0.4);
 }
-html /deep/ .ui.cards > .card > .extra a:not(.ui):hover,
-html /deep/ .ui.card > .extra a:not(.ui):hover {
+htmldeep .ui.cards > .card > .extra a:not(.ui):hover,
+htmldeep .ui.card > .extra a:not(.ui):hover {
   color: #00b2f3;
 }
-html /deep/ .ui.fluid.card {
+htmldeep .ui.fluid.card {
   width: 100%;
   max-width: 9999px;
 }
-html /deep/ .ui.cards a.card:hover,
-html /deep/ .ui.link.cards .card:hover,
-html /deep/ a.ui.card:hover,
-html /deep/ .ui.link.card:hover {
+htmldeep .ui.cards a.card:hover,
+htmldeep .ui.link.cards .card:hover,
+htmldeep a.ui.card:hover,
+htmldeep .ui.link.card:hover {
   cursor: pointer;
   z-index: 5;
   background: '';
   border: none;
   box-shadow: 0px 0.2em 0px 0px #bebebf, 0px 0px 0px 1px rgba(39, 41, 43, 0.3);
 }
-html /deep/ .ui.one.cards {
+htmldeep .ui.one.cards {
   margin-left: 0em;
   margin-right: 0em;
 }
-html /deep/ .ui.one.cards > .card {
+htmldeep .ui.one.cards > .card {
   width: 100%;
 }
-html /deep/ .ui.two.cards {
+htmldeep .ui.two.cards {
   margin-left: -1em;
   margin-right: -1em;
 }
-html /deep/ .ui.two.cards > .card {
+htmldeep .ui.two.cards > .card {
   width: -webkit-calc( 50%  -  2em );
   width: calc( 50%  -  2em );
   margin-left: 1em;
   margin-right: 1em;
 }
-html /deep/ .ui.two.cards > .card:nth-child(2n+1) {
+htmldeep .ui.two.cards > .card:nth-child(2n+1) {
   clear: left;
 }
-html /deep/ .ui.three.cards {
+htmldeep .ui.three.cards {
   margin-left: -1em;
   margin-right: -1em;
 }
-html /deep/ .ui.three.cards > .card {
+htmldeep .ui.three.cards > .card {
   width: -webkit-calc( 33.33333333%  -  2em );
   width: calc( 33.33333333%  -  2em );
   margin-left: 1em;
   margin-right: 1em;
 }
-html /deep/ .ui.three.cards > .card:nth-child(3n+1) {
+htmldeep .ui.three.cards > .card:nth-child(3n+1) {
   clear: left;
 }
-html /deep/ .ui.four.cards {
+htmldeep .ui.four.cards {
   margin-left: -0.75em;
   margin-right: -0.75em;
 }
-html /deep/ .ui.four.cards > .card {
+htmldeep .ui.four.cards > .card {
   width: -webkit-calc( 25%  -  1.5em );
   width: calc( 25%  -  1.5em );
   margin-left: 0.75em;
   margin-right: 0.75em;
 }
-html /deep/ .ui.four.cards > .card:nth-child(4n+1) {
+htmldeep .ui.four.cards > .card:nth-child(4n+1) {
   clear: left;
 }
-html /deep/ .ui.five.cards {
+htmldeep .ui.five.cards {
   margin-left: -0.75em;
   margin-right: -0.75em;
 }
-html /deep/ .ui.five.cards > .card {
+htmldeep .ui.five.cards > .card {
   width: -webkit-calc( 20%  -  1.5em );
   width: calc( 20%  -  1.5em );
   margin-left: 0.75em;
   margin-right: 0.75em;
 }
-html /deep/ .ui.five.cards > .card:nth-child(5n+1) {
+htmldeep .ui.five.cards > .card:nth-child(5n+1) {
   clear: left;
 }
-html /deep/ .ui.six.cards {
+htmldeep .ui.six.cards {
   margin-left: -0.75em;
   margin-right: -0.75em;
 }
-html /deep/ .ui.six.cards > .card {
+htmldeep .ui.six.cards > .card {
   width: -webkit-calc( 16.66666667%  -  1.5em );
   width: calc( 16.66666667%  -  1.5em );
   margin-left: 0.75em;
   margin-right: 0.75em;
 }
-html /deep/ .ui.six.cards > .card:nth-child(6n+1) {
+htmldeep .ui.six.cards > .card:nth-child(6n+1) {
   clear: left;
 }
-html /deep/ .ui.seven.cards {
+htmldeep .ui.seven.cards {
   margin-left: -0.5em;
   margin-right: -0.5em;
 }
-html /deep/ .ui.seven.cards > .card {
+htmldeep .ui.seven.cards > .card {
   width: -webkit-calc( 14.28571429%  -  1em );
   width: calc( 14.28571429%  -  1em );
   margin-left: 0.5em;
   margin-right: 0.5em;
 }
-html /deep/ .ui.seven.cards > .card:nth-child(7n+1) {
+htmldeep .ui.seven.cards > .card:nth-child(7n+1) {
   clear: left;
 }
-html /deep/ .ui.eight.cards {
+htmldeep .ui.eight.cards {
   margin-left: -0.5em;
   margin-right: -0.5em;
 }
-html /deep/ .ui.eight.cards > .card {
+htmldeep .ui.eight.cards > .card {
   width: -webkit-calc( 12.5%  -  1em );
   width: calc( 12.5%  -  1em );
   margin-left: 0.5em;
   margin-right: 0.5em;
   font-size: 11px;
 }
-html /deep/ .ui.eight.cards > .card:nth-child(8n+1) {
+htmldeep .ui.eight.cards > .card:nth-child(8n+1) {
   clear: left;
 }
-html /deep/ .ui.nine.cards {
+htmldeep .ui.nine.cards {
   margin-left: -0.5em;
   margin-right: -0.5em;
 }
-html /deep/ .ui.nine.cards > .card {
+htmldeep .ui.nine.cards > .card {
   width: -webkit-calc( 11.11111111%  -  1em );
   width: calc( 11.11111111%  -  1em );
   margin-left: 0.5em;
   margin-right: 0.5em;
   font-size: 10px;
 }
-html /deep/ .ui.nine.cards > .card:nth-child(9n+1) {
+htmldeep .ui.nine.cards > .card:nth-child(9n+1) {
   clear: left;
 }
-html /deep/ .ui.ten.cards {
+htmldeep .ui.ten.cards {
   margin-left: -0.5em;
   margin-right: -0.5em;
 }
-html /deep/ .ui.ten.cards > .card {
+htmldeep .ui.ten.cards > .card {
   width: -webkit-calc( 10%  -  1em );
   width: calc( 10%  -  1em );
   margin-left: 0.5em;
   margin-right: 0.5em;
 }
-html /deep/ .ui.ten.cards > .card:nth-child(10n+1) {
+htmldeep .ui.ten.cards > .card:nth-child(10n+1) {
   clear: left;
 }
 @media only screen and (max-width: 767px) {
-  html /deep/ .ui.two.doubling.cards {
+  htmldeep .ui.two.doubling.cards {
     margin-left: 0em;
     margin-right: 0em;
   }
-  html /deep/ .ui.two.doubling.cards .card {
+  htmldeep .ui.two.doubling.cards .card {
     width: 100%;
     margin-left: 0em;
     margin-right: 0em;
   }
-  html /deep/ .ui.three.doubling.cards {
+  htmldeep .ui.three.doubling.cards {
     margin-left: -1em;
     margin-right: -1em;
   }
-  html /deep/ .ui.three.doubling.cards .card {
+  htmldeep .ui.three.doubling.cards .card {
     width: -webkit-calc( 50%  -  2em );
     width: calc( 50%  -  2em );
     margin-left: 1em;
     margin-right: 1em;
   }
-  html /deep/ .ui.four.doubling.cards {
+  htmldeep .ui.four.doubling.cards {
     margin-left: -1em;
     margin-right: -1em;
   }
-  html /deep/ .ui.four.doubling.cards .card {
+  htmldeep .ui.four.doubling.cards .card {
     width: -webkit-calc( 50%  -  2em );
     width: calc( 50%  -  2em );
     margin-left: 1em;
     margin-right: 1em;
   }
-  html /deep/ .ui.five.doubling.cards {
+  htmldeep .ui.five.doubling.cards {
     margin-left: -1em;
     margin-right: -1em;
   }
-  html /deep/ .ui.five.doubling.cards .card {
+  htmldeep .ui.five.doubling.cards .card {
     width: -webkit-calc( 50%  -  2em );
     width: calc( 50%  -  2em );
     margin-left: 1em;
     margin-right: 1em;
   }
-  html /deep/ .ui.six.doubling.cards {
+  htmldeep .ui.six.doubling.cards {
     margin-left: -1em;
     margin-right: -1em;
   }
-  html /deep/ .ui.six.doubling.cards .card {
+  htmldeep .ui.six.doubling.cards .card {
     width: -webkit-calc( 50%  -  2em );
     width: calc( 50%  -  2em );
     margin-left: 1em;
     margin-right: 1em;
   }
-  html /deep/ .ui.seven.doubling.cards {
+  htmldeep .ui.seven.doubling.cards {
     margin-left: -1em;
     margin-right: -1em;
   }
-  html /deep/ .ui.seven.doubling.cards .card {
+  htmldeep .ui.seven.doubling.cards .card {
     width: -webkit-calc( 33.33333333%  -  2em );
     width: calc( 33.33333333%  -  2em );
     margin-left: 1em;
     margin-right: 1em;
   }
-  html /deep/ .ui.eight.doubling.cards {
+  htmldeep .ui.eight.doubling.cards {
     margin-left: -1em;
     margin-right: -1em;
   }
-  html /deep/ .ui.eight.doubling.cards .card {
+  htmldeep .ui.eight.doubling.cards .card {
     width: -webkit-calc( 33.33333333%  -  2em );
     width: calc( 33.33333333%  -  2em );
     margin-left: 1em;
     margin-right: 1em;
   }
-  html /deep/ .ui.nine.doubling.cards {
+  htmldeep .ui.nine.doubling.cards {
     margin-left: -1em;
     margin-right: -1em;
   }
-  html /deep/ .ui.nine.doubling.cards .card {
+  htmldeep .ui.nine.doubling.cards .card {
     width: -webkit-calc( 33.33333333%  -  2em );
     width: calc( 33.33333333%  -  2em );
     margin-left: 1em;
     margin-right: 1em;
   }
-  html /deep/ .ui.ten.doubling.cards {
+  htmldeep .ui.ten.doubling.cards {
     margin-left: -1em;
     margin-right: -1em;
   }
-  html /deep/ .ui.ten.doubling.cards .card {
+  htmldeep .ui.ten.doubling.cards .card {
     width: -webkit-calc( 33.33333333%  -  2em );
     width: calc( 33.33333333%  -  2em );
     margin-left: 1em;
@@ -649,90 +649,90 @@ html /deep/ .ui.ten.cards > .card:nth-child(10n+1) {
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  html /deep/ .ui.two.doubling.cards {
+  htmldeep .ui.two.doubling.cards {
     margin-left: 0em;
     margin-right: 0em;
   }
-  html /deep/ .ui.two.doubling.cards .card {
+  htmldeep .ui.two.doubling.cards .card {
     width: 100%;
     margin-left: 0em;
     margin-right: 0em;
   }
-  html /deep/ .ui.three.doubling.cards {
+  htmldeep .ui.three.doubling.cards {
     margin-left: -1em;
     margin-right: -1em;
   }
-  html /deep/ .ui.three.doubling.cards .card {
+  htmldeep .ui.three.doubling.cards .card {
     width: -webkit-calc( 50%  -  2em );
     width: calc( 50%  -  2em );
     margin-left: 1em;
     margin-right: 1em;
   }
-  html /deep/ .ui.four.doubling.cards {
+  htmldeep .ui.four.doubling.cards {
     margin-left: -1em;
     margin-right: -1em;
   }
-  html /deep/ .ui.four.doubling.cards .card {
+  htmldeep .ui.four.doubling.cards .card {
     width: -webkit-calc( 50%  -  2em );
     width: calc( 50%  -  2em );
     margin-left: 1em;
     margin-right: 1em;
   }
-  html /deep/ .ui.five.doubling.cards {
+  htmldeep .ui.five.doubling.cards {
     margin-left: -1em;
     margin-right: -1em;
   }
-  html /deep/ .ui.five.doubling.cards .card {
+  htmldeep .ui.five.doubling.cards .card {
     width: -webkit-calc( 33.33333333%  -  2em );
     width: calc( 33.33333333%  -  2em );
     margin-left: 1em;
     margin-right: 1em;
   }
-  html /deep/ .ui.six.doubling.cards {
+  htmldeep .ui.six.doubling.cards {
     margin-left: -1em;
     margin-right: -1em;
   }
-  html /deep/ .ui.six.doubling.cards .card {
+  htmldeep .ui.six.doubling.cards .card {
     width: -webkit-calc( 33.33333333%  -  2em );
     width: calc( 33.33333333%  -  2em );
     margin-left: 1em;
     margin-right: 1em;
   }
-  html /deep/ .ui.eight.doubling.cards {
+  htmldeep .ui.eight.doubling.cards {
     margin-left: -1em;
     margin-right: -1em;
   }
-  html /deep/ .ui.eight.doubling.cards .card {
+  htmldeep .ui.eight.doubling.cards .card {
     width: -webkit-calc( 33.33333333%  -  2em );
     width: calc( 33.33333333%  -  2em );
     margin-left: 1em;
     margin-right: 1em;
   }
-  html /deep/ .ui.eight.doubling.cards {
+  htmldeep .ui.eight.doubling.cards {
     margin-left: -0.75em;
     margin-right: -0.75em;
   }
-  html /deep/ .ui.eight.doubling.cards .card {
+  htmldeep .ui.eight.doubling.cards .card {
     width: -webkit-calc( 25%  -  1.5em );
     width: calc( 25%  -  1.5em );
     margin-left: 0.75em;
     margin-right: 0.75em;
   }
-  html /deep/ .ui.nine.doubling.cards {
+  htmldeep .ui.nine.doubling.cards {
     margin-left: -0.75em;
     margin-right: -0.75em;
   }
-  html /deep/ .ui.nine.doubling.cards .card {
+  htmldeep .ui.nine.doubling.cards .card {
     width: -webkit-calc( 25%  -  1.5em );
     width: calc( 25%  -  1.5em );
     margin-left: 0.75em;
     margin-right: 0.75em;
   }
-  html /deep/ .ui.ten.doubling.cards {
+  htmldeep .ui.ten.doubling.cards {
     margin-left: -0.75em;
     margin-right: -0.75em;
   }
-  html /deep/ .ui.ten.doubling.cards .card {
+  htmldeep .ui.ten.doubling.cards .card {
     width: -webkit-calc( 20%  -  1.5em );
     width: calc( 20%  -  1.5em );
     margin-left: 0.75em;
@@ -740,13 +740,13 @@ html /deep/ .ui.ten.cards > .card:nth-child(10n+1) {
   }
 }
 @media only screen and (max-width: 767px) {
-  html /deep/ .ui.stackable.cards {
+  htmldeep .ui.stackable.cards {
     display: block !important;
   }
-  html /deep/ .ui.stackable.cards .card:first-child {
+  htmldeep .ui.stackable.cards .card:first-child {
     margin-top: 0em !important;
   }
-  html /deep/ .ui.stackable.cards > .card {
+  htmldeep .ui.stackable.cards > .card {
     display: block !important;
     height: auto !important;
     margin: 1em 1em;
@@ -755,6 +755,6 @@ html /deep/ .ui.ten.cards > .card:nth-child(10n+1) {
     width: calc( 100%  -  2em ) !important;
   }
 }
-html /deep/ .ui.cards > .card {
+htmldeep .ui.cards > .card {
   font-size: 1em;
 }

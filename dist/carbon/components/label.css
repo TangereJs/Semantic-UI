@@ -15,7 +15,7 @@
             Label
 *******************************/
 
-html /deep/ {
+htmldeep {
   
 /* Link */
   
@@ -198,7 +198,7 @@ html /deep/ {
 *******************************/
 
 }
-html /deep/ .ui.label {
+htmldeep .ui.label {
   display: inline-block;
   vertical-align: baseline;
   line-height: 1;
@@ -215,41 +215,41 @@ html /deep/ .ui.label {
   -webkit-transition: background 0.2s ease;
           transition: background 0.2s ease;
 }
-html /deep/ .ui.label:first-child {
+htmldeep .ui.label:first-child {
   margin-left: 0em;
 }
-html /deep/ .ui.label:last-child {
+htmldeep .ui.label:last-child {
   margin-right: 0em;
 }
-html /deep/ a.ui.label {
+htmldeep a.ui.label {
   cursor: pointer;
 }
-html /deep/ .ui.label a {
+htmldeep .ui.label a {
   cursor: pointer;
   color: inherit;
   opacity: 0.8;
   -webkit-transition: 0.2s opacity ease;
           transition: 0.2s opacity ease;
 }
-html /deep/ .ui.label a:hover {
+htmldeep .ui.label a:hover {
   opacity: 1;
 }
-html /deep/ .ui.label .icon {
+htmldeep .ui.label .icon {
   width: auto;
   margin: 0em 0.75em 0em 0em;
 }
-html /deep/ .ui.label .detail {
+htmldeep .ui.label .detail {
   display: inline-block;
   vertical-align: top;
   font-weight: bold;
   margin-left: 1em;
   opacity: 0.8;
 }
-html /deep/ .ui.label .detail .icon {
+htmldeep .ui.label .detail .icon {
   margin: 0em 0.25em 0em 0em;
 }
-html /deep/ .ui.label .close.icon,
-html /deep/ .ui.label .delete.icon {
+htmldeep .ui.label .close.icon,
+htmldeep .ui.label .delete.icon {
   cursor: pointer;
   margin-right: 0em;
   margin-left: 0.5em;
@@ -257,34 +257,34 @@ html /deep/ .ui.label .delete.icon {
   -webkit-transition: background 0.2s ease;
           transition: background 0.2s ease;
 }
-html /deep/ .ui.label .delete.icon:hover {
+htmldeep .ui.label .delete.icon:hover {
   opacity: 1;
 }
-html /deep/ .ui.labels .label {
+htmldeep .ui.labels .label {
   margin: 0em 0.5em 0.75em 0em;
 }
-html /deep/ .ui.attached.segment > .ui.top.left.attached.label,
-html /deep/ .ui.bottom.attached.segment > .ui.top.left.attached.label {
+htmldeep .ui.attached.segment > .ui.top.left.attached.label,
+htmldeep .ui.bottom.attached.segment > .ui.top.left.attached.label {
   border-top-left-radius: 0;
 }
-html /deep/ .ui.attached.segment > .ui.top.right.attached.label,
-html /deep/ .ui.bottom.attached.segment > .ui.top.right.attached.label {
+htmldeep .ui.attached.segment > .ui.top.right.attached.label,
+htmldeep .ui.bottom.attached.segment > .ui.top.right.attached.label {
   border-top-right-radius: 0;
 }
-html /deep/ .ui.top.attached.segment > .ui.bottom.left.attached.label {
+htmldeep .ui.top.attached.segment > .ui.bottom.left.attached.label {
   border-bottom-left-radius: 0;
 }
-html /deep/ .ui.top.attached.segment > .ui.bottom.right.attached.label {
+htmldeep .ui.top.attached.segment > .ui.bottom.right.attached.label {
   border-bottom-right-radius: 0;
 }
-html /deep/ .ui.top.attached.label:first-child + :not(.attached) {
+htmldeep .ui.top.attached.label:first-child + :not(.attached) {
   margin-top: 2rem !important;
 }
-html /deep/ .ui.bottom.attached.label:first-child ~ :last-child:not(.attached) {
+htmldeep .ui.bottom.attached.label:first-child ~ :last-child:not(.attached) {
   margin-top: 0em;
   margin-bottom: 2rem !important;
 }
-html /deep/ .ui.image.label {
+htmldeep .ui.image.label {
   width: auto !important;
   margin-top: 0em;
   margin-bottom: 0em;
@@ -296,29 +296,29 @@ html /deep/ .ui.image.label {
   border-radius: 2px;
   box-shadow: none;
 }
-html /deep/ .ui.image.label img {
+htmldeep .ui.image.label img {
   display: inline-block;
   vertical-align: top;
   height: 2.2em;
   margin: -0.6em 0.5em -0.6em -0.5em;
   border-radius: 2px;
 }
-html /deep/ .ui.image.label .detail {
+htmldeep .ui.image.label .detail {
   background: rgba(0, 0, 0, 0.1);
   margin: -0.6em -0.8em -0.6em 0.5em;
   padding: 0.6em 0.8em;
   border-radius: 0em 2px 2px 0em;
 }
-html /deep/ .ui.tag.labels .label,
-html /deep/ .ui.tag.label {
+htmldeep .ui.tag.labels .label,
+htmldeep .ui.tag.label {
   margin-left: 1em;
   position: relative;
   padding-left: 1.5em;
   padding-right: 1.5em;
   border-radius: 0em 2px 2px 0em;
 }
-html /deep/ .ui.tag.labels .label:before,
-html /deep/ .ui.tag.label:before {
+htmldeep .ui.tag.labels .label:before,
+htmldeep .ui.tag.label:before {
   position: absolute;
   -webkit-transform: translateY(-50%) translateX(50%) rotate(-45deg);
       -ms-transform: translateY(-50%) translateX(50%) rotate(-45deg);
@@ -333,8 +333,8 @@ html /deep/ .ui.tag.label:before {
   -webkit-transition: background 0.2s ease;
           transition: background 0.2s ease;
 }
-html /deep/ .ui.tag.labels .label:after,
-html /deep/ .ui.tag.label:after {
+htmldeep .ui.tag.labels .label:after,
+htmldeep .ui.tag.label:after {
   position: absolute;
   content: '';
   top: 50%;
@@ -346,7 +346,7 @@ html /deep/ .ui.tag.label:after {
   box-shadow: 0 -1px 1px 0 rgba(0, 0, 0, 0.3);
   border-radius: 500rem;
 }
-html /deep/ .ui.corner.label {
+htmldeep .ui.corner.label {
   position: absolute;
   top: 0em;
   right: 0em;
@@ -359,10 +359,10 @@ html /deep/ .ui.corner.label {
   -webkit-transition: border-color 0.2s ease;
           transition: border-color 0.2s ease;
 }
-html /deep/ .ui.corner.label {
+htmldeep .ui.corner.label {
   background-color: transparent !important;
 }
-html /deep/ .ui.corner.label:after {
+htmldeep .ui.corner.label:after {
   position: absolute;
   content: "";
   right: 0em;
@@ -379,45 +379,45 @@ html /deep/ .ui.corner.label:after {
   -webkit-transition: border-color 0.2s ease;
           transition: border-color 0.2s ease;
 }
-html /deep/ .ui.corner.label .icon {
+htmldeep .ui.corner.label .icon {
   position: relative;
   top: 0.4em;
   left: 0.75em;
   font-size: 1em;
   margin: 0em;
 }
-html /deep/ .ui.left.corner.label,
-html /deep/ .ui.left.corner.label:after {
+htmldeep .ui.left.corner.label,
+htmldeep .ui.left.corner.label:after {
   right: auto;
   left: 0em;
 }
-html /deep/ .ui.left.corner.label:after {
+htmldeep .ui.left.corner.label:after {
   border-top: 3.25em solid transparent;
   border-right: 3.25em solid transparent;
   border-bottom: 0em solid transparent;
   border-left: 0em solid transparent;
   border-top-color: inherit;
 }
-html /deep/ .ui.left.corner.label .icon {
+htmldeep .ui.left.corner.label .icon {
   left: -0.75em;
 }
-html /deep/ .ui.segment > .ui.corner.label {
+htmldeep .ui.segment > .ui.corner.label {
   top: -1px;
   right: -1px;
 }
-html /deep/ .ui.segment > .ui.left.corner.label {
+htmldeep .ui.segment > .ui.left.corner.label {
   right: auto;
   left: -1px;
 }
-html /deep/ .ui.input > .ui.corner.label {
+htmldeep .ui.input > .ui.corner.label {
   top: 1px;
   right: 1px;
 }
-html /deep/ .ui.input > .ui.right.corner.label {
+htmldeep .ui.input > .ui.right.corner.label {
   right: auto;
   left: 1px;
 }
-html /deep/ .ui.ribbon.label {
+htmldeep .ui.ribbon.label {
   position: relative;
   margin: 0em;
   left: -webkit-calc( -1rem  -  1.2em );
@@ -427,7 +427,7 @@ html /deep/ .ui.ribbon.label {
   border-radius: 0em 2px 2px 0em;
   border-color: rgba(0, 0, 0, 0.15);
 }
-html /deep/ .ui.ribbon.label:after {
+htmldeep .ui.ribbon.label:after {
   position: absolute;
   content: "";
   top: 100%;
@@ -440,7 +440,7 @@ html /deep/ .ui.ribbon.label:after {
   width: 0em;
   height: 0em;
 }
-html /deep/ .ui[class*="right ribbon"].label {
+htmldeep .ui[class*="right ribbon"].label {
   text-align: left;
   -webkit-transform: translateX(-100%);
       -ms-transform: translateX(-100%);
@@ -452,7 +452,7 @@ html /deep/ .ui[class*="right ribbon"].label {
   padding-right: -webkit-calc( 1rem  +  1.2em );
   padding-right: calc( 1rem  +  1.2em );
 }
-html /deep/ .ui[class*="right ribbon"].label:after {
+htmldeep .ui[class*="right ribbon"].label:after {
   left: auto;
   right: 0%;
   border-style: solid;
@@ -460,8 +460,8 @@ html /deep/ .ui[class*="right ribbon"].label:after {
   border-color: transparent;
   border-top-color: inherit;
 }
-html /deep/ .ui.top.attached.label,
-html /deep/ .ui.attached.label {
+htmldeep .ui.top.attached.label,
+htmldeep .ui.attached.label {
   width: 100%;
   position: absolute;
   margin: 0em;
@@ -470,29 +470,29 @@ html /deep/ .ui.attached.label {
   padding: 0.75em 1em;
   border-radius: 2px 2px 0em 0em;
 }
-html /deep/ .ui.bottom.attached.label {
+htmldeep .ui.bottom.attached.label {
   top: auto;
   bottom: 0em;
   border-radius: 0em 0em 2px 2px;
 }
-html /deep/ .ui.top.left.attached.label {
+htmldeep .ui.top.left.attached.label {
   width: auto;
   margin-top: 0em !important;
   border-radius: 2px 0em 2px 0em;
 }
-html /deep/ .ui.top.right.attached.label {
+htmldeep .ui.top.right.attached.label {
   width: auto;
   left: auto;
   right: 0em;
   border-radius: 0em 2px 0em 2px;
 }
-html /deep/ .ui.bottom.left.attached.label {
+htmldeep .ui.bottom.left.attached.label {
   width: auto;
   top: auto;
   bottom: 0em;
   border-radius: 0em 2px 0em 2px;
 }
-html /deep/ .ui.bottom.right.attached.label {
+htmldeep .ui.bottom.right.attached.label {
   top: auto;
   bottom: 0em;
   left: auto;
@@ -500,313 +500,313 @@ html /deep/ .ui.bottom.right.attached.label {
   width: auto;
   border-radius: 2px 0em 2px 0em;
 }
-html /deep/ .ui.label.disabled {
+htmldeep .ui.label.disabled {
   opacity: 0.5;
 }
-html /deep/ a.ui.labels .label:hover,
-html /deep/ a.ui.label:hover {
+htmldeep a.ui.labels .label:hover,
+htmldeep a.ui.label:hover {
   background-color: #e0e0e0;
   border-color: #e0e0e0;
   background-image: none;
   color: rgba(0, 0, 0, 0.8);
 }
-html /deep/ .ui.labels a.label:hover:before,
-html /deep/ a.ui.label:hover:before {
+htmldeep .ui.labels a.label:hover:before,
+htmldeep a.ui.label:hover:before {
   background-color: #e0e0e0;
   background-image: none;
   color: rgba(0, 0, 0, 0.8);
 }
-html /deep/ .ui.labels.visible .label,
-html /deep/ .ui.label.visible {
+htmldeep .ui.labels.visible .label,
+htmldeep .ui.label.visible {
   display: inline-block !important;
 }
-html /deep/ .ui.labels.hidden .label,
-html /deep/ .ui.label.hidden {
+htmldeep .ui.labels.hidden .label,
+htmldeep .ui.label.hidden {
   display: none !important;
 }
-html /deep/ .ui.black.labels .label,
-html /deep/ .ui.black.label {
+htmldeep .ui.black.labels .label,
+htmldeep .ui.black.label {
   background-color: #1b1c1d !important;
   border-color: #1b1c1d !important;
   color: #ffffff !important;
 }
-html /deep/ .ui.labels .black.label:before,
-html /deep/ .ui.black.labels .label:before,
-html /deep/ .ui.black.label:before {
+htmldeep .ui.labels .black.label:before,
+htmldeep .ui.black.labels .label:before,
+htmldeep .ui.black.label:before {
   background-color: #1b1c1d !important;
 }
-html /deep/ a.ui.black.labels .label:hover,
-html /deep/ a.ui.black.label:hover {
+htmldeep a.ui.black.labels .label:hover,
+htmldeep a.ui.black.label:hover {
   background-color: #1b1c1d !important;
   border-color: #1b1c1d !important;
 }
-html /deep/ .ui.labels a.black.label:hover:before,
-html /deep/ .ui.black.labels a.label:hover:before,
-html /deep/ a.ui.black.label:hover:before {
+htmldeep .ui.labels a.black.label:hover:before,
+htmldeep .ui.black.labels a.label:hover:before,
+htmldeep a.ui.black.label:hover:before {
   background-color: #1b1c1d !important;
 }
-html /deep/ .ui.black.corner.label,
-html /deep/ .ui.black.corner.label:hover {
+htmldeep .ui.black.corner.label,
+htmldeep .ui.black.corner.label:hover {
   background-color: transparent !important;
 }
-html /deep/ .ui.black.ribbon.label {
+htmldeep .ui.black.ribbon.label {
   border-color: #020203 !important;
 }
-html /deep/ .ui.blue.labels .label,
-html /deep/ .ui.blue.label {
+htmldeep .ui.blue.labels .label,
+htmldeep .ui.blue.label {
   background-color: #2196f3 !important;
   border-color: #2196f3 !important;
   color: #ffffff !important;
 }
-html /deep/ .ui.labels .blue.label:before,
-html /deep/ .ui.blue.labels .label:before,
-html /deep/ .ui.blue.label:before {
+htmldeep .ui.labels .blue.label:before,
+htmldeep .ui.blue.labels .label:before,
+htmldeep .ui.blue.label:before {
   background-color: #2196f3 !important;
 }
-html /deep/ a.ui.blue.labels .label:hover,
-html /deep/ .ui.blue.labels a.label:hover,
-html /deep/ a.ui.blue.label:hover {
+htmldeep a.ui.blue.labels .label:hover,
+htmldeep .ui.blue.labels a.label:hover,
+htmldeep a.ui.blue.label:hover {
   background-color: #309df4 !important;
   border-color: #309df4 !important;
   color: #ffffff !important;
 }
-html /deep/ .ui.labels a.blue.label:hover:before,
-html /deep/ .ui.blue.labels a.label:hover:before,
-html /deep/ a.ui.blue.label:hover:before {
+htmldeep .ui.labels a.blue.label:hover:before,
+htmldeep .ui.blue.labels a.label:hover:before,
+htmldeep a.ui.blue.label:hover:before {
   background-color: #309df4 !important;
 }
-html /deep/ .ui.blue.corner.label,
-html /deep/ .ui.blue.corner.label:hover {
+htmldeep .ui.blue.corner.label,
+htmldeep .ui.blue.corner.label:hover {
   background-color: transparent !important;
 }
-html /deep/ .ui.blue.ribbon.label {
+htmldeep .ui.blue.ribbon.label {
   border-color: #0c7cd5 !important;
 }
-html /deep/ .ui.green.labels .label,
-html /deep/ .ui.green.label {
+htmldeep .ui.green.labels .label,
+htmldeep .ui.green.label {
   background-color: #4caf50 !important;
   border-color: #4caf50 !important;
   color: #ffffff !important;
 }
-html /deep/ .ui.labels .green.label:before,
-html /deep/ .ui.green.labels .label:before,
-html /deep/ .ui.green.label:before {
+htmldeep .ui.labels .green.label:before,
+htmldeep .ui.green.labels .label:before,
+htmldeep .ui.green.label:before {
   background-color: #4caf50 !important;
 }
-html /deep/ a.ui.green.labels .label:hover,
-html /deep/ a.ui.green.label:hover {
+htmldeep a.ui.green.labels .label:hover,
+htmldeep a.ui.green.label:hover {
   background-color: #55b559 !important;
   border-color: #55b559 !important;
 }
-html /deep/ .ui.labels a.green.label:hover:before,
-html /deep/ .ui.green.labels a.label:hover:before,
-html /deep/ a.ui.green.label:hover:before {
+htmldeep .ui.labels a.green.label:hover:before,
+htmldeep .ui.green.labels a.label:hover:before,
+htmldeep a.ui.green.label:hover:before {
   background-color: #55b559 !important;
 }
-html /deep/ .ui.green.corner.label,
-html /deep/ .ui.green.corner.label:hover {
+htmldeep .ui.green.corner.label,
+htmldeep .ui.green.corner.label:hover {
   background-color: transparent !important;
 }
-html /deep/ .ui.green.ribbon.label {
+htmldeep .ui.green.ribbon.label {
   border-color: #3d8b40 !important;
 }
-html /deep/ .ui.orange.labels .label,
-html /deep/ .ui.orange.label {
+htmldeep .ui.orange.labels .label,
+htmldeep .ui.orange.label {
   background-color: #ff9800 !important;
   border-color: #ff9800 !important;
   color: #ffffff !important;
 }
-html /deep/ .ui.labels .orange.label:before,
-html /deep/ .ui.orange.labels .label:before,
-html /deep/ .ui.orange.label:before {
+htmldeep .ui.labels .orange.label:before,
+htmldeep .ui.orange.labels .label:before,
+htmldeep .ui.orange.label:before {
   background-color: #ff9800 !important;
 }
-html /deep/ a.ui.orange.labels .label:hover,
-html /deep/ .ui.orange.labels a.label:hover,
-html /deep/ a.ui.orange.label:hover {
+htmldeep a.ui.orange.labels .label:hover,
+htmldeep .ui.orange.labels a.label:hover,
+htmldeep a.ui.orange.label:hover {
   background-color: #ff9e0f !important;
   border-color: #ff9e0f !important;
   color: #ffffff !important;
 }
-html /deep/ .ui.labels a.orange.label:hover:before,
-html /deep/ .ui.orange.labels a.label:hover:before,
-html /deep/ a.ui.orange.label:hover:before {
+htmldeep .ui.labels a.orange.label:hover:before,
+htmldeep .ui.orange.labels a.label:hover:before,
+htmldeep a.ui.orange.label:hover:before {
   background-color: #ff9e0f !important;
 }
-html /deep/ .ui.orange.corner.label,
-html /deep/ .ui.orange.corner.label:hover {
+htmldeep .ui.orange.corner.label,
+htmldeep .ui.orange.corner.label:hover {
   background-color: transparent !important;
 }
-html /deep/ .ui.orange.ribbon.label {
+htmldeep .ui.orange.ribbon.label {
   border-color: #cc7a00 !important;
 }
-html /deep/ .ui.pink.labels .label,
-html /deep/ .ui.pink.label {
+htmldeep .ui.pink.labels .label,
+htmldeep .ui.pink.label {
   background-color: #e91e63 !important;
   border-color: #e91e63 !important;
   color: #ffffff !important;
 }
-html /deep/ .ui.labels .pink.label:before,
-html /deep/ .ui.pink.labels .label:before,
-html /deep/ .ui.pink.label:before {
+htmldeep .ui.labels .pink.label:before,
+htmldeep .ui.pink.labels .label:before,
+htmldeep .ui.pink.label:before {
   background-color: #e91e63 !important;
 }
-html /deep/ a.ui.pink.labels .label:hover,
-html /deep/ .ui.pink.labels a.label:hover,
-html /deep/ a.ui.pink.label:hover {
+htmldeep a.ui.pink.labels .label:hover,
+htmldeep .ui.pink.labels a.label:hover,
+htmldeep a.ui.pink.label:hover {
   background-color: #ea2c6d !important;
   border-color: #ea2c6d !important;
   color: #ffffff !important;
 }
-html /deep/ .ui.labels a.pink.label:hover:before,
-html /deep/ .ui.pink.labels a.label:hover:before,
-html /deep/ a.ui.pink.label:hover:before {
+htmldeep .ui.labels a.pink.label:hover:before,
+htmldeep .ui.pink.labels a.label:hover:before,
+htmldeep a.ui.pink.label:hover:before {
   background-color: #ea2c6d !important;
 }
-html /deep/ .ui.pink.corner.label,
-html /deep/ .ui.pink.corner.label:hover {
+htmldeep .ui.pink.corner.label,
+htmldeep .ui.pink.corner.label:hover {
   background-color: transparent !important;
 }
-html /deep/ .ui.pink.ribbon.label {
+htmldeep .ui.pink.ribbon.label {
   border-color: #c1134e !important;
 }
-html /deep/ .ui.purple.labels .label,
-html /deep/ .ui.purple.label {
+htmldeep .ui.purple.labels .label,
+htmldeep .ui.purple.label {
   background-color: #9c27b0 !important;
   border-color: #9c27b0 !important;
   color: #ffffff !important;
 }
-html /deep/ .ui.labels .purple.label:before,
-html /deep/ .ui.purple.labels .label:before,
-html /deep/ .ui.purple.label:before {
+htmldeep .ui.labels .purple.label:before,
+htmldeep .ui.purple.labels .label:before,
+htmldeep .ui.purple.label:before {
   background-color: #9c27b0 !important;
 }
-html /deep/ a.ui.purple.labels .label:hover,
-html /deep/ .ui.purple.labels a.label:hover,
-html /deep/ a.ui.purple.label:hover {
+htmldeep a.ui.purple.labels .label:hover,
+htmldeep .ui.purple.labels a.label:hover,
+htmldeep a.ui.purple.label:hover {
   background-color: #a72abd !important;
   border-color: #a72abd !important;
   color: #ffffff !important;
 }
-html /deep/ .ui.labels a.purple.label:hover:before,
-html /deep/ .ui.purple.labels a.label:hover:before,
-html /deep/ a.ui.purple.label:hover:before {
+htmldeep .ui.labels a.purple.label:hover:before,
+htmldeep .ui.purple.labels a.label:hover:before,
+htmldeep a.ui.purple.label:hover:before {
   background-color: #a72abd !important;
 }
-html /deep/ .ui.purple.corner.label,
-html /deep/ .ui.purple.corner.label:hover {
+htmldeep .ui.purple.corner.label,
+htmldeep .ui.purple.corner.label:hover {
   background-color: transparent !important;
 }
-html /deep/ .ui.purple.ribbon.label {
+htmldeep .ui.purple.ribbon.label {
   border-color: #771e86 !important;
 }
-html /deep/ .ui.red.labels .label,
-html /deep/ .ui.red.label {
+htmldeep .ui.red.labels .label,
+htmldeep .ui.red.label {
   background-color: #e41e2b !important;
   border-color: #e41e2b !important;
   color: #ffffff !important;
 }
-html /deep/ .ui.labels .red.label:before,
-html /deep/ .ui.red.labels .label:before,
-html /deep/ .ui.red.label:before {
+htmldeep .ui.labels .red.label:before,
+htmldeep .ui.red.labels .label:before,
+htmldeep .ui.red.label:before {
   background-color: #e41e2b !important;
 }
-html /deep/ .ui.red.corner.label,
-html /deep/ .ui.red.corner.label:hover {
+htmldeep .ui.red.corner.label,
+htmldeep .ui.red.corner.label:hover {
   background-color: transparent !important;
 }
-html /deep/ a.ui.red.labels .label:hover,
-html /deep/ a.ui.red.label:hover {
+htmldeep a.ui.red.labels .label:hover,
+htmldeep a.ui.red.label:hover {
   background-color: #e62c38 !important;
   border-color: #e62c38 !important;
   color: #ffffff !important;
 }
-html /deep/ .ui.labels a.red.label:hover:before,
-html /deep/ .ui.red.labels a.label:hover:before,
-html /deep/ a.ui.red.label:hover:before {
+htmldeep .ui.labels a.red.label:hover:before,
+htmldeep .ui.red.labels a.label:hover:before,
+htmldeep a.ui.red.label:hover:before {
   background-color: #e62c38 !important;
 }
-html /deep/ .ui.red.ribbon.label {
+htmldeep .ui.red.ribbon.label {
   border-color: #b91621 !important;
 }
-html /deep/ .ui.teal.labels .label,
-html /deep/ .ui.teal.label {
+htmldeep .ui.teal.labels .label,
+htmldeep .ui.teal.label {
   background-color: #1de9b6 !important;
   border-color: #1de9b6 !important;
   color: #ffffff !important;
 }
-html /deep/ .ui.labels .teal.label:before,
-html /deep/ .ui.teal.labels .label:before,
-html /deep/ .ui.teal.label:before {
+htmldeep .ui.labels .teal.label:before,
+htmldeep .ui.teal.labels .label:before,
+htmldeep .ui.teal.label:before {
   background-color: #1de9b6 !important;
 }
-html /deep/ a.ui.teal.labels .label:hover,
-html /deep/ .ui.teal.labels a.label:hover,
-html /deep/ a.ui.teal.label:hover {
+htmldeep a.ui.teal.labels .label:hover,
+htmldeep .ui.teal.labels a.label:hover,
+htmldeep a.ui.teal.label:hover {
   background-color: #2beabb !important;
   border-color: #2beabb !important;
   color: #ffffff !important;
 }
-html /deep/ .ui.labels a.teal.label:hover:before,
-html /deep/ .ui.teal.labels a.label:hover:before,
-html /deep/ a.ui.teal.label:hover:before {
+htmldeep .ui.labels a.teal.label:hover:before,
+htmldeep .ui.teal.labels a.label:hover:before,
+htmldeep a.ui.teal.label:hover:before {
   background-color: #2beabb !important;
 }
-html /deep/ .ui.teal.corner.label,
-html /deep/ .ui.teal.corner.label:hover {
+htmldeep .ui.teal.corner.label,
+htmldeep .ui.teal.corner.label:hover {
   background-color: transparent !important;
 }
-html /deep/ .ui.teal.ribbon.label {
+htmldeep .ui.teal.ribbon.label {
   border-color: #13c095 !important;
 }
-html /deep/ .ui.yellow.labels .label,
-html /deep/ .ui.yellow.label {
+htmldeep .ui.yellow.labels .label,
+htmldeep .ui.yellow.label {
   background-color: #ffeb3b !important;
   border-color: #ffeb3b !important;
   color: #ffffff !important;
 }
-html /deep/ .ui.labels .yellow.label:before,
-html /deep/ .ui.yellow.labels .label:before,
-html /deep/ .ui.yellow.label:before {
+htmldeep .ui.labels .yellow.label:before,
+htmldeep .ui.yellow.labels .label:before,
+htmldeep .ui.yellow.label:before {
   background-color: #ffeb3b !important;
 }
-html /deep/ a.ui.yellow.labels .label:hover,
-html /deep/ .ui.yellow.labels a.label:hover,
-html /deep/ a.ui.yellow.label:hover {
+htmldeep a.ui.yellow.labels .label:hover,
+htmldeep .ui.yellow.labels a.label:hover,
+htmldeep a.ui.yellow.label:hover {
   background-color: #ffed4a !important;
   border-color: #ffed4a !important;
   color: #ffffff !important;
 }
-html /deep/ .ui.labels a.yellow.label:hover:before,
-html /deep/ .ui.yellow.labels a.label:hover:before,
-html /deep/ a.ui.yellow.label:hover:before {
+htmldeep .ui.labels a.yellow.label:hover:before,
+htmldeep .ui.yellow.labels a.label:hover:before,
+htmldeep a.ui.yellow.label:hover:before {
   background-color: #ffed4a !important;
 }
-html /deep/ .ui.yellow.corner.label,
-html /deep/ .ui.yellow.corner.label:hover {
+htmldeep .ui.yellow.corner.label,
+htmldeep .ui.yellow.corner.label:hover {
   background-color: transparent !important;
 }
-html /deep/ .ui.yellow.ribbon.label {
+htmldeep .ui.yellow.ribbon.label {
   border-color: #ffe608 !important;
 }
-html /deep/ .ui.label.fluid,
-html /deep/ .ui.fluid.labels > .label {
+htmldeep .ui.label.fluid,
+htmldeep .ui.fluid.labels > .label {
   width: 100%;
   box-sizing: border-box;
 }
-html /deep/ .ui.inverted.labels .label,
-html /deep/ .ui.inverted.label {
+htmldeep .ui.inverted.labels .label,
+htmldeep .ui.inverted.label {
   color: #ffffff !important;
 }
-html /deep/ .ui.horizontal.labels .label,
-html /deep/ .ui.horizontal.label {
+htmldeep .ui.horizontal.labels .label,
+htmldeep .ui.horizontal.label {
   margin: 0em 0.5em 0em 0em;
   padding: 0.4em 0.8em;
   min-width: 3em;
   text-align: center;
 }
-html /deep/ .ui.circular.labels .label,
-html /deep/ .ui.circular.label {
+htmldeep .ui.circular.labels .label,
+htmldeep .ui.circular.label {
   min-width: 2em;
   min-height: 2em;
   padding: 0.5em !important;
@@ -814,8 +814,8 @@ html /deep/ .ui.circular.label {
   text-align: center;
   border-radius: 500rem;
 }
-html /deep/ .ui.empty.circular.labels .label,
-html /deep/ .ui.empty.circular.label {
+htmldeep .ui.empty.circular.labels .label,
+htmldeep .ui.empty.circular.label {
   min-width: 0em;
   min-height: 0em;
   overflow: hidden;
@@ -823,13 +823,13 @@ html /deep/ .ui.empty.circular.label {
   height: 0.5em;
   vertical-align: baseline;
 }
-html /deep/ .ui.pointing.label {
+htmldeep .ui.pointing.label {
   position: relative;
 }
-html /deep/ .ui.attached.pointing.label {
+htmldeep .ui.attached.pointing.label {
   position: absolute;
 }
-html /deep/ .ui.pointing.label:before {
+htmldeep .ui.pointing.label:before {
   position: absolute;
   content: '';
   -webkit-transform: rotate(45deg);
@@ -842,91 +842,91 @@ html /deep/ .ui.pointing.label:before {
   -webkit-transition: background 0.2s ease;
           transition: background 0.2s ease;
 }
-html /deep/ .ui.pointing.label:before {
+htmldeep .ui.pointing.label:before {
   background-color: #e8e8e8;
   background-image: none;
 }
-html /deep/ .ui.pointing.label,
-html /deep/ .ui.pointing.above.label {
+htmldeep .ui.pointing.label,
+htmldeep .ui.pointing.above.label {
   margin-top: 1em;
 }
-html /deep/ .ui.pointing.label:before,
-html /deep/ .ui.pointing.above.label:before {
+htmldeep .ui.pointing.label:before,
+htmldeep .ui.pointing.above.label:before {
   margin-left: -0.3em;
   top: -0.3em;
   left: 50%;
 }
-html /deep/ .ui.pointing.bottom.label,
-html /deep/ .ui.pointing.below.label {
+htmldeep .ui.pointing.bottom.label,
+htmldeep .ui.pointing.below.label {
   margin-top: 0em;
   margin-bottom: 1em;
 }
-html /deep/ .ui.pointing.bottom.label:before,
-html /deep/ .ui.pointing.below.label:before {
+htmldeep .ui.pointing.bottom.label:before,
+htmldeep .ui.pointing.below.label:before {
   margin-left: -0.3em;
   top: auto;
   right: auto;
   bottom: -0.3em;
   left: 50%;
 }
-html /deep/ .ui.pointing.left.label {
+htmldeep .ui.pointing.left.label {
   margin-top: 0em;
   margin-left: 0.6em;
 }
-html /deep/ .ui.pointing.left.label:before {
+htmldeep .ui.pointing.left.label:before {
   margin-top: -0.3em;
   bottom: auto;
   right: auto;
   top: 50%;
   left: 0em;
 }
-html /deep/ .ui.pointing.right.label {
+htmldeep .ui.pointing.right.label {
   margin-top: 0em;
   margin-right: 0.6em;
 }
-html /deep/ .ui.pointing.right.label:before {
+htmldeep .ui.pointing.right.label:before {
   margin-top: -0.3em;
   right: -0.3em;
   top: 50%;
   bottom: auto;
   left: auto;
 }
-html /deep/ .ui.floating.label {
+htmldeep .ui.floating.label {
   position: absolute;
   z-index: 100;
   top: -1em;
   left: 100%;
   margin: 0em 0em 0em -1.5em !important;
 }
-html /deep/ .ui.mini.labels .label,
-html /deep/ .ui.mini.label {
+htmldeep .ui.mini.labels .label,
+htmldeep .ui.mini.label {
   font-size: 0.6428rem;
 }
-html /deep/ .ui.tiny.labels .label,
-html /deep/ .ui.tiny.label {
+htmldeep .ui.tiny.labels .label,
+htmldeep .ui.tiny.label {
   font-size: 0.7142rem;
 }
-html /deep/ .ui.small.labels .label,
-html /deep/ .ui.small.label {
+htmldeep .ui.small.labels .label,
+htmldeep .ui.small.label {
   font-size: 0.7857rem;
 }
-html /deep/ .ui.labels .label,
-html /deep/ .ui.label {
+htmldeep .ui.labels .label,
+htmldeep .ui.label {
   font-size: 0.8571rem;
 }
-html /deep/ .ui.large.labels .label,
-html /deep/ .ui.large.label {
+htmldeep .ui.large.labels .label,
+htmldeep .ui.large.label {
   font-size: 1rem;
 }
-html /deep/ .ui.big.labels .label,
-html /deep/ .ui.big.label {
+htmldeep .ui.big.labels .label,
+htmldeep .ui.big.label {
   font-size: 1.1428rem;
 }
-html /deep/ .ui.huge.labels .label,
-html /deep/ .ui.huge.label {
+htmldeep .ui.huge.labels .label,
+htmldeep .ui.huge.label {
   font-size: 1.2857rem;
 }
-html /deep/ .ui.massive.labels .label,
-html /deep/ .ui.massive.label {
+htmldeep .ui.massive.labels .label,
+htmldeep .ui.massive.label {
   font-size: 1.4285rem;
 }

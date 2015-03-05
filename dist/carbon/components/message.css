@@ -9,7 +9,7 @@
  *
  */
 
-html /deep/ {
+htmldeep {
   
 
 /*******************************
@@ -119,7 +119,7 @@ html /deep/ {
 *******************************/
 
 }
-html /deep/ .ui.message {
+htmldeep .ui.message {
   position: relative;
   min-height: 1em;
   margin: 1em 0em;
@@ -132,66 +132,66 @@ html /deep/ .ui.message {
   border-radius: 2px;
   box-shadow: 0px 0px 0px 1px rgba(39, 41, 43, 0.15) inset, 0px 0px 0px 0px transparent;
 }
-html /deep/ .ui.message:first-child {
+htmldeep .ui.message:first-child {
   margin-top: 0em;
 }
-html /deep/ .ui.message:last-child {
+htmldeep .ui.message:last-child {
   margin-bottom: 0em;
 }
-html /deep/ .ui.message .header {
+htmldeep .ui.message .header {
   display: block;
   font-family: 'Segoe UI', 'Segoe WP', 'Roboto', 'Frutiger', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: bold;
   margin: 0em 0em 0.5rem 0em;
 }
-html /deep/ .ui.message .header:not(.ui) {
+htmldeep .ui.message .header:not(.ui) {
   font-size: 1.1em;
 }
-html /deep/ .ui.message p {
+htmldeep .ui.message p {
   opacity: 0.85;
   margin: 0.75em 0em;
 }
-html /deep/ .ui.message p:first-child {
+htmldeep .ui.message p:first-child {
   margin-top: 0em;
 }
-html /deep/ .ui.message p:last-child {
+htmldeep .ui.message p:last-child {
   margin-bottom: 0em;
 }
-html /deep/ .ui.message .header + p {
+htmldeep .ui.message .header + p {
   margin-top: 0.25em;
 }
-html /deep/ .ui.message ul.list {
+htmldeep .ui.message ul.list {
   opacity: 0.85;
   list-style-position: inside;
   margin: 0.5em 0em 0em;
   padding: 0em;
 }
-html /deep/ .ui.message ul.list:first-child {
+htmldeep .ui.message ul.list:first-child {
   margin-top: 0em;
 }
-html /deep/ .ui.message ul.list:last-child {
+htmldeep .ui.message ul.list:last-child {
   margin-bottom: 0em;
 }
-html /deep/ .ui.message ul.list li {
+htmldeep .ui.message ul.list li {
   position: relative;
   list-style-type: none;
   margin: 0em 0em 0.3em 1em;
   padding: 0em;
 }
-html /deep/ .ui.message ul.list li:before {
+htmldeep .ui.message ul.list li:before {
   position: absolute;
   content: '•';
   left: -1em;
   height: 100%;
   vertical-align: baseline;
 }
-html /deep/ .ui.message ul.list li:last-child {
+htmldeep .ui.message ul.list li:last-child {
   margin-bottom: 0em;
 }
-html /deep/ .ui.message > .icon {
+htmldeep .ui.message > .icon {
   margin-right: 0.6em;
 }
-html /deep/ .ui.message > .close.icon {
+htmldeep .ui.message > .close.icon {
   cursor: pointer;
   position: absolute;
   margin: 0em;
@@ -203,222 +203,222 @@ html /deep/ .ui.message > .close.icon {
           transition: opacity 0.1s linear
   ;
 }
-html /deep/ .ui.message > .close.icon:hover {
+htmldeep .ui.message > .close.icon:hover {
   opacity: 1;
 }
-html /deep/ .ui.message > :first-child {
+htmldeep .ui.message > :first-child {
   margin-top: 0em;
 }
-html /deep/ .ui.message > :last-child {
+htmldeep .ui.message > :last-child {
   margin-bottom: 0em;
 }
-html /deep/ .ui.visible.visible.visible.visible.message {
+htmldeep .ui.visible.visible.visible.visible.message {
   display: block;
 }
-html /deep/ .ui.icon.visible.visible.visible.visible.message {
+htmldeep .ui.icon.visible.visible.visible.visible.message {
   display: table;
 }
-html /deep/ .ui.hidden.hidden.hidden.hidden.message {
+htmldeep .ui.hidden.hidden.hidden.hidden.message {
   display: none;
 }
-html /deep/ .ui.compact.message {
+htmldeep .ui.compact.message {
   display: inline-block;
 }
-html /deep/ .ui.attached.message {
+htmldeep .ui.attached.message {
   margin-bottom: -1px;
   border-radius: 2px 2px 0em 0em;
   box-shadow: 0em 0em 0em 1px rgba(0, 0, 0, 0.1) inset;
   margin-left: -1px;
   margin-right: -1px;
 }
-html /deep/ .ui.attached + .ui.attached.message:not(.top):not(.bottom) {
+htmldeep .ui.attached + .ui.attached.message:not(.top):not(.bottom) {
   margin-top: -1px;
   border-radius: 0em;
 }
-html /deep/ .ui.bottom.attached.message {
+htmldeep .ui.bottom.attached.message {
   margin-top: -1px;
   border-radius: 0em 0em 2px 2px;
   box-shadow: 0em 0em 0em 1px rgba(0, 0, 0, 0.1) inset, 0px 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
-html /deep/ .ui.bottom.attached.message:not(:last-child) {
+htmldeep .ui.bottom.attached.message:not(:last-child) {
   margin-bottom: 1em;
 }
-html /deep/ .ui.attached.icon.message {
+htmldeep .ui.attached.icon.message {
   display: block;
   width: auto;
 }
-html /deep/ .ui.icon.message {
+htmldeep .ui.icon.message {
   display: table;
   width: 100%;
 }
-html /deep/ .ui.icon.message > .icon:not(.close) {
+htmldeep .ui.icon.message > .icon:not(.close) {
   display: table-cell;
   width: auto;
   vertical-align: middle;
   font-size: 3em;
   opacity: 0.8;
 }
-html /deep/ .ui.icon.message > .content {
+htmldeep .ui.icon.message > .content {
   display: table-cell;
   width: 100%;
   vertical-align: middle;
 }
-html /deep/ .ui.icon.message .icon:not(.close) + .content {
+htmldeep .ui.icon.message .icon:not(.close) + .content {
   padding-left: 1.5rem;
 }
-html /deep/ .ui.icon.message .circular.icon {
+htmldeep .ui.icon.message .circular.icon {
   width: 1em;
 }
-html /deep/ .ui.icon.message .circular.icon + .content {
+htmldeep .ui.icon.message .circular.icon + .content {
   width: auto;
   padding-left: 2em;
 }
-html /deep/ .ui.floating.message {
+htmldeep .ui.floating.message {
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.15), 0px 0px 0px 1px rgba(39, 41, 43, 0.15) inset;
 }
-html /deep/ .ui.black.message {
+htmldeep .ui.black.message {
   background-color: #1b1c1d;
   color: #ffffff;
 }
-html /deep/ .ui.positive.message {
+htmldeep .ui.positive.message {
   background-color: #eeffe7;
   color: #3c763d;
 }
-html /deep/ .ui.positive.message,
-html /deep/ .ui.attached.positive.message {
+htmldeep .ui.positive.message,
+htmldeep .ui.attached.positive.message {
   box-shadow: 0px 0px 0px 1px #b7caa7 inset, 0px 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
-html /deep/ .ui.positive.message .header {
+htmldeep .ui.positive.message .header {
   color: #356e36;
 }
-html /deep/ .ui.negative.message {
+htmldeep .ui.negative.message {
   background-color: #fff0f0;
   color: #a94442;
 }
-html /deep/ .ui.negative.message,
-html /deep/ .ui.attached.negative.message {
+htmldeep .ui.negative.message,
+htmldeep .ui.attached.negative.message {
   box-shadow: 0px 0px 0px 1px #dbb1b1 inset, 0px 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
-html /deep/ .ui.negative.message .header {
+htmldeep .ui.negative.message .header {
   color: #912d2b;
 }
-html /deep/ .ui.info.message {
+htmldeep .ui.info.message {
   background-color: #e9faff;
   color: #337b92;
 }
-html /deep/ .ui.info.message,
-html /deep/ .ui.attached.info.message {
+htmldeep .ui.info.message,
+htmldeep .ui.attached.info.message {
   box-shadow: 0px 0px 0px 1px #aad6df inset, 0px 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
-html /deep/ .ui.info.message .header {
+htmldeep .ui.info.message .header {
   color: #297187;
 }
-html /deep/ .ui.warning.message {
+htmldeep .ui.warning.message {
   background-color: #fffbe6;
   color: #876a38;
 }
-html /deep/ .ui.warning.message,
-html /deep/ .ui.attached.warning.message {
+htmldeep .ui.warning.message,
+htmldeep .ui.attached.warning.message {
   box-shadow: 0px 0px 0px 1px #d9caab inset, 0px 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
-html /deep/ .ui.warning.message .header {
+htmldeep .ui.warning.message .header {
   color: #825c01;
 }
-html /deep/ .ui.error.message {
+htmldeep .ui.error.message {
   background-color: #fff0f0;
   color: #a94442;
 }
-html /deep/ .ui.error.message,
-html /deep/ .ui.attached.error.message {
+htmldeep .ui.error.message,
+htmldeep .ui.attached.error.message {
   box-shadow: 0px 0px 0px 1px #dbb1b1 inset, 0px 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
-html /deep/ .ui.error.message .header {
+htmldeep .ui.error.message .header {
   color: #912d2b;
 }
-html /deep/ .ui.success.message {
+htmldeep .ui.success.message {
   background-color: #eeffe7;
   color: #3c763d;
 }
-html /deep/ .ui.success.message,
-html /deep/ .ui.attached.success.message {
+htmldeep .ui.success.message,
+htmldeep .ui.attached.success.message {
   box-shadow: 0px 0px 0px 1px #b7caa7 inset, 0px 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
-html /deep/ .ui.success.message .header {
+htmldeep .ui.success.message .header {
   color: #356e36;
 }
-html /deep/ .ui.inverted.message,
-html /deep/ .ui.black.message {
+htmldeep .ui.inverted.message,
+htmldeep .ui.black.message {
   background-color: #1b1c1d;
   color: #ffffff;
 }
-html /deep/ .ui.blue.message {
+htmldeep .ui.blue.message {
   background-color: #dff0ff;
   color: #2196f3;
 }
-html /deep/ .ui.blue.message .header {
+htmldeep .ui.blue.message .header {
   color: #0d8aee;
 }
-html /deep/ .ui.green.message {
+htmldeep .ui.green.message {
   background-color: #ebffed;
   color: #1ebc30;
 }
-html /deep/ .ui.green.message .header {
+htmldeep .ui.green.message .header {
   color: #1aa62a;
 }
-html /deep/ .ui.orange.message {
+htmldeep .ui.orange.message {
   background-color: #ffedde;
   color: #ff9800;
 }
-html /deep/ .ui.orange.message .header {
+htmldeep .ui.orange.message .header {
   color: #e68900;
 }
-html /deep/ .ui.pink.message {
+htmldeep .ui.pink.message {
   background-color: #ffe3fb;
   color: #e91e63;
 }
-html /deep/ .ui.pink.message .header {
+htmldeep .ui.pink.message .header {
   color: #d81557;
 }
-html /deep/ .ui.purple.message {
+htmldeep .ui.purple.message {
   background-color: #eae7ff;
   color: #9c27b0;
 }
-html /deep/ .ui.purple.message .header {
+htmldeep .ui.purple.message .header {
   color: #89229b;
 }
-html /deep/ .ui.red.message {
+htmldeep .ui.red.message {
   background-color: #ffe8e6;
   color: #e41e2b;
 }
-html /deep/ .ui.red.message .header {
+htmldeep .ui.red.message .header {
   color: #d01925;
 }
-html /deep/ .ui.teal.message {
+htmldeep .ui.teal.message {
   background-color: #e9ffff;
   color: #10a3a3;
 }
-html /deep/ .ui.teal.message .header {
+htmldeep .ui.teal.message .header {
   color: #0e8c8c;
 }
-html /deep/ .ui.yellow.message {
+htmldeep .ui.yellow.message {
   background-color: #fff8db;
   color: #b58105;
 }
-html /deep/ .ui.yellow.message .header {
+htmldeep .ui.yellow.message .header {
   color: #9c6f04;
 }
-html /deep/ .ui.small.message {
+htmldeep .ui.small.message {
   font-size: 0.92857143em;
 }
-html /deep/ .ui.message {
+htmldeep .ui.message {
   font-size: 1em;
 }
-html /deep/ .ui.large.message {
+htmldeep .ui.large.message {
   font-size: 1.14285714em;
 }
-html /deep/ .ui.huge.message {
+htmldeep .ui.huge.message {
   font-size: 1.42857143em;
 }
-html /deep/ .ui.massive.message {
+htmldeep .ui.massive.message {
   font-size: 1.71428571em;
 }
