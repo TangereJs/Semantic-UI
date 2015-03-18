@@ -46,6 +46,7 @@
 	"feed",
 	"item",
 	"statistic",		
+    "checkbox",
 	"api",
 	"form",
 	"state",
@@ -54,8 +55,7 @@
   "components_excluded": [	
 	"flag",
     "ad",
-	"accordion",
-	"checkbox",
+	"accordion",	
 	"dimmer",
 	"dropdown",
 	"modal",
