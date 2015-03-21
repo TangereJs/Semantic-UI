@@ -7380,7 +7380,8 @@ html  core-toolbar {
 
 /*** avoid FOUC until this CSS is loaded ***/
 
-.fouc-initial-hide {
+.themed,
+[themed] {
   -webkit-transition: opacity ease-in 0.2s;
   transition: opacity ease-in 0.2s;
   opacity: 1;
