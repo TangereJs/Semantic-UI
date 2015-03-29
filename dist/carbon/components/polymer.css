@@ -37,6 +37,13 @@ htmldeep core-toolbar {
   color: #ffffff;
   background-color: #2979ff;
 }
+htmldeep at-app-scaffold .bar {
+  color: #ffffff;
+  background-color: #2979ff;
+}
+htmldeep .noscroll {
+  overflow: hidden;
+}
 /*** avoid FOUC until this CSS is loaded ***/
 .themed,
 [themed] {

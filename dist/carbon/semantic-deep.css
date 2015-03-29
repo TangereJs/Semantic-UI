@@ -7378,6 +7378,15 @@ html /deep/ core-toolbar {
   background-color: #2979ff;
 }
 
+html /deep/ at-app-scaffold .bar {
+  color: #ffffff;
+  background-color: #2979ff;
+}
+
+html /deep/ .noscroll {
+  overflow: hidden;
+}
+
 /*** avoid FOUC until this CSS is loaded ***/
 
 .themed,

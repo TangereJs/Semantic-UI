@@ -8,47 +8,46 @@
  * http://opensource.org/licenses/MIT
  *
  */
-
-
-/*******************************
+ /*******************************
             Theme
 *******************************/
-
-.polymer() {
-
-@type    : 'element';
-@element : 'polymer';
-
-@import (multiple) '../../theme.config';
-
-
+ .polymer() {
+   @type : 'element';
+   @element : 'polymer';
+   @import (multiple)'../../theme.config';
+   
 /*******************************
             Polymer
 *******************************/
-  
-  
-htmldeep {
+   
+   htmldeep {
+     #section {
+       background-image: inherit;
+       background-color: white !important;
+     }
+     
+     core-toolbar {
+       color: rgb(255, 255, 255);
+       background-color: @lightPrimaryColor;
+     }
+     
+     at-app-scaffold .bar {
+       color: rgb(255, 255, 255);
+       background-color: @lightPrimaryColor;
+     }
+       
+     .noscroll {
+       overflow: hidden;
+     }
+     
+     .loadUIOverrides();
+   }
+ }
+ .polymer();
 
-  #section {
-    background-image: inherit;
-    background-color: white !important;
-  }
-  
-  core-toolbar {
-    color: rgb(255, 255, 255);
-    background-color: @lightPrimaryColor;
-  }  
-  
-  
-.loadUIOverrides();
-
-}
-}
-.polymer();
-
-
-/*** avoid FOUC until this CSS is loaded ***/
-.themed, [themed] {
-  transition: opacity ease-in 0.2s;
-  opacity: 1;
-}
+ /*** avoid FOUC until this CSS is loaded ***/
+ .themed,
+ [themed] {
+   transition: opacity ease-in 0.2s;
+   opacity: 1;
+ }
