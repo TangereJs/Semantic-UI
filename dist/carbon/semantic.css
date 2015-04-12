@@ -4436,35 +4436,35 @@ html {
 *******************************/
 }
 
-html  core-icon.hover {
+html  at-carbon-icon.hover {
   opacity: 1;
 }
 
-html  core-icon.active {
+html  at-carbon-icon.active {
   opacity: 1;
 }
 
-html  core-icon.emphasized {
+html  at-carbon-icon.emphasized {
   opacity: 1;
 }
 
-html  core-icon.disabled {
+html  at-carbon-icon.disabled {
   pointer-events: none;
   opacity: 0.3 !important;
 }
 
-html  core-icon.link {
+html  at-carbon-icon.link {
   cursor: pointer;
   opacity: 0.8;
   -webkit-transition: opacity 0.2s ease;
   transition: opacity 0.2s ease;
 }
 
-html  core-icon.link:hover {
+html  at-carbon-icon.link:hover {
   opacity: 1 !important;
 }
 
-html  core-icon.circular {
+html  at-carbon-icon.circular {
   border-radius: 500em !important;
   box-shadow: 0em 0em 0em 0.1em rgba(0, 0, 0, 0.1) inset;
   border: 0.35em solid transparent !important;
@@ -4472,40 +4472,40 @@ html  core-icon.circular {
   height: 2em !important;
 }
 
-html  core-icon.circular.inverted {
+html  at-carbon-icon.circular.inverted {
   border: none;
   box-shadow: none;
 }
 
-html  core-icon.flipped,
-html  core-icon.horizontally.flipped {
+html  at-carbon-icon.flipped,
+html  at-carbon-icon.horizontally.flipped {
   -webkit-transform: scale(-1, 1);
   -ms-transform: scale(-1, 1);
   transform: scale(-1, 1);
 }
 
-html  core-icon.vertically.flipped {
+html  at-carbon-icon.vertically.flipped {
   -webkit-transform: scale(1, -1);
   -ms-transform: scale(1, -1);
   transform: scale(1, -1);
 }
 
-html  core-icon.rotated,
-html  core-icon.right.rotated,
-html  core-icon.clockwise.rotated {
+html  at-carbon-icon.rotated,
+html  at-carbon-icon.right.rotated,
+html  at-carbon-icon.clockwise.rotated {
   -webkit-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   transform: rotate(90deg);
 }
 
-html  core-icon.left.rotated,
-html  core-icon.counterclockwise.rotated {
+html  at-carbon-icon.left.rotated,
+html  at-carbon-icon.counterclockwise.rotated {
   -webkit-transform: rotate(-90deg);
   -ms-transform: rotate(-90deg);
   transform: rotate(-90deg);
 }
 
-html  core-icon.bordered {
+html  at-carbon-icon.bordered {
   width: 2em;
   height: 2em;
   padding: 0.55em 0.385em !important;
@@ -4513,175 +4513,175 @@ html  core-icon.bordered {
   vertical-align: baseline;
 }
 
-html  core-icon.bordered.inverted {
+html  at-carbon-icon.bordered.inverted {
   border: none;
   box-shadow: none;
 }
 
-html  core-icon.white {
+html  at-carbon-icon.white {
   color: #ffffff !important;
 }
 
-html  core-icon.black {
+html  at-carbon-icon.black {
   color: #1b1c1d !important;
 }
 
-html  core-icon.blue {
+html  at-carbon-icon.blue {
   color: #2196f3 !important;
 }
 
-html  core-icon.green {
+html  at-carbon-icon.green {
   color: #4caf50 !important;
 }
 
-html  core-icon.orange {
+html  at-carbon-icon.orange {
   color: #ff9800 !important;
 }
 
-html  core-icon.pink {
+html  at-carbon-icon.pink {
   color: #e91e63 !important;
 }
 
-html  core-icon.purple {
+html  at-carbon-icon.purple {
   color: #9c27b0 !important;
 }
 
-html  core-icon.red {
+html  at-carbon-icon.red {
   color: #e41e2b !important;
 }
 
-html  core-icon.teal {
+html  at-carbon-icon.teal {
   color: #1de9b6 !important;
 }
 
-html  core-icon.yellow {
+html  at-carbon-icon.yellow {
   color: #ffeb3b !important;
 }
 
-html  core-icon.inverted {
+html  at-carbon-icon.inverted {
   color: #ffffff;
 }
 
-html  core-icon.inverted.black {
+html  at-carbon-icon.inverted.black {
   color: #333333 !important;
 }
 
-html  core-icon.inverted.blue {
+html  at-carbon-icon.inverted.blue {
   color: #2979ff !important;
 }
 
-html  core-icon.inverted.green {
+html  at-carbon-icon.inverted.green {
   color: #00e676 !important;
 }
 
-html  core-icon.inverted.orange {
+html  at-carbon-icon.inverted.orange {
   color: #ff9100 !important;
 }
 
-html  core-icon.inverted.pink {
+html  at-carbon-icon.inverted.pink {
   color: #f50057 !important;
 }
 
-html  core-icon.inverted.purple {
+html  at-carbon-icon.inverted.purple {
   color: #d500f9 !important;
 }
 
-html  core-icon.inverted.red {
+html  at-carbon-icon.inverted.red {
   color: #ff1744 !important;
 }
 
-html  core-icon.inverted.teal {
+html  at-carbon-icon.inverted.teal {
   color: #1de9b6 !important;
 }
 
-html  core-icon.inverted.yellow {
+html  at-carbon-icon.inverted.yellow {
   color: #ffea00 !important;
 }
 
-html  core-icon.inverted.bordered,
-html  core-icon.inverted.circular {
+html  at-carbon-icon.inverted.bordered,
+html  at-carbon-icon.inverted.circular {
   background-color: #222222 !important;
   color: #FFFFFF !important;
 }
 
-html  core-icon.inverted.bordered.black,
-html  core-icon.inverted.circular.black {
+html  at-carbon-icon.inverted.bordered.black,
+html  at-carbon-icon.inverted.circular.black {
   background-color: #1b1c1d !important;
   color: #FFFFFF !important;
 }
 
-html  core-icon.inverted.bordered.blue,
-html  core-icon.inverted.circular.blue {
+html  at-carbon-icon.inverted.bordered.blue,
+html  at-carbon-icon.inverted.circular.blue {
   background-color: #2196f3 !important;
   color: #FFFFFF !important;
 }
 
-html  core-icon.inverted.bordered.green,
-html  core-icon.inverted.circular.green {
+html  at-carbon-icon.inverted.bordered.green,
+html  at-carbon-icon.inverted.circular.green {
   background-color: #4caf50 !important;
   color: #FFFFFF !important;
 }
 
-html  core-icon.inverted.bordered.orange,
-html  core-icon.inverted.circular.orange {
+html  at-carbon-icon.inverted.bordered.orange,
+html  at-carbon-icon.inverted.circular.orange {
   background-color: #ff9800 !important;
   color: #FFFFFF !important;
 }
 
-html  core-icon.inverted.bordered.pink,
-html  core-icon.inverted.circular.pink {
+html  at-carbon-icon.inverted.bordered.pink,
+html  at-carbon-icon.inverted.circular.pink {
   background-color: #e91e63 !important;
   color: #FFFFFF !important;
 }
 
-html  core-icon.inverted.bordered.purple,
-html  core-icon.inverted.circular.purple {
+html  at-carbon-icon.inverted.bordered.purple,
+html  at-carbon-icon.inverted.circular.purple {
   background-color: #9c27b0 !important;
   color: #FFFFFF !important;
 }
 
-html  core-icon.inverted.bordered.red,
-html  core-icon.inverted.circular.red {
+html  at-carbon-icon.inverted.bordered.red,
+html  at-carbon-icon.inverted.circular.red {
   background-color: #e41e2b !important;
   color: #FFFFFF !important;
 }
 
-html  core-icon.inverted.bordered.teal,
-html  core-icon.inverted.circular.teal {
+html  at-carbon-icon.inverted.bordered.teal,
+html  at-carbon-icon.inverted.circular.teal {
   background-color: #1de9b6 !important;
   color: #FFFFFF !important;
 }
 
-html  core-icon.inverted.bordered.yellow,
-html  core-icon.inverted.circular.yellow {
+html  at-carbon-icon.inverted.bordered.yellow,
+html  at-carbon-icon.inverted.circular.yellow {
   background-color: #ffeb3b !important;
   color: #FFFFFF !important;
 }
 
-html  core-icon.small {
+html  at-carbon-icon.small {
   font-size: 0.875em;
 }
 
-html  core-icon {
+html  at-carbon-icon {
   font-size: 1em;
 }
 
-html  core-icon.large {
+html  at-carbon-icon.large {
   font-size: 1.5em;
   vertical-align: middle;
 }
 
-html  core-icon.big {
+html  at-carbon-icon.big {
   font-size: 2em;
   vertical-align: middle;
 }
 
-html  core-icon.huge {
+html  at-carbon-icon.huge {
   font-size: 4em;
   vertical-align: middle;
 }
 
-html  core-icon.massive {
+html  at-carbon-icon.massive {
   font-size: 8em;
   vertical-align: middle;
 }

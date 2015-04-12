@@ -4436,35 +4436,35 @@ html /deep/ {
 *******************************/
 }
 
-html /deep/ core-icon.hover {
+html /deep/ at-carbon-icon.hover {
   opacity: 1;
 }
 
-html /deep/ core-icon.active {
+html /deep/ at-carbon-icon.active {
   opacity: 1;
 }
 
-html /deep/ core-icon.emphasized {
+html /deep/ at-carbon-icon.emphasized {
   opacity: 1;
 }
 
-html /deep/ core-icon.disabled {
+html /deep/ at-carbon-icon.disabled {
   pointer-events: none;
   opacity: 0.3 !important;
 }
 
-html /deep/ core-icon.link {
+html /deep/ at-carbon-icon.link {
   cursor: pointer;
   opacity: 0.8;
   -webkit-transition: opacity 0.2s ease;
   transition: opacity 0.2s ease;
 }
 
-html /deep/ core-icon.link:hover {
+html /deep/ at-carbon-icon.link:hover {
   opacity: 1 !important;
 }
 
-html /deep/ core-icon.circular {
+html /deep/ at-carbon-icon.circular {
   border-radius: 500em !important;
   box-shadow: 0em 0em 0em 0.1em rgba(0, 0, 0, 0.1) inset;
   border: 0.35em solid transparent !important;
@@ -4472,40 +4472,40 @@ html /deep/ core-icon.circular {
   height: 2em !important;
 }
 
-html /deep/ core-icon.circular.inverted {
+html /deep/ at-carbon-icon.circular.inverted {
   border: none;
   box-shadow: none;
 }
 
-html /deep/ core-icon.flipped,
-html /deep/ core-icon.horizontally.flipped {
+html /deep/ at-carbon-icon.flipped,
+html /deep/ at-carbon-icon.horizontally.flipped {
   -webkit-transform: scale(-1, 1);
   -ms-transform: scale(-1, 1);
   transform: scale(-1, 1);
 }
 
-html /deep/ core-icon.vertically.flipped {
+html /deep/ at-carbon-icon.vertically.flipped {
   -webkit-transform: scale(1, -1);
   -ms-transform: scale(1, -1);
   transform: scale(1, -1);
 }
 
-html /deep/ core-icon.rotated,
-html /deep/ core-icon.right.rotated,
-html /deep/ core-icon.clockwise.rotated {
+html /deep/ at-carbon-icon.rotated,
+html /deep/ at-carbon-icon.right.rotated,
+html /deep/ at-carbon-icon.clockwise.rotated {
   -webkit-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   transform: rotate(90deg);
 }
 
-html /deep/ core-icon.left.rotated,
-html /deep/ core-icon.counterclockwise.rotated {
+html /deep/ at-carbon-icon.left.rotated,
+html /deep/ at-carbon-icon.counterclockwise.rotated {
   -webkit-transform: rotate(-90deg);
   -ms-transform: rotate(-90deg);
   transform: rotate(-90deg);
 }
 
-html /deep/ core-icon.bordered {
+html /deep/ at-carbon-icon.bordered {
   width: 2em;
   height: 2em;
   padding: 0.55em 0.385em !important;
@@ -4513,175 +4513,175 @@ html /deep/ core-icon.bordered {
   vertical-align: baseline;
 }
 
-html /deep/ core-icon.bordered.inverted {
+html /deep/ at-carbon-icon.bordered.inverted {
   border: none;
   box-shadow: none;
 }
 
-html /deep/ core-icon.white {
+html /deep/ at-carbon-icon.white {
   color: #ffffff !important;
 }
 
-html /deep/ core-icon.black {
+html /deep/ at-carbon-icon.black {
   color: #1b1c1d !important;
 }
 
-html /deep/ core-icon.blue {
+html /deep/ at-carbon-icon.blue {
   color: #2196f3 !important;
 }
 
-html /deep/ core-icon.green {
+html /deep/ at-carbon-icon.green {
   color: #4caf50 !important;
 }
 
-html /deep/ core-icon.orange {
+html /deep/ at-carbon-icon.orange {
   color: #ff9800 !important;
 }
 
-html /deep/ core-icon.pink {
+html /deep/ at-carbon-icon.pink {
   color: #e91e63 !important;
 }
 
-html /deep/ core-icon.purple {
+html /deep/ at-carbon-icon.purple {
   color: #9c27b0 !important;
 }
 
-html /deep/ core-icon.red {
+html /deep/ at-carbon-icon.red {
   color: #e41e2b !important;
 }
 
-html /deep/ core-icon.teal {
+html /deep/ at-carbon-icon.teal {
   color: #1de9b6 !important;
 }
 
-html /deep/ core-icon.yellow {
+html /deep/ at-carbon-icon.yellow {
   color: #ffeb3b !important;
 }
 
-html /deep/ core-icon.inverted {
+html /deep/ at-carbon-icon.inverted {
   color: #ffffff;
 }
 
-html /deep/ core-icon.inverted.black {
+html /deep/ at-carbon-icon.inverted.black {
   color: #333333 !important;
 }
 
-html /deep/ core-icon.inverted.blue {
+html /deep/ at-carbon-icon.inverted.blue {
   color: #2979ff !important;
 }
 
-html /deep/ core-icon.inverted.green {
+html /deep/ at-carbon-icon.inverted.green {
   color: #00e676 !important;
 }
 
-html /deep/ core-icon.inverted.orange {
+html /deep/ at-carbon-icon.inverted.orange {
   color: #ff9100 !important;
 }
 
-html /deep/ core-icon.inverted.pink {
+html /deep/ at-carbon-icon.inverted.pink {
   color: #f50057 !important;
 }
 
-html /deep/ core-icon.inverted.purple {
+html /deep/ at-carbon-icon.inverted.purple {
   color: #d500f9 !important;
 }
 
-html /deep/ core-icon.inverted.red {
+html /deep/ at-carbon-icon.inverted.red {
   color: #ff1744 !important;
 }
 
-html /deep/ core-icon.inverted.teal {
+html /deep/ at-carbon-icon.inverted.teal {
   color: #1de9b6 !important;
 }
 
-html /deep/ core-icon.inverted.yellow {
+html /deep/ at-carbon-icon.inverted.yellow {
   color: #ffea00 !important;
 }
 
-html /deep/ core-icon.inverted.bordered,
-html /deep/ core-icon.inverted.circular {
+html /deep/ at-carbon-icon.inverted.bordered,
+html /deep/ at-carbon-icon.inverted.circular {
   background-color: #222222 !important;
   color: #FFFFFF !important;
 }
 
-html /deep/ core-icon.inverted.bordered.black,
-html /deep/ core-icon.inverted.circular.black {
+html /deep/ at-carbon-icon.inverted.bordered.black,
+html /deep/ at-carbon-icon.inverted.circular.black {
   background-color: #1b1c1d !important;
   color: #FFFFFF !important;
 }
 
-html /deep/ core-icon.inverted.bordered.blue,
-html /deep/ core-icon.inverted.circular.blue {
+html /deep/ at-carbon-icon.inverted.bordered.blue,
+html /deep/ at-carbon-icon.inverted.circular.blue {
   background-color: #2196f3 !important;
   color: #FFFFFF !important;
 }
 
-html /deep/ core-icon.inverted.bordered.green,
-html /deep/ core-icon.inverted.circular.green {
+html /deep/ at-carbon-icon.inverted.bordered.green,
+html /deep/ at-carbon-icon.inverted.circular.green {
   background-color: #4caf50 !important;
   color: #FFFFFF !important;
 }
 
-html /deep/ core-icon.inverted.bordered.orange,
-html /deep/ core-icon.inverted.circular.orange {
+html /deep/ at-carbon-icon.inverted.bordered.orange,
+html /deep/ at-carbon-icon.inverted.circular.orange {
   background-color: #ff9800 !important;
   color: #FFFFFF !important;
 }
 
-html /deep/ core-icon.inverted.bordered.pink,
-html /deep/ core-icon.inverted.circular.pink {
+html /deep/ at-carbon-icon.inverted.bordered.pink,
+html /deep/ at-carbon-icon.inverted.circular.pink {
   background-color: #e91e63 !important;
   color: #FFFFFF !important;
 }
 
-html /deep/ core-icon.inverted.bordered.purple,
-html /deep/ core-icon.inverted.circular.purple {
+html /deep/ at-carbon-icon.inverted.bordered.purple,
+html /deep/ at-carbon-icon.inverted.circular.purple {
   background-color: #9c27b0 !important;
   color: #FFFFFF !important;
 }
 
-html /deep/ core-icon.inverted.bordered.red,
-html /deep/ core-icon.inverted.circular.red {
+html /deep/ at-carbon-icon.inverted.bordered.red,
+html /deep/ at-carbon-icon.inverted.circular.red {
   background-color: #e41e2b !important;
   color: #FFFFFF !important;
 }
 
-html /deep/ core-icon.inverted.bordered.teal,
-html /deep/ core-icon.inverted.circular.teal {
+html /deep/ at-carbon-icon.inverted.bordered.teal,
+html /deep/ at-carbon-icon.inverted.circular.teal {
   background-color: #1de9b6 !important;
   color: #FFFFFF !important;
 }
 
-html /deep/ core-icon.inverted.bordered.yellow,
-html /deep/ core-icon.inverted.circular.yellow {
+html /deep/ at-carbon-icon.inverted.bordered.yellow,
+html /deep/ at-carbon-icon.inverted.circular.yellow {
   background-color: #ffeb3b !important;
   color: #FFFFFF !important;
 }
 
-html /deep/ core-icon.small {
+html /deep/ at-carbon-icon.small {
   font-size: 0.875em;
 }
 
-html /deep/ core-icon {
+html /deep/ at-carbon-icon {
   font-size: 1em;
 }
 
-html /deep/ core-icon.large {
+html /deep/ at-carbon-icon.large {
   font-size: 1.5em;
   vertical-align: middle;
 }
 
-html /deep/ core-icon.big {
+html /deep/ at-carbon-icon.big {
   font-size: 2em;
   vertical-align: middle;
 }
 
-html /deep/ core-icon.huge {
+html /deep/ at-carbon-icon.huge {
   font-size: 4em;
   vertical-align: middle;
 }
 
-html /deep/ core-icon.massive {
+html /deep/ at-carbon-icon.massive {
   font-size: 8em;
   vertical-align: middle;
 }
