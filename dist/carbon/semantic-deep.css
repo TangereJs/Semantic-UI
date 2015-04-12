@@ -7393,7 +7393,7 @@ html /deep/ .noscroll {
 [themed] {
   -webkit-transition: opacity ease-in 0.2s;
   transition: opacity ease-in 0.2s;
-  opacity: 1;
+  opacity: 1 !important;
 }
 /*
  * # Semantic UI - 1.9.0
