@@ -63,13 +63,6 @@ htmldeep {
 
   
 /*--------------------
-   Types of Messages
----------------------*/
-
-  
-/* Assumptions */
-  
-/*--------------------
    Validation Prompt
 ---------------------*/
 
@@ -93,27 +86,6 @@ htmldeep {
         Focus
 ---------------------*/
 
-  
-/*--------------------
-        Success
----------------------*/
-
-  
-/* On Form */
-  
-/*--------------------
-        Error
----------------------*/
-
-  
-/* On Form */
-  
-/*--------------------
-        Warning
----------------------*/
-
-  
-/* On Form */
   
 /* On Field(s) */
   
@@ -355,15 +327,6 @@ htmldeep .ui.form .divider {
   clear: both;
   margin: 1em 0em;
 }
-htmldeep .ui.form .info.message,
-htmldeep .ui.form .success.message,
-htmldeep .ui.form .warning.message,
-htmldeep .ui.form .error.message {
-  display: none;
-}
-htmldeep .ui.form .message:first-child {
-  margin-top: 0px;
-}
 htmldeep .ui.form .field .prompt.label {
   white-space: nowrap;
 }
@@ -424,15 +387,6 @@ htmldeep .ui.form textarea:focus {
   background: #ffffff;
   box-shadow: 1px 0em 0em 0em rgba(39, 41, 43, 0.3) inset;
   -webkit-appearance: none;
-}
-htmldeep .ui.form.success .success.message {
-  display: block;
-}
-htmldeep .ui.form.warning .warning.message {
-  display: block;
-}
-htmldeep .ui.form.error .error.message {
-  display: block;
 }
 htmldeep .ui.form .fields.error .field label,
 htmldeep .ui.form .field.error label,
