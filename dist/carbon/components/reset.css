@@ -29,6 +29,10 @@ htmldeep {
   
 /* iPad Input Shadows */
   
+/* disable select: unselectable class or attribute */
+  
+/* override unselectable for some tags or via class/attribute */
+  
 
 /*******************************
          Theme Overrides
@@ -226,6 +230,26 @@ htmldeep input[type="password"] {
   -moz-appearance: none;
   
 /* mobile firefox too! */
+}
+htmldeep .unselectable,
+htmldeep [unselectable] {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+}
+htmldeep .selectable,
+htmldeep [selectable],
+htmldeep input {
+  -webkit-touch-callout: text;
+  -webkit-user-select: text;
+  -khtml-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
 }
 htmldeep html {
   font-family: sans-serif;
