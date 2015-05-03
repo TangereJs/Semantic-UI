@@ -7411,6 +7411,10 @@ html /deep/ .noscroll {
   overflow: hidden;
 }
 
+html /deep/ .ui.progress-bar {
+  background-color: #3c763d;
+}
+
 /*** avoid FOUC until this CSS is loaded ***/
 
 .themed,

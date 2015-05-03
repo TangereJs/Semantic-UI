@@ -44,6 +44,9 @@ htmldeep at-app-scaffold .bar {
 htmldeep .noscroll {
   overflow: hidden;
 }
+htmldeep .ui.progress-bar {
+  background-color: #3c763d;
+}
 /*** avoid FOUC until this CSS is loaded ***/
 .themed,
 [themed] {
