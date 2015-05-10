@@ -107,11 +107,11 @@ htmldeep p:last-child {
   margin-bottom: 0em;
 }
 htmldeep a {
-  color: #009fda;
+  color: #4285f4;
   text-decoration: none;
 }
 htmldeep a:hover {
-  color: #00b2f3;
+  color: #5a95f5;
 }
 htmldeep ::-webkit-selection {
   background-color: #009fda;

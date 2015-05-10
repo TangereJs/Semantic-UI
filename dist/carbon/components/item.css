@@ -312,7 +312,7 @@ htmldeep .ui.items > .item > .content > a.header {
   color: rgba(0, 0, 0, 0.85);
 }
 htmldeep .ui.items > .item > .content > a.header:hover {
-  color: #00b2f3;
+  color: #5a95f5;
 }
 htmldeep .ui.items > .item .meta > a:not(.ui) {
   color: rgba(0, 0, 0, 0.4);
@@ -453,7 +453,7 @@ htmldeep .ui.link.items > .item:hover {
 }
 htmldeep .ui.items a.item:hover .content .header,
 htmldeep .ui.link.items > .item:hover .content .header {
-  color: #00b2f3;
+  color: #5a95f5;
 }
 htmldeep .ui.items > .item {
   font-size: 1em;

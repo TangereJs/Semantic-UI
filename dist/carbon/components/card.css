@@ -15,19 +15,21 @@
             Standard
 *******************************/
 
-
-/*--------------
-      Cards
----------------*/
-
 htmldeep {
-  
-/* Clearing */
   
 /*--------------
       Card
 ---------------*/
 
+  
+/*--------------
+      Cards
+---------------*/
+
+  
+/* Clearing */
+  
+/* Consecutive Card Groups Preserve Row Spacing */
   
 /*--------------
   Rounded Edges
@@ -48,6 +50,11 @@ htmldeep {
   
 /*--------------
      Floated
+---------------*/
+
+  
+/*--------------
+     Aligned
 ---------------*/
 
   
@@ -88,6 +95,11 @@ htmldeep {
 
   
 /*--------------
+      Dimmer
+---------------*/
+
+  
+/*--------------
      Labels
 ---------------*/
 
@@ -107,6 +119,11 @@ htmldeep {
 -----------------*/
 
   
+/*----------------
+  footer Content
+-----------------*/
+
+  
 
 /*******************************
            Variations
@@ -122,6 +139,13 @@ htmldeep {
         Link
 --------------------*/
 
+  
+/*-------------------
+       Colors
+--------------------*/
+
+  
+/* Hover */
   
 /*--------------
    Card Count
@@ -146,56 +170,26 @@ htmldeep {
       Size
 ---------------*/
 
-  
-
-/*******************************
-         Theme Overrides
-*******************************/
-
-  
-
-/*******************************
-    User Variable Overrides
-*******************************/
-
-}
-htmldeep .ui.cards {
-  margin: 1em -0.5em 0em;
 }
 htmldeep .ui.cards > .card {
-  display: block;
-  margin: 0em 0.5em 1.5em;
-  float: left;
-}
-htmldeep .ui.cards:first-child,
-htmldeep .ui.card:first-child {
-  margin-top: 0em;
-}
-htmldeep .ui.cards:last-child,
-htmldeep .ui.card:last-child {
-  margin-bottom: 0em;
-}
-htmldeep .ui.cards:after,
-htmldeep .ui.card:after {
-  display: block;
-  content: ' ';
-  height: 0px;
-  clear: both;
-  overflow: hidden;
-  visibility: hidden;
-}
-htmldeep .ui.cards > .card,
-htmldeep .ui.card {
   max-width: 100%;
   position: relative;
-  display: block;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   width: 290px;
   min-height: 0px;
   background: #ffffff;
   padding: 0em;
   border: none;
   border-radius: 2px;
-  box-shadow: 0px 0.2em 0px 0px #d4d4d5, 0px 0px 0px 1px #d4d4d5;
+  box-shadow: 0px 3px 0px 0px #d4d4d5, 0px 0px 0px 1px #d4d4d5;
   -webkit-transition: box-shadow 0.2s ease;
           transition: box-shadow 0.2s ease;
   z-index: '';
@@ -206,6 +200,42 @@ htmldeep .ui.card {
 htmldeep .ui.cards > .card a,
 htmldeep .ui.card a {
   cursor: pointer;
+}
+htmldeep .ui.card:first-child {
+  margin-top: 0em;
+}
+htmldeep .ui.card:last-child {
+  margin-bottom: 0em;
+}
+htmldeep .ui.cards {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: -0.875em -0.5em;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+htmldeep .ui.cards > .card {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0.875em 0.5em;
+  float: none;
+}
+htmldeep .ui.cards:after,
+htmldeep .ui.card:after {
+  display: block;
+  content: ' ';
+  height: 0px;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+htmldeep .ui.cards ~ .ui.cards {
+  margin-top: 0.875em;
 }
 htmldeep .ui.cards > .card > :first-child,
 htmldeep .ui.card > :first-child {
@@ -218,6 +248,10 @@ htmldeep .ui.card > :last-child {
 htmldeep .ui.cards > .card > .image,
 htmldeep .ui.card > .image {
   display: block;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
   position: relative;
   padding: 0em;
   background: rgba(0, 0, 0, 0.05);
@@ -236,6 +270,10 @@ htmldeep .ui.card > .image:only-child > img {
 }
 htmldeep .ui.cards > .card > .content,
 htmldeep .ui.card > .content {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
   background: none;
   margin: 0em;
   padding: 1em 1em;
@@ -262,8 +300,8 @@ htmldeep .ui.card > .content > .header {
 }
 htmldeep .ui.cards > .card > .content > .header:not(.ui),
 htmldeep .ui.card > .content > .header:not(.ui) {
-  font-weight: bold;
-  font-size: 1.2em;
+  font-weight: lighter;
+  font-size: 2rem;
   margin-top: -0.25em;
   line-height: 1.33em;
 }
@@ -281,18 +319,30 @@ htmldeep .ui.cards > .card [class*="right floated"],
 htmldeep .ui.card [class*="right floated"] {
   float: right;
 }
+htmldeep .ui.cards > .card [class*="left aligned"],
+htmldeep .ui.card [class*="left aligned"] {
+  text-align: left;
+}
+htmldeep .ui.cards > .card [class*="center aligned"],
+htmldeep .ui.card [class*="center aligned"] {
+  text-align: center;
+}
+htmldeep .ui.cards > .card [class*="right aligned"],
+htmldeep .ui.card [class*="right aligned"] {
+  text-align: right;
+}
 htmldeep .ui.cards > .card .content img,
 htmldeep .ui.card .content img {
   display: inline-block;
   vertical-align: middle;
-  width: 2em;
+  width: auto;
 }
 htmldeep .ui.cards > .card img.avatar,
 htmldeep .ui.cards > .card .avatar img,
 htmldeep .ui.card img.avatar,
 htmldeep .ui.card .avatar img {
-  width: 2em;
-  height: 2em;
+  width: 2.5em;
+  height: 2.5em;
   border-radius: 500rem;
 }
 htmldeep .ui.cards > .card > .content > .description,
@@ -310,7 +360,7 @@ htmldeep .ui.card > .content p:last-child {
 }
 htmldeep .ui.cards > .card .meta,
 htmldeep .ui.card .meta {
-  font-size: 0.9em;
+  font-size: 0.85em;
   color: rgba(0, 0, 0, 0.4);
 }
 htmldeep .ui.cards > .card .meta *,
@@ -342,7 +392,7 @@ htmldeep .ui.card > .content > a.header {
 }
 htmldeep .ui.cards > .card > .content > a.header:hover,
 htmldeep .ui.card > .content > a.header:hover {
-  color: #00b2f3;
+  color: #5a95f5;
 }
 htmldeep .ui.cards > .card .meta > a:not(.ui),
 htmldeep .ui.card .meta > a:not(.ui) {
@@ -356,9 +406,13 @@ htmldeep .ui.cards > .card > .buttons:last-child,
 htmldeep .ui.card > .buttons:last-child,
 htmldeep .ui.cards > .card > .button:last-child,
 htmldeep .ui.card > .button:last-child {
-  margin: 0em -1px -0.2em;
-  width: -webkit-calc(100% +  2px );
-  width: calc(100% +  2px );
+  margin: 0em 0em -1px;
+  width: 100%;
+}
+htmldeep .ui.cards > .card .dimmer,
+htmldeep .ui.card .dimmer {
+  background-color: '';
+  z-index: 10;
 }
 htmldeep .ui.cards > .card > .content .star.icon,
 htmldeep .ui.card > .content .star.icon {
@@ -370,11 +424,11 @@ htmldeep .ui.card > .content .star.icon {
 htmldeep .ui.cards > .card > .content .star.icon:hover,
 htmldeep .ui.card > .content .star.icon:hover {
   opacity: 1;
-  color: #ac9400;
+  color: #ffb70a;
 }
 htmldeep .ui.cards > .card > .content .active.star.icon,
 htmldeep .ui.card > .content .active.star.icon {
-  color: #e9b539;
+  color: #ffe623;
 }
 htmldeep .ui.cards > .card > .content .like.icon,
 htmldeep .ui.card > .content .like.icon {
@@ -386,16 +440,20 @@ htmldeep .ui.card > .content .like.icon {
 htmldeep .ui.cards > .card > .content .like.icon:hover,
 htmldeep .ui.card > .content .like.icon:hover {
   opacity: 1;
-  color: #ffadae;
+  color: #ff2733;
 }
 htmldeep .ui.cards > .card > .content .active.like.icon,
 htmldeep .ui.card > .content .active.like.icon {
-  color: #ef404a;
+  color: #ff2733;
 }
 htmldeep .ui.cards > .card > .extra,
 htmldeep .ui.card > .extra {
   max-width: 100%;
   min-height: 0em !important;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
   position: static;
   background: none;
   width: auto;
@@ -415,7 +473,28 @@ htmldeep .ui.card > .extra a:not(.ui) {
 }
 htmldeep .ui.cards > .card > .extra a:not(.ui):hover,
 htmldeep .ui.card > .extra a:not(.ui):hover {
-  color: #00b2f3;
+  color: #5a95f5;
+}
+htmldeep .ui.cards > .card > .footer,
+htmldeep .ui.card > .footer {
+  max-width: 100%;
+  min-height: 0em !important;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+  position: static;
+  background: none;
+  width: auto;
+  margin: 0em 0em;
+  padding: 0.75em 1em;
+  top: 0em;
+  left: 0em;
+  color: rgba(0, 0, 0, 0.4);
+  box-shadow: none;
+  -webkit-transition: color 0.2s ease;
+          transition: color 0.2s ease;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
 }
 htmldeep .ui.fluid.card {
   width: 100%;
@@ -429,7 +508,97 @@ htmldeep .ui.link.card:hover {
   z-index: 5;
   background: '';
   border: none;
-  box-shadow: 0px 0.2em 0px 0px #bebebf, 0px 0px 0px 1px rgba(39, 41, 43, 0.3);
+  box-shadow: 0px 3px 0px 0px #bebebf, 0px 0px 0px 1px rgba(39, 41, 43, 0.3);
+}
+htmldeep .ui.black.cards > .card,
+htmldeep .ui.cards > .black.card,
+htmldeep .ui.black.card {
+  box-shadow: 0px 3px 0px 0px #1b1c1d, 0px 0px 0px 1px #d4d4d5;
+}
+htmldeep .ui.blue.cards > .card,
+htmldeep .ui.cards > .blue.card,
+htmldeep .ui.blue.card {
+  box-shadow: 0px 3px 0px 0px #2196f3, 0px 0px 0px 1px #d4d4d5;
+}
+htmldeep .ui.green.cards > .card,
+htmldeep .ui.cards > .green.card,
+htmldeep .ui.green.card {
+  box-shadow: 0px 3px 0px 0px #4caf50, 0px 0px 0px 1px #d4d4d5;
+}
+htmldeep .ui.orange.cards > .card,
+htmldeep .ui.cards > .orange.card,
+htmldeep .ui.orange.card {
+  box-shadow: 0px 3px 0px 0px #ff9800, 0px 0px 0px 1px #d4d4d5;
+}
+htmldeep .ui.pink.cards > .card,
+htmldeep .ui.cards > .pink.card,
+htmldeep .ui.pink.card {
+  box-shadow: 0px 3px 0px 0px #e91e63, 0px 0px 0px 1px #d4d4d5;
+}
+htmldeep .ui.purple.cards > .card,
+htmldeep .ui.cards > .purple.card,
+htmldeep .ui.purple.card {
+  box-shadow: 0px 3px 0px 0px #9c27b0, 0px 0px 0px 1px #d4d4d5;
+}
+htmldeep .ui.red.cards > .card,
+htmldeep .ui.cards > .red.card,
+htmldeep .ui.red.card {
+  box-shadow: 0px 3px 0px 0px #e41e2b, 0px 0px 0px 1px #d4d4d5;
+}
+htmldeep .ui.teal.cards > .card,
+htmldeep .ui.cards > .teal.card,
+htmldeep .ui.teal.card {
+  box-shadow: 0px 3px 0px 0px #1de9b6, 0px 0px 0px 1px #d4d4d5;
+}
+htmldeep .ui.yellow.cards > .card,
+htmldeep .ui.cards > .yellow.card,
+htmldeep .ui.yellow.card {
+  box-shadow: 0px 3px 0px 0px #ffeb3b, 0px 0px 0px 1px #d4d4d5;
+}
+htmldeep .ui.black.cards > .card:hover,
+htmldeep .ui.cards > .black.card:hover,
+htmldeep .ui.black.card:hover {
+  box-shadow: 0px 3px 0px 0px #1b1c1d, 0px 0px 0px 1px #d4d4d5;
+}
+htmldeep .ui.blue.cards > .card:hover,
+htmldeep .ui.cards > .blue.card:hover,
+htmldeep .ui.blue.card:hover {
+  box-shadow: 0px 3px 0px 0px #309df4, 0px 0px 0px 1px #d4d4d5;
+}
+htmldeep .ui.green.cards > .card:hover,
+htmldeep .ui.cards > .green.card:hover,
+htmldeep .ui.green.card:hover {
+  box-shadow: 0px 3px 0px 0px #55b559, 0px 0px 0px 1px #d4d4d5;
+}
+htmldeep .ui.orange.cards > .card:hover,
+htmldeep .ui.cards > .orange.card:hover,
+htmldeep .ui.orange.card:hover {
+  box-shadow: 0px 3px 0px 0px #ff9e0f, 0px 0px 0px 1px #d4d4d5;
+}
+htmldeep .ui.pink.cards > .card:hover,
+htmldeep .ui.cards > .pink.card:hover,
+htmldeep .ui.pink.card:hover {
+  box-shadow: 0px 3px 0px 0px #ea2c6d, 0px 0px 0px 1px #d4d4d5;
+}
+htmldeep .ui.purple.cards > .card:hover,
+htmldeep .ui.cards > .purple.card:hover,
+htmldeep .ui.purple.card:hover {
+  box-shadow: 0px 3px 0px 0px #a72abd, 0px 0px 0px 1px #d4d4d5;
+}
+htmldeep .ui.red.cards > .card:hover,
+htmldeep .ui.cards > .red.card:hover,
+htmldeep .ui.red.card:hover {
+  box-shadow: 0px 3px 0px 0px #e62c38, 0px 0px 0px 1px #d4d4d5;
+}
+htmldeep .ui.teal.cards > .card:hover,
+htmldeep .ui.cards > .teal.card:hover,
+htmldeep .ui.teal.card:hover {
+  box-shadow: 0px 3px 0px 0px #2beabb, 0px 0px 0px 1px #d4d4d5;
+}
+htmldeep .ui.yellow.cards > .card:hover,
+htmldeep .ui.cards > .yellow.card:hover,
+htmldeep .ui.yellow.card:hover {
+  box-shadow: 0px 3px 0px 0px #ffed4a, 0px 0px 0px 1px #d4d4d5;
 }
 htmldeep .ui.one.cards {
   margin-left: 0em;
@@ -758,3 +927,15 @@ htmldeep .ui.ten.cards > .card:nth-child(10n+1) {
 htmldeep .ui.cards > .card {
   font-size: 1em;
 }
+
+
+/*******************************
+         Theme Overrides
+*******************************/
+
+
+
+/*******************************
+    User Variable Overrides
+*******************************/
+

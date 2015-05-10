@@ -575,12 +575,12 @@ html /deep/ p:last-child {
 }
 
 html /deep/ a {
-  color: #009fda;
+  color: #4285f4;
   text-decoration: none;
 }
 
 html /deep/ a:hover {
-  color: #00b2f3;
+  color: #5a95f5;
 }
 
 html /deep/ ::-webkit-selection {
@@ -6425,7 +6425,7 @@ html /deep/ .ui.list > a.item {
 
 html /deep/ .ui.list .list > a.item:hover,
 html /deep/ .ui.list > a.item:hover {
-  color: #00b2f3;
+  color: #5a95f5;
 }
 
 html /deep/ .ui.list .list > a.item i.icon,
@@ -6439,7 +6439,7 @@ html /deep/ .ui.list .item a {
 }
 
 html /deep/ .ui.list .item a:hover {
-  color: #00b2f3 !important;
+  color: #5a95f5 !important;
 }
 
 html /deep/ .ui.list .list > .item .header,
@@ -6573,7 +6573,7 @@ html /deep/ .ui.inverted.list > a.item {
 
 html /deep/ .ui.inverted.list .list > a.item:hover,
 html /deep/ .ui.inverted.list > a.item:hover {
-  color: #00b2f3;
+  color: #5a95f5;
 }
 
 html /deep/ .ui.inverted.list .item a {
@@ -6582,7 +6582,7 @@ html /deep/ .ui.inverted.list .item a {
 }
 
 html /deep/ .ui.inverted.list .item a:hover {
-  color: #00b2f3 !important;
+  color: #5a95f5 !important;
 }
 
 html /deep/ .ui.link.list .item,
@@ -8749,7 +8749,7 @@ html /deep/ .ui.steps .step.active:after {
 }
 
 html /deep/ .ui.steps .step.active .title {
-  color: #009fda;
+  color: #4285f4;
 }
 
 html /deep/ .ui.ordered.steps .step.active:before,
@@ -8976,11 +8976,11 @@ html /deep/ .ui.breadcrumb .divider {
 }
 
 html /deep/ .ui.breadcrumb a {
-  color: #009fda;
+  color: #4285f4;
 }
 
 html /deep/ .ui.breadcrumb a:hover {
-  color: #00b2f3;
+  color: #5a95f5;
 }
 
 html /deep/ .ui.breadcrumb .icon.divider {
@@ -15124,15 +15124,15 @@ html /deep/ .ui.large.table {
             Standard
 *******************************/
 
-/*--------------
-      Cards
----------------*/
-
 html /deep/ {
-  /* Clearing */
   /*--------------
       Card
 ---------------*/
+  /*--------------
+      Cards
+---------------*/
+  /* Clearing */
+  /* Consecutive Card Groups Preserve Row Spacing */
   /*--------------
   Rounded Edges
 ---------------*/
@@ -15145,6 +15145,9 @@ html /deep/ {
   /* Default Header Size */
   /*--------------
      Floated
+---------------*/
+  /*--------------
+     Aligned
 ---------------*/
   /*--------------
   Content Image
@@ -15168,6 +15171,9 @@ html /deep/ {
      Buttons
 ---------------*/
   /*--------------
+      Dimmer
+---------------*/
+  /*--------------
      Labels
 ---------------*/
   /*-----Star----- */
@@ -15176,6 +15182,9 @@ html /deep/ {
   /* Icon */
   /*----------------
   Extra Content
+-----------------*/
+  /*----------------
+  footer Content
 -----------------*/
   /*******************************
            Variations
@@ -15186,6 +15195,10 @@ html /deep/ {
   /*-------------------
         Link
 --------------------*/
+  /*-------------------
+       Colors
+--------------------*/
+  /* Hover */
   /*--------------
    Card Count
 ---------------*/
@@ -15200,56 +15213,27 @@ html /deep/ {
   /*--------------
       Size
 ---------------*/
-  /*******************************
-         Theme Overrides
-*******************************/
-  /*******************************
-    User Variable Overrides
-*******************************/
-}
-
-html /deep/ .ui.cards {
-  margin: 1em -0.5em 0em;
 }
 
 html /deep/ .ui.cards > .card {
-  display: block;
-  margin: 0em 0.5em 1.5em;
-  float: left;
-}
-
-html /deep/ .ui.cards:first-child,
-html /deep/ .ui.card:first-child {
-  margin-top: 0em;
-}
-
-html /deep/ .ui.cards:last-child,
-html /deep/ .ui.card:last-child {
-  margin-bottom: 0em;
-}
-
-html /deep/ .ui.cards:after,
-html /deep/ .ui.card:after {
-  display: block;
-  content: ' ';
-  height: 0px;
-  clear: both;
-  overflow: hidden;
-  visibility: hidden;
-}
-
-html /deep/ .ui.cards > .card,
-html /deep/ .ui.card {
   max-width: 100%;
   position: relative;
-  display: block;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   width: 290px;
   min-height: 0px;
   background: #ffffff;
   padding: 0em;
   border: none;
   border-radius: 2px;
-  box-shadow: 0px 0.2em 0px 0px #d4d4d5, 0px 0px 0px 1px #d4d4d5;
+  box-shadow: 0px 3px 0px 0px #d4d4d5, 0px 0px 0px 1px #d4d4d5;
   -webkit-transition: box-shadow 0.2s ease;
   transition: box-shadow 0.2s ease;
   z-index: '';
@@ -15262,6 +15246,48 @@ html /deep/ .ui.card {
 html /deep/ .ui.cards > .card a,
 html /deep/ .ui.card a {
   cursor: pointer;
+}
+
+html /deep/ .ui.card:first-child {
+  margin-top: 0em;
+}
+
+html /deep/ .ui.card:last-child {
+  margin-bottom: 0em;
+}
+
+html /deep/ .ui.cards {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: -0.875em -0.5em;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+html /deep/ .ui.cards > .card {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0.875em 0.5em;
+  float: none;
+}
+
+html /deep/ .ui.cards:after,
+html /deep/ .ui.card:after {
+  display: block;
+  content: ' ';
+  height: 0px;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+html /deep/ .ui.cards ~ .ui.cards {
+  margin-top: 0.875em;
 }
 
 html /deep/ .ui.cards > .card > :first-child,
@@ -15277,6 +15303,10 @@ html /deep/ .ui.card > :last-child {
 html /deep/ .ui.cards > .card > .image,
 html /deep/ .ui.card > .image {
   display: block;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
   position: relative;
   padding: 0em;
   background: rgba(0, 0, 0, 0.05);
@@ -15298,6 +15328,10 @@ html /deep/ .ui.card > .image:only-child > img {
 
 html /deep/ .ui.cards > .card > .content,
 html /deep/ .ui.card > .content {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
   background: none;
   margin: 0em;
   padding: 1em 1em;
@@ -15327,8 +15361,8 @@ html /deep/ .ui.card > .content > .header {
 
 html /deep/ .ui.cards > .card > .content > .header:not(.ui),
 html /deep/ .ui.card > .content > .header:not(.ui) {
-  font-weight: bold;
-  font-size: 1.2em;
+  font-weight: lighter;
+  font-size: 2rem;
   margin-top: -0.25em;
   line-height: 1.33em;
 }
@@ -15350,19 +15384,34 @@ html /deep/ .ui.card [class*="right floated"] {
   float: right;
 }
 
+html /deep/ .ui.cards > .card [class*="left aligned"],
+html /deep/ .ui.card [class*="left aligned"] {
+  text-align: left;
+}
+
+html /deep/ .ui.cards > .card [class*="center aligned"],
+html /deep/ .ui.card [class*="center aligned"] {
+  text-align: center;
+}
+
+html /deep/ .ui.cards > .card [class*="right aligned"],
+html /deep/ .ui.card [class*="right aligned"] {
+  text-align: right;
+}
+
 html /deep/ .ui.cards > .card .content img,
 html /deep/ .ui.card .content img {
   display: inline-block;
   vertical-align: middle;
-  width: 2em;
+  width: auto;
 }
 
 html /deep/ .ui.cards > .card img.avatar,
 html /deep/ .ui.cards > .card .avatar img,
 html /deep/ .ui.card img.avatar,
 html /deep/ .ui.card .avatar img {
-  width: 2em;
-  height: 2em;
+  width: 2.5em;
+  height: 2.5em;
   border-radius: 500rem;
 }
 
@@ -15384,7 +15433,7 @@ html /deep/ .ui.card > .content p:last-child {
 
 html /deep/ .ui.cards > .card .meta,
 html /deep/ .ui.card .meta {
-  font-size: 0.9em;
+  font-size: 0.85em;
   color: rgba(0, 0, 0, 0.4);
 }
 
@@ -15423,7 +15472,7 @@ html /deep/ .ui.card > .content > a.header {
 
 html /deep/ .ui.cards > .card > .content > a.header:hover,
 html /deep/ .ui.card > .content > a.header:hover {
-  color: #00b2f3;
+  color: #5a95f5;
 }
 
 html /deep/ .ui.cards > .card .meta > a:not(.ui),
@@ -15440,9 +15489,14 @@ html /deep/ .ui.cards > .card > .buttons:last-child,
 html /deep/ .ui.card > .buttons:last-child,
 html /deep/ .ui.cards > .card > .button:last-child,
 html /deep/ .ui.card > .button:last-child {
-  margin: 0em -1px -0.2em;
-  width: -webkit-calc(100% +  2px );
-  width: calc(100% +  2px );
+  margin: 0em 0em -1px;
+  width: 100%;
+}
+
+html /deep/ .ui.cards > .card .dimmer,
+html /deep/ .ui.card .dimmer {
+  background-color: '';
+  z-index: 10;
 }
 
 html /deep/ .ui.cards > .card > .content .star.icon,
@@ -15456,12 +15510,12 @@ html /deep/ .ui.card > .content .star.icon {
 html /deep/ .ui.cards > .card > .content .star.icon:hover,
 html /deep/ .ui.card > .content .star.icon:hover {
   opacity: 1;
-  color: #ac9400;
+  color: #ffb70a;
 }
 
 html /deep/ .ui.cards > .card > .content .active.star.icon,
 html /deep/ .ui.card > .content .active.star.icon {
-  color: #e9b539;
+  color: #ffe623;
 }
 
 html /deep/ .ui.cards > .card > .content .like.icon,
@@ -15475,18 +15529,22 @@ html /deep/ .ui.card > .content .like.icon {
 html /deep/ .ui.cards > .card > .content .like.icon:hover,
 html /deep/ .ui.card > .content .like.icon:hover {
   opacity: 1;
-  color: #ffadae;
+  color: #ff2733;
 }
 
 html /deep/ .ui.cards > .card > .content .active.like.icon,
 html /deep/ .ui.card > .content .active.like.icon {
-  color: #ef404a;
+  color: #ff2733;
 }
 
 html /deep/ .ui.cards > .card > .extra,
 html /deep/ .ui.card > .extra {
   max-width: 100%;
   min-height: 0em !important;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
   position: static;
   background: none;
   width: auto;
@@ -15508,7 +15566,29 @@ html /deep/ .ui.card > .extra a:not(.ui) {
 
 html /deep/ .ui.cards > .card > .extra a:not(.ui):hover,
 html /deep/ .ui.card > .extra a:not(.ui):hover {
-  color: #00b2f3;
+  color: #5a95f5;
+}
+
+html /deep/ .ui.cards > .card > .footer,
+html /deep/ .ui.card > .footer {
+  max-width: 100%;
+  min-height: 0em !important;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  position: static;
+  background: none;
+  width: auto;
+  margin: 0em 0em;
+  padding: 0.75em 1em;
+  top: 0em;
+  left: 0em;
+  color: rgba(0, 0, 0, 0.4);
+  box-shadow: none;
+  -webkit-transition: color 0.2s ease;
+  transition: color 0.2s ease;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 html /deep/ .ui.fluid.card {
@@ -15524,7 +15604,115 @@ html /deep/ .ui.link.card:hover {
   z-index: 5;
   background: '';
   border: none;
-  box-shadow: 0px 0.2em 0px 0px #bebebf, 0px 0px 0px 1px rgba(39, 41, 43, 0.3);
+  box-shadow: 0px 3px 0px 0px #bebebf, 0px 0px 0px 1px rgba(39, 41, 43, 0.3);
+}
+
+html /deep/ .ui.black.cards > .card,
+html /deep/ .ui.cards > .black.card,
+html /deep/ .ui.black.card {
+  box-shadow: 0px 3px 0px 0px #1b1c1d, 0px 0px 0px 1px #d4d4d5;
+}
+
+html /deep/ .ui.blue.cards > .card,
+html /deep/ .ui.cards > .blue.card,
+html /deep/ .ui.blue.card {
+  box-shadow: 0px 3px 0px 0px #2196f3, 0px 0px 0px 1px #d4d4d5;
+}
+
+html /deep/ .ui.green.cards > .card,
+html /deep/ .ui.cards > .green.card,
+html /deep/ .ui.green.card {
+  box-shadow: 0px 3px 0px 0px #4caf50, 0px 0px 0px 1px #d4d4d5;
+}
+
+html /deep/ .ui.orange.cards > .card,
+html /deep/ .ui.cards > .orange.card,
+html /deep/ .ui.orange.card {
+  box-shadow: 0px 3px 0px 0px #ff9800, 0px 0px 0px 1px #d4d4d5;
+}
+
+html /deep/ .ui.pink.cards > .card,
+html /deep/ .ui.cards > .pink.card,
+html /deep/ .ui.pink.card {
+  box-shadow: 0px 3px 0px 0px #e91e63, 0px 0px 0px 1px #d4d4d5;
+}
+
+html /deep/ .ui.purple.cards > .card,
+html /deep/ .ui.cards > .purple.card,
+html /deep/ .ui.purple.card {
+  box-shadow: 0px 3px 0px 0px #9c27b0, 0px 0px 0px 1px #d4d4d5;
+}
+
+html /deep/ .ui.red.cards > .card,
+html /deep/ .ui.cards > .red.card,
+html /deep/ .ui.red.card {
+  box-shadow: 0px 3px 0px 0px #e41e2b, 0px 0px 0px 1px #d4d4d5;
+}
+
+html /deep/ .ui.teal.cards > .card,
+html /deep/ .ui.cards > .teal.card,
+html /deep/ .ui.teal.card {
+  box-shadow: 0px 3px 0px 0px #1de9b6, 0px 0px 0px 1px #d4d4d5;
+}
+
+html /deep/ .ui.yellow.cards > .card,
+html /deep/ .ui.cards > .yellow.card,
+html /deep/ .ui.yellow.card {
+  box-shadow: 0px 3px 0px 0px #ffeb3b, 0px 0px 0px 1px #d4d4d5;
+}
+
+html /deep/ .ui.black.cards > .card:hover,
+html /deep/ .ui.cards > .black.card:hover,
+html /deep/ .ui.black.card:hover {
+  box-shadow: 0px 3px 0px 0px #1b1c1d, 0px 0px 0px 1px #d4d4d5;
+}
+
+html /deep/ .ui.blue.cards > .card:hover,
+html /deep/ .ui.cards > .blue.card:hover,
+html /deep/ .ui.blue.card:hover {
+  box-shadow: 0px 3px 0px 0px #309df4, 0px 0px 0px 1px #d4d4d5;
+}
+
+html /deep/ .ui.green.cards > .card:hover,
+html /deep/ .ui.cards > .green.card:hover,
+html /deep/ .ui.green.card:hover {
+  box-shadow: 0px 3px 0px 0px #55b559, 0px 0px 0px 1px #d4d4d5;
+}
+
+html /deep/ .ui.orange.cards > .card:hover,
+html /deep/ .ui.cards > .orange.card:hover,
+html /deep/ .ui.orange.card:hover {
+  box-shadow: 0px 3px 0px 0px #ff9e0f, 0px 0px 0px 1px #d4d4d5;
+}
+
+html /deep/ .ui.pink.cards > .card:hover,
+html /deep/ .ui.cards > .pink.card:hover,
+html /deep/ .ui.pink.card:hover {
+  box-shadow: 0px 3px 0px 0px #ea2c6d, 0px 0px 0px 1px #d4d4d5;
+}
+
+html /deep/ .ui.purple.cards > .card:hover,
+html /deep/ .ui.cards > .purple.card:hover,
+html /deep/ .ui.purple.card:hover {
+  box-shadow: 0px 3px 0px 0px #a72abd, 0px 0px 0px 1px #d4d4d5;
+}
+
+html /deep/ .ui.red.cards > .card:hover,
+html /deep/ .ui.cards > .red.card:hover,
+html /deep/ .ui.red.card:hover {
+  box-shadow: 0px 3px 0px 0px #e62c38, 0px 0px 0px 1px #d4d4d5;
+}
+
+html /deep/ .ui.teal.cards > .card:hover,
+html /deep/ .ui.cards > .teal.card:hover,
+html /deep/ .ui.teal.card:hover {
+  box-shadow: 0px 3px 0px 0px #2beabb, 0px 0px 0px 1px #d4d4d5;
+}
+
+html /deep/ .ui.yellow.cards > .card:hover,
+html /deep/ .ui.cards > .yellow.card:hover,
+html /deep/ .ui.yellow.card:hover {
+  box-shadow: 0px 3px 0px 0px #ffed4a, 0px 0px 0px 1px #d4d4d5;
 }
 
 html /deep/ .ui.one.cards {
@@ -15922,6 +16110,14 @@ html /deep/ .ui.ten.cards > .card:nth-child(10n+1) {
 html /deep/ .ui.cards > .card {
   font-size: 1em;
 }
+
+/*******************************
+         Theme Overrides
+*******************************/
+
+/*******************************
+    User Variable Overrides
+*******************************/
 /*
  * # Semantic UI - 1.9.0
  * https://github.com/Semantic-Org/Semantic-UI
@@ -16233,7 +16429,7 @@ html /deep/ .ui.carditem > .content > a.header {
 
 html /deep/ .ui.carditems > .carditem > .content > a.header:hover,
 html /deep/ .ui.carditem > .content > a.header:hover {
-  color: #00b2f3;
+  color: #5a95f5;
 }
 
 html /deep/ .ui.carditems > .carditem .meta > a:not(.ui),
@@ -16318,7 +16514,7 @@ html /deep/ .ui.carditem > .extra a:not(.ui) {
 
 html /deep/ .ui.carditems > .carditem > .extra a:not(.ui):hover,
 html /deep/ .ui.carditem > .extra a:not(.ui):hover {
-  color: #00b2f3;
+  color: #5a95f5;
 }
 
 html /deep/ .ui.fluid.carditem {
@@ -17043,7 +17239,7 @@ html /deep/ .ui.carditem > .content > a.header {
 
 html /deep/ .ui.carditems > .carditem > .content > a.header:hover,
 html /deep/ .ui.carditem > .content > a.header:hover {
-  color: #00b2f3;
+  color: #5a95f5;
 }
 
 html /deep/ .ui.carditems > .carditem .meta > a:not(.ui),
@@ -17128,7 +17324,7 @@ html /deep/ .ui.carditem > .extra a:not(.ui) {
 
 html /deep/ .ui.carditems > .carditem > .extra a:not(.ui):hover,
 html /deep/ .ui.carditem > .extra a:not(.ui):hover {
-  color: #00b2f3;
+  color: #5a95f5;
 }
 
 html /deep/ .ui.fluid.carditem {
@@ -17693,7 +17889,7 @@ html /deep/ .ui.comments .comment a.author {
 }
 
 html /deep/ .ui.comments .comment a.author:hover {
-  color: #00b2f3;
+  color: #5a95f5;
 }
 
 html /deep/ .ui.comments .comment .metadata {
@@ -18357,7 +18553,7 @@ html /deep/ .ui.items > .item > .content > a.header {
 }
 
 html /deep/ .ui.items > .item > .content > a.header:hover {
-  color: #00b2f3;
+  color: #5a95f5;
 }
 
 html /deep/ .ui.items > .item .meta > a:not(.ui) {
@@ -18530,7 +18726,7 @@ html /deep/ .ui.link.items > .item:hover {
 
 html /deep/ .ui.items a.item:hover .content .header,
 html /deep/ .ui.link.items > .item:hover .content .header {
-  color: #00b2f3;
+  color: #5a95f5;
 }
 
 html /deep/ .ui.items > .item {

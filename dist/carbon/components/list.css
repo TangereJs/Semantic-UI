@@ -335,7 +335,7 @@ htmldeep .ui.list > a.item {
 }
 htmldeep .ui.list .list > a.item:hover,
 htmldeep .ui.list > a.item:hover {
-  color: #00b2f3;
+  color: #5a95f5;
 }
 htmldeep .ui.list .list > a.item i.icon,
 htmldeep .ui.list > a.item i.icon {
@@ -346,7 +346,7 @@ htmldeep .ui.list .item a {
   color: #212121 !important;
 }
 htmldeep .ui.list .item a:hover {
-  color: #00b2f3 !important;
+  color: #5a95f5 !important;
 }
 htmldeep .ui.list .list > .item .header,
 htmldeep .ui.list > .item .header {
@@ -457,14 +457,14 @@ htmldeep .ui.inverted.list > a.item {
 }
 htmldeep .ui.inverted.list .list > a.item:hover,
 htmldeep .ui.inverted.list > a.item:hover {
-  color: #00b2f3;
+  color: #5a95f5;
 }
 htmldeep .ui.inverted.list .item a {
   cursor: pointer;
   color: #ffffff !important;
 }
 htmldeep .ui.inverted.list .item a:hover {
-  color: #00b2f3 !important;
+  color: #5a95f5 !important;
 }
 htmldeep .ui.link.list .item,
 htmldeep .ui.link.list a.item,

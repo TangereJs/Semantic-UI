@@ -65,14 +65,14 @@
 
 /* Header */
 @headerMargin: 0em;
-@headerFontWeight: bold;
-@headerFontSize: 1.2em;
+@headerFontWeight: lighter;
+@headerFontSize: 2rem;
 @headerLineHeight: 1.33em;
 @headerLineHeightOffset: -(@lineHeight - 1em) / 2;
 @headerColor: @darkTextColor;
 
 /* Metadata */
-@metaFontSize: 0.9em;
+@metaFontSize: 0.85em;
 @metaSpacing: 0.3em;
 @metaColor: @lightTextColor;
 
@@ -133,6 +133,20 @@
 /* Extra Links */
 @extraLinkColor: @unselectedTextColor;
 @extraLinkHoverColor: @linkHoverColor;
+
+/* Footer */
+@footerDivider: 1px solid rgba(0, 0, 0, 0.05);
+@footerBackground: none;
+@footerPosition: static;
+@footerWidth: auto;
+@footerTop: 0em;
+@footerLeft: 0em;
+@footerMargin: 0em 0em;
+@footerPadding: 0.75em 1em;
+@footerBoxShadow: none;
+@footerColor: @lightTextColor;
+@footerTransition: color @transitionDuration @transitionEasing;
+
 
 /* Buttons */
 @buttonMargin: 0em 0em -1px;

@@ -101,7 +101,7 @@
        Links
 --------------------*/
 
-@linkColor           : #009FDA;
+@linkColor           : #4285F4;
 @linkUnderline       : none;
 @linkHoverColor      : lighten(@linkColor, 5);
 

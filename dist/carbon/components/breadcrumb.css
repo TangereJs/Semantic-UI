@@ -77,10 +77,10 @@ htmldeep .ui.breadcrumb .divider {
   vertical-align: baseline;
 }
 htmldeep .ui.breadcrumb a {
-  color: #009fda;
+  color: #4285f4;
 }
 htmldeep .ui.breadcrumb a:hover {
-  color: #00b2f3;
+  color: #5a95f5;
 }
 htmldeep .ui.breadcrumb .icon.divider {
   font-size: 0.7em;

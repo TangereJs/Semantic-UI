@@ -339,7 +339,7 @@ htmldeep .ui.carditem > .content > a.header {
 }
 htmldeep .ui.carditems > .carditem > .content > a.header:hover,
 htmldeep .ui.carditem > .content > a.header:hover {
-  color: #00b2f3;
+  color: #5a95f5;
 }
 htmldeep .ui.carditems > .carditem .meta > a:not(.ui),
 htmldeep .ui.carditem .meta > a:not(.ui) {
@@ -412,7 +412,7 @@ htmldeep .ui.carditem > .extra a:not(.ui) {
 }
 htmldeep .ui.carditems > .carditem > .extra a:not(.ui):hover,
 htmldeep .ui.carditem > .extra a:not(.ui):hover {
-  color: #00b2f3;
+  color: #5a95f5;
 }
 htmldeep .ui.fluid.carditem {
   width: 100%;

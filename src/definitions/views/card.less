@@ -28,8 +28,7 @@ htmldeep {
       Card
 ---------------*/
 
-.ui.cards > .card,
-.ui.card {
+.ui.cards > .card {
   max-width: 100%;
   position: relative;
   display: @display;
@@ -411,6 +410,31 @@ htmldeep {
 .ui.card > .extra a:not(.ui):hover {
   color: @extraLinkHoverColor;
 }
+
+
+/*----------------
+  footer Content
+-----------------*/
+
+.ui.cards > .card > .footer,
+.ui.card > .footer {
+  max-width: 100%;
+  min-height: 0em !important;
+  flex-grow: 0;
+  position: @footerPosition;
+  background: @footerBackground;
+  width: @footerWidth;
+  margin: @footerMargin;
+  padding: @footerPadding;
+  top: @footerTop;
+  left: @footerLeft;
+  color: @footerColor;
+  box-shadow: @footerBoxShadow;
+  transition: @footerTransition;
+  border-top: @footerDivider;
+}
+
+
 
 
 /*******************************

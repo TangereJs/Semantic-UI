@@ -302,7 +302,7 @@ htmldeep .ui.steps .step.active:after {
   background: #f0f0f0;
 }
 htmldeep .ui.steps .step.active .title {
-  color: #009fda;
+  color: #4285f4;
 }
 htmldeep .ui.ordered.steps .step.active:before,
 htmldeep .ui.steps .active.step .icon {

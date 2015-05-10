@@ -175,7 +175,7 @@ htmldeep .ui.comments .comment a.author {
   cursor: pointer;
 }
 htmldeep .ui.comments .comment a.author:hover {
-  color: #00b2f3;
+  color: #5a95f5;
 }
 htmldeep .ui.comments .comment .metadata {
   display: inline-block;
