@@ -15351,9 +15351,8 @@ html  .ui.card > .content:after {
   visibility: hidden;
 }
 
-html  .ui.cards > .card > .content > .header,
-html  .ui.card > .content > .header {
-  display: block;
+html  .ui.cards > .card > .content .header,
+html  .ui.card > .content .header {
   margin: 0em;
   font-family: 'Segoe UI', 'Segoe WP', 'Roboto', 'Frutiger', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: rgba(0, 0, 0, 0.85);
@@ -15365,6 +15364,13 @@ html  .ui.card > .content > .header:not(.ui) {
   font-size: 2rem;
   margin-top: -0.25em;
   line-height: 1.33em;
+}
+
+html  .ui.cards > .card > .content .header .counter,
+html  .ui.card > .content .header .counter {
+  font-weight: lighter;
+  font-size: 3.66rem;
+  margin: 4px 4px 4px 16px;
 }
 
 html  .ui.cards > .card > .content > .meta + .description,
@@ -15589,6 +15595,11 @@ html  .ui.card > .footer {
   -webkit-transition: color 0.2s ease;
   transition: color 0.2s ease;
   border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+html  .ui.cards > .card > .footer at-carbon-icon,
+html  .ui.card > .footer at-carbon-icon {
+  margin-right: 12px;
 }
 
 html  .ui.fluid.card {

@@ -67,6 +67,8 @@
 @headerMargin: 0em;
 @headerFontWeight: lighter;
 @headerFontSize: 2rem;
+@headerFontSizeLarge: 3.66rem;
+@headerLargeMargin: 4px 4px 4px 16px;
 @headerLineHeight: 1.33em;
 @headerLineHeightOffset: -(@lineHeight - 1em) / 2;
 @headerColor: @darkTextColor;

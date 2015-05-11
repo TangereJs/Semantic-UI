@@ -291,9 +291,8 @@ htmldeep .ui.card > .content:after {
   overflow: hidden;
   visibility: hidden;
 }
-htmldeep .ui.cards > .card > .content > .header,
-htmldeep .ui.card > .content > .header {
-  display: block;
+htmldeep .ui.cards > .card > .content .header,
+htmldeep .ui.card > .content .header {
   margin: 0em;
   font-family: 'Segoe UI', 'Segoe WP', 'Roboto', 'Frutiger', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: rgba(0, 0, 0, 0.85);
@@ -304,6 +303,12 @@ htmldeep .ui.card > .content > .header:not(.ui) {
   font-size: 2rem;
   margin-top: -0.25em;
   line-height: 1.33em;
+}
+htmldeep .ui.cards > .card > .content .header .counter,
+htmldeep .ui.card > .content .header .counter {
+  font-weight: lighter;
+  font-size: 3.66rem;
+  margin: 4px 4px 4px 16px;
 }
 htmldeep .ui.cards > .card > .content > .meta + .description,
 htmldeep .ui.cards > .card > .content > .header + .description,
@@ -495,6 +500,10 @@ htmldeep .ui.card > .footer {
   -webkit-transition: color 0.2s ease;
           transition: color 0.2s ease;
   border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+htmldeep .ui.cards > .card > .footer at-carbon-icon,
+htmldeep .ui.card > .footer at-carbon-icon {
+  margin-right: 12px;
 }
 htmldeep .ui.fluid.card {
   width: 100%;
