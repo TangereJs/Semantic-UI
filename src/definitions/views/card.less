@@ -419,6 +419,38 @@ htmldeep {
   color: @extraLinkHoverColor;
 }
 
+/*----------------
+  item Content
+-----------------*/
+
+.ui.cards > .card  .item,
+.ui.card  .item {
+  max-width: 100%;
+  min-height: 0em !important;
+  flex-grow: 0;
+  position: @itemPosition;
+  background: @itemBackground;
+  width: @itemWidth;
+  margin: @itemMargin;
+  padding: @itemPadding;
+  top: @itemTop;
+  left: @itemLeft;
+  color: @itemColor;
+  box-shadow: @itemBoxShadow;
+  transition: @itemTransition;
+  border-top: @itemDivider;
+}
+
+.ui.cards > .card  .item a,
+.ui.card  .item a {
+ color: @itemLinkColor;
+}
+
+.ui.cards > .card  .item a:hover,
+.ui.card  .item a:hover {
+ color: @itemLinkHoverColor;
+}
+
 
 /*----------------
   footer Content

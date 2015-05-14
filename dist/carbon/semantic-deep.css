@@ -15184,6 +15184,9 @@ html /deep/ {
   Extra Content
 -----------------*/
   /*----------------
+  item Content
+-----------------*/
+  /*----------------
   footer Content
 -----------------*/
   /*******************************
@@ -15360,7 +15363,7 @@ html /deep/ .ui.card > .content .header {
 
 html /deep/ .ui.cards > .card > .content > .header:not(.ui),
 html /deep/ .ui.card > .content > .header:not(.ui) {
-  font-weight: lighter;
+  font-weight: 100;
   font-size: 2rem;
   margin-top: -0.25em;
   line-height: 1.33em;
@@ -15368,7 +15371,7 @@ html /deep/ .ui.card > .content > .header:not(.ui) {
 
 html /deep/ .ui.cards > .card > .content .header .counter,
 html /deep/ .ui.card > .content .header .counter {
-  font-weight: lighter;
+  font-weight: 100;
   font-size: 3.66rem;
   margin: 4px 4px 4px 16px;
 }
@@ -15424,7 +15427,7 @@ html /deep/ .ui.card .avatar img {
 html /deep/ .ui.cards > .card > .content > .description,
 html /deep/ .ui.card > .content > .description {
   clear: both;
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.8);
 }
 
 html /deep/ .ui.cards > .card > .content p,
@@ -15572,6 +15575,38 @@ html /deep/ .ui.card > .extra a:not(.ui) {
 
 html /deep/ .ui.cards > .card > .extra a:not(.ui):hover,
 html /deep/ .ui.card > .extra a:not(.ui):hover {
+  color: #5a95f5;
+}
+
+html /deep/ .ui.cards > .card .item,
+html /deep/ .ui.card .item {
+  max-width: 100%;
+  min-height: 0em !important;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  position: static;
+  background: none;
+  width: auto;
+  margin: 0em 0em;
+  padding: 0.75em 1em;
+  top: 0em;
+  left: 0em;
+  color: rgba(0, 0, 0, 0.85);
+  box-shadow: none;
+  -webkit-transition: color 0.2s ease;
+  transition: color 0.2s ease;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+html /deep/ .ui.cards > .card .item a,
+html /deep/ .ui.card .item a {
+  color: rgba(0, 0, 0, 0.85);
+}
+
+html /deep/ .ui.cards > .card .item a:hover,
+html /deep/ .ui.card .item a:hover {
   color: #5a95f5;
 }
 

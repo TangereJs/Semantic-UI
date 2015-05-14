@@ -120,6 +120,11 @@ htmldeep {
 
   
 /*----------------
+  item Content
+-----------------*/
+
+  
+/*----------------
   footer Content
 -----------------*/
 
@@ -299,14 +304,14 @@ htmldeep .ui.card > .content .header {
 }
 htmldeep .ui.cards > .card > .content > .header:not(.ui),
 htmldeep .ui.card > .content > .header:not(.ui) {
-  font-weight: lighter;
+  font-weight: 100;
   font-size: 2rem;
   margin-top: -0.25em;
   line-height: 1.33em;
 }
 htmldeep .ui.cards > .card > .content .header .counter,
 htmldeep .ui.card > .content .header .counter {
-  font-weight: lighter;
+  font-weight: 100;
   font-size: 3.66rem;
   margin: 4px 4px 4px 16px;
 }
@@ -353,7 +358,7 @@ htmldeep .ui.card .avatar img {
 htmldeep .ui.cards > .card > .content > .description,
 htmldeep .ui.card > .content > .description {
   clear: both;
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.8);
 }
 htmldeep .ui.cards > .card > .content p,
 htmldeep .ui.card > .content p {
@@ -478,6 +483,35 @@ htmldeep .ui.card > .extra a:not(.ui) {
 }
 htmldeep .ui.cards > .card > .extra a:not(.ui):hover,
 htmldeep .ui.card > .extra a:not(.ui):hover {
+  color: #5a95f5;
+}
+htmldeep .ui.cards > .card .item,
+htmldeep .ui.card .item {
+  max-width: 100%;
+  min-height: 0em !important;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+  position: static;
+  background: none;
+  width: auto;
+  margin: 0em 0em;
+  padding: 0.75em 1em;
+  top: 0em;
+  left: 0em;
+  color: rgba(0, 0, 0, 0.85);
+  box-shadow: none;
+  -webkit-transition: color 0.2s ease;
+          transition: color 0.2s ease;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+htmldeep .ui.cards > .card .item a,
+htmldeep .ui.card .item a {
+  color: rgba(0, 0, 0, 0.85);
+}
+htmldeep .ui.cards > .card .item a:hover,
+htmldeep .ui.card .item a:hover {
   color: #5a95f5;
 }
 htmldeep .ui.cards > .card > .footer,

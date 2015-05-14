@@ -65,7 +65,7 @@
 
 /* Header */
 @headerMargin: 0em;
-@headerFontWeight: lighter;
+@headerFontWeight: 100;
 @headerFontSize: 2rem;
 @headerFontSizeLarge: 3.66rem;
 @headerLargeMargin: 4px 4px 4px 16px;
@@ -102,7 +102,7 @@
 
 /* Description */
 @descriptionDistance: 0.5em;
-@descriptionColor: rgba(0, 0, 0, 0.5);
+@descriptionColor: rgba(0, 0, 0, 0.8);
 
 /* Content Image */
 @contentImageWidth: auto;
@@ -135,6 +135,21 @@
 /* Extra Links */
 @extraLinkColor: @unselectedTextColor;
 @extraLinkHoverColor: @linkHoverColor;
+
+/* item */
+@itemDivider: 1px solid rgba(0, 0, 0, 0.05);
+@itemBackground: none;
+@itemPosition: static;
+@itemWidth: auto;
+@itemTop: 0em;
+@itemLeft: 0em;
+@itemMargin: 0em 0em;
+@itemPadding: 0.75em 1em;
+@itemBoxShadow: none;
+@itemColor: @darkTextColor;
+@itemTransition: color @transitionDuration @transitionEasing;
+@itemLinkColor: @darkTextColor;
+@itemLinkHoverColor: @linkHoverColor;
 
 /* Footer */
 @footerDivider: 1px solid rgba(0, 0, 0, 0.05);
