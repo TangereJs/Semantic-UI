@@ -109,8 +109,11 @@
 @contentImageVerticalAlign: middle;
 
 /* Avatar Image */
-@avatarSize: 2.5em;
-@avatarBorderRadius: @circularRadius;
+@avatarSize: 3rem;
+@avatarBorderRadius: 3rem;
+@avatarFontSize: 1.4em;
+@avatarMargin: 0;
+
 
 /* Paragraph */
 @paragraphDistance: 0.5em;

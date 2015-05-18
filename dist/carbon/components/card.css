@@ -63,6 +63,16 @@ htmldeep {
 ---------------*/
 
   
+/*-------------------
+       Colors
+--------------------*/
+
+  
+/*-------------------
+      Inverted
+--------------------*/
+
+  
 /*--------------
    Description
 ---------------*/
@@ -348,12 +358,97 @@ htmldeep .ui.card .content img {
   width: auto;
 }
 htmldeep .ui.cards > .card img.avatar,
-htmldeep .ui.cards > .card .avatar img,
+htmldeep .ui.cards > .card .avatar,
 htmldeep .ui.card img.avatar,
-htmldeep .ui.card .avatar img {
-  width: 2.5em;
-  height: 2.5em;
-  border-radius: 500rem;
+htmldeep .ui.card .avatar {
+  margin: 0;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 3rem;
+}
+htmldeep .ui.cards > .card .avatar > span,
+htmldeep .ui.card .avatar > span {
+  font-size: 1.4em;
+}
+htmldeep .card .white {
+  color: #ffffff !important;
+}
+htmldeep .card .black {
+  color: #1b1c1d !important;
+}
+htmldeep .card .blue {
+  color: #2196f3 !important;
+}
+htmldeep .card .green {
+  color: #4caf50 !important;
+}
+htmldeep .card .orange {
+  color: #ff9800 !important;
+}
+htmldeep .card .pink {
+  color: #e91e63 !important;
+}
+htmldeep .card .purple {
+  color: #9c27b0 !important;
+}
+htmldeep .card .red {
+  color: #e41e2b !important;
+}
+htmldeep .card .teal {
+  color: #1de9b6 !important;
+}
+htmldeep .card .yellow {
+  color: #ffeb3b !important;
+}
+htmldeep .card .inverted,
+htmldeep .card .inverted {
+  background-color: #222222 !important;
+  color: #FFFFFF !important;
+}
+htmldeep .card .inverted.black,
+htmldeep .card .inverted.black {
+  background-color: #1b1c1d !important;
+  color: #FFFFFF !important;
+}
+htmldeep .card .inverted.blue,
+htmldeep .card .inverted.blue {
+  background-color: #2196f3 !important;
+  color: #FFFFFF !important;
+}
+htmldeep .card .inverted.green,
+htmldeep .card .inverted.green {
+  background-color: #4caf50 !important;
+  color: #FFFFFF !important;
+}
+htmldeep .card .inverted.orange,
+htmldeep .card .inverted.orange {
+  background-color: #ff9800 !important;
+  color: #FFFFFF !important;
+}
+htmldeep .card .inverted.pink,
+htmldeep .card .inverted.pink {
+  background-color: #e91e63 !important;
+  color: #FFFFFF !important;
+}
+htmldeep .card .inverted.purple,
+htmldeep .card .inverted.purple {
+  background-color: #9c27b0 !important;
+  color: #FFFFFF !important;
+}
+htmldeep .card .inverted.red,
+htmldeep .card .inverted.red {
+  background-color: #e41e2b !important;
+  color: #FFFFFF !important;
+}
+htmldeep .card .inverted.teal,
+htmldeep .card .inverted.teal {
+  background-color: #1de9b6 !important;
+  color: #FFFFFF !important;
+}
+htmldeep .card .inverted.yellow,
+htmldeep .card .inverted.yellow {
+  background-color: #ffeb3b !important;
+  color: #FFFFFF !important;
 }
 htmldeep .ui.cards > .card > .content > .description,
 htmldeep .ui.card > .content > .description {

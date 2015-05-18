@@ -15152,6 +15152,12 @@ html /deep/ {
   /*--------------
   Content Image
 ---------------*/
+  /*-------------------
+       Colors
+--------------------*/
+  /*-------------------
+      Inverted
+--------------------*/
   /*--------------
    Description
 ---------------*/
@@ -15416,12 +15422,118 @@ html /deep/ .ui.card .content img {
 }
 
 html /deep/ .ui.cards > .card img.avatar,
-html /deep/ .ui.cards > .card .avatar img,
+html /deep/ .ui.cards > .card .avatar,
 html /deep/ .ui.card img.avatar,
-html /deep/ .ui.card .avatar img {
-  width: 2.5em;
-  height: 2.5em;
-  border-radius: 500rem;
+html /deep/ .ui.card .avatar {
+  margin: 0;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 3rem;
+}
+
+html /deep/ .ui.cards > .card .avatar > span,
+html /deep/ .ui.card .avatar > span {
+  font-size: 1.4em;
+}
+
+html /deep/ .card .white {
+  color: #ffffff !important;
+}
+
+html /deep/ .card .black {
+  color: #1b1c1d !important;
+}
+
+html /deep/ .card .blue {
+  color: #2196f3 !important;
+}
+
+html /deep/ .card .green {
+  color: #4caf50 !important;
+}
+
+html /deep/ .card .orange {
+  color: #ff9800 !important;
+}
+
+html /deep/ .card .pink {
+  color: #e91e63 !important;
+}
+
+html /deep/ .card .purple {
+  color: #9c27b0 !important;
+}
+
+html /deep/ .card .red {
+  color: #e41e2b !important;
+}
+
+html /deep/ .card .teal {
+  color: #1de9b6 !important;
+}
+
+html /deep/ .card .yellow {
+  color: #ffeb3b !important;
+}
+
+html /deep/ .card .inverted,
+html /deep/ .card .inverted {
+  background-color: #222222 !important;
+  color: #FFFFFF !important;
+}
+
+html /deep/ .card .inverted.black,
+html /deep/ .card .inverted.black {
+  background-color: #1b1c1d !important;
+  color: #FFFFFF !important;
+}
+
+html /deep/ .card .inverted.blue,
+html /deep/ .card .inverted.blue {
+  background-color: #2196f3 !important;
+  color: #FFFFFF !important;
+}
+
+html /deep/ .card .inverted.green,
+html /deep/ .card .inverted.green {
+  background-color: #4caf50 !important;
+  color: #FFFFFF !important;
+}
+
+html /deep/ .card .inverted.orange,
+html /deep/ .card .inverted.orange {
+  background-color: #ff9800 !important;
+  color: #FFFFFF !important;
+}
+
+html /deep/ .card .inverted.pink,
+html /deep/ .card .inverted.pink {
+  background-color: #e91e63 !important;
+  color: #FFFFFF !important;
+}
+
+html /deep/ .card .inverted.purple,
+html /deep/ .card .inverted.purple {
+  background-color: #9c27b0 !important;
+  color: #FFFFFF !important;
+}
+
+html /deep/ .card .inverted.red,
+html /deep/ .card .inverted.red {
+  background-color: #e41e2b !important;
+  color: #FFFFFF !important;
+}
+
+html /deep/ .card .inverted.teal,
+html /deep/ .card .inverted.teal {
+  background-color: #1de9b6 !important;
+  color: #FFFFFF !important;
+}
+
+html /deep/ .card .inverted.yellow,
+html /deep/ .card .inverted.yellow {
+  background-color: #ffeb3b !important;
+  color: #FFFFFF !important;
 }
 
 html /deep/ .ui.cards > .card > .content > .description,
@@ -16413,9 +16525,9 @@ html /deep/ .ui.carditems > .carditem img.avatar,
 html /deep/ .ui.carditems > .carditem .avatar img,
 html /deep/ .ui.carditem img.avatar,
 html /deep/ .ui.carditem .avatar img {
-  width: 2em;
-  height: 2em;
-  border-radius: 500rem;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 3rem;
 }
 
 html /deep/ .ui.carditems > .carditem > .content > .description,
@@ -17223,9 +17335,9 @@ html /deep/ .ui.carditems > .carditem img.avatar,
 html /deep/ .ui.carditems > .carditem .avatar img,
 html /deep/ .ui.carditem img.avatar,
 html /deep/ .ui.carditem .avatar img {
-  width: 2em;
-  height: 2em;
-  border-radius: 500rem;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 3rem;
 }
 
 html /deep/ .ui.carditems > .carditem > .content > .description,

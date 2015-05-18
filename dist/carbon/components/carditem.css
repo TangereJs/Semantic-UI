@@ -288,9 +288,9 @@ htmldeep .ui.carditems > .carditem img.avatar,
 htmldeep .ui.carditems > .carditem .avatar img,
 htmldeep .ui.carditem img.avatar,
 htmldeep .ui.carditem .avatar img {
-  width: 2em;
-  height: 2em;
-  border-radius: 500rem;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 3rem;
 }
 htmldeep .ui.carditems > .carditem > .content > .description,
 htmldeep .ui.carditem > .content > .description {
