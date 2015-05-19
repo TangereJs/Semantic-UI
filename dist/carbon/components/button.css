@@ -332,7 +332,7 @@ htmldeep .ui.button {
   border: none;
   vertical-align: baseline;
   background-color: #e0e0e0;
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(0, 0, 0, 0.6) !important;
   font-family: 'Segoe UI', 'Segoe WP', 'Roboto', 'Frutiger', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin: 0em 0.25em 0em 0em;
   padding: 0.78571em 1.5em 0.78571em;
@@ -610,119 +610,119 @@ htmldeep .ui.inverted.button:hover {
 }
 htmldeep .ui.facebook.button {
   background-color: #3b579d;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
   background-image: none;
   box-shadow: 0px 0em 0px 0px rgba(39, 41, 43, 0.15) inset;
 }
 htmldeep .ui.facebook.button:hover {
   background-color: #3f5da8;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 htmldeep .ui.facebook.button:active {
   background-color: #314983;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 htmldeep .ui.twitter.button {
   background-color: #4092cc;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
   background-image: none;
   box-shadow: 0px 0em 0px 0px rgba(39, 41, 43, 0.15) inset;
 }
 htmldeep .ui.twitter.button:hover {
   background-color: #4c99cf;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 htmldeep .ui.twitter.button:active {
   background-color: #3180b7;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 htmldeep .ui.google.plus.button {
   background-color: #d34836;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
   background-image: none;
   box-shadow: 0px 0em 0px 0px rgba(39, 41, 43, 0.15) inset;
 }
 htmldeep .ui.google.plus.button:hover {
   background-color: #d65343;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 htmldeep .ui.google.plus.button:active {
   background-color: #bc3a29;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 htmldeep .ui.linkedin.button {
   background-color: #1f88be;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 htmldeep .ui.linkedin.button:hover {
   background-color: #2191cb;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 htmldeep .ui.linkedin.button:active {
   background-color: #1a729f;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 htmldeep .ui.youtube.button {
   background-color: #cc181e;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
   background-image: none;
   box-shadow: 0px 0em 0px 0px rgba(39, 41, 43, 0.15) inset;
 }
 htmldeep .ui.youtube.button:hover {
   background-color: #da1a20;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 htmldeep .ui.youtube.button:active {
   background-color: #ac1419;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 htmldeep .ui.instagram.button {
   background-color: #49769c;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
   background-image: none;
   box-shadow: 0px 0em 0px 0px rgba(39, 41, 43, 0.15) inset;
 }
 htmldeep .ui.instagram.button:hover {
   background-color: #4e7ea6;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 htmldeep .ui.instagram.button:active {
   background-color: #3e6484;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 htmldeep .ui.pinterest.button {
   background-color: #00aced;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
   background-image: none;
   box-shadow: 0px 0em 0px 0px rgba(39, 41, 43, 0.15) inset;
 }
 htmldeep .ui.pinterest.button:hover {
   background-color: #00b7fc;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 htmldeep .ui.pinterest.button:active {
   background-color: #0092c9;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 htmldeep .ui.vk.button {
@@ -858,7 +858,7 @@ htmldeep .ui.basic.buttons .active.button,
 htmldeep .ui.basic.active.button {
   background: rgba(0, 0, 0, 0.05) !important;
   box-shadow: '' !important;
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(0, 0, 0, 0.8) !important;
   box-shadow: rgba(39, 41, 43, 0.3);
 }
 htmldeep .ui.basic.buttons .active.button:hover,
@@ -894,7 +894,7 @@ htmldeep .ui.basic.inverted.button:active {
 htmldeep .ui.basic.inverted.buttons .active.button,
 htmldeep .ui.basic.inverted.active.button {
   background-color: rgba(255, 255, 255, 0.05);
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
   box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.7) inset;
 }
@@ -1052,7 +1052,7 @@ htmldeep .ui.buttons .or:before {
   width: 1.78571em;
   height: 1.78571em;
   line-height: 1.78571em;
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.4) !important;
   font-style: normal;
   font-weight: bold;
   box-shadow: 0px 0px 0px 1px transparent inset;
@@ -1270,7 +1270,7 @@ htmldeep .ui.twelve.vertical.buttons > .button {
 htmldeep .ui.black.buttons .button,
 htmldeep .ui.black.button {
   background-color: #1b1c1d;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
   background-image: none;
 }
@@ -1280,13 +1280,13 @@ htmldeep .ui.black.button {
 htmldeep .ui.black.buttons .button:hover,
 htmldeep .ui.black.button:hover {
   background-color: #1b1c1d;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 htmldeep .ui.black.buttons .button:active,
 htmldeep .ui.black.button:active {
   background-color: #0a0a0b;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 htmldeep .ui.black.buttons .active.button,
@@ -1294,7 +1294,7 @@ htmldeep .ui.black.buttons .active.button:active,
 htmldeep .ui.black.active.button,
 htmldeep .ui.black.button .active.button:active {
   background-color: #0f0f10;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 htmldeep .ui.basic.black.buttons .button,
@@ -1326,7 +1326,7 @@ htmldeep .ui.inverted.black.buttons .button,
 htmldeep .ui.inverted.black.button {
   background-color: transparent;
   box-shadow: 0px 0px 0px 2px #d4d4d5 inset !important;
-  color: #ffffff;
+  color: #ffffff !important;
 }
 htmldeep .ui.inverted.black.buttons .button:hover,
 htmldeep .ui.inverted.black.button:hover {
@@ -1374,7 +1374,7 @@ htmldeep .ui.inverted.black.basic.button:active {
 htmldeep .ui.blue.buttons .button,
 htmldeep .ui.blue.button {
   background-color: #2196f3;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
   background-image: none;
 }
@@ -1384,13 +1384,13 @@ htmldeep .ui.blue.button {
 htmldeep .ui.blue.buttons .button:hover,
 htmldeep .ui.blue.button:hover {
   background-color: #309df4;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 htmldeep .ui.blue.buttons .button:active,
 htmldeep .ui.blue.button:active {
   background-color: #0c84e4;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 htmldeep .ui.blue.buttons .active.button,
@@ -1398,7 +1398,7 @@ htmldeep .ui.blue.buttons .active.button:active,
 htmldeep .ui.blue.active.button,
 htmldeep .ui.blue.button .active.button:active {
   background-color: #0d8aee;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 htmldeep .ui.basic.blue.buttons .button,
@@ -1478,7 +1478,7 @@ htmldeep .ui.inverted.blue.basic.button:active {
 htmldeep .ui.green.buttons .button,
 htmldeep .ui.green.button {
   background-color: #4caf50;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
   background-image: none;
 }
@@ -1488,13 +1488,13 @@ htmldeep .ui.green.button {
 htmldeep .ui.green.buttons .button:hover,
 htmldeep .ui.green.button:hover {
   background-color: #55b559;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 htmldeep .ui.green.buttons .button:active,
 htmldeep .ui.green.button:active {
   background-color: #419645;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 htmldeep .ui.green.buttons .active.button,
@@ -1502,7 +1502,7 @@ htmldeep .ui.green.buttons .active.button:active,
 htmldeep .ui.green.active.button,
 htmldeep .ui.green.button .active.button:active {
   background-color: #449d48;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 htmldeep .ui.basic.green.buttons .button,
@@ -1582,7 +1582,7 @@ htmldeep .ui.inverted.green.basic.button:active {
 htmldeep .ui.orange.buttons .button,
 htmldeep .ui.orange.button {
   background-color: #ff9800;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
   background-image: none;
 }
@@ -1592,13 +1592,13 @@ htmldeep .ui.orange.button {
 htmldeep .ui.orange.buttons .button:hover,
 htmldeep .ui.orange.button:hover {
   background-color: #ff9e0f;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 htmldeep .ui.orange.buttons .button:active,
 htmldeep .ui.orange.button:active {
   background-color: #db8300;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 htmldeep .ui.orange.buttons .active.button,
@@ -1606,7 +1606,7 @@ htmldeep .ui.orange.buttons .active.button:active,
 htmldeep .ui.orange.active.button,
 htmldeep .ui.orange.button .active.button:active {
   background-color: #e68900;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 htmldeep .ui.basic.orange.buttons .button,
@@ -1686,7 +1686,7 @@ htmldeep .ui.inverted.orange.basic.button:active {
 htmldeep .ui.pink.buttons .button,
 htmldeep .ui.pink.button {
   background-color: #e91e63;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
   background-image: none;
 }
@@ -1696,13 +1696,13 @@ htmldeep .ui.pink.button {
 htmldeep .ui.pink.buttons .button:hover,
 htmldeep .ui.pink.button:hover {
   background-color: #ea2c6d;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 htmldeep .ui.pink.buttons .button:active,
 htmldeep .ui.pink.button:active {
   background-color: #cf1454;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 htmldeep .ui.pink.buttons .active.button,
@@ -1710,7 +1710,7 @@ htmldeep .ui.pink.buttons .active.button:active,
 htmldeep .ui.pink.active.button,
 htmldeep .ui.pink.button .active.button:active {
   background-color: #d81557;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 htmldeep .ui.basic.pink.buttons .button,
@@ -1790,7 +1790,7 @@ htmldeep .ui.inverted.pink.basic.button:active {
 htmldeep .ui.purple.buttons .button,
 htmldeep .ui.purple.button {
   background-color: #9c27b0;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
   background-image: none;
 }
@@ -1800,13 +1800,13 @@ htmldeep .ui.purple.button {
 htmldeep .ui.purple.buttons .button:hover,
 htmldeep .ui.purple.button:hover {
   background-color: #a72abd;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 htmldeep .ui.purple.buttons .button:active,
 htmldeep .ui.purple.button:active {
   background-color: #822193;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 htmldeep .ui.purple.buttons .active.button,
@@ -1814,7 +1814,7 @@ htmldeep .ui.purple.buttons .active.button:active,
 htmldeep .ui.purple.active.button,
 htmldeep .ui.purple.button .active.button:active {
   background-color: #89229b;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 htmldeep .ui.basic.purple.buttons .button,
@@ -1894,7 +1894,7 @@ htmldeep .ui.inverted.purple.basic.button:active {
 htmldeep .ui.red.buttons .button,
 htmldeep .ui.red.button {
   background-color: #e41e2b;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
   background-image: none;
 }
@@ -1904,13 +1904,13 @@ htmldeep .ui.red.button {
 htmldeep .ui.red.buttons .button:hover,
 htmldeep .ui.red.button:hover {
   background-color: #e62c38;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 htmldeep .ui.red.buttons .button:active,
 htmldeep .ui.red.button:active {
   background-color: #c61823;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 htmldeep .ui.red.buttons .active.button,
@@ -1918,7 +1918,7 @@ htmldeep .ui.red.buttons .active.button:active,
 htmldeep .ui.red.active.button,
 htmldeep .ui.red.button .active.button:active {
   background-color: #d01925;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 htmldeep .ui.basic.red.buttons .button,
@@ -1998,7 +1998,7 @@ htmldeep .ui.inverted.red.basic.button:active {
 htmldeep .ui.teal.buttons .button,
 htmldeep .ui.teal.button {
   background-color: #1de9b6;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
   background-image: none;
 }
@@ -2008,13 +2008,13 @@ htmldeep .ui.teal.button {
 htmldeep .ui.teal.buttons .button:hover,
 htmldeep .ui.teal.button:hover {
   background-color: #2beabb;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 htmldeep .ui.teal.buttons .button:active,
 htmldeep .ui.teal.button:active {
   background-color: #14cea0;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 htmldeep .ui.teal.buttons .active.button,
@@ -2022,7 +2022,7 @@ htmldeep .ui.teal.buttons .active.button:active,
 htmldeep .ui.teal.active.button,
 htmldeep .ui.teal.button .active.button:active {
   background-color: #15d8a7;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 htmldeep .ui.basic.teal.buttons .button,
@@ -2102,7 +2102,7 @@ htmldeep .ui.inverted.teal.basic.button:active {
 htmldeep .ui.yellow.buttons .button,
 htmldeep .ui.yellow.button {
   background-color: #ffeb3b;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
   background-image: none;
 }
@@ -2112,13 +2112,13 @@ htmldeep .ui.yellow.button {
 htmldeep .ui.yellow.buttons .button:hover,
 htmldeep .ui.yellow.button:hover {
   background-color: #ffed4a;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 htmldeep .ui.yellow.buttons .button:active,
 htmldeep .ui.yellow.button:active {
   background-color: #ffe717;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 htmldeep .ui.yellow.buttons .active.button,
@@ -2126,7 +2126,7 @@ htmldeep .ui.yellow.buttons .active.button:active,
 htmldeep .ui.yellow.active.button,
 htmldeep .ui.yellow.button .active.button:active {
   background-color: #ffe821;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 htmldeep .ui.basic.yellow.buttons .button,
@@ -2206,7 +2206,7 @@ htmldeep .ui.inverted.yellow.basic.button:active {
 htmldeep .ui.primary.buttons .button,
 htmldeep .ui.primary.button {
   background-color: #2196f3;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
   background-image: none;
 }
@@ -2216,25 +2216,25 @@ htmldeep .ui.primary.button {
 htmldeep .ui.primary.buttons .button:hover,
 htmldeep .ui.primary.button:hover {
   background-color: #309df4;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 htmldeep .ui.primary.buttons .button:active,
 htmldeep .ui.primary.button:active {
   background-color: #0c84e4;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 htmldeep .ui.primary.buttons .active.button,
 htmldeep .ui.primary.active.button {
   background-color: #0d8aee;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 htmldeep .ui.secondary.buttons .button,
 htmldeep .ui.secondary.button {
   background-color: #e41e2b;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
   background-image: none;
 }
@@ -2244,25 +2244,25 @@ htmldeep .ui.secondary.button {
 htmldeep .ui.secondary.buttons .button:hover,
 htmldeep .ui.secondary.button:hover {
   background-color: #e62c38;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 htmldeep .ui.secondary.buttons .button:active,
 htmldeep .ui.secondary.button:active {
   background-color: #c61823;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 htmldeep .ui.secondary.buttons .active.button,
 htmldeep .ui.secondary.active.button {
   background-color: #d01925;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 htmldeep .ui.positive.buttons .button,
 htmldeep .ui.positive.button {
   background-color: #4caf50 !important;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
   background-image: none;
 }
@@ -2274,13 +2274,13 @@ htmldeep .ui.positive.button:hover,
 htmldeep .ui.positive.buttons .active.button,
 htmldeep .ui.positive.active.button {
   background-color: #55b559 !important;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 htmldeep .ui.positive.buttons .button:active,
 htmldeep .ui.positive.button:active {
   background-color: #419645 !important;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 htmldeep .ui.positive.buttons .active.button,
@@ -2288,13 +2288,13 @@ htmldeep .ui.positive.buttons .active.button:active,
 htmldeep .ui.positive.active.button,
 htmldeep .ui.positive.button .active.button:active {
   background-color: #449d48;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 htmldeep .ui.negative.buttons .button,
 htmldeep .ui.negative.button {
   background-color: #e41e2b !important;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
   background-image: none;
 }
@@ -2306,13 +2306,13 @@ htmldeep .ui.negative.button:hover,
 htmldeep .ui.negative.buttons .active.button,
 htmldeep .ui.negative.active.button {
   background-color: #e62c38 !important;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 htmldeep .ui.negative.buttons .button:active,
 htmldeep .ui.negative.button:active {
   background-color: #c61823 !important;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 htmldeep .ui.negative.buttons .active.button,
@@ -2320,7 +2320,7 @@ htmldeep .ui.negative.buttons .active.button:active,
 htmldeep .ui.negative.active.button,
 htmldeep .ui.negative.button .active.button:active {
   background-color: #d01925;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 htmldeep .ui.buttons {

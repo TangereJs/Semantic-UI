@@ -803,7 +803,7 @@ html /deep/ .ui.button {
   border: none;
   vertical-align: baseline;
   background-color: #e0e0e0;
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(0, 0, 0, 0.6) !important;
   font-family: 'Segoe UI', 'Segoe WP', 'Roboto', 'Frutiger', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin: 0em 0.25em 0em 0em;
   padding: 0.78571em 1.5em 0.78571em;
@@ -1128,7 +1128,7 @@ html /deep/ .ui.inverted.button:hover {
 
 html /deep/ .ui.facebook.button {
   background-color: #3b579d;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
   background-image: none;
   box-shadow: 0px 0em 0px 0px rgba(39, 41, 43, 0.15) inset;
@@ -1136,19 +1136,19 @@ html /deep/ .ui.facebook.button {
 
 html /deep/ .ui.facebook.button:hover {
   background-color: #3f5da8;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 
 html /deep/ .ui.facebook.button:active {
   background-color: #314983;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 
 html /deep/ .ui.twitter.button {
   background-color: #4092cc;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
   background-image: none;
   box-shadow: 0px 0em 0px 0px rgba(39, 41, 43, 0.15) inset;
@@ -1156,19 +1156,19 @@ html /deep/ .ui.twitter.button {
 
 html /deep/ .ui.twitter.button:hover {
   background-color: #4c99cf;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 
 html /deep/ .ui.twitter.button:active {
   background-color: #3180b7;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 
 html /deep/ .ui.google.plus.button {
   background-color: #d34836;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
   background-image: none;
   box-shadow: 0px 0em 0px 0px rgba(39, 41, 43, 0.15) inset;
@@ -1176,37 +1176,37 @@ html /deep/ .ui.google.plus.button {
 
 html /deep/ .ui.google.plus.button:hover {
   background-color: #d65343;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 
 html /deep/ .ui.google.plus.button:active {
   background-color: #bc3a29;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 
 html /deep/ .ui.linkedin.button {
   background-color: #1f88be;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 
 html /deep/ .ui.linkedin.button:hover {
   background-color: #2191cb;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 
 html /deep/ .ui.linkedin.button:active {
   background-color: #1a729f;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 
 html /deep/ .ui.youtube.button {
   background-color: #cc181e;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
   background-image: none;
   box-shadow: 0px 0em 0px 0px rgba(39, 41, 43, 0.15) inset;
@@ -1214,19 +1214,19 @@ html /deep/ .ui.youtube.button {
 
 html /deep/ .ui.youtube.button:hover {
   background-color: #da1a20;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 
 html /deep/ .ui.youtube.button:active {
   background-color: #ac1419;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 
 html /deep/ .ui.instagram.button {
   background-color: #49769c;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
   background-image: none;
   box-shadow: 0px 0em 0px 0px rgba(39, 41, 43, 0.15) inset;
@@ -1234,19 +1234,19 @@ html /deep/ .ui.instagram.button {
 
 html /deep/ .ui.instagram.button:hover {
   background-color: #4e7ea6;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 
 html /deep/ .ui.instagram.button:active {
   background-color: #3e6484;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 
 html /deep/ .ui.pinterest.button {
   background-color: #00aced;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
   background-image: none;
   box-shadow: 0px 0em 0px 0px rgba(39, 41, 43, 0.15) inset;
@@ -1254,13 +1254,13 @@ html /deep/ .ui.pinterest.button {
 
 html /deep/ .ui.pinterest.button:hover {
   background-color: #00b7fc;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 
 html /deep/ .ui.pinterest.button:active {
   background-color: #0092c9;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 
@@ -1422,7 +1422,7 @@ html /deep/ .ui.basic.buttons .active.button,
 html /deep/ .ui.basic.active.button {
   background: rgba(0, 0, 0, 0.05) !important;
   box-shadow: '' !important;
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(0, 0, 0, 0.8) !important;
   box-shadow: rgba(39, 41, 43, 0.3);
 }
 
@@ -1466,7 +1466,7 @@ html /deep/ .ui.basic.inverted.button:active {
 html /deep/ .ui.basic.inverted.buttons .active.button,
 html /deep/ .ui.basic.inverted.active.button {
   background-color: rgba(255, 255, 255, 0.05);
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
   box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.7) inset;
 }
@@ -1652,7 +1652,7 @@ html /deep/ .ui.buttons .or:before {
   width: 1.78571em;
   height: 1.78571em;
   line-height: 1.78571em;
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.4) !important;
   font-style: normal;
   font-weight: bold;
   box-shadow: 0px 0px 0px 1px transparent inset;
@@ -1925,7 +1925,7 @@ html /deep/ .ui.twelve.vertical.buttons > .button {
 html /deep/ .ui.black.buttons .button,
 html /deep/ .ui.black.button {
   background-color: #1b1c1d;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
   background-image: none;
 }
@@ -1937,14 +1937,14 @@ html /deep/ .ui.black.button {
 html /deep/ .ui.black.buttons .button:hover,
 html /deep/ .ui.black.button:hover {
   background-color: #1b1c1d;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 
 html /deep/ .ui.black.buttons .button:active,
 html /deep/ .ui.black.button:active {
   background-color: #0a0a0b;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 
@@ -1953,7 +1953,7 @@ html /deep/ .ui.black.buttons .active.button:active,
 html /deep/ .ui.black.active.button,
 html /deep/ .ui.black.button .active.button:active {
   background-color: #0f0f10;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 
@@ -1991,7 +1991,7 @@ html /deep/ .ui.inverted.black.buttons .button,
 html /deep/ .ui.inverted.black.button {
   background-color: transparent;
   box-shadow: 0px 0px 0px 2px #d4d4d5 inset !important;
-  color: #ffffff;
+  color: #ffffff !important;
 }
 
 html /deep/ .ui.inverted.black.buttons .button:hover,
@@ -2047,7 +2047,7 @@ html /deep/ .ui.inverted.black.basic.button:active {
 html /deep/ .ui.blue.buttons .button,
 html /deep/ .ui.blue.button {
   background-color: #2196f3;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
   background-image: none;
 }
@@ -2059,14 +2059,14 @@ html /deep/ .ui.blue.button {
 html /deep/ .ui.blue.buttons .button:hover,
 html /deep/ .ui.blue.button:hover {
   background-color: #309df4;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 
 html /deep/ .ui.blue.buttons .button:active,
 html /deep/ .ui.blue.button:active {
   background-color: #0c84e4;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 
@@ -2075,7 +2075,7 @@ html /deep/ .ui.blue.buttons .active.button:active,
 html /deep/ .ui.blue.active.button,
 html /deep/ .ui.blue.button .active.button:active {
   background-color: #0d8aee;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 
@@ -2169,7 +2169,7 @@ html /deep/ .ui.inverted.blue.basic.button:active {
 html /deep/ .ui.green.buttons .button,
 html /deep/ .ui.green.button {
   background-color: #4caf50;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
   background-image: none;
 }
@@ -2181,14 +2181,14 @@ html /deep/ .ui.green.button {
 html /deep/ .ui.green.buttons .button:hover,
 html /deep/ .ui.green.button:hover {
   background-color: #55b559;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 
 html /deep/ .ui.green.buttons .button:active,
 html /deep/ .ui.green.button:active {
   background-color: #419645;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 
@@ -2197,7 +2197,7 @@ html /deep/ .ui.green.buttons .active.button:active,
 html /deep/ .ui.green.active.button,
 html /deep/ .ui.green.button .active.button:active {
   background-color: #449d48;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 
@@ -2291,7 +2291,7 @@ html /deep/ .ui.inverted.green.basic.button:active {
 html /deep/ .ui.orange.buttons .button,
 html /deep/ .ui.orange.button {
   background-color: #ff9800;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
   background-image: none;
 }
@@ -2303,14 +2303,14 @@ html /deep/ .ui.orange.button {
 html /deep/ .ui.orange.buttons .button:hover,
 html /deep/ .ui.orange.button:hover {
   background-color: #ff9e0f;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 
 html /deep/ .ui.orange.buttons .button:active,
 html /deep/ .ui.orange.button:active {
   background-color: #db8300;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 
@@ -2319,7 +2319,7 @@ html /deep/ .ui.orange.buttons .active.button:active,
 html /deep/ .ui.orange.active.button,
 html /deep/ .ui.orange.button .active.button:active {
   background-color: #e68900;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 
@@ -2413,7 +2413,7 @@ html /deep/ .ui.inverted.orange.basic.button:active {
 html /deep/ .ui.pink.buttons .button,
 html /deep/ .ui.pink.button {
   background-color: #e91e63;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
   background-image: none;
 }
@@ -2425,14 +2425,14 @@ html /deep/ .ui.pink.button {
 html /deep/ .ui.pink.buttons .button:hover,
 html /deep/ .ui.pink.button:hover {
   background-color: #ea2c6d;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 
 html /deep/ .ui.pink.buttons .button:active,
 html /deep/ .ui.pink.button:active {
   background-color: #cf1454;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 
@@ -2441,7 +2441,7 @@ html /deep/ .ui.pink.buttons .active.button:active,
 html /deep/ .ui.pink.active.button,
 html /deep/ .ui.pink.button .active.button:active {
   background-color: #d81557;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 
@@ -2535,7 +2535,7 @@ html /deep/ .ui.inverted.pink.basic.button:active {
 html /deep/ .ui.purple.buttons .button,
 html /deep/ .ui.purple.button {
   background-color: #9c27b0;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
   background-image: none;
 }
@@ -2547,14 +2547,14 @@ html /deep/ .ui.purple.button {
 html /deep/ .ui.purple.buttons .button:hover,
 html /deep/ .ui.purple.button:hover {
   background-color: #a72abd;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 
 html /deep/ .ui.purple.buttons .button:active,
 html /deep/ .ui.purple.button:active {
   background-color: #822193;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 
@@ -2563,7 +2563,7 @@ html /deep/ .ui.purple.buttons .active.button:active,
 html /deep/ .ui.purple.active.button,
 html /deep/ .ui.purple.button .active.button:active {
   background-color: #89229b;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 
@@ -2657,7 +2657,7 @@ html /deep/ .ui.inverted.purple.basic.button:active {
 html /deep/ .ui.red.buttons .button,
 html /deep/ .ui.red.button {
   background-color: #e41e2b;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
   background-image: none;
 }
@@ -2669,14 +2669,14 @@ html /deep/ .ui.red.button {
 html /deep/ .ui.red.buttons .button:hover,
 html /deep/ .ui.red.button:hover {
   background-color: #e62c38;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 
 html /deep/ .ui.red.buttons .button:active,
 html /deep/ .ui.red.button:active {
   background-color: #c61823;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 
@@ -2685,7 +2685,7 @@ html /deep/ .ui.red.buttons .active.button:active,
 html /deep/ .ui.red.active.button,
 html /deep/ .ui.red.button .active.button:active {
   background-color: #d01925;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 
@@ -2779,7 +2779,7 @@ html /deep/ .ui.inverted.red.basic.button:active {
 html /deep/ .ui.teal.buttons .button,
 html /deep/ .ui.teal.button {
   background-color: #1de9b6;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
   background-image: none;
 }
@@ -2791,14 +2791,14 @@ html /deep/ .ui.teal.button {
 html /deep/ .ui.teal.buttons .button:hover,
 html /deep/ .ui.teal.button:hover {
   background-color: #2beabb;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 
 html /deep/ .ui.teal.buttons .button:active,
 html /deep/ .ui.teal.button:active {
   background-color: #14cea0;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 
@@ -2807,7 +2807,7 @@ html /deep/ .ui.teal.buttons .active.button:active,
 html /deep/ .ui.teal.active.button,
 html /deep/ .ui.teal.button .active.button:active {
   background-color: #15d8a7;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 
@@ -2901,7 +2901,7 @@ html /deep/ .ui.inverted.teal.basic.button:active {
 html /deep/ .ui.yellow.buttons .button,
 html /deep/ .ui.yellow.button {
   background-color: #ffeb3b;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
   background-image: none;
 }
@@ -2913,14 +2913,14 @@ html /deep/ .ui.yellow.button {
 html /deep/ .ui.yellow.buttons .button:hover,
 html /deep/ .ui.yellow.button:hover {
   background-color: #ffed4a;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 
 html /deep/ .ui.yellow.buttons .button:active,
 html /deep/ .ui.yellow.button:active {
   background-color: #ffe717;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 
@@ -2929,7 +2929,7 @@ html /deep/ .ui.yellow.buttons .active.button:active,
 html /deep/ .ui.yellow.active.button,
 html /deep/ .ui.yellow.button .active.button:active {
   background-color: #ffe821;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 
@@ -3023,7 +3023,7 @@ html /deep/ .ui.inverted.yellow.basic.button:active {
 html /deep/ .ui.primary.buttons .button,
 html /deep/ .ui.primary.button {
   background-color: #2196f3;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
   background-image: none;
 }
@@ -3035,28 +3035,28 @@ html /deep/ .ui.primary.button {
 html /deep/ .ui.primary.buttons .button:hover,
 html /deep/ .ui.primary.button:hover {
   background-color: #309df4;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 
 html /deep/ .ui.primary.buttons .button:active,
 html /deep/ .ui.primary.button:active {
   background-color: #0c84e4;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 
 html /deep/ .ui.primary.buttons .active.button,
 html /deep/ .ui.primary.active.button {
   background-color: #0d8aee;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 
 html /deep/ .ui.secondary.buttons .button,
 html /deep/ .ui.secondary.button {
   background-color: #e41e2b;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
   background-image: none;
 }
@@ -3068,28 +3068,28 @@ html /deep/ .ui.secondary.button {
 html /deep/ .ui.secondary.buttons .button:hover,
 html /deep/ .ui.secondary.button:hover {
   background-color: #e62c38;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 
 html /deep/ .ui.secondary.buttons .button:active,
 html /deep/ .ui.secondary.button:active {
   background-color: #c61823;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 
 html /deep/ .ui.secondary.buttons .active.button,
 html /deep/ .ui.secondary.active.button {
   background-color: #d01925;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 
 html /deep/ .ui.positive.buttons .button,
 html /deep/ .ui.positive.button {
   background-color: #4caf50 !important;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
   background-image: none;
 }
@@ -3103,14 +3103,14 @@ html /deep/ .ui.positive.button:hover,
 html /deep/ .ui.positive.buttons .active.button,
 html /deep/ .ui.positive.active.button {
   background-color: #55b559 !important;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 
 html /deep/ .ui.positive.buttons .button:active,
 html /deep/ .ui.positive.button:active {
   background-color: #419645 !important;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 
@@ -3119,14 +3119,14 @@ html /deep/ .ui.positive.buttons .active.button:active,
 html /deep/ .ui.positive.active.button,
 html /deep/ .ui.positive.button .active.button:active {
   background-color: #449d48;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 
 html /deep/ .ui.negative.buttons .button,
 html /deep/ .ui.negative.button {
   background-color: #e41e2b !important;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
   background-image: none;
 }
@@ -3140,14 +3140,14 @@ html /deep/ .ui.negative.button:hover,
 html /deep/ .ui.negative.buttons .active.button,
 html /deep/ .ui.negative.active.button {
   background-color: #e62c38 !important;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 
 html /deep/ .ui.negative.buttons .button:active,
 html /deep/ .ui.negative.button:active {
   background-color: #c61823 !important;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 
@@ -3156,7 +3156,7 @@ html /deep/ .ui.negative.buttons .active.button:active,
 html /deep/ .ui.negative.active.button,
 html /deep/ .ui.negative.button .active.button:active {
   background-color: #d01925;
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: none;
 }
 
