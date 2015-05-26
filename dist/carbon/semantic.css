@@ -15426,8 +15426,8 @@ html  .ui.cards > .card .avatar,
 html  .ui.card img.avatar,
 html  .ui.card .avatar {
   margin: 0;
-  width: 3rem;
-  height: 3rem;
+  width: 3.5rem;
+  height: 3.5rem;
   border-radius: 3rem;
 }
 
