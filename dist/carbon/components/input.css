@@ -163,10 +163,10 @@ htmldeep .ui.input input {
   box-shadow: none;
 }
 htmldeep .ui.input input::-webkit-input-placeholder {
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.6);
 }
 htmldeep .ui.input input::-moz-placeholder {
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.6);
 }
 htmldeep .ui.input input:active,
 htmldeep .ui.input.down input {

@@ -314,13 +314,13 @@
 --------------------*/
 
 @darkTextColor               : rgba(0, 0, 0, 0.85);
-@lightTextColor              : rgba(0, 0, 0, 0.4);
+@lightTextColor              : rgba(0, 0, 0, 0.6);
 
-@unselectedTextColor         : rgba(0, 0, 0, 0.4);
+@unselectedTextColor         : rgba(0, 0, 0, 0.6);
 @hoveredTextColor            : rgba(0, 0, 0, 0.8);
 @pressedTextColor            : rgba(0, 0, 0, 0.8);
 @selectedTextColor           : rgba(0, 0, 0, 0.8);
-@disabledTextColor           : rgba(0, 0, 0, 0.2);
+@disabledTextColor           : rgba(0, 0, 0, 0.3);
 
 @invertedTextColor           : rgba(255, 255, 255, 1);
 @invertedLightTextColor      : rgba(255, 255, 255, 0.8);
@@ -328,7 +328,7 @@
 @invertedHoveredTextColor    : rgba(255, 255, 255, 1);
 @invertedPressedTextColor    : rgba(255, 255, 255, 1);
 @invertedSelectedTextColor   : rgba(255, 255, 255, 1);
-@invertedDisabledTextColor   : rgba(255, 255, 255, 0.2);
+@invertedDisabledTextColor   : rgba(255, 255, 255, 0.3);
 
 /*-------------------
      Brand Colors

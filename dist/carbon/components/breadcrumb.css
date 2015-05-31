@@ -73,7 +73,7 @@ htmldeep .ui.breadcrumb .divider {
   opacity: 0.5;
   margin: 0em 0.2rem 0em;
   font-size: 0.9em;
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.6);
   vertical-align: baseline;
 }
 htmldeep .ui.breadcrumb a {

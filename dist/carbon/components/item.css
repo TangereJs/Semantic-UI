@@ -315,7 +315,7 @@ htmldeep .ui.items > .item > .content > a.header:hover {
   color: #5a95f5;
 }
 htmldeep .ui.items > .item .meta > a:not(.ui) {
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.6);
 }
 htmldeep .ui.items > .item .meta > a:not(.ui):hover {
   color: #212121;
@@ -355,7 +355,7 @@ htmldeep .ui.items > .item .extra {
   padding: 0em 0em 0em;
   top: 0em;
   left: 0em;
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.6);
   box-shadow: none;
   -webkit-transition: color 0.2s ease;
           transition: color 0.2s ease;

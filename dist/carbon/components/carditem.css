@@ -308,7 +308,7 @@ htmldeep .ui.carditem > .content p:last-child {
 htmldeep .ui.carditems > .carditem .meta,
 htmldeep .ui.carditem .meta {
   font-size: 0.9em;
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.6);
 }
 htmldeep .ui.carditems > .carditem .meta *,
 htmldeep .ui.carditem .meta * {
@@ -343,7 +343,7 @@ htmldeep .ui.carditem > .content > a.header:hover {
 }
 htmldeep .ui.carditems > .carditem .meta > a:not(.ui),
 htmldeep .ui.carditem .meta > a:not(.ui) {
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.6);
 }
 htmldeep .ui.carditems > .carditem .meta > a:not(.ui):hover,
 htmldeep .ui.carditem .meta > a:not(.ui):hover {
@@ -400,7 +400,7 @@ htmldeep .ui.carditem > .extra {
   padding: 0.75em 1em;
   top: 0em;
   left: 0em;
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.6);
   box-shadow: none;
   -webkit-transition: color 0.2s ease;
           transition: color 0.2s ease;
@@ -408,7 +408,7 @@ htmldeep .ui.carditem > .extra {
 }
 htmldeep .ui.carditems > .carditem > .extra a:not(.ui),
 htmldeep .ui.carditem > .extra a:not(.ui) {
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.6);
 }
 htmldeep .ui.carditems > .carditem > .extra a:not(.ui):hover,
 htmldeep .ui.carditem > .extra a:not(.ui):hover {

@@ -33,12 +33,10 @@ htmldeep #section {
   background-image: inherit;
   background-color: white !important;
 }
-htmldeep core-toolbar {
-  color: #ffffff;
-  background-color: #2979ff;
-}
 htmldeep at-app-scaffold .bar {
   color: #ffffff;
+  -webkit-transition: background-color 0.5s ease;
+          transition: background-color 0.5s ease;
   background-color: #2979ff;
 }
 htmldeep .noscroll {

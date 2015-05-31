@@ -470,7 +470,7 @@ htmldeep .ui.disabled.button:hover,
 htmldeep .ui.disabled.active.button {
   cursor: default;
   background-color: #dcddde !important;
-  color: rgba(0, 0, 0, 0.4) !important;
+  color: rgba(0, 0, 0, 0.6) !important;
   opacity: 0.3 !important;
   background-image: none !important;
   box-shadow: none !important;
@@ -1052,7 +1052,7 @@ htmldeep .ui.buttons .or:before {
   width: 1.78571em;
   height: 1.78571em;
   line-height: 1.78571em;
-  color: rgba(0, 0, 0, 0.4) !important;
+  color: rgba(0, 0, 0, 0.6) !important;
   font-style: normal;
   font-weight: bold;
   box-shadow: 0px 0px 0px 1px transparent inset;

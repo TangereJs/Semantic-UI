@@ -158,7 +158,7 @@ htmldeep .ui.feed > .event > .content .date {
   font-weight: normal;
   font-size: 1em;
   font-style: normal;
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.6);
 }
 htmldeep .ui.feed > .event > .content .summary {
   margin: 0em;
@@ -194,7 +194,7 @@ htmldeep .ui.feed > .event > .content .summary > .date {
   font-style: normal;
   margin: 0em 0em 0em 0.5em;
   padding: 0em;
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.6);
 }
 htmldeep .ui.feed > .event > .content .extra {
   margin: 0.5em 0em 0em;

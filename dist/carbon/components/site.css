@@ -62,6 +62,26 @@ htmldeep {
   
 /* Form */
   
+/*-------------------
+       Colors
+--------------------*/
+
+  
+/*-------------------
+      Light Colors
+--------------------*/
+
+  
+/*-------------------
+      Inverted
+--------------------*/
+
+  
+/*-------------------
+    Light Inverted
+--------------------*/
+
+  
 
 /*******************************
          Site Overrides
@@ -139,4 +159,154 @@ htmldeep textarea::selection,
 htmldeep input::selection {
   background-color: rgba(100, 100, 100, 0.4);
   color: #212121;
+}
+htmldeep .ui primary {
+  color: #2196f3;
+}
+htmldeep .ui .white {
+  color: #ffffff;
+}
+htmldeep .ui .black {
+  color: #1b1c1d;
+}
+htmldeep .ui .blue {
+  color: #2196f3;
+}
+htmldeep .ui .green {
+  color: #4caf50;
+}
+htmldeep .ui .orange {
+  color: #ff9800;
+}
+htmldeep .ui .pink {
+  color: #e91e63;
+}
+htmldeep .ui .purple {
+  color: #9c27b0;
+}
+htmldeep .ui .red {
+  color: #e41e2b;
+}
+htmldeep .ui .teal {
+  color: #1de9b6;
+}
+htmldeep .ui .yellow {
+  color: #ffeb3b;
+}
+htmldeep .ui .lightPrimary {
+  color: #2979ff;
+}
+htmldeep .ui .lightWhite {
+  color: #ffffff;
+}
+htmldeep .ui .lightBlack {
+  color: #1b1c1d;
+}
+htmldeep .ui .lightBlue {
+  color: #2196f3;
+}
+htmldeep .ui .lightGreen {
+  color: #4caf50;
+}
+htmldeep .ui .lightOrange {
+  color: #ff9800;
+}
+htmldeep .ui .lightPink {
+  color: #e91e63;
+}
+htmldeep .ui .lightPurple {
+  color: #9c27b0;
+}
+htmldeep .ui .lightRed {
+  color: #e41e2b;
+}
+htmldeep .ui .lightTeal {
+  color: #1de9b6;
+}
+htmldeep .ui .lightYellow {
+  color: #ffeb3b;
+}
+htmldeep .ui .inverted {
+  background-color: #222222;
+  color: #FFFFFF;
+}
+htmldeep .ui .inverted.primary {
+  background-color: #2196f3;
+  color: #FFFFFF;
+}
+htmldeep .ui .inverted.black {
+  background-color: #1b1c1d;
+  color: #FFFFFF;
+}
+htmldeep .ui .inverted.blue {
+  background-color: #2196f3;
+  color: #FFFFFF;
+}
+htmldeep .ui .inverted.green {
+  background-color: #4caf50;
+  color: #FFFFFF;
+}
+htmldeep .ui .inverted.orange {
+  background-color: #ff9800;
+  color: #FFFFFF;
+}
+htmldeep .ui .inverted.pink {
+  background-color: #e91e63;
+  color: #FFFFFF;
+}
+htmldeep .ui .inverted.purple {
+  background-color: #9c27b0;
+  color: #FFFFFF;
+}
+htmldeep .ui .inverted.red {
+  background-color: #e41e2b;
+  color: #FFFFFF;
+}
+htmldeep .ui .inverted.teal {
+  background-color: #1de9b6;
+  color: #FFFFFF;
+}
+htmldeep .ui .inverted.yellow {
+  background-color: #ffeb3b;
+  color: #FFFFFF;
+}
+htmldeep .ui .inverted.lightPrimary {
+  background-color: #2979ff;
+  color: #FFFFFF;
+}
+htmldeep .ui .inverted.lightBlack {
+  background-color: #1b1c1d;
+  color: #FFFFFF;
+}
+htmldeep .ui .inverted.lightBlue {
+  background-color: #2196f3;
+  color: #FFFFFF;
+}
+htmldeep .ui .inverted.lightGreen {
+  background-color: #4caf50;
+  color: #FFFFFF;
+}
+htmldeep .ui .inverted.lightOrange {
+  background-color: #ff9800;
+  color: #FFFFFF;
+}
+htmldeep .ui .inverted.lightPink {
+  background-color: #e91e63;
+  color: #FFFFFF;
+}
+htmldeep .ui .inverted.lightPurple {
+  background-color: #9c27b0;
+  color: #FFFFFF;
+}
+htmldeep .ui .inverted.lightRed {
+  background-color: #e41e2b;
+  color: #FFFFFF;
+}
+htmldeep .ui .inverted.lightTeal {
+  background-color: #1de9b6;
+  color: #FFFFFF;
+}
+htmldeep .ui .inverted.lightYellow {
+  background-color: #ffeb3b;
+  color: #FFFFFF;
 }

@@ -178,7 +178,7 @@ htmldeep .ui.statistic > .label {
   font-family: 'Segoe UI', 'Segoe WP', 'Roboto', 'Frutiger', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 1rem;
   font-weight: normal;
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.6);
   text-transform: none;
   text-align: center;
 }

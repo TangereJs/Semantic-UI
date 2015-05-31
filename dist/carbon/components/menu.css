@@ -786,7 +786,7 @@ htmldeep .ui.tiered.menu .sub.menu {
   box-shadow: none;
 }
 htmldeep .ui.tiered.menu > .sub.menu > .item {
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.6);
   font-weight: normal;
   text-transform: normal;
   font-size: 0.875rem;

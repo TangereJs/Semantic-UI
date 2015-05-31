@@ -8,4 +8,4 @@
  * http://opensource.org/licenses/MIT
  *
  */
-htmldeep #section{background-image:inherit;background-color:#fff!important}htmldeep at-app-scaffold .bar,htmldeep core-toolbar{color:#fff;background-color:#2979ff}htmldeep .noscroll{overflow:hidden}htmldeep .ui.progress-bar{background-color:#3c763d}.themed,[themed]{-webkit-transition:opacity ease-in .2s;transition:opacity ease-in .2s;opacity:1!important}
+htmldeep #section{background-image:inherit;background-color:#fff!important}htmldeep at-app-scaffold .bar{color:#fff;-webkit-transition:background-color .5s ease;transition:background-color .5s ease;background-color:#2979ff}htmldeep .noscroll{overflow:hidden}htmldeep .ui.progress-bar{background-color:#3c763d}.themed,[themed]{-webkit-transition:opacity ease-in .2s;transition:opacity ease-in .2s;opacity:1!important}

@@ -522,6 +522,18 @@ html /deep/ {
 *******************************/
   /* Site */
   /* Form */
+  /*-------------------
+       Colors
+--------------------*/
+  /*-------------------
+      Light Colors
+--------------------*/
+  /*-------------------
+      Inverted
+--------------------*/
+  /*-------------------
+    Light Inverted
+--------------------*/
   /*******************************
          Site Overrides
 *******************************/
@@ -614,6 +626,199 @@ html /deep/ textarea::selection,
 html /deep/ input::selection {
   background-color: rgba(100, 100, 100, 0.4);
   color: #212121;
+}
+
+html /deep/ .ui primary {
+  color: #2196f3;
+}
+
+html /deep/ .ui .white {
+  color: #ffffff;
+}
+
+html /deep/ .ui .black {
+  color: #1b1c1d;
+}
+
+html /deep/ .ui .blue {
+  color: #2196f3;
+}
+
+html /deep/ .ui .green {
+  color: #4caf50;
+}
+
+html /deep/ .ui .orange {
+  color: #ff9800;
+}
+
+html /deep/ .ui .pink {
+  color: #e91e63;
+}
+
+html /deep/ .ui .purple {
+  color: #9c27b0;
+}
+
+html /deep/ .ui .red {
+  color: #e41e2b;
+}
+
+html /deep/ .ui .teal {
+  color: #1de9b6;
+}
+
+html /deep/ .ui .yellow {
+  color: #ffeb3b;
+}
+
+html /deep/ .ui .lightPrimary {
+  color: #2979ff;
+}
+
+html /deep/ .ui .lightWhite {
+  color: #ffffff;
+}
+
+html /deep/ .ui .lightBlack {
+  color: #1b1c1d;
+}
+
+html /deep/ .ui .lightBlue {
+  color: #2196f3;
+}
+
+html /deep/ .ui .lightGreen {
+  color: #4caf50;
+}
+
+html /deep/ .ui .lightOrange {
+  color: #ff9800;
+}
+
+html /deep/ .ui .lightPink {
+  color: #e91e63;
+}
+
+html /deep/ .ui .lightPurple {
+  color: #9c27b0;
+}
+
+html /deep/ .ui .lightRed {
+  color: #e41e2b;
+}
+
+html /deep/ .ui .lightTeal {
+  color: #1de9b6;
+}
+
+html /deep/ .ui .lightYellow {
+  color: #ffeb3b;
+}
+
+html /deep/ .ui .inverted {
+  background-color: #222222;
+  color: #FFFFFF;
+}
+
+html /deep/ .ui .inverted.primary {
+  background-color: #2196f3;
+  color: #FFFFFF;
+}
+
+html /deep/ .ui .inverted.black {
+  background-color: #1b1c1d;
+  color: #FFFFFF;
+}
+
+html /deep/ .ui .inverted.blue {
+  background-color: #2196f3;
+  color: #FFFFFF;
+}
+
+html /deep/ .ui .inverted.green {
+  background-color: #4caf50;
+  color: #FFFFFF;
+}
+
+html /deep/ .ui .inverted.orange {
+  background-color: #ff9800;
+  color: #FFFFFF;
+}
+
+html /deep/ .ui .inverted.pink {
+  background-color: #e91e63;
+  color: #FFFFFF;
+}
+
+html /deep/ .ui .inverted.purple {
+  background-color: #9c27b0;
+  color: #FFFFFF;
+}
+
+html /deep/ .ui .inverted.red {
+  background-color: #e41e2b;
+  color: #FFFFFF;
+}
+
+html /deep/ .ui .inverted.teal {
+  background-color: #1de9b6;
+  color: #FFFFFF;
+}
+
+html /deep/ .ui .inverted.yellow {
+  background-color: #ffeb3b;
+  color: #FFFFFF;
+}
+
+html /deep/ .ui .inverted.lightPrimary {
+  background-color: #2979ff;
+  color: #FFFFFF;
+}
+
+html /deep/ .ui .inverted.lightBlack {
+  background-color: #1b1c1d;
+  color: #FFFFFF;
+}
+
+html /deep/ .ui .inverted.lightBlue {
+  background-color: #2196f3;
+  color: #FFFFFF;
+}
+
+html /deep/ .ui .inverted.lightGreen {
+  background-color: #4caf50;
+  color: #FFFFFF;
+}
+
+html /deep/ .ui .inverted.lightOrange {
+  background-color: #ff9800;
+  color: #FFFFFF;
+}
+
+html /deep/ .ui .inverted.lightPink {
+  background-color: #e91e63;
+  color: #FFFFFF;
+}
+
+html /deep/ .ui .inverted.lightPurple {
+  background-color: #9c27b0;
+  color: #FFFFFF;
+}
+
+html /deep/ .ui .inverted.lightRed {
+  background-color: #e41e2b;
+  color: #FFFFFF;
+}
+
+html /deep/ .ui .inverted.lightTeal {
+  background-color: #1de9b6;
+  color: #FFFFFF;
+}
+
+html /deep/ .ui .inverted.lightYellow {
+  background-color: #ffeb3b;
+  color: #FFFFFF;
 }
 /*
  * # Semantic UI - 1.9.0
@@ -960,7 +1165,7 @@ html /deep/ .ui.disabled.button:hover,
 html /deep/ .ui.disabled.active.button {
   cursor: default;
   background-color: #dcddde !important;
-  color: rgba(0, 0, 0, 0.4) !important;
+  color: rgba(0, 0, 0, 0.6) !important;
   opacity: 0.3 !important;
   background-image: none !important;
   box-shadow: none !important;
@@ -1652,7 +1857,7 @@ html /deep/ .ui.buttons .or:before {
   width: 1.78571em;
   height: 1.78571em;
   line-height: 1.78571em;
-  color: rgba(0, 0, 0, 0.4) !important;
+  color: rgba(0, 0, 0, 0.6) !important;
   font-style: normal;
   font-weight: bold;
   box-shadow: 0px 0px 0px 1px transparent inset;
@@ -4821,11 +5026,11 @@ html /deep/ .ui.input input {
 }
 
 html /deep/ .ui.input input::-webkit-input-placeholder {
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.6);
 }
 
 html /deep/ .ui.input input::-moz-placeholder {
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.6);
 }
 
 html /deep/ .ui.input input:active,
@@ -6430,7 +6635,7 @@ html /deep/ .ui.list > a.item:hover {
 
 html /deep/ .ui.list .list > a.item i.icon,
 html /deep/ .ui.list > a.item i.icon {
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.6);
 }
 
 html /deep/ .ui.list .item a {
@@ -6588,7 +6793,7 @@ html /deep/ .ui.inverted.list .item a:hover {
 html /deep/ .ui.link.list .item,
 html /deep/ .ui.link.list a.item,
 html /deep/ .ui.link.list .item a {
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.6);
   -webkit-transition: 0.2s color ease;
   transition: 0.2s color ease;
 }
@@ -6635,7 +6840,7 @@ html /deep/ .ui.selection.list > .item {
   background: transparent;
   padding: 0.5em 0.5em;
   margin: 0em;
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.6);
   border-radius: 0.5em;
   -webkit-transition: 0.2s color ease, 0.2s padding-left ease, 0.2s background-color ease;
   transition: 0.2s color ease, 0.2s padding-left ease, 0.2s background-color ease;
@@ -7397,13 +7602,10 @@ html /deep/ #section {
   background-color: white !important;
 }
 
-html /deep/ core-toolbar {
-  color: #ffffff;
-  background-color: #2979ff;
-}
-
 html /deep/ at-app-scaffold .bar {
   color: #ffffff;
+  -webkit-transition: background-color 0.5s ease;
+  transition: background-color 0.5s ease;
   background-color: #2979ff;
 }
 
@@ -8971,7 +9173,7 @@ html /deep/ .ui.breadcrumb .divider {
   opacity: 0.5;
   margin: 0em 0.2rem 0em;
   font-size: 0.9em;
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.6);
   vertical-align: baseline;
 }
 
@@ -12581,7 +12783,7 @@ html /deep/ .ui.tiered.menu .sub.menu {
 }
 
 html /deep/ .ui.tiered.menu > .sub.menu > .item {
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.6);
   font-weight: normal;
   text-transform: normal;
   font-size: 0.875rem;
@@ -14402,14 +14604,14 @@ html /deep/ .ui.definition.table thead:not(.full-width) th:first-child {
   pointer-events: none;
   background: transparent;
   font-weight: normal;
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.6);
   box-shadow: -1px -1px 0px 1px #ffffff;
 }
 
 html /deep/ .ui.definition.table tfoot:not(.full-width) th:first-child {
   pointer-events: none;
   background: transparent;
-  font-weight: rgba(0, 0, 0, 0.4);
+  font-weight: rgba(0, 0, 0, 0.6);
   color: normal;
   box-shadow: 1px 1px 0px 1px #ffffff;
 }
@@ -15555,7 +15757,7 @@ html /deep/ .ui.card > .content p:last-child {
 html /deep/ .ui.cards > .card .meta,
 html /deep/ .ui.card .meta {
   font-size: 0.85em;
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.6);
 }
 
 html /deep/ .ui.cards > .card .meta *,
@@ -15598,7 +15800,7 @@ html /deep/ .ui.card > .content > a.header:hover {
 
 html /deep/ .ui.cards > .card .meta > a:not(.ui),
 html /deep/ .ui.card .meta > a:not(.ui) {
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.6);
 }
 
 html /deep/ .ui.cards > .card .meta > a:not(.ui):hover,
@@ -15673,7 +15875,7 @@ html /deep/ .ui.card > .extra {
   padding: 0.75em 1em;
   top: 0em;
   left: 0em;
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.6);
   box-shadow: none;
   -webkit-transition: color 0.2s ease;
   transition: color 0.2s ease;
@@ -15682,7 +15884,7 @@ html /deep/ .ui.card > .extra {
 
 html /deep/ .ui.cards > .card > .extra a:not(.ui),
 html /deep/ .ui.card > .extra a:not(.ui) {
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.6);
 }
 
 html /deep/ .ui.cards > .card > .extra a:not(.ui):hover,
@@ -15737,7 +15939,7 @@ html /deep/ .ui.card > .footer {
   padding: 0.75em 1em;
   top: 0em;
   left: 0em;
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.6);
   box-shadow: none;
   -webkit-transition: color 0.2s ease;
   transition: color 0.2s ease;
@@ -16549,7 +16751,7 @@ html /deep/ .ui.carditem > .content p:last-child {
 html /deep/ .ui.carditems > .carditem .meta,
 html /deep/ .ui.carditem .meta {
   font-size: 0.9em;
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.6);
 }
 
 html /deep/ .ui.carditems > .carditem .meta *,
@@ -16592,7 +16794,7 @@ html /deep/ .ui.carditem > .content > a.header:hover {
 
 html /deep/ .ui.carditems > .carditem .meta > a:not(.ui),
 html /deep/ .ui.carditem .meta > a:not(.ui) {
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.6);
 }
 
 html /deep/ .ui.carditems > .carditem .meta > a:not(.ui):hover,
@@ -16658,7 +16860,7 @@ html /deep/ .ui.carditem > .extra {
   padding: 0.75em 1em;
   top: 0em;
   left: 0em;
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.6);
   box-shadow: none;
   -webkit-transition: color 0.2s ease;
   transition: color 0.2s ease;
@@ -16667,7 +16869,7 @@ html /deep/ .ui.carditem > .extra {
 
 html /deep/ .ui.carditems > .carditem > .extra a:not(.ui),
 html /deep/ .ui.carditem > .extra a:not(.ui) {
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.6);
 }
 
 html /deep/ .ui.carditems > .carditem > .extra a:not(.ui):hover,
@@ -17359,7 +17561,7 @@ html /deep/ .ui.carditem > .content p:last-child {
 html /deep/ .ui.carditems > .carditem .meta,
 html /deep/ .ui.carditem .meta {
   font-size: 0.9em;
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.6);
 }
 
 html /deep/ .ui.carditems > .carditem .meta *,
@@ -17402,7 +17604,7 @@ html /deep/ .ui.carditem > .content > a.header:hover {
 
 html /deep/ .ui.carditems > .carditem .meta > a:not(.ui),
 html /deep/ .ui.carditem .meta > a:not(.ui) {
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.6);
 }
 
 html /deep/ .ui.carditems > .carditem .meta > a:not(.ui):hover,
@@ -17468,7 +17670,7 @@ html /deep/ .ui.carditem > .extra {
   padding: 0.75em 1em;
   top: 0em;
   left: 0em;
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.6);
   box-shadow: none;
   -webkit-transition: color 0.2s ease;
   transition: color 0.2s ease;
@@ -17477,7 +17679,7 @@ html /deep/ .ui.carditem > .extra {
 
 html /deep/ .ui.carditems > .carditem > .extra a:not(.ui),
 html /deep/ .ui.carditem > .extra a:not(.ui) {
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.6);
 }
 
 html /deep/ .ui.carditems > .carditem > .extra a:not(.ui):hover,
@@ -18053,7 +18255,7 @@ html /deep/ .ui.comments .comment a.author:hover {
 html /deep/ .ui.comments .comment .metadata {
   display: inline-block;
   margin-left: 0.5em;
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.6);
   font-size: 0.875em;
 }
 
@@ -18082,7 +18284,7 @@ html /deep/ .ui.comments .comment .actions a {
   cursor: pointer;
   display: inline-block;
   margin: 0em 0.75em 0em 0em;
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.6);
 }
 
 html /deep/ .ui.comments .comment .actions a:last-child {
@@ -18289,7 +18491,7 @@ html /deep/ .ui.feed > .event > .content .date {
   font-weight: normal;
   font-size: 1em;
   font-style: normal;
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.6);
 }
 
 html /deep/ .ui.feed > .event > .content .summary {
@@ -18330,7 +18532,7 @@ html /deep/ .ui.feed > .event > .content .summary > .date {
   font-style: normal;
   margin: 0em 0em 0em 0.5em;
   padding: 0em;
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.6);
 }
 
 html /deep/ .ui.feed > .event > .content .extra {
@@ -18715,7 +18917,7 @@ html /deep/ .ui.items > .item > .content > a.header:hover {
 }
 
 html /deep/ .ui.items > .item .meta > a:not(.ui) {
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.6);
 }
 
 html /deep/ .ui.items > .item .meta > a:not(.ui):hover {
@@ -18763,7 +18965,7 @@ html /deep/ .ui.items > .item .extra {
   padding: 0em 0em 0em;
   top: 0em;
   left: 0em;
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.6);
   box-shadow: none;
   -webkit-transition: color 0.2s ease;
   transition: color 0.2s ease;
@@ -19030,7 +19232,7 @@ html /deep/ .ui.statistic > .label {
   font-family: 'Segoe UI', 'Segoe WP', 'Roboto', 'Frutiger', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 1rem;
   font-weight: normal;
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.6);
   text-transform: none;
   text-align: center;
 }
@@ -19601,7 +19803,7 @@ html /deep/ .ui.slider.checkbox .box,
 html /deep/ .ui.slider.checkbox label {
   padding-left: 4.5rem;
   line-height: 1rem;
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.6);
 }
 
 html /deep/ .ui.slider.checkbox .box:before,
