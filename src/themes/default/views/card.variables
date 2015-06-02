@@ -55,9 +55,9 @@
 @imageBorder: none;
 
 /* Content */
-@contentMargin: 0em;
+@contentMargin: 1em 1em;
 @contentBackground: none;
-@contentPadding: 1em 1em;
+@contentPadding: 0em;
 @contentFontSize: 1em;
 @contentBorder: none;
 @contentBorderRadius: 0em;
