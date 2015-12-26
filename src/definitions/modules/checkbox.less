@@ -70,7 +70,7 @@
   outline: none;
 }
 .ui.checkbox label {
-  font-size: @fontSize;
+  font-size: 14px;
 }
 
 .ui.checkbox .box:before,
@@ -80,7 +80,8 @@
   line-height: 1;
   width: @checkboxSize;
   height: @checkboxSize;
-  top: 0em;
+  top: 50%;
+  transform: translateY(-50%);
   left: 0em;
   content: '';
 
@@ -392,8 +393,8 @@
 
   position: absolute;
   content: '';
-
-  top: @toggleLaneVerticalOffset;
+  top: 50%;
+  transform: translateY(-50%);
   z-index: 1;
   border: none;
 
@@ -416,7 +417,8 @@
   box-shadow: @handleBoxShadow;
   width: @toggleHandleSize;
   height: @toggleHandleSize;
-  top: @toggleHandleOffset;
+  top: 50%;
+  transform: translateY(-50%);
   left: 0em;
 
   border-radius: @circularRadius;
